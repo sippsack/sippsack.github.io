@@ -1,17 +1,86 @@
-2016: 
-  - 4:
-    - 21:
-      - conference: JAX 2016
-        location: Rheingoldhalle Mainz
-        title: Kontinuierliche Architekturdokumentation im agilen Umfeld
-  - 3:
-    - 9:
-      - conference: Javaland 2016
-        location: Phantasialand Brühl
-        title: Legacy-Code meistern in x einfachen Schritten
+2016:
+  - April:
+    - conference: JAX
+      title: Kontinuierliche Architekturdokumentation im agilen Umfeld
+      location: Rheingoldhalle Mainz
+      slides: http://www.oio.de/m/konf/jax2016/Kontinuierliche-Architekturdokumentation-JAX_2016.pdf
+  - März:
+    - conference: Entwicklertag Frankfurt
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Frankfurt
+    - conference: Javaland
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Phantasialand Brühl
+      slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
 2015:
-  - 10:
-    - 06:
-      - conference: Java Forum Nord 2015
-        location: Hannover
-        title: Legacy-Code meistern in x einfachen Schritten
+  - Dezember:
+    - conference: JUG Karlsruhe
+      title: Groovy und Grails - Quo vadis?
+      location: Karlsruhe
+      link: http://jug-ka.de/content/groovy-und-grails-quo-vadis/
+      slides: http://jug-ka.de/assets/slides/GroovyGrailsQuoVadis-FalkSippach.pdf
+      video: https://youtu.be/i08e-L1v33M
+  - November:
+    - conference: W-JAX
+      title: Effektive Code-Reviews
+      location: München
+      slides: http://www.oio.de/m/konf/wjax2015/Effektive-Code-Reviews%20WJAX_2015.pdf
+  - Oktober:
+    - conference: Java Forum Nord
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Hannover
+  - September:
+    - conference: Berlin Expert Days
+      title: Groovy und Grails - Quo vadis?
+      location: Berlin
+      link: http://bed-con.org/2015/talks/Groovy-und-Grails---Quo-vadis
+      slides: http://bed-con.org/2015/files/slides/GroovyGrailsQuoVadis.pdf
+  - August:
+    - conference: majug
+      title: Groovy und Grails - Quo vadis?
+      location: Mannheim
+      link: http://www.majug.de/2015/08/06/groovy-grails/
+      slides: http://www.majug.de/public/slides/Groovy%20und%20Grails%20-%20Quo%20Vadis.pdf
+  - Juli:
+    - conference: JUG Kaiserslautern
+      title: Groovy und Grails - Quo vadis?
+      location: Kaiserslautern
+      link: http://www.jug-kl.de/groovy/
+      slides: http://www.jug-kl.de/resources/2015-07-23-GroovyGrailsQuoVadis.pdf
+2014:
+  - Mai:
+    - conference: SEACON
+      title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
+      location: Hamburg
+      slides: http://www.oio.de/m/konf/diverse/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-SEACON2014.pdf
+  - Februar:
+    - conference: OOP
+      title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
+      location: München
+      slides: http://www.oio.de/m/konf/oop2014/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-OOP2014.pdf
+2009:
+  - April:
+    - conference: JAX
+      title: Die Google Collections Library
+      location: Rheingoldhalle Mainz
+      slides: http://www.oio.de/m/konf/jax2009/google-collections.pdf
+    - conference: JAX
+      title: GANT - Ant the groovy way
+      location: Rheingoldhalle Mainz
+      slides: http://www.oio.de/m/konf/jax2009/gant-xml-mit-groovy.pdf
+2008:
+  - Dezember:
+    - conference: OIO Hauskonferenz
+      title: O/R Performance bei komplexen Modellen
+      location: Mannheim
+      slides: http://www.oio.de/m/konf/hk2008/performance_tuning_komplexe_domainmodelleFINAL.pdf
+  - April:
+    - conference: JAX
+      title: Performance Tuning bei komplexen Domainmodellen
+      location: Wiesbaden
+      slides: http://www.oio.de/m/konf/jax2008/performance_tuning_komplexe_domainmodelle.pdf
+2007:
+  - Dezember:
+    - conference: OIO Hauskonferenz
+      title: Groovy und Grails
+      location: Mannheim
