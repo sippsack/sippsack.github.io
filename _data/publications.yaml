@@ -1,10 +1,46 @@
 2016: 
-  - 03:
-    - 21:
-      - title: Groovy und Grails - Quo vadis?
-        publisher: Java aktuell
+  - April: 
+    - publisher: Java Aktuell 02-2016
+      title: Groovy und Grails - Quo vadis?
+      link: /files/publications/02-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
+  - Februar: 
+    - publisher: jaxenter
+      title: "Interview: Eine perfekte Architektur ist nutzlos, wenn sie niemand versteht"
+      link: https://jaxenter.de/eine-perfekte-architektur-ist-nutzlos-wenn-sie-niemand-versteht-34677
 2015:
-  - 11:
-    - 25:
-      - title: Continuous Lifecycle 2015 im Zeichen von Docker und Continuous Delivery
-        publisher: heise Developer
+  - November:
+    - publisher: heise Developer
+      title: Continuous Lifecycle 2015 im Zeichen von Docker und Continuous Delivery
+      link: http://www.heise.de/developer/artikel/developer_artikel_3016182.html
+  - Juni:
+    - publisher: heise Developer
+      title: "enterJS: Besuch der JavaScript-Konferenz aus Sicht eines Java-Entwicklers"
+      link: http://www.heise.de/developer/artikel/developer_artikel_2726037.html    
+    - publisher: jaxenter
+      title: Red Hat kann auch Microservices – Wildfly Swarm
+      link: https://jaxenter.de/red-hat-kann-auch-microservices-wildfly-swarm-21728
+2014:
+  - November:
+    - publisher: heise Developer
+      title: Continuous Lifecycle 2014 im Zeichen des kulturellen Wandels
+      link: http://www.heise.de/developer/artikel/developer_artikel_2459539.html
+2010:
+  - Mai:
+    - publisher: oio.de
+      title: Groovy Closures
+      link: http://
+2009:
+  - November:
+    - publisher: oio.de
+      title: Auditierung mit Hibernate
+      link: http://
+2008:
+  - Januar:
+    - publisher: Kaffeeklatsch
+      title: Echt abgefahren! Einführung in Groovy 
+      link: http://www.bookware.de/kaffeeklatsch/archiv/KaffeeKlatsch-2008-01.pdf
+2007:
+  - November:
+    - publisher: oio.de
+      title: Einführung in Groovy
+      link: http://
