@@ -6,6 +6,6 @@ permalink: /
 
 ## Falk Sippach
 
-Software-Ingenieur bei OIO  
+Software-Ingenieur und Trainer bei OIO  
 
 Co-Organisator JUG Darmstadt  

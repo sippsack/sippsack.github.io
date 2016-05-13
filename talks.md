@@ -5,6 +5,15 @@ description: Konferenzauftritte
 permalink: /talks/
 ---
 
+<h2>Aktivitäten</h2>
+<ul class="talk-list">
+    <li>Co-Organisator <a href="http://jug-da.de/">Java User Group Darmstadt</a> seit 2013</li>
+    <li>Programm-Komitee <a href="http://www.javaland.eu/">Javaland</a> seit 2013</li>
+    <li>Unterstützung Programmbeirat <a href="https://entwicklertag.de/">Entwicklertag Frankfurt</a> seit 2014</li>
+    <li>Programmbeirat <a href="http://www.herbstcampus.de/">Herbstcampus</a> seit 2016</li>
+</ul>
+
+
 {% for year in site.data.talks %}
 <h2>{{ year[0] }}</h2>
 <ul class="talk-list">

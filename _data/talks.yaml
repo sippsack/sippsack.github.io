@@ -8,15 +8,28 @@
     - conference: JAX
       title: Kontinuierliche Architekturdokumentation im agilen Umfeld
       location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2016/Kontinuierliche-Architekturdokumentation-JAX_2016.pdf
   - März:
     - conference: Entwicklertag Frankfurt
       title: Legacy-Code meistern in x einfachen Schritten
       location: Frankfurt
+      link: http://entwicklertag.de/frankfurt/2016/legacy-code-meistern-x-einfachen-schritten
+      slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
     - conference: Javaland
       title: Legacy-Code meistern in x einfachen Schritten
       location: Phantasialand Brühl
+      link: https://www.javaland.eu/de/archiv-2016/
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
+    - conference: Javaland
+      title: Architektur-Kata
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu/de/archiv-2016/
+  - Februar:
+    - conference: Workshop von majug und OIO
+      title: "Moderation: TDD Workshop"
+      location: Mannheim
+      link: http://www.majug.de/2016/02/25/TDD-workshop/
 2015:
   - Dezember:
     - conference: JUG Karlsruhe
@@ -26,14 +39,22 @@
       slides: http://jug-ka.de/assets/slides/GroovyGrailsQuoVadis-FalkSippach.pdf
       video: https://youtu.be/i08e-L1v33M
   - November:
+    - conference: Agile Monday Rhein-Neckar
+      title: "Workshop: Architektur Kata"
+      location: Mannheim
+      link: https://www.xing.com/events/agile-monday-architektur-kata-1617132
+      slides: /files/talks/Architektur-Kata-Agile-Monday-2015.pdf
     - conference: W-JAX
       title: Effektive Code-Reviews
       location: München
+      link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/wjax2015/Effektive-Code-Reviews%20WJAX_2015.pdf
   - Oktober:
     - conference: Java Forum Nord
       title: Legacy-Code meistern in x einfachen Schritten
       location: Hannover
+      link: http://2015.javaforumnord.de/programm_15
+      slides: http://www.oio.de/m/konf/vortraege/JavForumNord2015-LegacyCodeMeistern-Sippach.pdf
   - September:
     - conference: Berlin Expert Days
       title: Groovy und Grails - Quo vadis?
@@ -52,40 +73,65 @@
       location: Kaiserslautern
       link: http://www.jug-kl.de/groovy/
       slides: http://www.jug-kl.de/resources/2015-07-23-GroovyGrailsQuoVadis.pdf
+  - März:
+    - conference: Javaland
+      title: Workshop NoSQL für Java-Entwickler
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu
 2014:
+  - Mai:
+    - conference: Orientierungspunkt OIO
+      title: SAFE - Architektur im Rahmen grosser Agiler Projekte
+      location: Mannheim
+      link: http://www.oio.de/vortrag-mannheim/orientierungspunkte/vortragsfolien-archiv.htm#OrPoint-2014-06-27
+      slides: http://www.oio.de/seminar/orientierungspunkte-archiv/OrPoint2014/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-Orientierungspunkt-6-14.pdf
   - Mai:
     - conference: SEACON
       title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
       location: Hamburg
+      link: http://www.sea-con.de/seacon2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte-1.html?no_cache=1
       slides: http://www.oio.de/m/konf/diverse/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-SEACON2014.pdf
+  - März:
+    - conference: Javaland
+      title: Coding Dojo
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu
+      slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: OOP
       title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
       location: München
+      link: http://www.oop-konferenz.de/oop2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte.html?no_cache=1
       slides: http://www.oio.de/m/konf/oop2014/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-OOP2014.pdf
 2009:
   - April:
     - conference: JAX
       title: Die Google Collections Library
       location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2009/google-collections.pdf
     - conference: JAX
       title: GANT - Ant the groovy way
       location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2009/gant-xml-mit-groovy.pdf
 2008:
   - Dezember:
     - conference: OIO Hauskonferenz
       title: O/R Performance bei komplexen Modellen
       location: Mannheim
+      link: http://www.oio.de/news/j2ee-ws-themen-oio2008.htm#HK08or
       slides: http://www.oio.de/m/konf/hk2008/performance_tuning_komplexe_domainmodelleFINAL.pdf
   - April:
     - conference: JAX
       title: Performance Tuning bei komplexen Domainmodellen
       location: Wiesbaden
+      link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2008/performance_tuning_komplexe_domainmodelle.pdf
 2007:
   - Dezember:
     - conference: OIO Hauskonferenz
       title: Groovy und Grails
       location: Mannheim
+      link: http://www.oio.de/news/j2ee-ws-themen-oio2007.htm#groovy07
+      slides: /files/talks/groovy-hauskonferenz2007.pdf
