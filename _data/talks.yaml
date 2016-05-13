@@ -1,5 +1,10 @@
 2016:
   - April:
+    - conference: JUG Hannover
+      title: JVM Functional Language Battle
+      location: Hannover
+      link: http://www.jug-h.de/
+  - April:
     - conference: JAX
       title: Kontinuierliche Architekturdokumentation im agilen Umfeld
       location: Rheingoldhalle Mainz
