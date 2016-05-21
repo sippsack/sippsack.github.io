@@ -3,7 +3,9 @@
     - conference: JUG Hannover
       title: JVM Functional Language Battle
       location: Hannover
-      link: http://www.jug-h.de/
+      link: https://www.xing.com/communities/posts/java-user-group-hannover-1011298935
+      slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-JVM-Functional-Language-Battle-Sippach.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
   - April:
     - conference: JAX
       title: Kontinuierliche Architekturdokumentation im agilen Umfeld
@@ -16,11 +18,13 @@
       location: Frankfurt
       link: http://entwicklertag.de/frankfurt/2016/legacy-code-meistern-x-einfachen-schritten
       slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: Javaland
       title: Legacy-Code meistern in x einfachen Schritten
       location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: Javaland
       title: Architektur-Kata
       location: Phantasialand Brühl
@@ -32,6 +36,12 @@
       link: http://www.majug.de/2016/02/25/TDD-workshop/
 2015:
   - Dezember:
+    - conference: OIO Hauskonferenz
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Mannheim
+      link: http://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2015.htm#HK15-legacy
+      slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: JUG Karlsruhe
       title: Groovy und Grails - Quo vadis?
       location: Karlsruhe
@@ -55,6 +65,7 @@
       location: Hannover
       link: http://2015.javaforumnord.de/programm_15
       slides: http://www.oio.de/m/konf/vortraege/JavForumNord2015-LegacyCodeMeistern-Sippach.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
   - September:
     - conference: Berlin Expert Days
       title: Groovy und Grails - Quo vadis?

@@ -1454,9 +1454,17 @@
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		border-bottom-color: transparent;
+	}
+
+	a.icon {
+		border-bottom: none;
+	}
+
+	a.icon:hover {
+		color: red;
+	}
 
 	strong, b {
 		color: #fff;
