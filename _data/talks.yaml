@@ -1,9 +1,9 @@
 2016:
-  - April:
+  - Mai:
     - conference: JUG Hannover
       title: JVM Functional Language Battle
       location: Hannover
-      link: https://www.xing.com/communities/posts/java-user-group-hannover-1011298935
+      link: http://www.jug-h.de/2016/JVM-Functional-Language-Battle/index.html
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-JVM-Functional-Language-Battle-Sippach.pdf
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
   - April:
