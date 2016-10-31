@@ -1,4 +1,17 @@
 2016:
+  - Oktober:
+    - conference: JUG Saxony
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Leipzig
+      link: https://jugsaxony.org/veranstaltungen/82/legacy_code_meistern_in_x_einfachen_schritten/
+      slides: /files/talks/Legacy-Code-meistern-in-x-einfachen-Schritten-JUG-Saxony-2016.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jug-saxony-2016
+    - conference: Java Forum Nord
+      title: TDLCR - Test Driven Legacy Code Refactoring
+      location: Hannover
+      link: http://javaforumnord.de/site/2016/#talk_141
+      slides: /files/talks/Test-Driven-Legacy-Code-Refactoring-Java-Forum-Nord-2016.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jfn_2016
   - August:
     - conference: Herbstcampus
       title: Keine Tagträumerei - Legacy Code Refactoring in x einfachen Schritten
