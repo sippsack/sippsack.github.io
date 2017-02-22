@@ -1,4 +1,31 @@
+2017:
+  - Januar: 
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 6: Java 10 Wunschliste - Welche Features die Community will
+      link: https://jaxenter.de/java-10-wunschliste-51287
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 5: 14 gute Vorsätze für 2017 - Mit diesen Technologien sollten Sie rechnen
+      link: https://jaxenter.de/technologien-2017-51196
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 4: 15 Tech-Trends für das Jahr 2017
+      link: https://jaxenter.de/tech-trends-2017-50898
 2016: 
+  - Dezember:
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 3: Die schlimmsten Tech-Enttäuschungen des Jahres
+      link: https://jaxenter.de/tech-enttaeuschungen-2016-50896
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 2: Diese Tech-Geheimtipps sollten Sie sich ansehen
+      link: https://jaxenter.de/tech-geheimtipps-2016-50893
+    - publisher: jaxenter
+      title: >
+        Aus dem Entwicklernähkästchen - Teil 1: Die Tech-Highlights 2016
+      link: https://jaxenter.de/tech-highlights-2016-50860
   - November: 
     - publisher: Java Magazin 12-2016
       title: Microservices mit WildFly Swarm - Java EE in one JAR

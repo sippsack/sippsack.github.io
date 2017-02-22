@@ -1,3 +1,18 @@
+2017:
+  - Februar:
+    - conference: Entwicklertag Frankfurt
+      title: JVM Functional Language Battle
+      location: Frankfurt
+      link: https://entwicklertag.de/frankfurt/2017/jvm-functional-language-battle
+      slides: https://entwicklertag.de/frankfurt/2017/sites/entwicklertag.de.frankfurt.2017/files/slides/JVM%20Functional%20Language%20Battle-Falk%20Sipach.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+  - Januar:
+    - conference: Orientierungspunkt OIO
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Mannheim
+      link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm
+      slides: http://www.oio.de/m/konf/vortraege/JUG-Saarland-Legacy-Code-meistern-in-x-einfachen-Schritten-Falk-Sippach.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/oio-orientierungspunkt-2017
 2016:
   - Dezember:
     - conference: OIO Hauskonferenz
