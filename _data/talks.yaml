@@ -10,7 +10,7 @@
     - conference: Orientierungspunkt OIO
       title: Legacy-Code meistern in x einfachen Schritten
       location: Mannheim
-      link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm
+      link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm#LegacyCode
       slides: http://www.oio.de/m/konf/vortraege/JUG-Saarland-Legacy-Code-meistern-in-x-einfachen-Schritten-Falk-Sippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/oio-orientierungspunkt-2017
 2016:
