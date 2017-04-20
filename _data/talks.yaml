@@ -1,4 +1,18 @@
 2017:
+  - April:
+    - conference: JUG Hamburg
+      title: JVM Functional Language Battle
+      location: Hamburg
+      link: https://www.meetup.com/jug-hamburg/events/238777668/
+      slides: http://www.oio.de/m/konf/vortraege/JUG-Hamburg2017-JVM-Functional-Language-Battle-Sippach.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+  - März:
+    - conference: JUG Hannover
+      title: TDLCR - Test Driven Legacy Code Refactoring
+      location: Hannover
+      link: http://jug-h.de/2016/JVM-Functional-Language-Battle/index.html
+      slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-Test-Driven-Legacy-Code-Refactoring-Falk-Sippach.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jug_hannover
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: JVM Functional Language Battle
