@@ -1,4 +1,34 @@
 2017:
+  - Mai:
+    - conference: Scrum Day
+      title: Agile Architektur
+      location: Filderstadt
+      link: http://www.scrum-day.de/vortraege/details/vortrag-2017-agile-architektur.html#details
+    - conference: Entwicklertag Karlsruhe
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Karlsruhe
+      link: https://entwicklertag.de/karlsruhe/2017/legacy-code-meistern-x
+      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
+    - conference: Entwicklertag Frankfurt
+      title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      location: Karlsruhe
+      link: https://entwicklertag.de/karlsruhe/2017/lebendige-architektur
+      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%207%20S%C3%BCnden%20der%20Architekturdokumentation.pdf
+    - conference: JAX
+      title: Der Softwarearchitekt, das unbekannte Wesen - ein Diskussionspanel
+      location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/jax-2017/
+    - conference: JAX
+      title: Agile Architecture
+      location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/jax-2017/
+      slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
+    - conference: JAX
+      title: WildFly Swarm - Java EE in one JAR
+      location: Rheingoldhalle Mainz
+      link: https://jax.de/archiv/jax-2017/
+      slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
   - April:
     - conference: JUG Hamburg
       title: JVM Functional Language Battle

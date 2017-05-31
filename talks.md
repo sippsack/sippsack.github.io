@@ -7,10 +7,12 @@ permalink: /talks/
 
 <h2>Aktivitäten</h2>
 <ul class="talk-list">
-    <li>Co-Organisator <a href="http://jug-da.de/">Java User Group Darmstadt</a> seit 2013</li>
-    <li>Programm-Komitee <a href="http://www.javaland.eu/">Javaland</a> seit 2013</li>
+    <li>Co-Organisator <a href="http://www.jug-da.de/about/">Java User Group Darmstadt</a> seit 2013</li>
+    <li>Programmkomitee <a href="http://www.javaland.eu/">Javaland</a> seit 2013</li>
     <li>Unterstützung Programmbeirat <a href="https://entwicklertag.de/">Entwicklertag Frankfurt</a> seit 2014</li>
-    <li>Programmbeirat <a href="http://www.herbstcampus.de/">Herbstcampus</a> seit 2016</li>
+    <li>Programmkomitee <a href="https://www.herbstcampus.de/konferenz_programmkomitee.php">Herbstcampus</a> seit 2016</li>
+    <li>Mitglied im Advisory Board der <a href="http://www.jax.de/">JAX 2017</a></li>
+    <li>Mitglied im Kuratorium der <a href="https://www.ittage.informatik-aktuell.de/konferenz/kuratorium/">IT-Tage 2017</a></li>
 </ul>
 
 
