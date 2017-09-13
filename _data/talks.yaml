@@ -1,4 +1,21 @@
 2017:
+  - September:
+    - conference: Java Forum Nord
+      title: JVM Functional Language Battle
+      location: Hannover
+      link: http://www.javaforumnord.de/site/2017/page/Talk-64
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+    - conference: Herbstcampus
+      title: JVM Functional Language Battle
+      location: Nürnberg
+      link: https://www.herbstcampus.de/veranstaltung-5921-jvm-functional-language-battle.html?id=5921
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+  - Juni:
+    - conference: Objektforum Frankfurt
+      title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      location: Frankfurt
+      link: http://www.scrum-day.de/vortraege/details/vortrag-2017-agile-architektur.html#details
+      slides: https://www.andrena.de/event/objektforum-frankfurt-275?file=files/andrena/media/ObjektForum%20Folien/2017%20FFM/Objektforum_27_Juni_2017/Falk%20Sippach%20-%20Lebendige%20Architekturdokumentation.pdf
   - Mai:
     - conference: Scrum Day
       title: Agile Architektur
