@@ -5,11 +5,13 @@
       location: Hannover
       link: http://www.javaforumnord.de/site/2017/page/Talk-64
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+      slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
     - conference: Herbstcampus
       title: JVM Functional Language Battle
       location: Nürnberg
       link: https://www.herbstcampus.de/veranstaltung-5921-jvm-functional-language-battle.html?id=5921
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+      slides: https://www.oio.de/m/konf/vortraege/Herbstcampus2017_JVM-Functional-Language-Battle_Falk Sippach.pdf
   - Juni:
     - conference: Objektforum Frankfurt
       title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
