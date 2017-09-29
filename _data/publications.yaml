@@ -1,33 +1,37 @@
 2017:
   - September: 
-    - publisher: jaxenter
+    - publisher: jaxenter.com
+      title: >
+        The most substantial argument in favor of Java 9 is the modularization of JDK itself
+      link: https://jaxenter.com/java-9-modularization-interview-137546.html
+    - publisher: jaxenter.de
       title: >
         Interview zum Java 9 Release
       link: https://jaxenter.de/java-9-proiect-jigsaw-sippach-62394
   - Januar: 
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 6: Java 10 Wunschliste - Welche Features die Community will
       link: https://jaxenter.de/java-10-wunschliste-51287
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 5: 14 gute Vorsätze für 2017 - Mit diesen Technologien sollten Sie rechnen
       link: https://jaxenter.de/technologien-2017-51196
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 4: 15 Tech-Trends für das Jahr 2017
       link: https://jaxenter.de/tech-trends-2017-50898
 2016: 
   - Dezember:
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 3: Die schlimmsten Tech-Enttäuschungen des Jahres
       link: https://jaxenter.de/tech-enttaeuschungen-2016-50896
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 2: Diese Tech-Geheimtipps sollten Sie sich ansehen
       link: https://jaxenter.de/tech-geheimtipps-2016-50893
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 1: Die Tech-Highlights 2016
       link: https://jaxenter.de/tech-highlights-2016-50860
@@ -44,7 +48,7 @@
       title: Groovy und Grails - Quo vadis? (Teil 1)
       link: /files/publications/02-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
   - Februar: 
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: "Interview: Eine perfekte Architektur ist nutzlos, wenn sie niemand versteht"
       link: https://jaxenter.de/eine-perfekte-architektur-ist-nutzlos-wenn-sie-niemand-versteht-34677
 2015:
@@ -56,7 +60,7 @@
     - publisher: heise Developer
       title: "enterJS: Besuch der JavaScript-Konferenz aus Sicht eines Java-Entwicklers"
       link: http://www.heise.de/developer/artikel/developer_artikel_2726037.html    
-    - publisher: jaxenter
+    - publisher: jaxenter.de
       title: Red Hat kann auch Microservices – Wildfly Swarm
       link: https://jaxenter.de/red-hat-kann-auch-microservices-wildfly-swarm-21728
 2014:
