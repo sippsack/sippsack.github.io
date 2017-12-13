@@ -11,7 +11,7 @@ permalink: /talks/
     <li>Programmkomitee <a href="http://www.javaland.eu/">Javaland</a> seit 2013</li>
     <li>Unterstützung Programmbeirat <a href="https://entwicklertag.de/">Entwicklertag Frankfurt</a> seit 2014</li>
     <li>Programmkomitee <a href="https://www.herbstcampus.de/konferenz_programmkomitee.php">Herbstcampus</a> seit 2016</li>
-    <li>Mitglied im Advisory Board der <a href="http://www.jax.de/">JAX 2017</a></li>
+    <li>Mitglied im Advisory Board der <a href="http://www.jax.de/">JAX</a> seit 2016</li>
     <li>Mitglied im Kuratorium der <a href="https://www.ittage.informatik-aktuell.de/konferenz/kuratorium/">IT-Tage 2017</a></li>
 </ul>
 

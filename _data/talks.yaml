@@ -1,15 +1,15 @@
 2017:
   - Dezember:
     - conference: OIO Hauskonferenz
-      title: WildFly Swarm - Java EE in one JAR
-      location: Mannheim
-      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-wildfly
-      slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
-    - conference: OIO Hauskonferenz
       title: Agile Architecture
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-agile
       slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
+    - conference: OIO Hauskonferenz
+      title: WildFly Swarm - Java EE in one JAR
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-wildfly
+      slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
     - conference: IT-Tage 2017
       title: Agile Architecture
       location: Frankfurt
