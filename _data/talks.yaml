@@ -1,4 +1,63 @@
 2017:
+  - Dezember:
+    - conference: OIO Hauskonferenz
+      title: WildFly Swarm - Java EE in one JAR
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-wildfly
+      slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
+    - conference: OIO Hauskonferenz
+      title: Agile Architecture
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-agile
+      slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
+    - conference: IT-Tage 2017
+      title: Agile Architecture
+      location: Frankfurt
+      link: https://www.ittage.informatik-aktuell.de/programm/2017/agile-architektur/
+      slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
+    - conference: IT-Tage 2017
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Frankfurt
+      link: https://www.ittage.informatik-aktuell.de/programm/2017/legacy-code-meistern-in-x-einfachen-schritten/
+      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jcon_2017
+    - conference: IT-Tage 2017
+      title: JVM Functional Language Battle
+      location: Frankfurt
+      link: https://www.ittage.informatik-aktuell.de/programm/2017/jvm-functional-language-battle/
+      slides: http://15097-presscdn-0-60.pagely.netdna-cdn.com/wp-content/uploads/sites/32/2014/12/Falk-Sippach-JVM-Functional-Language-Battle.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+  - November:
+    - conference: JVM-Con
+      title: JVM Functional Language Battle
+      location: Köln
+      link: http://jvm-con.de/jvm-functional-language-battle/
+      slides: http://15097-presscdn-0-60.pagely.netdna-cdn.com/wp-content/uploads/sites/32/2014/12/Falk-Sippach-JVM-Functional-Language-Battle.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+  - Oktober:
+    - conference: JUG Frankfurt
+      title: TDLCR - Test Driven Legacy Code Refactoring
+      location: Frankfurt
+      link: https://sites.google.com/site/jugffm/home/25-10-2017-tdlcr---test-driven-legacy-code-refactoring
+      slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-Test-Driven-Legacy-Code-Refactoring-Falk-Sippach.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jugf_2017
+    - conference: JCON 2017
+      title: JVM Functional Language Battle
+      location: Düsseldorf
+      link: http://jcon.one/de/Sessionplan.html
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
+      slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
+    - conference: JCON 2017
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Düsseldorf
+      link: http://jcon.one/de/Sessionplan.html
+      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jcon_2017
+    - conference: JCON 2017
+      title: WildFly Swarm - Java EE in one JAR
+      location: Düsseldorf
+      link: http://jcon.one/de/Sessionplan.html
+      slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
   - September:
     - conference: Java Forum Nord
       title: JVM Functional Language Battle
