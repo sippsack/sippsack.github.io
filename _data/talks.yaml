@@ -1,5 +1,19 @@
+2018:
+  - Januar:
+    - conference: JUG Thüringen
+      title: JVM Functional Language Battle
+      location: Weimar
+      link: https://www.meetup.com/jugthde/events/239506359/
+      slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
 2017:
   - Dezember:
+    - conference: OIO Hauskonferenz
+      title: JVM Functional Language Battle
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-oio-mannheim-2017.htm
+      slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
+      sourcecode: https://github.com/sippsack/jvm-functional-language-battle
     - conference: OIO Hauskonferenz
       title: Agile Architecture
       location: Mannheim
