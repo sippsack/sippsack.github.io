@@ -1,0 +1,1 @@
+{% assign numberOfTalks = 0 %}{% for months in include.year %}{% for month in months %}{% assign numberThisMonth = month[1] | size %}{% assign numberOfTalks = numberOfTalks | plus: numberThisMonth %}{% endfor %}{% endfor %}{{ numberOfTalks }}

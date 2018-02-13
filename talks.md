@@ -16,8 +16,10 @@ permalink: /talks/
 </ul>
 
 
+
 {% for year in site.data.talks %}
-<h2>{{ year[0] }} ({{ year[1] | size }})</h2>
+{% assign yearTalks = year[1] %}
+<h2>{{ year[0] }} ({% include numberOfTalksPerYear.html year=yearTalks %})</h2>
 <ul class="talk-list">
     {% for months in year[1] %}
         {% for month in months %}
