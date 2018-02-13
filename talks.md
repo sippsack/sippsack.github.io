@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vorträge
-description: Konferenzauftritte
+description: Auftritte bei Konferenzen und User Groups
 permalink: /talks/
 ---
 
@@ -17,7 +17,7 @@ permalink: /talks/
 
 
 {% for year in site.data.talks %}
-<h2>{{ year[0] }}</h2>
+<h2>{{ year[0] }} ({{ year[1] | size }})</h2>
 <ul class="talk-list">
     {% for months in year[1] %}
         {% for month in months %}

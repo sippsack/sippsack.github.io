@@ -1,0 +1,44 @@
+bio: Falk Sippach hat über 20 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer, Software-Entwickler und Projektleiter tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit anderen die örtliche Java User Group. Falk twittert unter @sippsack.
+links:
+  Homepage: http://www.sippsack.de
+  Blog: https://blog.oio.de/author/sippsack/
+  Twitter: https://twitter.com/sippsack
+  GitHub: https://github.com/sippsack
+  Xing: https://www.xing.com/profile/Falk_Sippach
+  LinkedIn: https://www.linkedin.com/in/falk-sippach-845259114/
+photos:
+  "400 px": /images/falk_sippach-400px.jpg
+  "300 dpi": /images/falk_sippach-300dpi.jpg
+talks:
+  current:
+    "Legacy Code meistern in x einfachen Schritten": |
+      In einer idealen Welt würden wir nur "neuen" Code schreiben, der natürlich perfekt und wunderschön ist. Wir müßten nie wieder unseren Code anschauen geschweige denn 10 Jahre alte Projekte warten. Ende des Tagtraums ... 
+      <br/><br/>
+      Leider ist unsere Welt nicht so ideal, unser Code von gestern ist heute schon Legacy. Diesen im Nachhinein zu verstehen, zu erweitern oder darin Fehler zu beheben ist immer eine Herausforderung, insbesondere wenn Tests fehlen.Trotzdem gibt es einfache Möglichkeiten, wie man die Qualität von Legacy Code verbessern kann. Das Wichtigste ist das Einziehen von Fangnetzen, so daß man trotz fehlender Tests guten Gewissens Änderungen durchführen kann. Wer Golden Master, Subclass to Test und Extract Pure Functions an konkreten Beispielen kennenlernen möchte, ist in dieser Session genau richtig.
+    "TDLCR - Test Driven Legacy Code Refactoring": |
+      Bestandsanwendungen müssen gewartet und ggf. weiterentwickelt werden, bergen aber meist viele Defekte. Als Entwickler fürchten wir uns zudem, mehr Schaden anzurichten, weil das Verständnis für den Legacy Code fehlt. Refactoring kann zum Verstehen beitragen, endet aber aufgrund der typischerweise fehlenden automatisierten Tests in einem Blindflug.
+      <br/><br/>
+      Mit testgetriebener Entwicklung scheint es eine Allzweckwaffe für gutes Design und eine geringe Fehlerrate zu geben. Aber TDD und Legacy Code schließen sich eigentlich aus. Anhand von Live Coding schauen wir, wie die testgetriebene Entwicklung trotzdem helfen kann, den Code ohne allzu große Bauchschmerzen anzupassen. Schöner Nebeneffekt wird das Entstehen eines automatisierten Testbetts sein, welches zukünftige Refactorings leichter macht.    
+    "Kontinuierliche Architekturdokumentation im agilen Umfeld": |
+      Man kann zwar an vielen Stellen nachlesen, wie man Architekturdokumentation strukturiert. Aber auf der Suche nach einer praktikablen Handhabung zur Erstellung und Pflege enden die meisten Versuche in der WYSIWYG-Hölle einer Textverarbeitung oder im tiefen Schlund eines Wikis. In diesem Vortrag wollen wir uns anschauen, wie aufbauend auf bestehenden Tools und Textformaten eine möglichst redundanzfreie Dokumentation erstellt und für verschiedene Zielgruppen in ansprechenden Formaten ausgeliefert werden kann. Es wird dabei um Begriffe wie Continuous Documentation und Documentation as Code gehen.
+    "JVM Functional Language Battle": |
+      Funktionale Programmierung soll so viel ausdrucksstärker sein, aber leider ist dieses Programmier-Paradigma nicht ganz kompatibel zu der prozedural- und objektorientierten Denkweise von uns Java-Entwicklern. Anhand eines kleinen Algorithmus werden wir uns verschiedene Lösungen zunächst im klassischem imperativen Java (vor Java 8) und als Vergleich dazu in alternativen JVM-Sprachen (Groovy, JavaScript, Scala und Frege/Haskell) anschauen und die verschiedenen Lösungen diskutieren. Herauskommen soll eine saubere und verständlichere Struktur, die zu besser les- und wartbarem Code führen wird.
+      <br/><br/>
+      Die gewonnenen Erkenntnisse wollen wir dann letztendlich in Java 8 mittels Streams und Lambda-Ausdrücken umsetzen, so dass jeder Zuhörer die Grundideen der funktionalen Programmierung mit in seine tägliche Arbeit nehmen kann. Es sind keine speziellen Vorkenntnisse in den angesprochenen alternativen Sprachen notwendig, ein solides Verständnis für die Programmiersprache Java genügt.
+    "WildFly Swarm - Java EE in one JAR": |
+      Microservice Architekturen können mit klassischen Application Servern nichts anfangen. Stattdessen geht der Trend hin zu Fat-JARs und Self-Contained-Systems, in denen die Anwendungen ihre  Ablaufumgebung mitbringen. Nach dem Erfolg von Spring Boot und Co. haben mittlerweile die klassischen Java EE Applikationsserver-Hersteller ebenfalls Microservice-Frameworks im Angebot. In dieser Session wollen wir uns anschauen, wie mit WildFly Swarm die notwendigen Teile des WildFly AS und alle benötigten Bibliotheken mitsamt der Applikation in einem ausführbaren JAR verpackt werden. Dazu diskutieren wir natürlich auch die für Microservices relevanten Themen wie Konfiguration, Logging, Monitoring, Resilience und Service Discovery im Umfeld von WildFly Swarm. Als Abschluss wagen wir noch einen Ausblick auf Standardisierungsversuche im Rahmen von Java EE und der Microprofile-Initiative.
+    "Agile Architecture": |
+      Eine gut geplante Software-Architektur stellt das Grundgerüst jeder wartbaren Software dar. Dies steht in einem scheinbaren Widerspruch zu agilen Softwareprozessen, bei denen langfristige Planungen weitestgehend vermieden werden. Die Session zeigt anhand zahlreicher konkreter Beispiele, wie man die Erstellung einer Software-Architektur in einzelne Aufgabenpakete unterteilt, dokumentiert und regelmäßig durch Reviews und automatisierte Architektur-Tests verifiziert. Das Ziel ist es, auch in einem iterativen Prozess eine langfristig tragfähige Architektur entstehen zu lassen.
+      <br/><br/>
+      Anmerkungen fürs Programmkomitee:
+      <br/><br/>
+      In diesem Vortrag liefern wir praktische Tipps, wie man eine tragfähige Architektur im Rahmen iterativer Prozesse einführt, pflegt und weiterentwickelt. Wir haben dazu nach dem Verfahren "Plan, Do, Check, Act" einzelne Aspekte des Architektur-Entwurfs, -Bewertung, -Kommunikation, -Tests usw. zusammengefasst und stellen diese mit unseren Erfahrungen aus der Praxis vor.
+    "PWA: Portable Webanwendungen statt nativer Apps": |
+      Mobile First war gestern, Offline First heißt die neue Devise. Mit diesem Credo kommen Progressive Web Apps (PWA) nicht nur sehr nahe an native Smartphone Applikationen heran, sie erhöhen vor allem die User Experience bei fehlender oder sehr schlechter Internetverbindung und müssen nicht mehr über App Stores ausgeliefert werden. Anhand einer Beispielapplikation werden wir die Grundkonzepte wie Service Worker, Application Shell, Caching und Push Notifications diskutieren und einen Ausblick auf die mobilen Anwendungen der Zukunft werfen.
+    "Vue.js - Neuer Stern am Framework-Himmel": |
+      Im Schatten von Angular und React hat sich mit Vue.js ein weiteres JavaScript Webframework als ernstzunehmende Alternative zur Erstellung von modularen Single Page Applications entwickelt. Der Einstieg ist dank des einfachen und minimalen Kerns einfach, durch die hohe Anpassungsfähigkeit und das weniger dogmenbehaftete Programmiermodell bietet es aber viele Möglichkeiten für die Erstellung flexibler und performanter Webanwendungen. In diesem Vortrag werden wir am Beispiel eines Konferenzplanners die Konzepte von Vue.js diskutieren.
+  old:
+    "Groovy und Grails - Quo vadis?": |
+      Das Jahr 2015 begann turbulent für die beiden bekanntesten Projekte aus dem Groovy Universum. Von der bisherigen "Mutter" Pivotal den Laufpass erhalten, mußte sich Groovy auch noch auf die Suche nach einem neuen Zuhause begeben und ist letztlich bei Apache fündig geworden. All diese Unsicherheiten haben die neuen Features der Releases 2.4 (Groovy) bzw. 3.0 (Grails) ziemlich in den Hintergrund gedrängt. Dabei sind die Projekte lebendiger denn je und vor allem schon längst reif für den produktiven Einsatz.
+      <br/><br/>
+      Wir werden uns die wichtigsten und interessantesten Neuerungen der vergangenen Releases anschauen und natürlich auch einen Ausblick auf die Zukunft und Roadmaps wagen.
