@@ -17,19 +17,19 @@ permalink: /portfolio/
 <p>{{ talk[1] }}</p>
 {% endfor %}
 
-<h2>Bio</h2>
+<h2 id="bio">Bio</h2>
 <ul class="talk-list">
 <li>{{ site.data.portfolio.bio }}</li>
 </ul>
 
-<h2>Links</h2>
+<h2 id="links">Links</h2>
 <ul class="talk-list">
 {% for link in site.data.portfolio.links %}
 	<li>{{ link[0] }}: <a href="{{ link[1] }}" >{{ link[1] }}</a></li>
 {% endfor %}
 </ul>
 
-<h2>Fotos</h2>
+<h2 id="photos">Fotos</h2>
 {% for photo in site.data.portfolio.photos %}
 <h4>{{ photo[0] }}</h4>
 <img src="{{photo[1]}}" />
