@@ -1,5 +1,27 @@
 2018:
+  - März:
+    - conference: JUG Darmstadt
+      title: Legacy-Code meistern in x einfachen Schritten
+      location: Darmstadt
+      link: https://www.jug-da.de/2018/03/Wunschvortrag/
+      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jug-da-2018
+    - conference: JavaLand
+      title: Refactoring von Legacy Anwendungen mit der Mikado-Methode
+      location: Brühl
+      link: https://programm.javaland.eu/2018/#/scheduledEvent/551162
+      slides: https://www.javaland.eu/formes/pubfiles/9978668/2018-nn-steven_schwenke-refactoring_von_legacy_anwendungen_mit_der_mikado-methode-praesentation.pdf
+    - conference: JavaLand
+      title: Die 7 (technischen) Sünden der Architekturdokumentation
+      location: Brühl
+      link: https://programm.javaland.eu/2018/#/scheduledEvent/550587
+      slides: https://www.javaland.eu/formes/pubfiles/9960707/2018-nn-falk__sippach-die_7__technischen__suenden_der_architekturdokumentation-praesentation.pdf
   - Februar:
+    - conference: Entwicklertag Frankfurt
+      title: Agile Architecture
+      location: Mannheim
+      link: https://entwicklertag.de/frankfurt/2018/agile-architecture
+      slides: https://entwicklertag.de/frankfurt/2018/sites/entwicklertag.de.frankfurt.2018/files/slides/Agile%20Architecture%20-%2040%20min%20-%20Frankfurter%20Entwicklertag.pdf
     - conference: Code Days @ OOP 2018
       title: JVM Functional Language Battle
       location: München
@@ -136,6 +158,16 @@
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hamburg2017-JVM-Functional-Language-Battle-Sippach.pdf
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
   - März:
+    - conference: JavaLand
+      title: Legacy Code Retreat
+      location: Brühl
+      link: https://programm.javaland.eu/2017/#/scheduledEvent/531911
+      slides: https://www.javaland.eu/formes/pubfiles/8915857/2017-jvm-falk_sippach-legacy_code_retreat-praesentation.pdf
+    - conference: JavaLand
+      title: Kontinuierliche Architektur-Dokumentation
+      location: Brühl
+      link: https://programm.javaland.eu/2017/#/scheduledEvent/529480
+      slides: https://www.javaland.eu/formes/pubfiles/8915854/2017-asec-falk_sippach-kontinuierliche_architektur-dokumentation-praesentation.pdf
     - conference: JUG Hannover
       title: TDLCR - Test Driven Legacy Code Refactoring
       location: Hannover
@@ -227,13 +259,13 @@
       link: http://entwicklertag.de/frankfurt/2016/legacy-code-meistern-x-einfachen-schritten
       slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
-    - conference: Javaland
+    - conference: JavaLand
       title: Legacy-Code meistern in x einfachen Schritten
       location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
-    - conference: Javaland
+    - conference: JavaLand
       title: Architektur-Kata
       location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
@@ -293,7 +325,7 @@
       link: http://www.jug-kl.de/groovy/
       slides: http://www.jug-kl.de/resources/2015-07-23-GroovyGrailsQuoVadis.pdf
   - März:
-    - conference: Javaland
+    - conference: JavaLand
       title: Workshop NoSQL für Java-Entwickler
       location: Phantasialand Brühl
       link: https://www.javaland.eu
@@ -311,7 +343,7 @@
       link: http://www.sea-con.de/seacon2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte-1.html?no_cache=1
       slides: http://www.oio.de/m/konf/diverse/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-SEACON2014.pdf
   - März:
-    - conference: Javaland
+    - conference: JavaLand
       title: Coding Dojo
       location: Phantasialand Brühl
       link: https://www.javaland.eu
