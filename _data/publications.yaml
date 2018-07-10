@@ -1,4 +1,12 @@
 2018:
+  - Juli:
+    - publisher: Java Aktuell 4/2018
+      title: Java geht in die nächste Runde
+      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1718&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=60e26659c1e096edf0c877f0997a5ebd
+  - Mai:
+    - publisher: Java Magazin 06-2018
+      title: Die neuen Features von Java 10 auf einen Blick
+      link: https://jaxenter.de/ausgaben/java-magazin-6-18
   - März:
     - publisher: jaxenter.com
       title: Java 10 is finally here! A closer look at the new features

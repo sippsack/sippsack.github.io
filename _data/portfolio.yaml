@@ -1,4 +1,4 @@
-bio: Falk Sippach hat über 20 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer, Software-Entwickler und Projektleiter tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit anderen die örtliche Java User Group. Falk twittert unter @sippsack.
+bio: Falk Sippach hat über 20 Jahre Erfahrung mit Java und ist bei der Mannheimer Firma OIO Orientation in Objects GmbH als Trainer und Software-Entwickler/Architekt tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit Anderen die örtliche Java User Group. Falk twittert unter @sippsack.  
 links:
   Homepage: http://www.sippsack.de
   Blog: https://blog.oio.de/author/sippsack/
@@ -9,6 +9,39 @@ links:
 photos:
   "400 px": /images/falk_sippach-400px.jpg
   "300 dpi": /images/falk_sippach-300dpi.jpg
+activities: 
+  - event: Java User Group Darmstadt
+    activity: Co-Organisator
+    link: http://www.jug-da.de/about/
+    since: 2013
+  - event: Javaland
+    activity: Programmkomitee 
+    link: http://www.javaland.eu/
+    since: 2013
+  - event: Entwicklertag Frankfurt
+    activity: Unterstützung Programmbeirat 
+    link: https://entwicklertag.de
+    since: 2014
+  - event: DukeCon
+    activity: Mitgründer und Comitter 
+    link: http://dukecon.org/
+    since: 2015
+  - event: Herbstcampus
+    activity: Programmkomitee 
+    link: https://www.herbstcampus.de/konferenz_programmkomitee.php
+    since: 2016
+  - event: JAX
+    activity: Mitglied im Advisory Board
+    link: http://www.jax.de/
+    since: 2016
+  - event: IT-Tage
+    activity: Mitglied im Kuratorium
+    link: https://www.ittage.informatik-aktuell.de/konferenz/kuratorium/
+    since: 2017
+  - event: OOP
+    activity: Bewerter für die Einreichungen
+    link: https://www.oop-konferenz.de/
+    since: 2018
 talks:
   current:
     "Legacy Code meistern in x einfachen Schritten": |
