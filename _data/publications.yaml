@@ -2,109 +2,141 @@
   - Juli:
     - publisher: Java Aktuell 4/2018
       title: Java geht in die nächste Runde
+      date: 2018-07-03
       link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1718&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=60e26659c1e096edf0c877f0997a5ebd
+      pdf: https://www.doag.org/formes/pubfiles/10329852/docs/Publikationen/Java-Aktuell/2018/04-2018/04-2018-Java-aktuell-Magazin-WEB.pdf
   - Mai:
     - publisher: Java Magazin 06-2018
       title: Die neuen Features von Java 10 auf einen Blick
+      date: 2018-05-02
       link: https://jaxenter.de/ausgaben/java-magazin-6-18
+  - April:
+    - publisher: heise Developer
+      title: "Die jungen Wilden: JavaLand #2"
+      date: 2018-04-27
+      link: https://www.heise.de/developer/artikel/Die-jungen-Wilden-JavaLand-2-4035931.html
   - März:
     - publisher: jaxenter.com
       title: Java 10 is finally here! A closer look at the new features
+      date: 2018-03-26
       link: https://jaxenter.com/java-10-is-finally-here-lets-have-a-look-at-its-new-features-142654.html
     - publisher: jaxenter.de
       title: Java 10 ist da! Die neuen Features auf einen Blick
+      date: 2018-03-21
       link: https://jaxenter.de/java-10-features-news-69182
   - Januar:
     - publisher: heise Developer
       title: "Die jungen Wilden: JavaLand"
+      date: 2018-01-12
       link: https://www.heise.de/developer/artikel/Die-jungen-Wilden-JavaLand-3937256.html
 2017:
   - September: 
     - publisher: jaxenter.com
       title: >
         The most substantial argument in favor of Java 9 is the modularization of JDK itself
+      date: 2017-09-26
       link: https://jaxenter.com/java-9-modularization-interview-137546.html
     - publisher: jaxenter.de
       title: >
         Interview zum Java 9 Release
+      date: 2017-09-22
       link: https://jaxenter.de/java-9-proiect-jigsaw-sippach-62394
   - Januar: 
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 6: Java 10 Wunschliste - Welche Features die Community will
+      date: 2017-01-05
       link: https://jaxenter.de/java-10-wunschliste-51287
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 5: 14 gute Vorsätze für 2017 - Mit diesen Technologien sollten Sie rechnen
+      date: 2017-01-04
       link: https://jaxenter.de/technologien-2017-51196
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 4: 15 Tech-Trends für das Jahr 2017
+      date: 2017-01-02
       link: https://jaxenter.de/tech-trends-2017-50898
 2016: 
   - Dezember:
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 3: Die schlimmsten Tech-Enttäuschungen des Jahres
+      date: 2016-12-29
       link: https://jaxenter.de/tech-enttaeuschungen-2016-50896
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 2: Diese Tech-Geheimtipps sollten Sie sich ansehen
+      date: 2016-12-27
       link: https://jaxenter.de/tech-geheimtipps-2016-50893
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 1: Die Tech-Highlights 2016
+      date: 2016-12-23
       link: https://jaxenter.de/tech-highlights-2016-50860
   - November: 
     - publisher: Java Magazin 12-2016
       title: Microservices mit WildFly Swarm - Java EE in one JAR
-      link: https://entwickler.de/leseproben/microservices-in-javaee-mit-wildfly-swarm-298956.html
-  - Juli: 
+      date: 2016-11-02
+      link: https://jaxenter.de/ausgaben/java-magazin-12-16
+      pdf: https://entwickler.de/leseproben/microservices-in-javaee-mit-wildfly-swarm-298956.html
+  - Juni: 
     - publisher: Java Aktuell 03-2016
       title: Groovy und Grails - Quo vadis? (Teil 2)
-      link: /files/publications/03-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
-  - April: 
+      date: 2016-06-15
+      pdf: /files/publications/03-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
+  - März: 
     - publisher: Java Aktuell 02-2016
       title: Groovy und Grails - Quo vadis? (Teil 1)
-      link: /files/publications/02-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
+      date: 2016-03-22
+      pdf: /files/publications/02-2016-Java aktuell-Falk-Sippach_Groovy-und-Grails-quo-vadis.pdf
   - Februar: 
     - publisher: jaxenter.de
       title: "Interview: Eine perfekte Architektur ist nutzlos, wenn sie niemand versteht"
+      date: 2016-02-11
       link: https://jaxenter.de/eine-perfekte-architektur-ist-nutzlos-wenn-sie-niemand-versteht-34677
 2015:
   - November:
     - publisher: heise Developer
       title: Continuous Lifecycle 2015 im Zeichen von Docker und Continuous Delivery
+      date: 2015-11-25
       link: http://www.heise.de/developer/artikel/developer_artikel_3016182.html
   - Juni:
     - publisher: heise Developer
       title: "enterJS: Besuch der JavaScript-Konferenz aus Sicht eines Java-Entwicklers"
+      date: 2015-06-25
       link: http://www.heise.de/developer/artikel/developer_artikel_2726037.html    
     - publisher: jaxenter.de
       title: Red Hat kann auch Microservices – Wildfly Swarm
+      date: 2015-06-23
       link: https://jaxenter.de/red-hat-kann-auch-microservices-wildfly-swarm-21728
 2014:
   - November:
     - publisher: heise Developer
       title: Continuous Lifecycle 2014 im Zeichen des kulturellen Wandels
+      date: 2014-11-18
       link: http://www.heise.de/developer/artikel/developer_artikel_2459539.html
 2010:
   - Mai:
     - publisher: oio.de
       title: Groovy Closures
+      date: 2010-05-01
       link: http://www.oio.de/public/java/groovy-closures-artikel.htm
 2009:
   - November:
     - publisher: oio.de
       title: Auditierung mit Hibernate
+      date: 2009-11-01
       link: http://www.oio.de/public/java/auditierung-jpa-historisierung-hibernate-audit-artikel.htm
 2008:
   - Januar:
     - publisher: Kaffeeklatsch
       title: Echt abgefahren! Einführung in Groovy 
+      date: 2008-01-01
       link: http://www.bookware.de/kaffeeklatsch/archiv/KaffeeKlatsch-2008-01.pdf
 2007:
   - November:
     - publisher: oio.de
       title: Einführung in Groovy
+      date: 2007-11-01
       link: http://www.oio.de/public/java/groovy/groovy-einfuehrung.htm

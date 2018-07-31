@@ -10,6 +10,11 @@
       date: 2018-12-12
       location: Frankfurt
       link: https://www.ittage.informatik-aktuell.de/programm/2018/legacy-code-im-griff-dank-der-mikado-methode/
+  - November:
+    - conference: W-JAX 2018
+      title: "Java 9 ist tot, lang lebe Java 11"
+      location: München
+      link: https://jax.de/core-java-jvm-languages/java-9-ist-tot-lang-lebe-java-11/
   - Oktober:
     - conference: BaselOne 2018
       title: "Softwarearchitektur kontinuierlich und effizient dokumentieren"
@@ -39,6 +44,14 @@
       link: http://www.jug-n.de/treffen/
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/
+    - conference: Trivadis TechEvent 2018
+      title: "Java 9 ist tot, lang lebe Java 11"
+      date: 2018-09-14
+      location: Zürich
+    - conference: Trivadis TechEvent 2018
+      title: "Kontinuierliche Architekturdokumentation im agilen Umfeld"
+      date: 2018-09-14
+      location: Zürich
     - conference: Java Forum Nord 2018
       title: "Funktionale Programmierung geht auch mit Java!"
       date: 2018-09-13
@@ -55,22 +68,23 @@
       date: 2018-07-09
       location: Köln
       link: https://www.andrena.de/event/objektforum-koeln-juli-2018
+      slides: https://www.andrena.de/event/objektforum-koeln-juli-2018?file=files/andrena/media/ObjektForum%20Folien/2018%20koeln/Kontinuierliche%20Architekturdokumentation.pdf
   - Juni:
-    - conference: enterJS
+    - conference: enterJS 2018
       title: "Vue.js – eine Einführung"
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6735&vue.js-%E2%80%93-eine-einf%E3%BChrung
-    - conference: enterJS
+    - conference: enterJS 2018
       title: "Einstieg in Vue.js"
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6975&einstieg-in-vue.js
   - April:
-    - conference: JAX
+    - conference: JAX 2018
       title: "Docs as Code - Architekturdokumentation leicht gemacht"
       location: Rheingoldhalle Mainz
       link: https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/
       slides: https://speakerdeck.com/rdmueller/docs-as-code-architekturdokumentation-leicht-gemacht
-    - conference: JAX
+    - conference: JAX 2018
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       location: Rheingoldhalle Mainz
       link: https://jax.de/web-development-javascript/pwa-portable-webanwendungen-statt-nativer-apps/
@@ -376,7 +390,7 @@
       location: Mannheim
       link: https://www.xing.com/events/agile-monday-architektur-kata-1617132
       slides: /files/talks/Architektur-Kata-Agile-Monday-2015.pdf
-    - conference: W-JAX
+    - conference: W-JAX 2015
       title: Effektive Code-Reviews
       location: München
       link: https://jax.de/archiv/

@@ -10,8 +10,9 @@ permalink: /publications/
 <ul class="talk-list">
     {% for months in year[1] %}
         {% for month in months %}
-            {% for talk in month[1] %}
-    <li>{{ month[0] }} {{ year[0] }}: "{% if talk.link %}<a href="{{ talk.link }}">{% endif %}{{ talk.title }}{% if talk.link %}</a>{% else %}{{ talk.title }}{% endif %}" ({{ talk.publisher }})</li>            
+            {% for publication in month[1] %}
+    <li>{{ month[0] }} {{ year[0] }}: "{% if publication.link %}<a href="{{ publication.link }}">{% endif %}{{ publication.title }}{% if publication.link %}</a>{% else %}{{ publication.title }}{% endif %}" ({{ publication.publisher }}){% if publication.pdf %} <a class="icon" href="{{ publication.pdf }}"><i title="PDF" class="fa fa-file-pdf-o" aria-hidden="true"></i></a>{% endif %}
+	</li>            
             {% endfor %}
         {% endfor %}
     {% endfor %}
