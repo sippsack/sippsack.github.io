@@ -48,20 +48,24 @@
       title: "Java 9 ist tot, lang lebe Java 11"
       date: 2018-09-14
       location: Zürich
+      slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
     - conference: Trivadis TechEvent 2018
       title: "Kontinuierliche Architekturdokumentation im agilen Umfeld"
       date: 2018-09-14
       location: Zürich
+      slides: https://www.andrena.de/event/objektforum-koeln-juli-2018?file=files/andrena/media/ObjektForum%20Folien/2018%20koeln/Kontinuierliche%20Architekturdokumentation.pdf
     - conference: Java Forum Nord 2018
       title: "Funktionale Programmierung geht auch mit Java!"
       date: 2018-09-13
       location: Hannover
       link: https://javaforumnord.de/site/2018/
+      slides: /files/talks/Falk-Sippach-Functional-Java.pdf
     - conference: Herbstcampus 2018
       title: "Legacy Code im Griff dank der Mikado Methode"
       date: 2018-09-05
       location: Nürnberg
       link: https://www.herbstcampus.de/veranstaltung-7175-refactoring-mit-der-mikado-methode.html?id=7175
+      slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
   - Juli:
     - conference: Objektforum Köln
       title: "Vue.js – eine Einführung"
