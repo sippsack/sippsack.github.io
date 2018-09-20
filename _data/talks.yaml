@@ -20,7 +20,7 @@
       title: "Softwarearchitektur kontinuierlich und effizient dokumentieren"
       date: 2018-10-18
       location: Basel
-      link: https://www.baselone.ch/index.html
+      link: https://www.baselone.ch/index.htmlFalk-Sippach-Legacy Code meistern in x einfachen Schritten + TDLCR-JUG-Metropolregion-Nuernberg.pdf
     - conference: JCON 2018
       title: "Legacy Code im Griff dank der Mikado Methode"
       date: 2018-10-11
@@ -42,8 +42,8 @@
       date: 2018-09-20
       location: Nürnberg
       link: http://www.jug-n.de/treffen/
-      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
-      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/
+      slides: /files/talks/Falk-Sippach-Legacy Code meistern in x einfachen Schritten + TDLCR-JUG-Metropolregion-Nuernberg.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/commit/2636b618c10b3f610aec834d61dd5504c8dbc4b3
     - conference: Trivadis TechEvent 2018
       title: "Java 9 ist tot, lang lebe Java 11"
       date: 2018-09-14
