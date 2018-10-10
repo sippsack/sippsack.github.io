@@ -6,6 +6,8 @@ permalink: /portfolio/
 ---
 
 <h2>Aktuelle Vorträge</h2>
+Die nachfolgenden Vorträge kann ich jederzeit bei Konferenzen oder User Groups halten, bei Interesse bitte melden.
+
 {% for talk in site.data.portfolio.talks.current %}
 <b>{{ talk[0] }}</b>
 <p>{{ talk[1] }}</p>
@@ -20,6 +22,7 @@ permalink: /portfolio/
 <h2 id="bio">Bio</h2>
 <ul class="talk-list">
 <li>{{ site.data.portfolio.bio }}</li>
+<li>{{ site.data.portfolio.bio_en }}</li>
 </ul>
 
 <h2 id="links">Links</h2>

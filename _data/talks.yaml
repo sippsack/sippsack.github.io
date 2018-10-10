@@ -20,7 +20,7 @@
       title: "Softwarearchitektur kontinuierlich und effizient dokumentieren"
       date: 2018-10-18
       location: Basel
-      link: https://www.baselone.ch/index.html
+      link: https://www.baselone.ch/index.htmlFalk-Sippach-Legacy Code meistern in x einfachen Schritten + TDLCR-JUG-Metropolregion-Nuernberg.pdf
     - conference: JCON 2018
       title: "Legacy Code im Griff dank der Mikado Methode"
       date: 2018-10-11
@@ -43,8 +43,8 @@
       date: 2018-09-20
       location: Nürnberg
       link: http://www.jug-n.de/treffen/
-      slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
-      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/
+      slides: /files/talks/Falk-Sippach-Legacy Code meistern in x einfachen Schritten + TDLCR-JUG-Metropolregion-Nuernberg.pdf
+      sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/commit/2636b618c10b3f610aec834d61dd5504c8dbc4b3
     - conference: Trivadis TechEvent 2018
       title: "Java 9 ist tot, lang lebe Java 11"
       date: 2018-09-14
@@ -69,18 +69,18 @@
       slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
   - Juli:
     - conference: Objektforum Köln
-      title: "Vue.js – eine Einführung"
+      title: "Kontinuierliche Architekturdokumentation im agilen Umfeld"
       date: 2018-07-09
       location: Köln
       link: https://www.andrena.de/event/objektforum-koeln-juli-2018
       slides: https://www.andrena.de/event/objektforum-koeln-juli-2018?file=files/andrena/media/ObjektForum%20Folien/2018%20koeln/Kontinuierliche%20Architekturdokumentation.pdf
   - Juni:
     - conference: enterJS 2018
-      title: "Vue.js – eine Einführung"
+      title: "Vortag: Vue.js – eine Einführung"
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6735&vue.js-%E2%80%93-eine-einf%E3%BChrung
     - conference: enterJS 2018
-      title: "Einstieg in Vue.js"
+      title: "Workshop: Einstieg in Vue.js"
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6975&einstieg-in-vue.js
   - April:
