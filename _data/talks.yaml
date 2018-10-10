@@ -36,6 +36,7 @@
       date: 2018-10-10
       location: Düsseldorf
       link: https://jcon.one/de/
+      slides: /files/talks/Falk-Sippach-Functional-Java-JCON-2018.pdf
   - September:
     - conference: JUG Metropolregion Nürnberg
       title: Legacy Code in x einfachen Schritten meistern und testgetrieben weiterentwickeln
@@ -59,7 +60,7 @@
       date: 2018-09-13
       location: Hannover
       link: https://javaforumnord.de/site/2018/
-      slides: /files/talks/Falk-Sippach-Functional-Java.pdf
+      slides: /files/talks/Falk-Sippach-Functional-Java-JFN-2018.pdf
     - conference: Herbstcampus 2018
       title: "Legacy Code im Griff dank der Mikado Methode"
       date: 2018-09-05
