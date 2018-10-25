@@ -1,10 +1,34 @@
+2019:
+  - Februar:
+    - conference: IT-Tage 2018
+      title: "PWA: Portable Webanwendungen statt nativer Apps"
+      date: 2019-02-21
+      location: Frankfurt
+      link: https://entwicklertag.de/frankfurt/2019/
+      slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
+  - Januar:
+    - conference: OOP
+      title: Java 9 ist tot, lang lebe Java 11
+      location: München
+      link: https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/di-21-5/title/java-9-ist-tot-lang-lebe-java-11.html
+      slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
 2018:
   - Dezember:
+    - conference: OIO Hauskonferenz
+      title: Vue.js - eine Einführung
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2018.htm#HK18-vue
+    - conference: OIO Hauskonferenz
+      title: Java 9 ist tot, lang lebe Java 11
+      location: Mannheim
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2018.htm#HK18-java-9
+      slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
     - conference: IT-Tage 2018
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       date: 2018-12-13
       location: Frankfurt
-      link: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
+      link: https://www.ittage.informatik-aktuell.de/programm/2018/pwa-portable-webanwendungen-statt-nativer-apps/
+      slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
     - conference: IT-Tage 2018
       title: "Legacy-Code im Griff dank der Mikado-Methode"
       date: 2018-12-12
