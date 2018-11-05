@@ -116,11 +116,13 @@
       location: Rheingoldhalle Mainz
       link: https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/
       slides: https://speakerdeck.com/rdmueller/docs-as-code-architekturdokumentation-leicht-gemacht
+      video: https://vimeo.com/jaxtv/review/289636086/6de7b042ff
     - conference: JAX 2018
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       location: Rheingoldhalle Mainz
       link: https://jax.de/web-development-javascript/pwa-portable-webanwendungen-statt-nativer-apps/
       slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
+      video: https://vimeo.com/jaxtv/review/288743286/908a1c2873
     - conference: JUG Stuttgart
       title: Legacy-Code meistern in x einfachen Schritten
       location: Stuttgart
