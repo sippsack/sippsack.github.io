@@ -1,4 +1,41 @@
+2019:
+  - April:
+    - publisher: Java Magazin 05-2019
+      title: Java 12 ist da!
+      date: 2019-04-03
+      link: https://jaxenter.de/ausgaben/java-magazin-5-19
+  - März:
+    - publisher: jaxenter.de
+      title: "Java 12: Alle neuen Features auf einen Blick"
+      date: 2019-03-19
+      link: https://jaxenter.de/java-12-neue-features-81346
+  - Februar:
+    - publisher: java-pro.de
+      title: Neues in Java 11
+      date: 2019-02-15
+      link: https://java-pro.de/neues-in-java-11/
 2018:
+  - Dezember:
+    - publisher: Java Aktuell 01/2019
+      title: "Version 11: Next Level Java"
+      date: 2018-12-27
+      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1838&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=abb5ffac0d917fcbc8b9c6e476477c7a
+      pdf: https://www.doag.org/formes/pubfiles/10904368/docs/Publikationen/Java-Aktuell/2019/01-2019/01-2019-Java-aktuell-Magazin-Web.pdf
+    - publisher: Java-Pro 3/2018
+      title: Neues in Java 11
+      date: 2018-12-18
+      link: https://java-pro.de/wp-content/uploads/2017/02/Titelseite-1.jpg
+      pdf: /files/publications/03-2018-JavaPro_Neues_in_Java_11.pdf
+  - November:
+    - publisher: Java Magazin 12-2018
+      title: Java geht mit Version 11 in die nächste Runde
+      date: 2018-11-01
+      link: https://jaxenter.de/ausgaben/java-magazin-12-18
+  - September:
+    - publisher: jaxenter.de
+      title: Java 11 ist da! Die neuen Features auf einen Blick
+      date: 2018-09-25
+      link: https://jaxenter.de/java-11-features-news-75411
   - Juli:
     - publisher: Java Aktuell 4/2018
       title: Java geht in die nächste Runde

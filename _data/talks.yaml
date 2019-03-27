@@ -1,25 +1,86 @@
 2019:
+  - Juni:
+    - conference: Objektforum Frankfurt
+      title: "Funktionale Programmierung geht auch mit/trotz Java!"
+      date: 2019-06-25
+      location: Frankfurt
+      link: https://www.andrena.de/event/objektforum-frankfurt-juni-2019
+      slides: /files/talks/Falk-Sippach-Functional-Java-JCON-2018.pdf
+    - conference: Entwicklertag Karlsruhe
+      title: "Legacy-Code im Griff dank der Mikado-Methode"
+      date: 2019-06-04
+      location: Karlsruhe
+      link: https://entwicklertag.de/karlsruhe/2019/legacy-code-im-griff-dank  
+      slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
+  - Mai:
+    - conference: JAX 2019
+      title: "Micronaut – effiziente und performante Microservices für die Cloud"
+      date: 2019-05-08
+      location: Mainz
+      link: https://jax.de/serverside-enterprise-java/micronaut-effiziente-und-performante-microservices-fuer-die-cloud/
+  - März:
+    - conference: JavaLand
+      date: 2019-03-20
+      title: "Progessive Web Apps - Portable Webanwendungen statt nativer Apps"
+      location: Brühl
+      link: https://programm.javaland.eu/2019/#/scheduledEvent/569905
+      slides: https://www.oio.de/m/konf/diverse/PWA-Progessive-Web-Apps_JavaLand_2019.pdf
+    - conference: JavaLand
+      date: 2019-03-19
+      title: Einführung in die Funktionale Programmierung mit Java
+      location: Brühl
+      slides: https://docs.google.com/presentation/d/1hJ0NGhX5dZBT8tkaR9-Pg1AZvVpoBJNemrL6-XnCvy0/edit?usp=sharing
+      sourcecode: https://github.com/gtrefs/fpworkshop
+      link: https://programm.javaland.eu/2019/#/scheduledEvent/569231
+    - conference: JavaLand
+      date: 2019-03-18
+      title: "Legacy Code Retreat"
+      location: Brühl
+      link: https://programm.javaland.eu/2019/#/scheduledEvent/569247
+      slides: https://www.javaland.eu/formes/pubfiles/8915857/2017-jvm-falk_sippach-legacy_code_retreat-praesentation.pdf
   - Februar:
-    - conference: IT-Tage 2018
+    - conference: Entwicklertag Frankfurt
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       date: 2019-02-21
       location: Frankfurt
-      link: https://entwicklertag.de/frankfurt/2019/
+      link: https://entwicklertag.de/frankfurt/2019/pwa-portable-webanwendungen-statt-nativer-apps
       slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
   - Januar:
+    - conference: Code Days @ OOP
+      title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      date: 2019-01-23
+      location: München
+      link: https://www.code-days.de/programm/programm-details/236/lebendige-architektur-dokumentation-kontinuierlich-und-effizient/
+      slides: https://www.oio.de/m/konf/oop2019/Softwarearchitektur-kontinuierlich-und-effizient-dokumentieren_OOP-CodeDays_2019.pdf 
+    - conference: Code Days @ OOP
+      title: Vue.js – eine Einführung
+      date: 2019-01-22
+      location: München
+      link: https://www.code-days.de/programm/programm-details/203/vue-js-eine-einfuehrung/
+      slides: https://www.oio.de/m/konf/oop2019/Vue.js_OOP-CodeDays-2019.pdf
+    - conference: Code Days @ OOP
+      title: "PWA: Portable Webanwendungen statt nativer Apps"
+      date: 2019-01-22
+      location: München
+      link: https://www.code-days.de/programm/programm-details/208/pwa-portable-webanwendungen-statt-nativer-apps/
+      slides: https://www.oio.de/m/konf/oop2019/PWA-Portable-Webanwendungen-statt-nativer-Apps_OOP-CodeDays_2019.pdf
     - conference: OOP
       title: Java 9 ist tot, lang lebe Java 11
+      date: 2019-01-22
       location: München
       link: https://www.oop-konferenz.de/oop2019/programm/konferenzprogramm/sessiondetails/action/detail/session/di-21-5/title/java-9-ist-tot-lang-lebe-java-11.html
-      slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
+      slides: https://www.oio.de/m/konf/oop2019/Java_9-11_OOP-2019.pdf
 2018:
   - Dezember:
     - conference: OIO Hauskonferenz
       title: Vue.js - eine Einführung
+      date: 2018-12-20
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2018.htm#HK18-vue
+      slides: https://www.oio.de/m/konf/oop2019/Vue.js_OOP-CodeDays-2019.pdf
     - conference: OIO Hauskonferenz
       title: Java 9 ist tot, lang lebe Java 11
+      date: 2018-12-20
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2018.htm#HK18-java-9
       slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
@@ -34,11 +95,14 @@
       date: 2018-12-12
       location: Frankfurt
       link: https://www.ittage.informatik-aktuell.de/programm/2018/legacy-code-im-griff-dank-der-mikado-methode/
+      slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
   - November:
     - conference: W-JAX 2018
       title: "Java 9 ist tot, lang lebe Java 11"
+      date: 2018-11-06
       location: München
       link: https://jax.de/core-java-jvm-languages/java-9-ist-tot-lang-lebe-java-11/
+      slides: https://www.oio.de/m/konf/oop2019/Java_9-11_OOP-2019.pdf
   - Oktober:
     - conference: BaselOne 2018
       title: "Softwarearchitektur kontinuierlich und effizient dokumentieren"
@@ -104,27 +168,33 @@
   - Juni:
     - conference: enterJS 2018
       title: "Vortag: Vue.js – eine Einführung"
+      date: 2018-06-20
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6735&vue.js-%E2%80%93-eine-einf%E3%BChrung
+      slides: https://www.oio.de/m/konf/oop2019/Vue.js_OOP-CodeDays-2019.pdf
     - conference: enterJS 2018
       title: "Workshop: Einstieg in Vue.js"
+      date: 2018-06-19
       location: Darmstadtium Darmstadt
       link: https://www.enterjs.de/single?id=6975&einstieg-in-vue.js
   - April:
     - conference: JAX 2018
       title: "Docs as Code - Architekturdokumentation leicht gemacht"
+      date: 2018-04-26
       location: Rheingoldhalle Mainz
       link: https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/
       slides: https://speakerdeck.com/rdmueller/docs-as-code-architekturdokumentation-leicht-gemacht
       video: https://vimeo.com/jaxtv/review/289636086/6de7b042ff
     - conference: JAX 2018
       title: "PWA: Portable Webanwendungen statt nativer Apps"
+      date: 2018-04-26
       location: Rheingoldhalle Mainz
       link: https://jax.de/web-development-javascript/pwa-portable-webanwendungen-statt-nativer-apps/
       slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
       video: https://vimeo.com/jaxtv/review/288743286/908a1c2873
     - conference: JUG Stuttgart
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2018-04-12
       location: Stuttgart
       link: https://www.jugs.org/va2018/04-12.html
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
@@ -132,28 +202,33 @@
   - März:
     - conference: JUG Darmstadt
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2018-03-22
       location: Darmstadt
       link: https://www.jug-da.de/2018/03/Wunschvortrag/
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jug-da-2018
     - conference: JavaLand
       title: Refactoring von Legacy Anwendungen mit der Mikado-Methode
+      date: 2018-03-14
       location: Brühl
       link: https://programm.javaland.eu/2018/#/scheduledEvent/551162
       slides: https://www.javaland.eu/formes/pubfiles/9978668/2018-nn-steven_schwenke-refactoring_von_legacy_anwendungen_mit_der_mikado-methode-praesentation.pdf
     - conference: JavaLand
       title: Die 7 (technischen) Sünden der Architekturdokumentation
+      date: 2018-03-14
       location: Brühl
       link: https://programm.javaland.eu/2018/#/scheduledEvent/550587
       slides: https://www.javaland.eu/formes/pubfiles/9960707/2018-nn-falk__sippach-die_7__technischen__suenden_der_architekturdokumentation-praesentation.pdf
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: Agile Architecture
-      location: Mannheim
+      date: 2018-02-21
+      location: Frankfurt
       link: https://entwicklertag.de/frankfurt/2018/agile-architecture
       slides: https://entwicklertag.de/frankfurt/2018/sites/entwicklertag.de.frankfurt.2018/files/slides/Agile%20Architecture%20-%2040%20min%20-%20Frankfurter%20Entwicklertag.pdf
     - conference: Code Days @ OOP 2018
       title: JVM Functional Language Battle
+      date: 2018-02-08
       location: München
       link: http://www.code-days.de/programm/programm-details/100/jvm-functional-language-battle/
       slides: /files/talks/Falk-Sippach-JVM-Functional-Language-Battle.pdf
@@ -161,6 +236,7 @@
   - Januar:
     - conference: JUG Thüringen
       title: JVM Functional Language Battle
+      date: 2018-01-30
       location: Weimar
       link: https://www.meetup.com/jugthde/events/239506359/
       slides: /files/talks/Falk-Sippach-JVM-Functional-Language-Battle.pdf
@@ -169,33 +245,39 @@
   - Dezember:
     - conference: OIO Hauskonferenz
       title: JVM Functional Language Battle
+      date: 2017-12-21
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-oio-mannheim-2017.htm
       slides: /files/talks/Falk-Sippach-JVM-Functional-Language-Battle.pdf
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
     - conference: OIO Hauskonferenz
       title: Agile Architecture
+      date: 2017-12-21
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-agile
       slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
     - conference: OIO Hauskonferenz
       title: WildFly Swarm - Java EE in one JAR
+      date: 2017-12-21
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2017.htm#HK17-wildfly
       slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
     - conference: IT-Tage 2017
       title: Agile Architecture
+      date: 2017-12-13
       location: Frankfurt
       link: https://www.ittage.informatik-aktuell.de/programm/2017/agile-architektur/
       slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
     - conference: IT-Tage 2017
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2017-12-13
       location: Frankfurt
       link: https://www.ittage.informatik-aktuell.de/programm/2017/legacy-code-meistern-in-x-einfachen-schritten/
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jcon_2017
     - conference: IT-Tage 2017
       title: JVM Functional Language Battle
+      date: 2017-12-12
       location: Frankfurt
       link: https://www.ittage.informatik-aktuell.de/programm/2017/jvm-functional-language-battle/
       slides: http://15097-presscdn-0-60.pagely.netdna-cdn.com/wp-content/uploads/sites/32/2014/12/Falk-Sippach-JVM-Functional-Language-Battle.pdf
@@ -203,6 +285,7 @@
   - November:
     - conference: JVM-Con
       title: JVM Functional Language Battle
+      date: 2017-11-28
       location: Köln
       link: http://jvm-con.de/jvm-functional-language-battle/
       slides: http://15097-presscdn-0-60.pagely.netdna-cdn.com/wp-content/uploads/sites/32/2014/12/Falk-Sippach-JVM-Functional-Language-Battle.pdf
@@ -210,36 +293,42 @@
   - Oktober:
     - conference: JUG Frankfurt
       title: TDLCR - Test Driven Legacy Code Refactoring
+      date: 2017-10-25
       location: Frankfurt
       link: https://sites.google.com/site/jugffm/home/25-10-2017-tdlcr---test-driven-legacy-code-refactoring
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-Test-Driven-Legacy-Code-Refactoring-Falk-Sippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jugf_2017
     - conference: JCON 2017
       title: JVM Functional Language Battle
+      date: 2017-10-25
       location: Düsseldorf
       link: http://jcon.one/de/Sessionplan.html
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
       slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
     - conference: JCON 2017
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2017-10-25
       location: Düsseldorf
       link: http://jcon.one/de/Sessionplan.html
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jcon_2017
     - conference: JCON 2017
       title: WildFly Swarm - Java EE in one JAR
+      date: 2017-10-24
       location: Düsseldorf
       link: http://jcon.one/de/Sessionplan.html
       slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
   - September:
     - conference: Java Forum Nord
       title: JVM Functional Language Battle
+      date: 2017-09-12
       location: Hannover
       link: http://www.javaforumnord.de/site/2017/page/Talk-64
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
       slides: https://www.oio.de/m/konf/vortraege/JavaForumNord_JVM-Functional-Language-Battle_Falk%20Sippach.pdf
     - conference: Herbstcampus
       title: JVM Functional Language Battle
+      date: 2017-09-07
       location: Nürnberg
       link: https://www.herbstcampus.de/veranstaltung-5921-jvm-functional-language-battle.html?id=5921
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
@@ -247,42 +336,50 @@
   - Juni:
     - conference: Objektforum Frankfurt
       title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      date: 2017-06-27
       location: Frankfurt
       link: http://www.scrum-day.de/vortraege/details/vortrag-2017-agile-architektur.html#details
       slides: https://www.andrena.de/event/objektforum-frankfurt-275?file=files/andrena/media/ObjektForum%20Folien/2017%20FFM/Objektforum_27_Juni_2017/Falk%20Sippach%20-%20Lebendige%20Architekturdokumentation.pdf
   - Mai:
     - conference: Scrum Day
       title: Agile Architektur
+      date: 2017-05-30
       location: Filderstadt
       link: http://www.scrum-day.de/vortraege/details/vortrag-2017-agile-architektur.html#details
     - conference: Entwicklertag Karlsruhe
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2017-05-22
       location: Karlsruhe
       link: https://entwicklertag.de/karlsruhe/2017/legacy-code-meistern-x
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: Entwicklertag Karlsruhe
       title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      date: 2017-05-22
       location: Karlsruhe
       link: https://entwicklertag.de/karlsruhe/2017/lebendige-architektur
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%207%20S%C3%BCnden%20der%20Architekturdokumentation.pdf
     - conference: JAX
       title: Der Softwarearchitekt, das unbekannte Wesen - ein Diskussionspanel
+      date: 2017-05-11
       location: Rheingoldhalle Mainz
       link: https://jax.de/archiv/jax-2017/
     - conference: JAX
       title: Agile Architecture
+      date: 2017-05-11
       location: Rheingoldhalle Mainz
       link: https://jax.de/software-architecture/agile-architektur/
       slides: http://www.oio.de/m/konf/jax2017/Agile-Architecture-JAX2017.pdf
     - conference: JAX
       title: WildFly Swarm - Java EE in one JAR
+      date: 2017-05-10
       location: Rheingoldhalle Mainz
       link: https://jax.de/serverside-enterprise-java/wildfly-swarm-java-ee-in-one-jar/
       slides: http://www.oio.de/m/konf/jax2017/WildFly-Swarm-JAX2017.pdf
   - April:
     - conference: JUG Hamburg
       title: JVM Functional Language Battle
+      date: 2017-04-12
       location: Hamburg
       link: https://www.meetup.com/jug-hamburg/events/238777668/
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hamburg2017-JVM-Functional-Language-Battle-Sippach.pdf
@@ -290,23 +387,27 @@
   - März:
     - conference: JavaLand
       title: Legacy Code Retreat
+      date: 2017-03-29
       location: Brühl
       link: https://programm.javaland.eu/2017/#/scheduledEvent/531911
       slides: https://www.javaland.eu/formes/pubfiles/8915857/2017-jvm-falk_sippach-legacy_code_retreat-praesentation.pdf
     - conference: JavaLand
       title: Kontinuierliche Architektur-Dokumentation
+      date: 2017-03-29
       location: Brühl
       link: https://programm.javaland.eu/2017/#/scheduledEvent/529480
       slides: https://www.javaland.eu/formes/pubfiles/8915854/2017-asec-falk_sippach-kontinuierliche_architektur-dokumentation-praesentation.pdf
     - conference: JUG Hannover
       title: TDLCR - Test Driven Legacy Code Refactoring
+      date: 2017-03-15
       location: Hannover
-      link: http://jug-h.de/2016/JVM-Functional-Language-Battle/index.html
+      link: http://jug-h.de
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-Test-Driven-Legacy-Code-Refactoring-Falk-Sippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jug_hannover
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: JVM Functional Language Battle
+      date: 2017-02-16
       location: Frankfurt
       link: https://entwicklertag.de/frankfurt/2017/jvm-functional-language-battle
       slides: https://entwicklertag.de/frankfurt/2017/sites/entwicklertag.de.frankfurt.2017/files/slides/JVM%20Functional%20Language%20Battle-Falk%20Sipach.pdf
@@ -314,6 +415,7 @@
   - Januar:
     - conference: Orientierungspunkt OIO
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2017-01-20
       location: Mannheim
       link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm#LegacyCode
       slides: http://www.oio.de/m/konf/vortraege/JUG-Saarland-Legacy-Code-meistern-in-x-einfachen-Schritten-Falk-Sippach.pdf
