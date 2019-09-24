@@ -1,9 +1,29 @@
 2019:
+  - September:
+    - publisher: jaxenter.de
+      title: "Java 13: Alle Features der neuen Version im Detail"
+      date: 2019-09-17
+      link: https://jaxenter.de/java-13-neue-features-87053
+    - publisher: jaxenter.com
+      title: "Java 13 – a deep dive into the JDK’s new features"
+      date: 2019-09-17
+      link: https://jaxenter.com/java-13-jdk-deep-dive-new-features-162272.html
+    - publisher: Java Magazin 10-2019
+      title: Alle halben Jahre wieder - Java 13 ist da
+      date: 2019-09-04
+      link: https://kiosk.entwickler.de/java-magazin/java-magazin-10-2019/alle-halben-jahre-wieder/
+  - Juni:
+    - publisher: Java Aktuell 04/2019
+      title: "Java 12 ist da"
+      date: 2019-06-28
+      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1931&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=b3b2d3723c5da5f56effc51a3bfd9f99
+      pdf: /files/publications/04_2019-Java_aktuell-AUTOR-Falk_Sippach-Java_12_ist_da.pdf
   - April:
     - publisher: Java Magazin 05-2019
       title: Java 12 ist da!
       date: 2019-04-03
       link: https://jaxenter.de/ausgaben/java-magazin-5-19
+      pdf: /files/publications/Artikel_Javamagazin_5_2019_Java_12.pdf
   - März:
     - publisher: jaxenter.de
       title: "Java 12: Alle neuen Features auf einen Blick"
@@ -41,7 +61,7 @@
       title: Java geht in die nächste Runde
       date: 2018-07-03
       link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1718&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=60e26659c1e096edf0c877f0997a5ebd
-      pdf: https://www.doag.org/formes/pubfiles/10329852/docs/Publikationen/Java-Aktuell/2018/04-2018/04-2018-Java-aktuell-Magazin-WEB.pdf
+      pdf: files/publications/Java_10_ Update_JavaAktuell_04_2018.pdf
   - Mai:
     - publisher: Java Magazin 06-2018
       title: Die neuen Features von Java 10 auf einen Blick
@@ -116,7 +136,7 @@
       title: Microservices mit WildFly Swarm - Java EE in one JAR
       date: 2016-11-02
       link: https://jaxenter.de/ausgaben/java-magazin-12-16
-      pdf: https://entwickler.de/leseproben/microservices-in-javaee-mit-wildfly-swarm-298956.html
+      pdf: files/publications/JM_12_16_Microservices_WildFly_Swarm.pdf
   - Juni: 
     - publisher: Java Aktuell 03-2016
       title: Groovy und Grails - Quo vadis? (Teil 2)

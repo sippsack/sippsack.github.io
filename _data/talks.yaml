@@ -1,15 +1,49 @@
 2019:
+  - Oktober:
+    - conference: JUG Frankfurt
+      title: "Legacy-Code im Griff dank der Mikado-Methode"
+      date: 2019-10-30
+      location: Frankfurt
+      link: http://jugf.de
+      slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
+    - conference: BaselOne
+      title: "PWA: Portable Webanwendungen statt nativer Apps"
+      date: 2019-10-16
+      location: Basel
+      link: https://baselone.ch/speech/432F2267-372F-4ED5-9D99-2589E32B8CC1/Sippach
+      slides: https://www.oio.de/m/konf/diverse/PWA-Progessive-Web-Apps_JavaLand_2019.pdf
   - September:
+    - conference: Java Forum Nord
+      title: "Panel: Die Zukunft von Java"
+      date: 2019-09-24
+      location: Hannover
+      link: https://javaforumnord.de/site/2019/page/timetable
+    - conference: Java Forum Nord
+      title: "Einführung in die Funktionale Programmierung mit Java"
+      date: 2019-09-24
+      location: Hannover
+      link: https://javaforumnord.de/site/2019/page/timetable
+      slides: /files/talks/Falk-Sippach-Introduction-to-functional-programming-with-Java.pdf
+    - conference: Trivadis TechEvent
+      title: "Learning by teaching, speaking and blogging"
+      date: 2019-09-14
+      location: Zürich
+    - conference: Trivadis TechEvent
+      title: "Domain Driven Design für Dummies"
+      date: 2019-09-13
+      slides: /files/talks/Falk-Sippach-Domain-Driven-Design.pdf
+      location: Zürich
     - conference: Berlin Expert Days
       title: "Micronaut – effiziente und performante Microservices für die Cloud"
       date: 2019-09-05
       location: Berlin
+      link: http://bed-con.org/2019/talks#sz-session-133389
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
     - conference: Berlin Expert Days
       title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
       date: 2019-09-05
       location: Berlin
-      link: http://bed-con.org/2019/programm
+      link: http://bed-con.org/2019/talks#sz-session-133398
       slides: /files/talks/Falk-Sippach-Vortrag-halten-BEDcon-2019.pdf
     - conference: Herbstcampus
       title: "Funktionale Programmierung geht auch mit/trotz Java!"
