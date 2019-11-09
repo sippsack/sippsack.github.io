@@ -1,4 +1,10 @@
 2019:
+  - Oktober:
+    - publisher: Java Aktuell 06/2019
+      title: "Und halbjährlich grüßt das Java Release"
+      date: 2019-10-23
+      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1988&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=e37cabdbb421778ff05f8adf5b8502e5
+      pdf: https://backoffice.doag.org/formes/pubfiles/11761443/docs/Publikationen/Java-Aktuell/2019/06-2019/06-2019-Java-aktuell-WEB.pdf
   - September:
     - publisher: jaxenter.de
       title: "Java 13: Alle Features der neuen Version im Detail"

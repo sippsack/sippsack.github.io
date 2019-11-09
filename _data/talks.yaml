@@ -1,4 +1,46 @@
 2019:
+  - Dezember:
+    - conference: OIO Hauskonferenz
+      date: 2019-12-19
+      location: Mannheim
+      title: "Modellierung komplexer Software für Dummies"
+      link:  https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2019.htm#HK19-komplexe-software-modellieren
+    - conference: OIO Hauskonferenz
+      date: 2019-12-19
+      location: Mannheim
+      title: "Micronaut – Effiziente und performante Microservices für die Cloud"
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2019.htm#HK19-micronaut
+    - conference: OIO Hauskonferenz
+      date: 2019-12-19
+      location: Mannheim
+      title: "Oje, Java ist nicht mehr kostenlos - und nun?"
+      link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2019.htm#HK19-java-nicht-mehr-kostenlos
+    - conference: IT-Tage
+      date: 2019-12-10
+      location: Frankfurt
+      title: "Funktionale Programmierung geht auch mit/trotz Java!"
+      link: https://www.ittage.informatik-aktuell.de/programm/2019/funktionale-programmierung-geht-auch-mittrotz-java/
+    - conference: IT-Tage
+      date: 2019-12-10
+      location: Frankfurt
+      title: "Micronaut – effiziente und performante Microservices für die Cloud"
+      link: https://www.ittage.informatik-aktuell.de/programm/2019/micronaut-effiziente-und-performante-microservices-fuer-die-cloud/
+  - November:
+    - conference: JUG Karlsruhe
+      date: 2019-11-27
+      location: Karlsruhe
+      title: "Funktionale Programmierung mit Java"
+      link: http://jug-karlsruhe.de/content/funktionale-programmierung-mit-java/
+    - conference: JVM-Con
+      date: 2019-11-26
+      location: Köln
+      title: "Funktionale Programmierung geht auch mit/trotz Java!"
+      link: https://www.jvm-con.de/programm/#/talk/funktionale-programmierung-geht-auch-mit-trotz-java
+    - conference: W-JAX
+      date: 2019-11-05
+      location: München
+      title: "Oje, Java ist nicht mehr kostenlos – und nun?"
+      link: https://jax.de/core-java-jvm-languages/oje-java-ist-nicht-mehr-kostenlos-und-nun/
   - Oktober:
     - conference: JUG Frankfurt
       title: "Legacy-Code im Griff dank der Mikado-Methode"
