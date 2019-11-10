@@ -19,6 +19,15 @@ Die nachfolgenden Vorträge kann ich jederzeit bei Konferenzen oder User Groups 
 <p>{{ talk[1] }}</p>
 {% endfor %}
 
+<h2>Workshops</h2>
+{% for year in site.data.portfolio.workshops %}
+  {% for workshop in year[1] %}
+<b>{{ workshop.title }} ({{ year[0] }})</b>
+<p>{{ workshop.abstract }}</p>
+<p>Dauer: {{ workshop.length }}, Co-Moderatoren: {{ workshop.co-speaker }}</p>
+  {% endfor %}
+{% endfor %}
+
 <h2 id="bio">Bio</h2>
 <ul class="talk-list">
 <li>{{ site.data.portfolio.bio }}</li>

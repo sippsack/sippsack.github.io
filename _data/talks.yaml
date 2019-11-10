@@ -255,6 +255,12 @@
       location: Nürnberg
       link: https://www.herbstcampus.de/veranstaltung-7175-refactoring-mit-der-mikado-methode.html?id=7175
       slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
+  - August:
+    - conference: Workshop von majug und OIO
+      title: "Moderation: Reactive Spring Workshop"
+      date: 2018-08-24
+      location: Mannheim
+      link: http://www.majug.de/2018/08/24/reactive-spring-workshop/
   - Juli:
     - conference: Objektforum Köln
       title: "Kontinuierliche Architekturdokumentation im agilen Umfeld"
@@ -502,6 +508,11 @@
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-Test-Driven-Legacy-Code-Refactoring-Falk-Sippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/jug_hannover
   - Februar:
+    - conference: Workshop von majug und OIO
+      title: "Moderation: DDD Workshop"
+      date: 2017-03-09
+      location: Mannheim
+      link: http://www.majug.de/2017/03/09/DDD-workshop/
     - conference: Entwicklertag Frankfurt
       title: JVM Functional Language Battle
       date: 2017-02-16
@@ -521,18 +532,21 @@
   - Dezember:
     - conference: OIO Hauskonferenz
       title: TDLCR - Test Driven Legacy Code Refactoring
+      date: 2016-12-15
       location: Mannheim
       link: http://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2016.htm#HK16-at-tdicr
       slides: http://www.oio.de/m/konf/vortraege/JavaForumNord2016-TestDrivenLegacyCodeRefactoring-FalkSippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Test-Driven-Legacy-Code-Refactoring/tree/oio_hk_2016
     - conference: CaptainCasa Community Meeting
       title: Lebendige Architektur-Dokumentation - kontinuierlich und effizient
+      date: 2016-12-01
       location: Schwetzingen
       link: http://www.captaincasa.com/pdf/eclnt_CommunityMeeting_XII.pdf
       slides: http://www.oio.de/m/konf/vortraege/CaptainCasa-Lebendige-Architekturdokumentation-Falk-Sippach.pdf
   - November:
     - conference: JUG Saarland
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2016-11-24
       location: Saarbrücken
       link: https://www.meetup.com/de-DE/Java-User-Group-Saarland-jugsaar/events/230628297/
       slides: http://www.oio.de/m/konf/vortraege/JUG-Saarland-Legacy-Code-meistern-in-x-einfachen-Schritten-Falk-Sippach.pdf
@@ -540,12 +554,14 @@
   - Oktober:
     - conference: JUG Saxony
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2016-10-26
       location: Leipzig
       link: https://jugsaxony.org/veranstaltungen/82/legacy_code_meistern_in_x_einfachen_schritten/
       slides: http://www.oio.de/m/konf/vortraege/JugSaxony2016-LegacyCodeMeistern-FalkSippach.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jug-saxony-2016
     - conference: Java Forum Nord
       title: TDLCR - Test Driven Legacy Code Refactoring
+      date: 2016-10-20
       location: Hannover
       link: http://javaforumnord.de/site/2016/#talk_141
       slides: http://www.oio.de/m/konf/vortraege/JavaForumNord2016-TestDrivenLegacyCodeRefactoring-FalkSippach.pdf
@@ -553,24 +569,28 @@
   - August:
     - conference: Herbstcampus
       title: Keine Tagträumerei - Legacy Code Refactoring in x einfachen Schritten
+      date: 2016-08-31
       location: Nürnberg
       link: http://www.herbstcampus.de/veranstaltung-5290-legacy-code%3A-refactoring-in-x-einfachen-schritten.html?id=5290
       slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: Herbstcampus
       title: Kontinuierlich und effizient - Agil Softwarearchitektur dokumentieren
+      date: 2016-08-31
       location: Nürnberg
       link: http://www.herbstcampus.de/veranstaltung-5287-agil-softwarearchitektur-dokumentieren.html?id=5287
       slides: http://www.oio.de/m/konf/jax2016/Kontinuierliche-Architekturdokumentation-JAX_2016.pdf
   - Juni:
     - conference: Entwicklertag Karlsruhe
       title: Kontinuierliche Architekturdokumentation im agilen Umfeld
+      date: 2016-06-16
       location: Karlsruhe
       link: https://entwicklertag.de/karlsruhe/2016/kontinuierliche
       slides: https://entwicklertag.de/karlsruhe/2016/sites/entwicklertag.de.karlsruhe.2016/files/folien/Falk%20Sippach%20-%20Kontinuierliche%20Architekturdokumentation.pdf
   - Mai:
     - conference: JUG Hannover
       title: JVM Functional Language Battle
+      date: 2016-05-11
       location: Hannover
       link: http://www.jug-h.de/2016/JVM-Functional-Language-Battle/index.html
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hannover-JVM-Functional-Language-Battle-Sippach.pdf
@@ -578,41 +598,60 @@
   - April:
     - conference: JAX
       title: Kontinuierliche Architekturdokumentation im agilen Umfeld
+      date: 2016-04-21
       location: Rheingoldhalle Mainz
       link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2016/Kontinuierliche-Architekturdokumentation-JAX_2016.pdf
   - März:
     - conference: Entwicklertag Frankfurt
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2016-03-10
       location: Frankfurt
       link: http://entwicklertag.de/frankfurt/2016/legacy-code-meistern-x-einfachen-schritten
       slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: JavaLand
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2016-03-09
       location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: JavaLand
       title: Architektur-Kata
+      date: 2016-03-08
       location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
+    - conference: JavaLand
+      title: Coding Dojo
+      date: 2016-03-07
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu
+      slides: /files/talks/codingdojo-javaland-2014.pdf
+    - conference: JavaLand
+      title: DukeCon Hacking Session
+      date: 2016-03-07
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu
+      slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: Workshop von majug und OIO
       title: "Moderation: TDD Workshop"
+      date: 2016-02-25
       location: Mannheim
       link: http://www.majug.de/2016/02/25/TDD-workshop/
 2015:
   - Dezember:
     - conference: OIO Hauskonferenz
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2015-12-17
       location: Mannheim
       link: http://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2015.htm#HK15-legacy
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
     - conference: JUG Karlsruhe
       title: Groovy und Grails - Quo vadis?
+      date: 2015-12-09
       location: Karlsruhe
       link: http://jug-ka.de/content/groovy-und-grails-quo-vadis/
       slides: http://jug-ka.de/assets/slides/GroovyGrailsQuoVadis-FalkSippach.pdf
@@ -620,17 +659,20 @@
   - November:
     - conference: Agile Monday Rhein-Neckar
       title: "Workshop: Architektur Kata"
+      date: 2015-11-16
       location: Mannheim
       link: https://www.xing.com/events/agile-monday-architektur-kata-1617132
       slides: /files/talks/Architektur-Kata-Agile-Monday-2015.pdf
     - conference: W-JAX
       title: Effektive Code-Reviews
+      date: 2015-11-03
       location: München
       link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/wjax2015/Effektive-Code-Reviews%20WJAX_2015.pdf
   - Oktober:
     - conference: Java Forum Nord
       title: Legacy-Code meistern in x einfachen Schritten
+      date: 2015-10-06
       location: Hannover
       link: http://2015.javaforumnord.de/programm_15
       slides: http://www.oio.de/m/konf/vortraege/JavForumNord2015-LegacyCodeMeistern-Sippach.pdf
@@ -638,48 +680,62 @@
   - September:
     - conference: Berlin Expert Days
       title: Groovy und Grails - Quo vadis?
+      date: 2015-09-17
       location: Berlin
       link: http://bed-con.org/2015/talks/Groovy-und-Grails---Quo-vadis
       slides: http://bed-con.org/2015/files/slides/GroovyGrailsQuoVadis.pdf
   - August:
     - conference: majug
       title: Groovy und Grails - Quo vadis?
+      date: 2015-08-06
       location: Mannheim
       link: http://www.majug.de/2015/08/06/groovy-grails/
       slides: http://www.majug.de/public/slides/Groovy%20und%20Grails%20-%20Quo%20Vadis.pdf
   - Juli:
     - conference: JUG Kaiserslautern
       title: Groovy und Grails - Quo vadis?
+      date: 2015-07-23
       location: Kaiserslautern
       link: http://www.jug-kl.de/groovy/
       slides: http://www.jug-kl.de/resources/2015-07-23-GroovyGrailsQuoVadis.pdf
   - März:
     - conference: JavaLand
       title: Workshop NoSQL für Java-Entwickler
+      date: 2015-03-26
       location: Phantasialand Brühl
       link: https://www.javaland.eu
+    - conference: JavaLand
+      title: Coding Dojo
+      date: 2015-03-24
+      location: Phantasialand Brühl
+      link: https://www.javaland.eu
+      slides: /files/talks/codingdojo-javaland-2014.pdf
 2014:
   - Mai:
     - conference: Orientierungspunkt OIO
       title: SAFE - Architektur im Rahmen grosser Agiler Projekte
+      date: 2014-12-18
       location: Mannheim
       link: http://www.oio.de/vortrag-mannheim/orientierungspunkte/vortragsfolien-archiv.htm#OrPoint-2014-06-27
       slides: http://www.oio.de/seminar/orientierungspunkte-archiv/OrPoint2014/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-Orientierungspunkt-6-14.pdf
   - Mai:
     - conference: SEACON
       title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
+      date: 2014-05-08
       location: Hamburg
       link: http://www.sea-con.de/seacon2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte-1.html?no_cache=1
       slides: http://www.oio.de/m/konf/diverse/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-SEACON2014.pdf
   - März:
     - conference: JavaLand
       title: Coding Dojo
+      date: 2014-03-25
       location: Phantasialand Brühl
       link: https://www.javaland.eu
       slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: OOP
       title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
+      date: 2014-02-04
       location: München
       link: http://www.oop-konferenz.de/oop2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte.html?no_cache=1
       slides: http://www.oio.de/m/konf/oop2014/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-OOP2014.pdf
@@ -687,11 +743,13 @@
   - April:
     - conference: JAX
       title: Die Google Collections Library
+      date: 2009-04-21
       location: Rheingoldhalle Mainz
       link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2009/google-collections.pdf
     - conference: JAX
       title: GANT - Ant the groovy way
+      date: 2009-04-21
       location: Rheingoldhalle Mainz
       link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2009/gant-xml-mit-groovy.pdf
@@ -699,12 +757,14 @@
   - Dezember:
     - conference: OIO Hauskonferenz
       title: O/R Performance bei komplexen Modellen
+      date: 2008-12-17
       location: Mannheim
       link: http://www.oio.de/news/j2ee-ws-themen-oio2008.htm#HK08or
       slides: http://www.oio.de/m/konf/hk2008/performance_tuning_komplexe_domainmodelleFINAL.pdf
   - April:
     - conference: JAX
       title: Performance Tuning bei komplexen Domainmodellen
+      date: 2008-04-23
       location: Wiesbaden
       link: https://jax.de/archiv/
       slides: http://www.oio.de/m/konf/jax2008/performance_tuning_komplexe_domainmodelle.pdf
@@ -712,6 +772,7 @@
   - Dezember:
     - conference: OIO Hauskonferenz
       title: Groovy und Grails
+      date: 2007-12-20
       location: Mannheim
       link: http://www.oio.de/news/j2ee-ws-themen-oio2007.htm#groovy07
       slides: /files/talks/groovy-hauskonferenz2007.pdf
