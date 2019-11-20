@@ -1,3 +1,11 @@
+2020:
+  - Februar:
+    - conference: Entwicklertag Frankfurt
+      title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
+      date: 2020-02-20
+      location: Frankfurt
+      link: https://entwicklertag.de/frankfurt/2020/
+      slides: /files/talks/Falk-Sippach-Vortrag-halten-BEDcon-2019.pdf
 2019:
   - Dezember:
     - conference: OIO Hauskonferenz
@@ -54,6 +62,7 @@
       location: Basel
       link: https://baselone.ch/speech/432F2267-372F-4ED5-9D99-2589E32B8CC1/Sippach
       slides: https://www.oio.de/m/konf/diverse/PWA-Progessive-Web-Apps_JavaLand_2019.pdf
+      video: https://www.youtube.com/watch?v=vkh5yBwjN7U
   - September:
     - conference: Java Forum Nord
       title: "Panel: Die Zukunft von Java"
@@ -269,6 +278,12 @@
       link: https://www.andrena.de/event/objektforum-koeln-juli-2018
       slides: https://www.andrena.de/event/objektforum-koeln-juli-2018?file=files/andrena/media/ObjektForum%20Folien/2018%20koeln/Kontinuierliche%20Architekturdokumentation.pdf
   - Juni:
+    - conference: Orientierungspunkt OIO
+      title: PWA: Portable Webanwendungen statt nativer Apps
+      date: 2018-06-29
+      location: Mannheim
+      link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm#PWA
+      slides: https://www.oio.de/m/konf/jax2018/PWA_Portable_Webanwendungen_JAX2018.pdf
     - conference: enterJS
       title: "Vortag: Vue.js – eine Einführung"
       date: 2018-06-20
@@ -685,7 +700,7 @@
       link: http://bed-con.org/2015/talks/Groovy-und-Grails---Quo-vadis
       slides: http://bed-con.org/2015/files/slides/GroovyGrailsQuoVadis.pdf
   - August:
-    - conference: majug
+    - conference: majug + Orientierungspunkt OIO
       title: Groovy und Grails - Quo vadis?
       date: 2015-08-06
       location: Mannheim
