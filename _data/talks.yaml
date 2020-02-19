@@ -7,9 +7,9 @@
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
   - Mai:
     - conference: JAX
+      title: Mit der Zeit gehen - Flexible Architekturen
       date: 2020-05-06
       location: Frankfurt
-      title: Mit der Zeit gehen - Flexible Architekturen
       link: https://jax.de/
   - April:
     - conference: Bonner Microservices Meetup
@@ -305,7 +305,7 @@
       slides: https://www.andrena.de/event/objektforum-koeln-juli-2018?file=files/andrena/media/ObjektForum%20Folien/2018%20koeln/Kontinuierliche%20Architekturdokumentation.pdf
   - Juni:
     - conference: Orientierungspunkt OIO
-      title: PWA: Portable Webanwendungen statt nativer Apps
+      title: "PWA: Portable Webanwendungen statt nativer Apps"
       date: 2018-06-29
       location: Mannheim
       link: http://www.oio.de/vortrag-mannheim/orientierungspunkt-java-xml-vortrag-kostenlos.htm#PWA
