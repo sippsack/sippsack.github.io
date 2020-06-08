@@ -6,6 +6,6 @@ permalink: /
 
 ## Falk Sippach
 
-Software-Ingenieur und Trainer bei OIO - den Java-Experten der Trivadis
+Trainer, Berater, Architekt bei [embarc](http://www.embarc.de)
 
-Co-Organisator JUG Darmstadt  
+Co-Organisator [JUG Darmstadt](http://www.jug-da.de)  
