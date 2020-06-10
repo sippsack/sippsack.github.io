@@ -1,4 +1,60 @@
+2020:
+  - Juni:
+    - publisher: Java Aktuell 04/2020
+      title: "War denn schon wieder Java Release Zeit?"
+      date: 2020-06-30
+      link: https://www.ijug.eu/de/java-aktuell/
+    - publisher: jaxenter.de
+      title: "Java feiert 25. Geburtstag"
+      date: 2020-06-04
+      link: https://jaxenter.de/java/25-jahre-java-interview-sippach-96089
+  - April:
+    - publisher: Java Aktuell 03/2020
+      title: "CyberLand – virtuell, kreativ und informativ"
+      date: 2020-04-30
+      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=2075&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=0bce4f1b4f1e1b5a8cff2e39055a6e64
+      pdf: /files/publications/03_2020-Java_aktuell-Autor-Falk_Sippach-CyberLand_-_virtuell_kreativ_und_informativ.pdf
+    - publisher: Java Magazin 05-2020
+      title: Java  - die Vierzehnte
+      date: 2020-04-01
+      link: https://kiosk.entwickler.de/java-magazin/java-magazin-5-2020/java-die-vierzehnte/
+  - März:
+    - publisher: jaxenter.com
+      title: "Java – the fourteenth"
+      date: 2020-03-19
+      link: https://jaxenter.com/java-jdk-14-features-169922.html
+    - publisher: jaxenter.de
+      title: "Java 14: Die Neuerungen der aktuellen Version auf einem Blick"
+      date: 2020-03-17
+      link: https://jaxenter.de/java/java-14-neuerungen-neue-features-92853
+  - Januar:
+    - publisher: jaxenter.de
+      title: >
+        Das Entwicklernähkästchen 2019/2020 – Teil 5: Ein Blick nach vorn: Das wird die Java-Welt 2020 verändern
+      date: 2020-01-03
+      link: https://jaxenter.de/java/java-2020-voraussagen-90510
+    - publisher: jaxenter.de
+      title: >
+        Das Entwicklernähkästchen 2019/2020 – Teil 4: Ein Blick zurück: Die größten Enttäuschungen im Java-Universum 2019
+      date: 2020-01-02
+      link: https://jaxenter.de/java/java-enttaeuschung-2019-90509
 2019:
+  - Dezember:
+    - publisher: jaxenter.de
+      title: >
+        Das Entwicklernähkästchen 2019/2020 – Teil 3: Ein Blick zurück: Was die Community 2019 bewegt hat
+      date: 2019-12-31
+      link: https://jaxenter.de/java/java-community-2019-90508
+    - publisher: jaxenter.de
+      title: >
+        Das Entwicklernähkästchen 2019/2020 – Teil 2: Ein Blick zurück: Die beliebtesten Java Frameworks 2019
+      date: 2019-12-27
+      link: https://jaxenter.de/java/java-frameworks-tools-2019-90507
+    - publisher: jaxenter.de
+      title: >
+        Das Entwicklernähkästchen 2019/2020 – Teil 1: Ein Blick zurück: Die Java-Highlights 2019 unserer Experten
+      date: 2019-12-23
+      link: https://jaxenter.de/java/java-highlights-2019-90501
   - Oktober:
     - publisher: Java Aktuell 06/2019
       title: "Und halbjährlich grüßt das Java Release"

@@ -1,22 +1,84 @@
 2020:
+  - Dezember:
+    - conference: IT-Tage
+      title: Domain Driven Design für Dummies
+      date: 2020-12-10
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+    - conference: IT-Tage
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2020-12-10
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+    - conference: IT-Tage
+      title: Mit der Zeit gehen - Flexible Architekturen
+      date: 2020-12-09
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+    - conference: IT-Tage
+      title: Oje, Java ist nicht mehr kostenlos – und nun?
+      date: 2020-12-09
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+    - conference: DWX Swiss
+      title: Micronaut – effiziente und performante Microservices für die Cloud
+      date: 2020-12-08
+      location: Zürich
+      link: https://www.developer-week.ch/programm-2020/#/talk/micronaut-effiziente-und-performante-microservices-fur-die-cloud
   - November:
+    - conference: JVM-Con
+      title: Domain Driven Design für Dummies
+      date: 2020-11-24
+      location: Köln
+      link: https://www.jvm-con.de/
     - conference: JUG Metropolregion Nürnberg
       title: "Micronaut – effiziente und performante Microservices für die Cloud"
       date: 2020-11-10
       location: Nürnberg
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
-  - Mai:
+      link: http://www.jug-n.de/treffen/
+    - conference: Developer Week (DWX)
+      title: Oje, Java ist nicht mehr kostenlos – und nun?
+      date: 2020-11-04
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/oje-java-ist-nicht-mehr-kostenlos-und-nun
+    - conference: Developer Week (DWX)
+      title: Legacy Code meistern in x einfachen Schritten
+      date: 2020-11-04
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/legacy-code-meistern-in-x-einfachen-schritten
+    - conference: Developer Week (DWX)
+      title: JVM Functional Language Battle
+      date: 2020-11-03
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/jvm-functional-language-battle-2
+  - Oktober:
+    - conference: JCON
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2020-10-28
+      location: Online 
+      link: https://www.jcon.one/
+    - conference: JCON
+      title: Mit der Zeit gehen - Flexible Architekturen
+      date: 2020-10-28
+      location: Online 
+      link: https://www.jcon.one/
+    - conference: Web Developer Conference
+      title: Vue.js – eine Einführung
+      date: 2020-10-14
+      location: Hamburg 
+      link: https://www.web-developer-conference.de/programm%202020/#/talk/vue-js-eine-einfuhrung
+  - September:
+    - conference: enterJS
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2020-09-29
+      location: Darmstadt
+      link: http://enterjs.de/lecture.php?id=11521
     - conference: JAX
       title: Mit der Zeit gehen - Flexible Architekturen
-      date: 2020-05-06
-      location: Frankfurt
-      link: https://jax.de/
-  - April:
-    - conference: Bonner Microservices Meetup
-      date: 2020-04-28
-      location: Bonn
-      title: Domain Driven Design für Dummies
-      link: https://www.meetup.com/Bonner-Microservices-Meetup/events/268478898/
+      date: 2020-09-09
+      location: Mainz
+      link: hhttps://jax.de/software-architecture/mit-der-zeit-gehen-flexible-architekturen/
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
@@ -265,7 +327,7 @@
       title: Legacy Code in x einfachen Schritten meistern und testgetrieben weiterentwickeln
       date: 2018-09-20
       location: Nürnberg
-      link: http://www.jug-n.de/treffen/
+      link: https://www.jug-n.de/archiv/
       slides: /files/talks/Falk-Sippach-Legacy Code meistern in x einfachen Schritten + TDLCR-JUG-Metropolregion-Nuernberg.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/commit/2636b618c10b3f610aec834d61dd5504c8dbc4b3
     - conference: Trivadis TechEvent

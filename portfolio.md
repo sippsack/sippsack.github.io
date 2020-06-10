@@ -10,20 +10,20 @@ Die nachfolgenden Vorträge kann ich jederzeit bei Konferenzen oder User Groups 
 
 {% for talk in site.data.portfolio.talks.current %}
 <b>{{ talk[0] }}</b>
-<p>{{ talk[1] }}</p>
+<p>{{ talk[1] | markdownify }}</p>
 {% endfor %}
 
 <h2>Alte Vorträge</h2>
 {% for talk in site.data.portfolio.talks.old %}
 <b>{{ talk[0] }}</b>
-<p>{{ talk[1] }}</p>
+<p>{{ talk[1] | markdownify }}</p>
 {% endfor %}
 
 <h2>Workshops</h2>
 {% for year in site.data.portfolio.workshops %}
   {% for workshop in year[1] %}
 <b>{{ workshop.title }} ({{ year[0] }})</b>
-<p>{{ workshop.abstract }}</p>
+<p>{{ workshop.abstract | markdownify }}</p>
 <p>Dauer: {{ workshop.length }}, Co-Moderatoren: {{ workshop.co-speaker }}</p>
   {% endfor %}
 {% endfor %}
