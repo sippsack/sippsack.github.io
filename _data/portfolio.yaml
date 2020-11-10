@@ -2,14 +2,16 @@ bio: Falk Sippach hat über 20 Jahre Erfahrung mit Java und ist in Mannheim bei 
 bio_en: Falk Sippach has over 20 years of experience with Java and works in Mannheim as a trainer, software developer and architect for OIO - the Java experts at Trivadis. He regularly publishes in blogs, professional articles and at conferences. In his adopted home Darmstadt he organizes the local Java User Group together with others. Falk twitters under @sippsack.
 links:
   Homepage: http://www.sippsack.de
-  Blog: https://blog.oio.de/author/sippsack/
+  Blog:
+    - https://www.embarc.de/author/falks/ 
+    - https://blog.oio.de/author/sippsack/
   Twitter: https://twitter.com/sippsack
   GitHub: https://github.com/sippsack
   Xing: https://www.xing.com/profile/Falk_Sippach
   LinkedIn: https://www.linkedin.com/in/falk-sippach-845259114/
 photos:
   "400 px": /images/falk_sippach-400px.jpg
-  "300 dpi": /images/falk_sippach-300dpi.jpg
+  "300 dpi": /images/falk_sippach-300dpi.jpg neues bild hochladen
 activities: 
   - event: Java User Group Darmstadt
     activity: Co-Organisator
@@ -45,6 +47,20 @@ activities:
     since: 2018
 talks:
   current:
+    "Moderne Softwarearchitekturen dokumentieren und kommunizieren (Co-Sprecher: Ralf D. Müller, DB Systel GmbH, 2021)": |
+      Unsere Software-Projekte werden immer größer und komplexer. Technologisch hat sich in den vergangenen Jahren eine Menge getan, um diese Komplexität in den Griff zu bekommen. Aber noch viel wichtiger ist die Kommunikation zwischen allen Projektbeteiligten geworden. Als Voraussetzung braucht es dafür eine möglichst aktuelle, pragmatische und zielführende Dokumentation der Softwarearchitektur. Aber leider hat das Dokumentieren häufig einen niedrigen Stellenwert in unseren Projekten. Zum Teil fehlt die Motivation bei den Verantwortlichen. Oder suboptimale Werkzeuge wie Textverarbeitung, schwergewichtige UML-Tools bzw. Wikis ersticken alle Bemühungen im Keim. 
+
+      Wir wollen den Bann brechen und an konkreten Beispielen zeigen, wie Dokumentieren nicht nur Spaß machen, sondern auch leicht von der Hand gehen kann. Dazu berichten wir aus unseren Erfahrungen und rücken leichtgewichtige Tools und schlanke Text- bzw. Grafikformate in den Fokus. Sie erleichtern die automatisierte Erstellung einer effektiven, allumfänglichen und vor allem redundanzfreien Dokumentation, die sich mit wenig Aufwand für die unterschiedlichen Zielgruppen optimiert in verschiedenen Formaten ausliefern lässt. Das Einbetten dieser Documentation as Code in die Entwicklungs- und Reviewprozesse ermöglicht zudem eine gute Nachvollziehbarkeit und die kontinuierliche Verbesserung und Weiterentwicklung.    
+    "So gehen Architektur-Reviews! Die deutsche Corona-Warn-App unter der Lupe (Co-Sprecher: Stefan Zörner, 2021)": |
+      Architekturbewertungen sichern Lösungsansätze ab, zeigen Risiken auf und schaffen Transparenz. Im Juni 2020 hatte das Virus die Welt fest im Griff, als die deutsche Corona-Warn-App zum Download bereitstand. Das Vertrauen der Bevölkerung in die Software war entscheidend — ohne breite Beteiligung wäre sie zum Scheitern verurteilt.
+
+      Was kann Architekturbewertung hier leisten? Der Softwarehersteller hat neben umfassender Dokumentation immerhin auch den kompletten Quelltext offengelegt. Das eröffnet die Möglichkeit einer fundierten Analyse. Im Umfeld der Architekturbewertung gibt es ein reiches Arsenal an Methoden und Werkzeugen. Sie reichen von qualitativen Ansätzen wie ATAM bis zum Auswerten von Metriken oder dem Messen von Antwortzeiten, Durchsatz oder ähnlichem.
+
+      In dieser Session wenden wir ausgewählte Bewertungsansätze passgenau auf die Corona-Warn-App an. Unsere Zuhörenden nehmen daher gleich zwei Dinge mit: Einen umfassenden Überblick über zeitgemäße Bewertungsmethodik mit den jeweiligen Vor- und Nachteilen der Ansätze. Und Einsichten in die Funktionsweise der Corona-Warn-App. Mit ihren Stärken, Schwächen und Kompromissen. Hätte man das nicht auch alles ganz anders machen können. Klar, aber was wären die Konsequenzen gewesen? Finden Sie es gemeinsam mit uns heraus!
+
+      Kurzform:
+      
+      Architekturbewertungen sichern Lösungsansätze ab, zeigen Risiken auf und schaffen Transparenz. In dieser Session wenden wir ausgewählte Bewertungsansätze passgenau auf eine aktuell im Rampenlicht stehende Software an: die deutsche Corona-Warn-App. Als Ergebnis erhalten Sie einen umfassenden Überblick über zeitgemäße Bewertungsmethodik mit den jeweiligen Vor- und Nachteilen der Ansätze und spannende Einblicke in die Funktionsweise des technisch anspruchsvollen, verteilten Softwaresystems.
     "Mit der Zeit gehen – flexible Architekturen (2020)": |
       In der agilen Softwareentwicklung gibt es die Rolle des Architekten eigentlich nicht mehr. Paradoxerweise sind die Herausforderungen an den Entwurf moderner Softwaresysteme höher als früher. Um die Digitalisierung voranzutreiben, sich von den Mitbewerbern abzuheben, sich möglichst auch einen Wettbewerbsvorteil zu erarbeiten und die sowohl technische als auch organisatorische Skalierbarkeit sicherzustellen, sind zu den altbekannten ganz neue Fragestellungen hinzugekommen:
 
@@ -145,6 +161,16 @@ talks:
     "Groovy und Grails (Co-Sprecher: Sönke Sothmann, Orientation in Objects GmbH, 2007)": |
       Groovy ist eine dynamische Sprache für die Java Plattform. Sie ist Java ähnlich, bietet jedoch eine ausdrucksstärkere Syntax. Grails ist ein auf Groovy basierendes Webframework. Es nutzt die dynamischen Features von Groovy und setzt auf etablierten Java Enterprise Frameworks auf. Die Session stellt die beiden Technologien vor und zeigt, für welche Problemstellungen sich ein Einsatz lohnt.
 workshops:
+  2021:
+    - title: Moderne Softwarearchitekturdokumentation
+      abstract: |
+        Architekturdokumentation wird sehr oft stiefmütterlich behandelt. Dabei unterstützt das Dokumentieren bei der Entwurfsarbeit, schafft Transparenz bzw. Leitplanken für die Umsetzung und Wartung der Softwarearchitektur. Einerseits ist es aber nicht einfach, die wichtigen Informationen aus dem Entwurf der Softwarearchitektur strukturiert und leicht verständlich festzuhalten. Andererseits enden die meisten Versuche auf der Suche nach einer praktikablen Handhabung zur Erstellung und Pflege in der WYSIWYG-Hölle einer Textverarbeitung oder im tiefen Schlund eines Wikis. Dieses Seminar zeigt aufbauend auf leichtgewichtigen Tools und Textformaten die Erstellung einer möglichst redundanzfreien Dokumentation, die für verschiedene Zielgruppen optimiert in ansprechenden Formaten ausgeliefert werden kann.
+
+        Anhand von vielen praktischen Übungen geht es um Begriffe wie Continuous Documentation und Documentation as Code. Das Ziel ist die moderne, effektive und pragmatische Dokumentation der Softwarearchitektur. Wir bauen auf bewährte Methoden, Formate und Tools wie AsciiDoc/Markdown, PlantUML, docToolchain, Maven/Gradle, jqAssistant und viele weitere. Im Detail kümmern wir uns um die Automatisierung des Dokumentations-Build-Prozesses, das Generieren von Inhalten aus dem Modell, Datenbankschema oder Sourcecode, die strukturierte Ablage inklusive Versionier- und Historisierbarkeit und die Verwendung bzw. Erstellung von aussagekräftigen und einfach wartbaren Grafiken.
+
+        Agile Entwicklungsteams können so die Dokumentationsarbeit in ihre täglichen Aufgaben integrieren und jederzeit aktuelle, umfassende und gut strukturierte Ergebnisse ausliefern. Zudem lässt sich die Erstellung der Dokumentation in den Reviewprozess integrieren und so stetig verbessern und weiterentwickeln.
+      length: 4 - 6 h
+      co-speaker: Ralf D. Müller (DB Systel GmbH)
   2020:
     - title: Property Based Resilience Testing Workshop
       abstract: |

@@ -1,4 +1,23 @@
 2020:
+  - November: 
+    - publisher: Java Magazin 12-2020
+      date: 2020-11-01
+      link: https://kiosk.entwickler.de/java-magazin/java-magazin-12-2020/
+      pdf: /files/publications/JM12_20_Monitor-PDF_ohneAnzeigen
+  - Oktober: 
+    - publisher: jaxenter.de
+      title: "Java 15 erschienen: Das sind die Neuerungen im OpenJDK 15"
+      date: 2020-10-20
+      link: https://jaxenter.de/java/java-15-jdk-15-release-openjdk-15-98546
+    - publisher: JAX Blog
+      title: "Die Neuerungen des OpenJDK 15"
+      link: https://jax.de/blog/die-neuerungen-des-openjdk-15/
+      date: 2020-10-13
+  - Juli: 
+    - publisher: Java Magazin 8-2020
+      title: 25 Jahre Java - das sagt die Community
+      date: 2020-07-01
+      link: https://kiosk.entwickler.de/java-magazin/java-magazin-8-2020/25-jahre-java-das-sagt-die-community/
   - Juni:
     - publisher: Java Aktuell 04/2020
       title: "War denn schon wieder Java Release Zeit?"
