@@ -17,9 +17,15 @@
       link: https://www.ittage.informatik-aktuell.de/
     - conference: IT-Tage
       title: Oje, Java ist nicht mehr kostenlos – und nun?
-      date: 2020-12-09
+      date: 2020-12-08
       location: Online
       link: https://www.ittage.informatik-aktuell.de/
+    - conference: DWX Swiss
+      canceled: true
+      title: Micronaut – effiziente und performante Microservices für die Cloud
+      date: 2020-12-08
+      location: Zürich
+      link: https://www.developer-week.ch/programm-2020/#/talk/micronaut-effiziente-und-performante-microservices-fur-die-cloud
   - November:
     - conference: JUG Saxony
       title: "Micronaut – effiziente und performante Microservices für die Cloud"
@@ -27,12 +33,42 @@
       location: Online
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
       link: https://jugsaxony.org/2020/11/05/virtuelles-130-treffen-micronaut-effiziente-microservices-fuer-die-cloud/
+    - conference: JVM-Con
+      canceled: true
+      title: Domain Driven Design für Dummies
+      date: 2020-11-24
+      location: Köln
+      link: https://www.jvm-con.de/
+    - conference: JVM-Con
+      canceled: true
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      date: 2020-11-23
+      location: Köln
+      link: https://www.jvm-con.de/
     - conference: JUG Metropolregion Nürnberg
       title: "Micronaut – effiziente und performante Microservices für die Cloud"
       date: 2020-11-10
       location: Online
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
       link: http://www.jug-n.de/treffen/
+    - conference: Developer Week (DWX)
+      canceled: true
+      title: Oje, Java ist nicht mehr kostenlos – und nun?
+      date: 2020-11-04
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/oje-java-ist-nicht-mehr-kostenlos-und-nun
+    - conference: Developer Week (DWX)
+      canceled: true
+      title: Legacy Code meistern in x einfachen Schritten
+      date: 2020-11-04
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/legacy-code-meistern-in-x-einfachen-schritten
+    - conference: Developer Week (DWX)
+      canceled: true
+      title: JVM Functional Language Battle
+      date: 2020-11-03
+      location: Nürnberg
+      link: https://www.developer-week.de/programm-2020/#/talk/jvm-functional-language-battle-2
   - Oktober:
     - conference: JCON
       title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
@@ -46,6 +82,12 @@
       location: Online 
       link: https://www.jcon.one/
       slides: https://www.embarc.de/vortraege-auf-der-jcon-online-konferenz/
+    - conference: Web Developer Conference
+      canceled: virtuelles-130-treffen-micronaut-effiziente-microservices-fuer-die-cloud
+      title: Vue.js – eine Einführung
+      date: 2020-10-14
+      location: Hamburg
+      link: https://www.web-developer-conference.de/programm-2020/
     - conference: Heise Onlinekonferenz - Agile Softwareentwicklung im Unternehmen
       title: "Flexible Softwarearchitekturen: Mit der Zeit gehen"
       date: 2020-10-13
@@ -53,6 +95,18 @@
       link: https://heise-onlinekonferenzen.de/agile-con
       slides: https://www.embarc.de/flexible-softwarearchitekturen-heise-online-konferenz-2020/
   - September:
+    - conference: betterCode
+      canceled: true
+      title: Mit der Zeit gehen - Flexible Architekturen
+      date: 2020-09-30
+      location: Darmstadt
+      link: https://www.bettercode.eu/
+    - conference: enterJS
+      canceled: true
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2020-09-29
+      location: Darmstadt
+      link: http://enterjs.de/lecture.php?id=11521
     - conference: JAX
       title: "Panel-Diskussion: Simplification! Muss die Architekturarbeit einfacher werden?"
       date: 2020-09-09
@@ -68,6 +122,13 @@
       date: 2020-09-02
       location: Online
       link: https://www.herbstcampus.de/lecture_compact.php?id=12143&source=0
+  - Mai:
+    - conference: Entwicklertag Karlsruhe
+      canceled: true
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2020-05-28
+      location: Karlsruhe
+      link: https://entwicklertag.de/karlsruhe/2019/ 
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
@@ -81,6 +142,11 @@
       location: Essen
       link: https://www.meetup.com/JUG-Essen/events/268263142/
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
+    - conference: Code Days @ OOP
+      title: Oje, Java ist nicht mehr kostenlos – und nun?
+      date: 2020-02-06
+      location: München
+      link: https://www.code-days.de/programm/programm-details/402/
 2019:
   - Dezember:
     - conference: OIO Hauskonferenz
