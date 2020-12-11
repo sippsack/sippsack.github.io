@@ -5,6 +5,12 @@
       date: 2020-12-17
       location: Online
       link: https://blog.embarc.de/architektur-punsch-2020/
+    - conference: JAVAPRO
+      title: JCON Speaker Interview zum Vortrag Flexible Architekturen
+      date: 2020-12-10
+      location: Online
+      link: https://twitter.com/JAVAPROmagazin/status/1336996584685441025
+      video: https://www.youtube.com/watch?v=Vao4fEw-ycs&list=PLFeSAZzYdUoeikHHF_RDL0jJA1VYQ__GU&index=1
     - conference: IT-Tage
       title: Domain Driven Design für Dummies
       date: 2020-12-10
@@ -38,6 +44,7 @@
       location: Online
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
       link: https://jugsaxony.org/2020/11/05/virtuelles-130-treffen-micronaut-effiziente-microservices-fuer-die-cloud/
+      video: https://vimeo.com/488407788
     - conference: JVM-Con
       canceled: true
       title: Domain Driven Design für Dummies
@@ -81,14 +88,16 @@
       location: Online 
       link: https://www.jcon.one/
       slides: https://www.embarc.de/vortraege-auf-der-jcon-online-konferenz/
+      video: https://www.youtube.com/watch?v=dhXTDLfgVbg&list=PLFeSAZzYdUoeL6li57tjd7vZOG2Qzh__2&index=32
     - conference: JCON
       title: Mit der Zeit gehen - Flexible Architekturen
       date: 2020-10-28
       location: Online 
       link: https://www.jcon.one/
       slides: https://www.embarc.de/vortraege-auf-der-jcon-online-konferenz/
+      video: https://www.youtube.com/watch?v=hnlask32lhA&list=PLFeSAZzYdUoeL6li57tjd7vZOG2Qzh__2&index=30&t=13s
     - conference: Web Developer Conference
-      canceled: virtuelles-130-treffen-micronaut-effiziente-microservices-fuer-die-cloud
+      canceled: true
       title: Vue.js – eine Einführung
       date: 2020-10-14
       location: Hamburg
@@ -337,6 +346,16 @@
       location: Mannheim
       link: https://www.oio.de/news/java-xml-hauskonferenz-themen-oio-mannheim-2018.htm#HK18-java-9
       slides: /files/talks/Schaefer-Sippach-Java_9-11.pdf
+    - conference: JAVAPRO
+      title: JCON Speaker Interview zum Vortrag JVM Functional Language Battle
+      date: 2018-12-13
+      location: Düsseldorf
+      video: https://www.youtube.com/watch?v=5pONd4jnUeg
+    - conference: JAVAPRO
+      title: JCON Speaker Interview zum Vortrag WildFly Swarm - JavaEE in one JAR
+      date: 2018-12-13
+      location: Düsseldorf
+      video: https://www.youtube.com/watch?v=Avxp3ViqSuk
     - conference: IT-Tage
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       date: 2018-12-13
