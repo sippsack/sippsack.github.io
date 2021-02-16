@@ -1,9 +1,30 @@
+2021:
+  - Januar:
+    - publisher: Entwickler Magazin 2.2021
+      title: "Aus dem Entwickler-Nähkästchen: Technologietrends 2020 und 2021"
+      date: 2021-01-24
+      link: https://kiosk.entwickler.de/entwickler-magazin/entwickler-magazin-2-2021/
+      pdf: /files/publications/EM2_21_moni_mit_AZ.pdf
 2020:
+  - Dezember:
+    - publisher: jaxenter.de
+      title: "Gute Vorsätze für Entwickler: Mit welchen Technologien muss man sich 2021 beschäftigen?"
+      date: 2020-12-28
+      link: https://jaxenter.de/tools/gute-vorsaetze-entwickler-2021-99264
+    - publisher: jaxenter.de
+      title: "Ein Blick in die Glaskugel: Welcher Tech-Trend wird 2021 wichtig?"
+      date: 2020-12-22
+      link: https://jaxenter.de/tools/tech-trends-2021-99260
+    - publisher: jaxenter.de
+      title: "Das Entwickler-Nähkästchen: Die Tech-Trends des Jahres 2020"
+      date: 2020-12-21
+      link: https://jaxenter.de/tools/tech-trends-2020-99256
   - November: 
     - publisher: Java Magazin 12-2020
+      title: "Java geht in die nächste Runde: Die Neuerungen des OpenJDK 15"
       date: 2020-11-01
       link: https://kiosk.entwickler.de/java-magazin/java-magazin-12-2020/
-      pdf: /files/publications/JM12_20_Monitor-PDF_ohneAnzeigen
+      pdf: /files/publications/JM12_20_Monitor-PDF_ohneAnzeigen.pdf
   - Oktober: 
     - publisher: jaxenter.de
       title: "Java 15 erschienen: Das sind die Neuerungen im OpenJDK 15"

@@ -1,9 +1,9 @@
-bio: Falk Sippach hat über 20 Jahre Erfahrung mit Java und ist in Mannheim bei OIO - den Java-Experten der Trivadis - als Trainer, Software-Entwickler und Architekt tätig. Er publiziert regelmäßig in Blogs, Fachartikeln und auf Konferenzen. In seiner Wahlheimat Darmstadt organisiert er mit Anderen die örtliche Java User Group. Falk twittert unter @sippsack. 
-bio_en: Falk Sippach has over 20 years of experience with Java and works in Mannheim as a trainer, software developer and architect for OIO - the Java experts at Trivadis. He regularly publishes in blogs, professional articles and at conferences. In his adopted home Darmstadt he organizes the local Java User Group together with others. Falk twitters under @sippsack.
+bio: Falk Sippach ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.
+bio_en: As a software architect, consultant and trainer at embarc Software Consulting GmbH, Falk Sippach is always on the lookout for that spark of passion that he can ignite in his participants, customers and colleagues. He has been supporting mostly agile software development projects in the Java environment for over 15 years. As an active part of the community (co-organizer of the JUG Darmstadt) he also likes to share his knowledge in articles, blog posts, as well as in presentations at conferences or user group meetings and supports the organization of various professional events.
 links:
   Homepage: http://www.sippsack.de
   Blog:
-    - https://www.embarc.de/author/falks/ 
+    - https://www.embarc.de/falk-sippach/ 
     - https://blog.oio.de/author/sippsack/
   Twitter: https://twitter.com/sippsack
   GitHub: https://github.com/sippsack
@@ -11,7 +11,7 @@ links:
   LinkedIn: https://www.linkedin.com/in/falk-sippach-845259114/
 photos:
   "400 px": /images/falk_sippach-400px.jpg
-  "300 dpi": /images/falk_sippach-300dpi.jpg neues bild hochladen
+  "300 dpi": /images/falk_sippach-300dpi.jpg
 activities: 
   - event: Java User Group Darmstadt
     activity: Co-Organisator
@@ -45,31 +45,66 @@ activities:
     activity: Bewerter für die Einreichungen
     link: https://www.oop-konferenz.de/oop2019/programm/reviewer.html
     since: 2018
+  - event: CyberLand
+    activity: Mitgründer und Organisator
+    link: https://cyberland.ijug.eu/about/
+    since: 2020
+  - event: Entwicklertag Frankfurt
+    activity: Programmkomitee
+    link: https://entwicklertag.de/frankfurt/2021/unser-programmkomitee-2021
+    since: 2020
 talks:
   current:
+    "Die Corona-Warn-App unter der Lupe" : |
+      Leuchtturmprojekt, Kostengrab, Hoffnungsträger und wichtiger Baustein in der Pandemiebekämpfung — das deutsche Corona-Warn-App-System (kurz CWA), besteht nicht nur aus den recht prominenten nativen iOS- und Android-Apps, die Ihr vielleicht auch auf Eurem Smartphone installiert habt. Zur Umsetzung wichtiger Use Cases wie der persönlichen Risikoermitttlung, dem Melden bzw. der Benachrichtigung von (positiven) Testergebnissen oder dem Austausch mit Warn-Systemen anderer Länder, gehört auch eine vielteilige Server-Lösung. Sie basiert auf einem zeitgemäßen Architekturstil und einem aktuellen Technologie-Stack. Und wurde unter hohem Zeitdruck federführend von SAP und Deutscher Telekom realisiert.
+      <br/><br/>
+      Das öffentliche Interesse an diesem Projekt ist hoch, die Transparenz bei der Entwicklung erfreulicherweise ebenfalls. Der Quellcode ist Open Source und auch die Dokumentation ist offen zugänglich. In diesem Vortrag lernt Ihr die Gesamtlösung, vor allem den serverseitigen Teil der Corona-Warn-App und seine Implementierung, kennen. Wir diskutieren die prägenden architekturrelevanten Anforderungen und die getroffenen Entscheidungen. Zum Abschluss bewerten wir die gewählten Lösungsansätze und arbeiten Stärken, Hindernisse und Kompromisse heraus.
+      <br/><br/>
+      Kurzform:
+      <br/><br/>    
+      Leuchtturmprojekt, Kostengrab, Hoffnungsträger und wichtiger Baustein in der Pandemiebekämpfung - das deutsche Corona-Warn-App-System (kurz CWA) besteht nicht nur aus den recht prominenten iOS- und Android-Apps. Zur Umsetzung von Use Cases wie der persönlichen Risikoermitttlung oder dem Melden von (positiven) Testergebnissen, gehört auch eine vielteilige Server-Lösung. Sie basiert auf einem zeitgemäßen Architekturstil und einem aktuellen Technologie-Stack. Und wurde unter hohem Zeitdruck federführend von SAP und Deutscher Telekom realisiert. 
+      <br/><br/>
+      Das öffentliche Interesse an diesem Projekt ist hoch, die Transparenz bei der Entwicklung erfreulicherweise ebenfalls. Der Quellcode ist Open Source und auch die Dokumentation offen zugänglich. Wir diskutieren die prägenden architekturrelevanten Anforderungen und die getroffenen Entscheidungen. Zum Abschluss bewerten wir die gewählten Lösungsansätze und arbeiten Stärken, Hindernisse und Kompromisse heraus.
+    "Sweet 16 - Java ist aber groß geworden" : | 
+      Seit einigen Jahren kommen nun schon halbjährlich neue Java Major-Releases heraus. Dieses Vorgehen hat sich etabliert und funktioniert erstaunlich gut. Natürlich dürft Ihr nicht den Funktionsumfang von den früheren Versionen (9 und älter) erwarten. Dafür bekommt Ihr als Entwickler aber viel regelmäßiger die nächsten Änderungen mit. In den Preview-Phasen kann sogar Feedback gegeben und somit die aktive Weiterentwicklung von Java mitgestaltet werden. Alle drei Jahre erscheinen zudem Long-Term-Support-Versionen, die länger mit Updates und Patches versorgt werden. Im Herbst 2021 steht mit der Version 17 wieder ein solches LTS-Release an, für welches in den letzten 2,5 Jahre jede Menge interessante Features entwickelt wurden.
+      <br/><br/>
+      Wenn Ihr es noch nicht getan habt, solltet Ihr nun einen Blick auf all die Neuerungen seit dem letzten LTS-Release (Java 11) werfen. Die Liste der Features ist lang:
+      * Switch Expressions
+      * Text Blocks
+      * Pattern Matching für instanceof
+      * Helpful NullPointerExceptions
+      * Records
+      * Sealed Classes
+      * und noch einiges mehr
+      <br/><br/>
+      In diesem Vortrag betrachten wir außerdem hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Falls Ihr noch nicht bei Java 11 oder höher angekommen seid, bekommt Ihr damit einen kompakten Überblick, wie sich Java aktuell anfühlt.
+    "Portfolio-as-Code - Homepage für ITler (Co-Sprecher: Sandra Parsick, Freiberufler, 2021)": |
+      Auch wenn wir als ITler, egal ob angestellt oder freiberuflich, derzeit auf dem Arbeitsmarkt umworben werden, muss man uns erstmal finden. Neben der Präsenz auf diversen beruflichen Kontaktbörsen bietet sich natürlich das Erstellen einer eigenen Internetseite an, auf der die Projektliste, Side-Projekte, Blog-Posts, Artikel, Vorträge und der Lebenslauf präsentiert werden können. Aber nicht jeder möchte sich mit Design und Layout auseinandersetzen, sondern vielmehr auf den Inhalt konzentrieren. Zum Glück gibt es mittlerweile Werkzeuge, die auf uns Entwickler zugeschnitten sind und pragmatische, aber trotzdem ansehnliche Ergebnisse produzieren.
+      <br/><br/>
+      Aufbauend auf der gewohnten Arbeitsweise wird uns durch diese Tools mit frei verfügbaren Vorlagen nicht nur die mühevolle Gestaltung abgenommen. Getreu dem Motto "Everything-as-Code" unterstützen sie auch bei der Automatisierung des kompletten Entwicklungsprozesses bis zur Auslieferung und vor allem bei der kontinuierlichen Pflege der Webseite. Wir stellen anhand von Beispielen verschiedene Lösungen basierend auf Jekyll, Hugo und JBake, sowie Plattformen wie Github, Gitlab und Netlify vor, geben unsere Erfahrungen weiter und zeigen einige Tipps und Tricks, die sich für uns bewährt haben.
     "Moderne Softwarearchitekturen dokumentieren und kommunizieren (Co-Sprecher: Ralf D. Müller, DB Systel GmbH, 2021)": |
       Unsere Software-Projekte werden immer größer und komplexer. Technologisch hat sich in den vergangenen Jahren eine Menge getan, um diese Komplexität in den Griff zu bekommen. Aber noch viel wichtiger ist die Kommunikation zwischen allen Projektbeteiligten geworden. Als Voraussetzung braucht es dafür eine möglichst aktuelle, pragmatische und zielführende Dokumentation der Softwarearchitektur. Aber leider hat das Dokumentieren häufig einen niedrigen Stellenwert in unseren Projekten. Zum Teil fehlt die Motivation bei den Verantwortlichen. Oder suboptimale Werkzeuge wie Textverarbeitung, schwergewichtige UML-Tools bzw. Wikis ersticken alle Bemühungen im Keim. 
-
+      <br/><br/>
       Wir wollen den Bann brechen und an konkreten Beispielen zeigen, wie Dokumentieren nicht nur Spaß machen, sondern auch leicht von der Hand gehen kann. Dazu berichten wir aus unseren Erfahrungen und rücken leichtgewichtige Tools und schlanke Text- bzw. Grafikformate in den Fokus. Sie erleichtern die automatisierte Erstellung einer effektiven, allumfänglichen und vor allem redundanzfreien Dokumentation, die sich mit wenig Aufwand für die unterschiedlichen Zielgruppen optimiert in verschiedenen Formaten ausliefern lässt. Das Einbetten dieser Documentation as Code in die Entwicklungs- und Reviewprozesse ermöglicht zudem eine gute Nachvollziehbarkeit und die kontinuierliche Verbesserung und Weiterentwicklung.    
     "So gehen Architektur-Reviews! Die deutsche Corona-Warn-App unter der Lupe (Co-Sprecher: Stefan Zörner, 2021)": |
       Architekturbewertungen sichern Lösungsansätze ab, zeigen Risiken auf und schaffen Transparenz. Im Juni 2020 hatte das Virus die Welt fest im Griff, als die deutsche Corona-Warn-App zum Download bereitstand. Das Vertrauen der Bevölkerung in die Software war entscheidend — ohne breite Beteiligung wäre sie zum Scheitern verurteilt.
-
+      <br/><br/>
       Was kann Architekturbewertung hier leisten? Der Softwarehersteller hat neben umfassender Dokumentation immerhin auch den kompletten Quelltext offengelegt. Das eröffnet die Möglichkeit einer fundierten Analyse. Im Umfeld der Architekturbewertung gibt es ein reiches Arsenal an Methoden und Werkzeugen. Sie reichen von qualitativen Ansätzen wie ATAM bis zum Auswerten von Metriken oder dem Messen von Antwortzeiten, Durchsatz oder ähnlichem.
-
+      <br/><br/>
       In dieser Session wenden wir ausgewählte Bewertungsansätze passgenau auf die Corona-Warn-App an. Unsere Zuhörenden nehmen daher gleich zwei Dinge mit: Einen umfassenden Überblick über zeitgemäße Bewertungsmethodik mit den jeweiligen Vor- und Nachteilen der Ansätze. Und Einsichten in die Funktionsweise der Corona-Warn-App. Mit ihren Stärken, Schwächen und Kompromissen. Hätte man das nicht auch alles ganz anders machen können. Klar, aber was wären die Konsequenzen gewesen? Finden Sie es gemeinsam mit uns heraus!
-
+      <br/><br/>
       Kurzform:
-      
+      <br/><br/>      
       Architekturbewertungen sichern Lösungsansätze ab, zeigen Risiken auf und schaffen Transparenz. In dieser Session wenden wir ausgewählte Bewertungsansätze passgenau auf eine aktuell im Rampenlicht stehende Software an: die deutsche Corona-Warn-App. Als Ergebnis erhalten Sie einen umfassenden Überblick über zeitgemäße Bewertungsmethodik mit den jeweiligen Vor- und Nachteilen der Ansätze und spannende Einblicke in die Funktionsweise des technisch anspruchsvollen, verteilten Softwaresystems.
     "Mit der Zeit gehen – flexible Architekturen (2020)": |
       In der agilen Softwareentwicklung gibt es die Rolle des Architekten eigentlich nicht mehr. Paradoxerweise sind die Herausforderungen an den Entwurf moderner Softwaresysteme höher als früher. Um die Digitalisierung voranzutreiben, sich von den Mitbewerbern abzuheben, sich möglichst auch einen Wettbewerbsvorteil zu erarbeiten und die sowohl technische als auch organisatorische Skalierbarkeit sicherzustellen, sind zu den altbekannten ganz neue Fragestellungen hinzugekommen:
-
+      <br/><br/>
       * Laufzeitmonolith oder irgendetwas Entkoppeltes?
       * DevOps oder klassischer Betrieb?
       * Serverless/Cloud oder On Premises?
       * Relationale Datenhaltung oder NoSQL bzw. sogar In-Memory?
       * Lang- oder Kurzlebigkeit?
-
+      <br/><br/>
       Je nach eingesetzten Architekturstilen und -mustern kommen heutzutage ganz neue Herausforderungen auf euch zu. Wir diskutieren in diesem Vortrag, wie agile Teams eine flexible und vor allem auch robuste Softwarearchitektur entwerfen, sie festhalten, kommunizieren und pflegen können. Und das auch, wenn von der grünen Wiese nach ein paar Monaten nicht mehr viel zu sehen ist.
     "Oje, Java ist nicht mehr kostenlos – und nun? (2019)": |
       Oracle hat sein Lizenzmodell geändert, ab JDK 11 kann es in Produktion nicht mehr kostenfrei eingesetzt werden. Seit Januar 2019 gibt es zudem keine freien Updates mehr für das momentan noch viel genutzte Oracle JDK 8. Was sind die Alternativen und wann ergibt der Einsatz welcher JDK-Version Sinn? Wir werfen einen Blick auf die Kosten für das Oracle JDK, auf die Preismodelle von anderen kommerziellen Anbietern wie Azul, IBM und RedHat sowie auf die freien Versionen Oracle OpenJDK, AdoptOpenJDK, Amazon Correto, Alibaba Dragonwell und SapMachine. Zudem werden wir uns die Alternative JVM Eclipse OpenJ9 anschauen, die für gewisse Szenarien Performancevorteile gegenüber der Hotspot Java Virtual Machine von Oracle verspricht. Wir diskutieren weiterhin, ob man bei Java 8 bleiben oder auf 11 bzw. das aktuellste JDK-Release wechseln sollte und welche Konsequenzen das mit sich bringt. Dazu werfen wir natürlich auch einen Blick auf die Neuerungen von JDK 9 bis 13 und besprechen Migrationspfade und Updatestrategien.
@@ -88,7 +123,7 @@ talks:
       <br/><br/>
       In diesem Vortrag wollen wir einen Blick auf die Konzepte und Muster wie Context Mapping, Bounded Contexts, Domain Events und die internen Building Blocks wie Aggregate, Entities, Value Objects, Repositories usw. werfen. Das Ziel ist die Erstellung einer qualitativ hochwertigen Software mit einer einheitlichen und ausdrucksstarken Architektur. 
     "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an? (2019)": |
-     Mit der Zeit gehen – flexible Architektureneiner Gruppe von Menschen einen Vortrag zu halten, ist für viele von uns eine große Hürde. Mit der richtigen Vorbereitung und etwas Übung muss das aber gar kein Problem sein und ist gerade für den beruflichen Alltag sehr nützlich. Und auch wenn es paradox klingt, bieten User Groups und Konferenzen die besten Voraussetzungen, sich mal vor Publikum auszuprobieren. Aber wie findet man ein spannendes Thema, wie schreibt man einen interessanten Abstract, wie sieht die Vorbereitung aus, wenn man angenommen wurde und was sind die besten Tricks, um auf der Bühne eine gute Figur zu machen? Ich möchte Euch von meinen Erfahrungen als Sprecher und auch Konferenz- und User Group Organisator berichten und bin mir sicher, einige zu animieren. "Nachbetreuung" ist übrigens kostenfrei und inklusive.
+     Vor einer Gruppe von Menschen einen Vortrag zu halten, ist für viele von uns eine große Hürde. Mit der richtigen Vorbereitung und etwas Übung muss das aber gar kein Problem sein und ist gerade für den beruflichen Alltag sehr nützlich. Und auch wenn es paradox klingt, bieten User Groups und Konferenzen die besten Voraussetzungen, sich mal vor Publikum auszuprobieren. Aber wie findet man ein spannendes Thema, wie schreibt man einen interessanten Abstract, wie sieht die Vorbereitung aus, wenn man angenommen wurde und was sind die besten Tricks, um auf der Bühne eine gute Figur zu machen? Ich möchte Euch von meinen Erfahrungen als Sprecher und auch Konferenz- und User Group Organisator berichten und bin mir sicher, einige zu animieren. "Nachbetreuung" ist übrigens kostenfrei und inklusive.
     "Micronaut – effiziente und performante Microservices für die Cloud (2019)": |
       Den Chancen, die der Microservices-Ansatz bietet, stehen auch einige Herausforderungen gegenüber, die man aber gut mit Frameworks handhaben kann. Mit Micronaut hat nun ein ganz neuer Vertreter die Bühne mit dem Versprechen betreten, modulare, leicht testbare und sehr performante Anwendungen in Java, Kotlin oder Groovy entwickeln zu können. 
       <br/><br/>

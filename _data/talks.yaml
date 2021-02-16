@@ -1,3 +1,32 @@
+2021:
+  - Juni:
+    - conference: "Entwickler-Tage @ IT-Tage"
+      date: 2021-06-16
+      title: "Legacy-Code im Griff dank der Mikado-Methode"
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+  - März:
+    - conference: "Java-Tage @ IT-Tage"
+      date: 2021-03-24
+      title: "Sweet 16 - Java ist aber groß geworden"
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/
+    - conference: JavaLand
+      date: 2021-03-17
+      title: "Workshop: Kotlin/Native und -Multiplatform"
+      location: Online
+    - conference: Entwicklertag Frankfurt
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      date: 2021-03-03
+      location: Online
+      link: https://entwicklertag.de/frankfurt/2021/moderne-softwarearchitekturdokumentation
+  - Februar:
+    - conference: OOP
+      title: So gehen Architektur-Reviews! Die deutsche Corona-Warn-App unter der Lupe
+      date: 2021-02-10
+      location: Online
+      link: https://www.oop-konferenz.de/oop2021/programm/konferenzprogramm/track/back-to-architecture.html#item-2169 
+      slides: https://www.embarc.de/architektur-reviews-cwa-oop-2021/
 2020:
   - Dezember:
     - conference: embarc Architektur-Punsch
