@@ -1,108 +1,130 @@
-Frühjahr:
-  - id: jl
-    name: JavaLand
-    location: Brühl
-    url: https://www.javaland.eu/
-  - id: jax
-    name: JAX
-    location: Mainz
-    url: https://jax.de/mainz/
-  - id: etka
-    name: Entwicklertag Karlsruhe
-    location: Karlsruhe
-    url: https://entwicklertag.de/
-  - id: scrumday
-    name: Scrum Day
-    location: Filderstadt
-    url: https://www.scrum-day.de/
-Sommer:
-  - id: enterjs
-    name: enterJS
-    location: Darmstadt
-    url: https://enterjs.de/
-  - id: dwx
-    name: Developer Week
-    location: Nürnberg
-    url: https://www.developer-week.de/
-  - id: jfs
-    name: Java Forum Stuttgart
-    location: Stuttgart
-    url: https://www.java-forum-stuttgart.de/
-Herbst:
-  - id: hc
-    name: Herbstcampus
-    location: Nürnberg
-    url: https://herbstcampus.de/
-  - id: bedcon
-    name: Berlin Expert Days
-    location: Berlin
-    url: https://bed-con.org/
-  - id: accento
-    name: Accento
-    location: Karlsruhe
-    url: https://accento.dev/
-  - id: tvd
-    name: Trivadis TechEvent
-    location: Regensdorf
-    url: https://www.trivadis.com/
-  - id: jfn
-    name: Java Forum Nord
-    location: Hannover
-    url: https://javaforumnord.de/
-  - id: jsd
-    name: JUG Saxony Day
-    location: Radebeul
-    url: https://jugsaxony.day/
-  - id: jcon
-    name: JCON
-    location: Düsseldorf
-    url: https://jcon.one/
-  - id: wdc
-    name: Web Developer Conference
-    location: Hamburg
-    url: https://www.web-developer-conference.de/
-  - id: saa
-    name: Software Architecture Alliance
-    location: München
-    url: https://www.software-architecture-alliance.de
-  - id: baselone
-    name: BaselOne
-    location: Basel
-    url: https://baselone.ch/
-Winter:
-  - id: sag
-    name: Software Architecture Gathering Digital
-    location: Online
-    url: https://conferences.isaqb.org/software-architecture-gathering/
-  - id: wjax
-    name: W-JAX
-    location: München
-    url: https://jax.de/muenchen
-  - id: jvmcon
-    name: JVM-Con
-    location: Köln
-    url: https://www.jvm-con.de/
-  - id: dwxs
-    name: Developer Week Swiss
-    location: Zürich
-    url: https://www.developer-week.ch/
-  - id: ittage
-    name: IT-Tage
-    location: Frankfurt
-    url: https://www.ittage.informatik-aktuell.de/
-  - id: oioh
-    name: OIO Hauskonferenz
-    location: Mannheim
-    url: https://oio.de/
-  - id: oop
-    name: OOP
-    location: München
-    url: https://www.oop-konferenz.de/
-  - id: codedays
-    name: Code Days
-    location: München
-    url: https://www.code-days.de/
-  - id: etffm
-    name: Entwicklertag Frankfurt
-    location: Frankfurt
-    url: https://entwicklertag.de/
+- id: jl 
+  name: JavaLand
+  location: Brühl
+  url: https://www.javaland.eu/
+  season: Frühjahr
+- id: jax
+  name: JAX
+  location: Mainz
+  url: https://jax.de/mainz/
+  season: Frühjahr
+- id: etka
+  name: Entwicklertag Karlsruhe
+  location: Karlsruhe
+  url: https://entwicklertag.de/
+  season: Frühjahr
+- id: scrumday
+  name: Scrum Day
+  location: Filderstadt
+  url: https://www.scrum-day.de/
+  season: Frühjahr
+- id: enterjs
+  name: enterJS
+  location: Darmstadt
+  url: https://enterjs.de/
+  season: Sommer
+- id: dwx
+  name: Developer Week
+  location: Nürnberg
+  url: https://www.developer-week.de/
+  season: Sommer
+- id: jfs
+  name: Java Forum Stuttgart
+  location: Stuttgart
+  url: https://www.java-forum-stuttgart.de/
+  season: Sommer
+- id: hc
+  name: Herbstcampus
+  location: Nürnberg
+  url: https://herbstcampus.de/
+  season: Herbst
+- id: bedcon
+  name: Berlin Expert Days
+  location: Berlin
+  url: https://bed-con.org/
+  season: Herbst
+- id: accento
+  name: Accento
+  location: Karlsruhe
+  url: https://accento.dev/
+  season: Herbst
+- id: tvd
+  name: Trivadis TechEvent
+  location: Regensdorf
+  url: https://www.trivadis.com/
+  season: Herbst
+- id: jfn
+  name: Java Forum Nord
+  location: Hannover
+  url: https://javaforumnord.de/
+  season: Herbst
+- id: jsd
+  name: JUG Saxony Day
+  location: Radebeul
+  url: https://jugsaxony.day/
+  season: Herbst
+- id: jcon
+  name: JCON
+  location: Düsseldorf
+  url: https://jcon.one/
+  season: Herbst
+- id: wdc
+  name: Web Developer Conference
+  location: Hamburg
+  url: https://www.web-developer-conference.de/
+  season: Herbst
+- id: saa
+  name: Software Architecture Alliance
+  location: München
+  url: https://www.software-architecture-alliance.de
+  season: Herbst
+- id: baselone
+  name: BaselOne
+  location: Basel
+  url: https://baselone.ch/
+  season: Herbst
+- id: sag
+  name: Software Architecture Gathering Digital
+  location: Online
+  url: https://conferences.isaqb.org/software-architecture-gathering/
+  season: Winter
+- id: wjax
+  name: W-JAX
+  location: München
+  url: https://jax.de/muenchen
+  season: Winter
+- id: jvmcon
+  name: JVM-Con
+  location: Köln
+  url: https://www.jvm-con.de/
+  season: Winter
+- id: dwxs
+  name: Developer Week Swiss
+  location: Zürich
+  url: https://www.developer-week.ch/
+  season: Winter
+- id: ittage
+  name: IT-Tage
+  location: Frankfurt
+  url: https://www.ittage.informatik-aktuell.de/
+  season: Winter
+- id: oioh
+  name: OIO Hauskonferenz
+  location: Mannheim
+  url: https://oio.de/
+  season: Winter
+- id: oop
+  name: OOP
+  location: München
+  url: https://www.oop-konferenz.de/
+  season: Winter
+- id: codedays
+  name: Code Days
+  location: München
+  url: https://www.code-days.de/
+  season: Winter
+- id: etffm
+  name: Entwicklertag Frankfurt
+  location: Frankfurt
+  url: https://entwicklertag.de/
+  season: Winter
