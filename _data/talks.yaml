@@ -1,16 +1,202 @@
-2021:
+2022:
+  - Juli:
+    - host: jfs
+      title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
+      date: 2022-07-07
+      link: https://www.java-forum-stuttgart.de/vortraege/pattern-matching-in-java/
+    - host: dwx
+      title: Funktionale Programmierung geht auch mit/trotz Java!
+      date: 2022-07-06
+      link: https://www.developer-week.de/programm/#/talk/funktionale-programmierung-geht-auch-mit-trotz-java-2
+    - host: dwx
+      title: Der S.O.L.I.D.e Softwareentwurf
+      date: 2022-07-06
+      link: https://www.developer-week.de/programm/#/talk/der-s-o-l-i-d-e-softwareentwurf
+    - host: cl
+      title: Live-Hacking mit Micronaut
+      date: 2022-07-01
+      link: https://shop.doag.org/events/cloudland/2022/agenda/
   - Juni:
+    - host: wadev
+      title: Developers on the stage - how to become a speaker
+      date: 2022-06-14
+    - host: JUG Schweiz
+      location: Zürich
+      title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
+      date: 2022-06-09
+  - Mai:
+    - host: seacon
+      title: Documentation-as-Code - Dokumentation kontinuierlich und automatisiert erstellen
+      location: Online
+      date: 2022-05-19
+      link: https://www.sea-con.de/seacon2022/programm/konferenzprogramm
+    - host: etka
+      title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
+      date: 2022-05-17
+      link: https://entwicklertag.de/karlsruhe/2022/Pattern_Matching_in_Java__und_warum_es_dafuer_algebraische_Datentypen_braucht.html
+    - host: etka
+      title: Die Corona-Warn-App unter der Lupe
+      date: 2022-05-17
+      link: https://entwicklertag.de/karlsruhe/2022/Die_Corona-Warn-App_unter_der_Lupe.html 
+    - host: jax
+      title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
+      date: 2022-05-04
+      link: https://jax.de/core-java-jvm-languages/pattern-matching-in-java-und-warum-es-dafuer-algebraische-datentypen-braucht/
+  - April:
+    - host: JUG Frankfurt
+      title: "Domain Driven Design für Dummies"
+      date: 2022-04-27
+      location: Online
+      link: https://jugf.github.io/posts/domain-driven-design-fuer-dummies-27-04-2022/
+    - host: JUG Karlsruhe
+      title: Was gibt es Neues bei Java 17 und 18?
+      date: 2022-04-26
+      link: http://jug-karlsruhe.de/content/javaday/
+  - März:
+    - host: JUG Stuttgart
+      title: "Podiumsdiskussion: Neues vom JavaLand"
+      date: 2022-04-01
+      link: https://www.jugs.org/va2022/04-01.html
+    - host: jl
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      date: 2022-03-17
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647471600
+    - host: jl
+      title: Groovy 4 the win!
+      date: 2022-03-16
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647385200
+    - host: jl
+      title: "Community Workshop: Funktionale Programmierung mit Java"
+      date: 2022-03-16
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647385200
+    - host: jl
+      title: "Community Aktivität: Developer on the stage"
+      date: 2022-03-15
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647298800
+    - host: jl
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2022-03-15
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647298800
+    - host: jl
+      title: "Community Workshop: Java Pattern Matching"
+      date: 2022-03-14
+      link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647212400
+  - Februar:
+    - host: oop
+      title: "Documentation-as-Code – Dokumentation kontinuierlich und automatisiert erstellen"
+      date: 2022-02-03
+      link: https://www.oop-konferenz.de/oop-2022/programm/konferenzprogramm
+2021:
+  - Dezember:
+    - conference: IT-Tage
+    - conference: IT-Tage
+    - conference: IT-Tage
+    - conference: IT-Tage
+    - conference: JUG Oberpfalz
+  - November:
+    - conference: JVM-Con
+      title: Die Corona-Warn-App unter der Lupe
+      date: 2021-11-30
+      canceled: true
+    - host: JUG Schweiz
+      title: "Domain Driven Design für Dummies"
+      date: 2021-11-24
+      location: Luzern
+      link: https://www.jug.ch/html/events/2021/java_17.html
+  - Oktober: 
+    - conference: BaselOne
+      video: https://www.youtube.com/watch?v=HjnkGIsOlp4
+    - conference: BaselOne
+    - conference: Software Architecture Gathering
+    - conference: Software Architecture Alliance
+    - conference: Software Architecture Alliance
+    - host: jcon
+      title: Die Corona-Warn-App unter der Lupe
+      video: https://www.youtube.com/watch?v=tgHIeVaYhIw
+    - host: jcon
+      title: Java 17 - Was erwartet uns in der neuesten LTS-Version?
+      video: https://www.youtube.com/watch?v=HgaT8yMJLmU
+    - host: jcon
+    - conference: JUG Saxony Day
+      video: https://vimeo.com/637003242
+  - September:
+    - conference: Accento
+    - conference: Java Forum Nord
+    - conference: Herbstcampus
+    - conference: Herbstcampus
+    - conference: Herbstcampus
+    - conference: betterCode() Java 17
+  - Juni:
+    - conference: Developer Week (DWX)
+      date: 2021-06-30
+      title: Refactoring mit der Mikado-Methode
+      location: Online
+      link: https://www.developer-week.de/history/programm-2021/#/talk/refactoring-mit-der-mikado-methode
+      slides: https://www.embarc.de/dwx-2021/
+    - conference: Developer Week (DWX)
+      date: 2021-06-30
+      title: Legacy Code meistern in x einfachen Schritten
+      location: Online
+      link: https://www.developer-week.de/history/programm-2021/#/talk/legacy-code-meistern-in-x-einfachen-schritten-2
+      slides: https://www.embarc.de/dwx-2021/
+    - conference: Developer Week (DWX)
+      date: 2021-06-29
+      title: JVM Functional Language Battle
+      location: Online
+      link: https://www.developer-week.de/history/programm-2021/#/talk/jvm-functional-language-battle-3
+      slides: https://www.embarc.de/dwx-2021/
     - conference: "Entwickler-Tage @ IT-Tage"
       date: 2021-06-16
       title: "Legacy-Code im Griff dank der Mikado-Methode"
       location: Online
       link: https://www.ittage.informatik-aktuell.de/
+      slides: https://www.embarc.de/mikado-ittage-2021/
+    - conference: "Karlsruher Entwicklertag 2021"
+      date: 2021-06-10
+      title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
+      location: Online
+      link: https://entwicklertag.de/karlsruhe/2021/
+      video: https://www.youtube.com/watch?v=XmYel58OOYM&list=PLvaPr-ymbV3aomXjjaEGXJsD8GCYMxuhZ
+    - conference: "Karlsruher Entwicklertag 2021"
+      date: 2021-06-09
+      title: "Funktionale Programmierung geht auch mit/trotz Java!"
+      location: Online
+      link: https://entwicklertag.de/karlsruhe/2021/
+      slides: https://www.embarc.de/fp-java-etka21/
+      video: https://www.youtube.com/watch?v=pv2xgA4lofQ&list=PLvaPr-ymbV3aomXjjaEGXJsD8GCYMxuhZ&index=9
+    - conference: "Microservices Summit 2021"
+      date: 2021-06-07
+      title: "Corona-Warn-App entschlüsselt. Microservices unter der Lupe (Workshop)"
+      location: Online
+      link: https://microservices-summit.de/microservices/corona-warn-app-entschluesselt-microservices-unter-der-lupe/
+      slides: https://www.embarc.de/cwa-unter-der-lupe-mss-2021/
+  - Mai:
+    - conference: Bonner Microservices Meetup
+      date: 2021-05-26
+      title: "Corona-Warn-App entschlüsselt. Microservices unter der Lupe"
+      location: Online
+      link: https://www.meetup.com/de-DE/Bonner-Microservices-Meetup/events/277083276/
+      slides: https://embarc-downloads.s3.amazonaws.com/folien/fs_sz/2021/Bonner_Microservices_Meetup_CWA.pdf
+  - April:
+    - conference: Web Developer Conference
+      date: 2021-04-27
+      title: "Vue.js - Eine Einführung"
+      location: Online
+      link: https://www.web-developer-conference.de/programm-2/#/
+      slides: https://www.embarc.de/vuejs-wdc-2021/
+    - conference: "SEACON digital 2021"
+      date: 2021-04-22
+      title: "Die Corona-Warn-App unter der Lupe"
+      location: Online
+      link: https://www.sea-con.de/seacon2021.html 
+      slides: https://www.embarc.de/cwa-unter-lupe-seacon-2021/
   - März:
     - conference: "Java-Tage @ IT-Tage"
       date: 2021-03-24
       title: "Sweet 16 - Java ist aber groß geworden"
       location: Online
       link: https://www.ittage.informatik-aktuell.de/
+      slides: https://www.embarc.de/java-16-ittage365-2021/
     - conference: JavaLand
       date: 2021-03-17
       title: "Workshop: Kotlin/Native und -Multiplatform"
@@ -20,6 +206,7 @@
       date: 2021-03-03
       location: Online
       link: https://entwicklertag.de/frankfurt/2021/moderne-softwarearchitekturdokumentation
+      slides: https://www.embarc.de/docs-as-code-etffm-2021/
   - Februar:
     - conference: OOP
       title: So gehen Architektur-Reviews! Die deutsche Corona-Warn-App unter der Lupe
@@ -172,6 +359,18 @@
       date: 2020-05-28
       location: Karlsruhe
       link: https://entwicklertag.de/karlsruhe/2019/ 
+  - April:
+    - conference: Bonner Microservices Meetup
+      canceled: true
+      date: 2020-04-28
+      title: "Domain Driven Design für Dummies"
+      location: Bonn
+      link: https://www.meetup.com/de-DE/Bonner-Microservices-Meetup/events/268478898/
+  - März:
+    - conference: jl
+      canceled: true
+      date: 2020-03-18
+      title: "Ohje, Java ist nicht mehr kostenlos - und nun?"
   - Februar:
     - conference: Entwicklertag Frankfurt
       title: "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?"
@@ -243,6 +442,12 @@
       link: http://jugf.de
       slides: http://www.oio.de/m/konf/vortraege/Herbstcampus2018_Falk-Sippach-Mikado-Methode.pdf
     - conference: BaselOne
+      title: "Micronaut"
+      date: 2019-10-16
+      location: Basel
+      link: https://2019.baselone.ch/speech/8AA0E444-2C8C-4EDE-8551-54B3E2E90113/Sippach
+      slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
+    - conference: BaselOne
       title: "PWA: Portable Webanwendungen statt nativer Apps"
       date: 2019-10-16
       location: Basel
@@ -310,23 +515,21 @@
       slides: https://www.oio.de/m/konf/jax2019/Micronaut_Jax2019.pdf
       video: https://youtu.be/I8cxXofG69o
   - März:
-    - conference: JavaLand
+    - conference: jl
       date: 2019-03-20
       title: "Progessive Web Apps - Portable Webanwendungen statt nativer Apps"
-      location: Brühl
       link: https://programm.javaland.eu/2019/#/scheduledEvent/569905
       slides: https://www.oio.de/m/konf/diverse/PWA-Progessive-Web-Apps_JavaLand_2019.pdf
-    - conference: JavaLand
+    - host: jl
       date: 2019-03-19
       title: Einführung in die Funktionale Programmierung mit Java
       location: Brühl
       slides: https://docs.google.com/presentation/d/1hJ0NGhX5dZBT8tkaR9-Pg1AZvVpoBJNemrL6-XnCvy0/edit?usp=sharing
       sourcecode: https://github.com/gtrefs/fpworkshop
       link: https://programm.javaland.eu/2019/#/scheduledEvent/569231
-    - conference: JavaLand
+    - host: jl
       date: 2019-03-18
       title: "Legacy Code Retreat"
-      location: Brühl
       link: https://programm.javaland.eu/2019/#/scheduledEvent/569247
       slides: https://www.javaland.eu/formes/pubfiles/8915857/2017-jvm-falk_sippach-legacy_code_retreat-praesentation.pdf
   - Februar:
@@ -521,16 +724,14 @@
       link: https://www.jug-da.de/2018/03/Wunschvortrag/
       slides: https://entwicklertag.de/karlsruhe/2017/sites/entwicklertag.de.karlsruhe.2017/files/folien/Falk%20Sippach%20-%20Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code/tree/jug-da-2018
-    - conference: JavaLand
+    - host: jl
       title: Refactoring von Legacy Anwendungen mit der Mikado-Methode
       date: 2018-03-14
-      location: Brühl
       link: https://programm.javaland.eu/2018/#/scheduledEvent/551162
       slides: https://www.javaland.eu/formes/pubfiles/9978668/2018-nn-steven_schwenke-refactoring_von_legacy_anwendungen_mit_der_mikado-methode-praesentation.pdf
-    - conference: JavaLand
+    - host: jl
       title: Die 7 (technischen) Sünden der Architekturdokumentation
       date: 2018-03-14
-      location: Brühl
       link: https://programm.javaland.eu/2018/#/scheduledEvent/550587
       slides: https://www.javaland.eu/formes/pubfiles/9960707/2018-nn-falk__sippach-die_7__technischen__suenden_der_architekturdokumentation-praesentation.pdf
   - Februar:
@@ -699,16 +900,14 @@
       slides: http://www.oio.de/m/konf/vortraege/JUG-Hamburg2017-JVM-Functional-Language-Battle-Sippach.pdf
       sourcecode: https://github.com/sippsack/jvm-functional-language-battle
   - März:
-    - conference: JavaLand
+    - host: jl
       title: Legacy Code Retreat
       date: 2017-03-29
-      location: Brühl
       link: https://programm.javaland.eu/2017/#/scheduledEvent/531911
       slides: https://www.javaland.eu/formes/pubfiles/8915857/2017-jvm-falk_sippach-legacy_code_retreat-praesentation.pdf
-    - conference: JavaLand
+    - host: jl
       title: Kontinuierliche Architektur-Dokumentation
       date: 2017-03-29
-      location: Brühl
       link: https://programm.javaland.eu/2017/#/scheduledEvent/529480
       slides: https://www.javaland.eu/formes/pubfiles/8915854/2017-asec-falk_sippach-kontinuierliche_architektur-dokumentation-praesentation.pdf
     - conference: JUG Hannover
@@ -821,29 +1020,23 @@
       link: http://entwicklertag.de/frankfurt/2016/legacy-code-meistern-x-einfachen-schritten
       slides: http://entwicklertag.de/frankfurt/2016/sites/entwicklertag.de.frankfurt.2016/files/slides/Falk-Sippach-Legacy%20Code%20meistern%20in%20x%20einfachen%20Schritten-Entwicklertag-Frankfurt-2016_0.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
-    - conference: JavaLand
+    - host: jl
       title: Legacy-Code meistern in x einfachen Schritten
       date: 2016-03-09
-      location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
       slides: http://www.oio.de/m/konf/diverse/Legacy-Code-meistern-JavaLand-2016.pdf
       sourcecode: https://github.com/sippsack/BadTelefon-Refactoring-Legacy-Code
-    - conference: JavaLand
+    - host: jl
       title: Architektur-Kata
       date: 2016-03-08
-      location: Phantasialand Brühl
       link: https://www.javaland.eu/de/archiv-2016/
-    - conference: JavaLand
+    - host: jl
       title: Coding Dojo
       date: 2016-03-07
-      location: Phantasialand Brühl
-      link: https://www.javaland.eu
       slides: /files/talks/codingdojo-javaland-2014.pdf
-    - conference: JavaLand
+    - host: jl
       title: DukeCon Hacking Session
       date: 2016-03-07
-      location: Phantasialand Brühl
-      link: https://www.javaland.eu
       slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: Workshop von majug und OIO
@@ -910,16 +1103,12 @@
       link: http://www.jug-kl.de/groovy/
       slides: http://www.jug-kl.de/resources/2015-07-23-GroovyGrailsQuoVadis.pdf
   - März:
-    - conference: JavaLand
+    - host: jl
       title: Workshop NoSQL für Java-Entwickler
       date: 2015-03-26
-      location: Phantasialand Brühl
-      link: https://www.javaland.eu
-    - conference: JavaLand
+    - host: jl
       title: Coding Dojo
       date: 2015-03-24
-      location: Phantasialand Brühl
-      link: https://www.javaland.eu
       slides: /files/talks/codingdojo-javaland-2014.pdf
 2014:
   - Mai:
@@ -937,11 +1126,9 @@
       link: http://www.sea-con.de/seacon2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte-1.html?no_cache=1
       slides: http://www.oio.de/m/konf/diverse/Kontinuierliche-Architektur-im-Rahmen-grosser-Agiler-Projekte-SEACON2014.pdf
   - März:
-    - conference: JavaLand
+    - host: jl
       title: Coding Dojo
       date: 2014-03-25
-      location: Phantasialand Brühl
-      link: https://www.javaland.eu
       slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: OOP

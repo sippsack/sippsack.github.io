@@ -9,9 +9,14 @@
   url: https://jax.de/mainz/
   season: Frühjahr
 - id: etka
-  name: Entwicklertag Karlsruhe
+  name: Entwicklertag
   location: Karlsruhe
   url: https://entwicklertag.de/
+  season: Frühjahr
+- id: seacon
+  name: SEACON
+  location: Hamburg
+  url: https://www.sea-con.de/
   season: Frühjahr
 - id: scrumday
   name: Scrum Day
@@ -22,6 +27,16 @@
   name: enterJS
   location: Darmstadt
   url: https://enterjs.de/
+  season: Sommer
+- id: wadev
+  name: WeAreDevelopers World Congress
+  location: Berlin
+  url: https://www.wearedevelopers.com/world-congress/
+  season: Sommer
+- id: cl
+  name: CloudLand
+  location: Brühl
+  url: https://www.cloudland.org/
   season: Sommer
 - id: dwx
   name: Developer Week
@@ -124,7 +139,7 @@
   url: https://www.code-days.de/
   season: Winter
 - id: etffm
-  name: Entwicklertag Frankfurt
+  name: Entwicklertag
   location: Frankfurt
   url: https://entwicklertag.de/
   season: Winter
