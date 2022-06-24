@@ -18,11 +18,21 @@
   location: Hamburg
   url: https://www.sea-con.de/
   season: Frühjahr
+- id: devday
+  name: Dev Day
+  location: Dresden
+  url: https://www.devday.de/
+  season: Frühjahr
 - id: scrumday
   name: Scrum Day
   location: Filderstadt
   url: https://www.scrum-day.de/
   season: Frühjahr
+- id: vueday
+  name: enterJS Vue Day
+  location: Online
+  url: https://vimeo.com/ondemand/enterjsvueday2021
+  season: Sommer
 - id: enterjs
   name: enterJS
   location: Darmstadt
@@ -32,6 +42,11 @@
   name: WeAreDevelopers World Congress
   location: Berlin
   url: https://www.wearedevelopers.com/world-congress/
+  season: Sommer
+- id: mssummit1
+  name: Microservices Summit Sommer
+  location: München
+  url: https://microservices-summit.de/
   season: Sommer
 - id: cl
   name: CloudLand
@@ -98,10 +113,20 @@
   location: München
   url: https://www.software-architecture-alliance.de
   season: Herbst
+- id: xpdays
+  name: XP-Days
+  location: Stuttgart
+  url: https://www.xpdays.de/
+  season: Herbst
 - id: devoxx
   name: Devoxx Belgium
   location: Antwerpen
   url: https://devoxx.be/
+  season: Herbst
+- id: devopscon
+  name: DevOpsCon Berlin
+  location: Berlin
+  url: https://devopscon.io/berlin-de
   season: Herbst
 - id: baselone
   name: BaselOne
@@ -117,6 +142,11 @@
   name: W-JAX
   location: München
   url: https://jax.de/muenchen
+  season: Winter
+- id: mssummit2
+  name: Microservices Summit Winter
+  location: Berlin
+  url: https://microservices-summit.de/
   season: Winter
 - id: jvmcon
   name: JVM-Con

@@ -1,156 +1,402 @@
 2022:
-  - id: jl
-    from: 2023-03-15
-    till: 2023-03-17
-    deadline: 2022-09-27
-    submitted:
-    talks:
-  - id: devoxx
-    from: 2022-10-10
-    till: 2022-10-14
-    deadline: 2022-07-15
-    submitted:
-    talks:
-  - id: oop
-    from: 2023-02-06
-    till: 2023-02-10
-    deadline: 2022-07-04
-    submitted:
-    talks:
-  - id: sag
-    from: 2022-11-14
-    till: 2022-11-17
-    deadline: 2022-05-25
-    submitted: 2022-05-25
-    talks:
-      - Die Corona-Warn-App unter der Lupe
-      - Moderne Softwarearchitekturen dokumentieren und kommunizieren
-      - Der S.O.L.I.D.e Softwareentwurf
-  - id: saa
-    from: 2022-10-11
-    till: 2022-10-12
-    deadline: 2022-05-09
-    submitted: 2022-05-09 
-    talks:
-      - Der S.O.L.I.D.e Softwareentwurf
-      - Mit der Zeit gehen - Flexible Architekturen
-      - Documentation-as-Code
-      - Domain Driven Design für Dummies
-  - id: jfn
-    from: 2022-10-16
-    deadline: 2022-06-01
-    submitted: 2022-05-30
-    talks:
-      "Groovy 4": n
-      "Hibernate 6": n
-      "Java 18 + 19": x
-      "Java Pattern Matching": n
-      "Der S.O.L.I.D.e Softwareentwurf": n
-      "Docs-as-Code": n
-  - id: ittage
-    location: Online
-    from: 2022-12-12
-    till: 2022-12-15
-    deadline: 2022-05-03
-    submitted: 2022-04-29
-    talks:
-      "Java 17 and Beyond": x
-      "Java Pattern Matching": x
-      "Portfolio-as-Code": n
-      "Der S.O.L.I.D.e Softwareentwurf": n
-      "Mit der Zeit gehen – Flexible Architekturen": x	
-  - id: wjax
-    from: 2022-11-07
-    till: 2022-11-11
-    deadline: 2022-05-10
-    submitted: 2022-05-09
-    talks:
-      - Groovy 4
-      - Hibernate 6
-      - Java 18 + 19
-      - Java Pattern Matching
-      - Moderne Softwarearchitekturdokumentation (Workshop)
-  - id: hc
-    deadline: 2022-05-16
-    submitted: 2022-05-16
-    from: 2022-09-06
-    till: 2022-09-08
-    talks:
-      "Der S.O.L.I.D.e Softwareentwurf": n
-      "Die Corona-Warn-App unter der Lupe": n
-      "Pattern Matching Workshop": n
-  - id: cl
-    from: 2022-06-29
-    till: 2022-07-02
-    talks:
-      "Micronaut Live-Coding": x
-  - id: jcon
-    from: 2022-09-20
-    till: 2022-09-23
-    submitted: 2022-03-08
-    deadline: 2022-03-31
-    talks:
-      "Der S.O.L.I.D.e Softwareentwurf": x
-      "Funktionale Programmierung geht auch mit/trotz Java!": x	
-      "Java Pattern Matching": n
-      "Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version": n
-      "Mit der Zeit gehen – Flexible Architekturen": n
-      "Portfolio-as-Code": n
-  - id: jconp
-    from: 2022-06-21
-    till: 2022-06-22
-    submitted: 2022-03-08
-    deadline: 2022-03-31
-    info: Abgesagt
-    talks:
-      "Der S.O.L.I.D.e Softwareentwurf": n
-      "Java Pattern Matching": n
-      "Mit der Zeit gehen – Flexible Architekturen": n	
-      "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": n
-  - id: jsd
-    from: 2022-09-23
-    deadline: 2022-04-25
-    submitted: 2022-04-04
-    talks:
-      "Pattern Matching in Java": n
-      "Documentation-as-Code": n
-  - id: baselone
-    from: 2022-10-19
-    till: 2022-10-20
-    submitted: 2022-04-08
-    deadline: 2022-04-18
-    talks:
-      "Docs-as-Code": n
-      "Moderne Softwarearchitekturdokumentation (Workshop)": n
-      "Pattern Matching mit Java": n
-      "Pattern Matching mit Java (Workshop)": x
-      "Java 18 + 19": x
-  - id: jfs
-    from: 2022-07-07
-    till: 2022-07-07
-    submitted: 2022-03-08
-    deadline: 2022-03-13
-    talks:
-      "Java Pattern Matching": x
-  - id: seacon
-    location: Online
-    from: 2022-05-18
-    till: 2022-05-19
-    submitted: 2022-02-08
-    deadline: 2022-02-11
-    talks: 
-      "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": x
-      "Der S.O.L.I.D.e Softwareentwurf": n
-  - id: dwx
-    from: 2022-07-04
-    till: 2022-07-08
-    submitted: 2022-01-19
-    deadline: 2022-02-01
-    talks:
-      "Domain Driven Design für Dummies": n 	
-      "Funktionale Programmierung geht auch mit/trotz Java!": x
-      "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n	
-      "Mit der Zeit gehen – Flexible Architekturen": n
-      "Der S.O.L.I.D.e Softwareentwurf": x
-      "Java Pattern Matching": n
-      "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": n
+  - jl:
+      from: 2023-03-15
+      till: 2023-03-17
+      deadline: 2022-09-27
+      submitted:
+      talks:
+  - devoxx:
+      from: 2022-10-10
+      till: 2022-10-14
+      deadline: 2022-07-15
+      submitted:
+      talks:
+  - oop:
+      from: 2023-02-06
+      till: 2023-02-10
+      deadline: 2022-07-04
+      submitted:
+      talks:
+  - sag:
+      from: 2022-11-14
+      till: 2022-11-17
+      deadline: 2022-05-25
+      submitted: 2022-05-25
+      talks:
+        - Die Corona-Warn-App unter der Lupe
+        - Moderne Softwarearchitekturen dokumentieren und kommunizieren
+        - Der S.O.L.I.D.e Softwareentwurf
+  - saa:
+      from: 2022-10-11
+      till: 2022-10-12
+      deadline: 2022-05-09
+      submitted: 2022-05-09 
+      talks:
+        - Der S.O.L.I.D.e Softwareentwurf
+        - Mit der Zeit gehen - Flexible Architekturen
+        - Documentation-as-Code
+        - Domain Driven Design für Dummies
+  - jfn:
+      from: 2022-10-16
+      deadline: 2022-06-01
+      submitted: 2022-05-30
+      talks:
+        "Groovy 4": n
+        "Hibernate 6": n
+        "Java 18 + 19": x
+        "Java Pattern Matching": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Docs-as-Code": n
+  - ittage:
+      location: Online
+      from: 2022-12-12
+      till: 2022-12-15
+      deadline: 2022-05-03
+      submitted: 2022-04-29
+      talks:
+        "Java 17 and Beyond": x
+        "Java Pattern Matching": x
+        "Portfolio-as-Code": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen – Flexible Architekturen": x	
+  - wjax:
+      from: 2022-11-07
+      till: 2022-11-11
+      deadline: 2022-05-10
+      submitted: 2022-05-09
+      talks:
+        - Groovy 4
+        - Hibernate 6
+        - Java 18 + 19
+        - Java Pattern Matching
+        - Moderne Softwarearchitekturdokumentation (Workshop)
+  - hc:
+      deadline: 2022-05-16
+      submitted: 2022-05-16
+      from: 2022-09-06
+      till: 2022-09-08
+      talks:
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Die Corona-Warn-App unter der Lupe": n
+        "Pattern Matching Workshop": n
+  - cl:
+      from: 2022-06-29
+      till: 2022-07-02
+      talks:
+        "Micronaut Live-Coding": x
+  - jcon:
+      from: 2022-09-20
+      till: 2022-09-23
+      submitted: 2022-03-08
+      deadline: 2022-03-31
+      talks:
+        "Der S.O.L.I.D.e Softwareentwurf": x
+        "Funktionale Programmierung geht auch mit/trotz Java!": x	
+        "Java Pattern Matching": n
+        "Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version": n
+        "Mit der Zeit gehen – Flexible Architekturen": n
+        "Portfolio-as-Code": n
+  - jconp:
+      from: 2022-06-21
+      till: 2022-06-22
+      submitted: 2022-03-08
+      deadline: 2022-03-31
+      cancled: true
+      talks:
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Java Pattern Matching": n
+        "Mit der Zeit gehen – Flexible Architekturen": n	
+        "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": n
+  - jsd:
+      from: 2022-09-23
+      deadline: 2022-04-25
+      submitted: 2022-04-04
+      talks:
+        "Pattern Matching in Java": n
+        "Documentation-as-Code": n
+  - baselone:
+      from: 2022-10-19
+      till: 2022-10-20
+      submitted: 2022-04-08
+      deadline: 2022-04-18
+      talks:
+        "Docs-as-Code": n
+        "Moderne Softwarearchitekturdokumentation (Workshop)": n
+        "Pattern Matching mit Java": n
+        "Pattern Matching mit Java (Workshop)": x
+        "Java 18 + 19": x
+  - jfs:
+      from: 2022-07-07
+      till: 2022-07-07
+      submitted: 2022-03-08
+      deadline: 2022-03-13
+      talks:
+        "Java Pattern Matching": x
+  - seacon:
+      location: Online
+      from: 2022-05-18
+      till: 2022-05-19
+      submitted: 2022-02-08
+      deadline: 2022-02-11
+      talks: 
+        "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": x
+        "Der S.O.L.I.D.e Softwareentwurf": n
+  - dwx:
+      from: 2022-07-04
+      till: 2022-07-08
+      submitted: 2022-01-19
+      deadline: 2022-02-01
+      talks:
+        "Domain Driven Design für Dummies": n 	
+        "Funktionale Programmierung geht auch mit/trotz Java!": x
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n	
+        "Mit der Zeit gehen – Flexible Architekturen": n
+        "Der S.O.L.I.D.e Softwareentwurf": x
+        "Java Pattern Matching": n
+        "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": n
+  - etka:
+      from: 2022-05-16
+      till: 2022-05-18
+      deadline: 2022-01-19
+      submitted: 2022-01-19
+      talks:
+        "Java Pattern Matching": x
+        "Die Corona-Warn-App unter der Lupe": x
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+        "Portfolio-as-Code": n
+2021:
+  - jax:
+      from: 2022-05-02
+      till: 2022-05-06
+      deadline: 2021-11-15
+      submitted: 2021-11-12
+      talks:
+        "Pattern Matching mit Java": x
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+  - etffm:
+      from: 2022-03-23
+      till: 2022-03-24
+      deadline: 2021-10-22
+      submitted: 2021-10-22
+      canceled: true
+      talks:
+        "Java Pattern Matching": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+        "Portfolio-as-Code": n
+  - jl:
+      from: 2022-03-15
+      till: 2022-03-17
+      deadline: 2021-09-27
+      submitted: 2021-09-27
+      talks:
+        "Java Pattern Matching": n
+        "Groovy 4": x
+        "Vortrag halten": x
+  - oop:
+      location: Online
+      from: 2022-01-31
+      till: 2022-02-04
+      deadline: 2021-07-05
+      submitted: 2021-07-05
+      talks:
+        "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": x
+        "Den Bounded Context aufgeklappt - Tactical Design revisited": n
+  - jfs:
+      location: Online
+      from: 2021-09-22
+      till: 2021-09-23
+      deadline: 2021-05-30
+      submitted: false
+  - jfn:
+      from: 2021-09-16
+      deadline: 2021-06-01
+      submitted: 2021-05-10
+      talks:
+        "Java 17": x
+        "Die Corona-Warn-App unter der Lupe": n
+        "Micronaut": n
+  - sag:
+      from: 2021-10-11
+      till: 2021-10-14
+      deadline: 2021-05-19
+      submitted: 2021-05-19
+      talks:
+        "Die Corona-Warn-App unter der Lupe": n
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": n
+        "Moderne Softwarearchitekturdokumentation (Workshop)": x
+  - wjax:
+      from: 2021-11-08
+      till: 2021-11-12
+      deadline: 2021-05-12
+      submitted: 2021-05-12
+      talks:
+        "Java 17": n
+        "Die Corona-Warn-App unter der Lupe": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+  - saa:
+      location: Online
+      from: 2021-10-06
+      till: 2021-10-07
+      deadline: 2021-05-10
+      submitted: 2021-05-10
+      talks:
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Die Corona-Warn-App unter der Lupe": x
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": n
+        "Moderne Softwarearchitekturdokumentation (Workshop)": x
+  - ittage:
+      location: Online
+      from: 2021-12-06
+      till: 2021-12-09
+      deadline: 2021-05-10
+      submitted: 2021-05-10
+      talks:
+        "Java 17": x
+        "Die Corona-Warn-App unter der Lupe": x
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": x
+        "Workshop: Moderne Softwarearchitekturdokumentation": x
+        "Portfolio-as-Code": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+  - enterjs:
+      from: 2021-09-27
+      till: 2021-09-30
+      deadline: 2021-05-10
+      submitted: 2021-05-10
+      talks: 
+        "Vue.js - Eine Einführung": n
+  - jcon:
+      from: 2021-10-05
+      till: 2021-10-08
+      deadline: 2021-04-30
+      submitted: 2021-04-30
+      talks:
+        "Java 17": x
+        "Die Corona-Warn-App unter der Lupe": x
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": x
+        "Portfolio-as-Code": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n
+  - jvmcon:
+      from: 2021-11-29
+      till: 2021-12-01
+      deadline: 2021-05-01
+      submitted: 2021-04-30
+      canceled: true
+      talks:
+        "Java 17": n
+        "Die Corona-Warn-App unter der Lupe": x
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": n
+        "Mit der Zeit gehen – flexible Architekturen": n
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n
+        "Workshop: Moderne Softwarearchitekturdokumentation": n
+  - vueday:
+      from: 2021-06-15
+      deadline: 2021-04-12
+      submitted: 2021-04-12
+      talks: 
+        "Vue.js - Eine Einführung": n
+  - baselone:
+      from: 2021-10-20
+      till: 2021-10-21
+      deadline: 2021-04-30
+      submitted: 2021-04-30
+      talks:
+        "Portfolio-as-Code": n
+        "Mit der Zeit gehen – flexible Architekturen": x
+        "Moderne Softwarearchitekturdokumentation (Workshop)": n
+        "Java 17 - Die relevanten Features der neuen LTS-Version": x
+        "Funktionale Programmierung geht auch mit/trotz Java!": n
+  - jsd:
+      from: 2021-10-01
+      deadline: 2021-04-18
+      submitted: 2021-04-18
+      talks:
+        "Die Corona-Warn-App unter der Lupe": x
+        "Ich möchte auch mal einen Vortrag halten": n
+        "Java 17": n
+  - mssummit2:
+      location: Online
+      from: 2021-06-07
+      till: 2021-06-09
+      talks: 
+        "Corona-Warn-App entschlüsselt. Microservices unter der Lupe.": x
+  - xpdays:
+      location: Online
+      deadline: 2021-05-24
+      submitted: 2021-02-16
+      from: 2021-11-04
+      till: 2021-11-05
+      talks: 
+        "Portfolio-as-Code": n
+  - hc:
+      location: Online
+      deadline: 2021-04-26
+      submitted: 2021-04-26
+      from: 2021-09-14
+      till: 2021-09-16
+      talks:
+        "Portfolio-as-Code": x
+        "Die Corona-Warn-App unter der Lupe": n
+        "Moderne Softwarearchitekturdokumentation (Workshop)": x
+        "Java 17": n
+        "Domain Driven Design für Dummies": n
+  - etka:
+      location: Online
+      deadline: 2021-02-03
+      submitted: 2021-02-03
+      from: 2021-06-09
+      till: 2021-06-10
+      talks:
+        "Mit der Zeit gehen – flexible Architekturen": n
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": x
+        "Oje, Java ist nicht mehr kostenlos – und nun?": n
+        "Funktionale Programmierung geht auch mit/trotz Java!": x
+  - devday:
+      location: Online
+      from: 2021-04-20
+      till: 2021-04-20
+      submitted: 2021-01-18
+      deadline: 2021-01-25
+      talks:
+        "Portfolio-as-Code": n
+  - devopscon:
+      from: 2021-10-12
+      till: 2021-10-15
+      submitted: 2021-01-18
+      deadline: 2021-01-18
+      talks:
+        "Portfolio-as-Code": n
+  - wdc:
+      location: Online
+      from: 2021-04-27
+      till: 2021-04-29
+      talks: 
+        "Vue.js - Eine Einführung": x
+  - dwx:
+      location: Online
+      from: 2021-06-28
+      till: 2021-07-02
+      submitted: 2021-01-13
+      deadline: 2021-01-14
+      talks:
+        "Domain Driven Design für Dummies": n	
+        "Funktionale Programmierung geht auch mit/trotz Java!": n
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n	
+        "Legacy Code im Griff dank Mikado Methode": x
+        "Legacy Code meistern in x einfachen Schritten": x	
+        "Micronaut – effiziente und performante Microservices für die Cloud": n	
+        "Oje, Java ist nicht mehr kostenlos - und nun?": n
+        "Mit der Zeit gehen – Flexible Architekturen": n
+        "JVM Functional Language Battle": x
+  - seacon:
+      location: Online
+      deadline: 2021-02-15
+      submitted: 2021-02-15
+      from: 2021-04-21
+      till: 2021-04-22
+      talks:
+        "Die Corona-Warn-App unter der Lupe": x    
