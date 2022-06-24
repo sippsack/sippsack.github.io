@@ -1,0 +1,55 @@
+---
+layout: page
+title: Einreichungen bei Konferenzen
+description: Status der CfPs und meine besuchten Konferenzen 
+permalink: /cfps/
+---
+
+<p><a href="#cfps" class="more scrolly">Aktuelle Einreichungen | 
+<a href="#conferences" class="more scrolly">Alle Konferenzen</a></p>
+
+<h2 id="cfps"><i class="fa fa-bullhorn" aria-hidden="true"></i> Einreichungen</h2>
+
+{% assign conferences = site.data.conferences %}
+
+{% assign showOnlyLastMonths = 3  %}
+{% assign secondsSinceLastMonths = 60 | times: 60 | times: 24 | times: 30 | times: showOnlyLastMonths  %}
+{% assign showSince = 'now' | date: "%s" | minus : secondsSinceLastMonths %}
+<!-- TODO: nur die CfPs der letzten x Monate anzeigen -->
+
+{% for year in site.data.cfps %}
+<p>Legende: <i class="fa fa-hourglass-o" aria-hidden="true" style="color:black"></i> offen, <i class="fa fa-check-circle-o" aria-hidden="true" style="color:green"></i> angenommen, <i class="fa fa-thumbs-o-down" aria-hidden="true" style="color:red"></i> abgelehnt/abgesagt</p>
+    {% for cfp in year[1] %}
+{% assign conf = conferences | where: "id", cfp.id | first %}
+<h4>{{ conf.name }} ({{ cfp.location | default: conf.location }}) <img style="height:1em" src="/assets/images/conferences/{{ conf.id }}.png" alt="{{ cfp.name }}" /></h4>
+{% if cfp.from %}<b>Zeitraum:</b> {{ cfp.from | date: "%-d %B %Y" }}{% if cfp.till %} - {{ cfp.till | date: "%-d %B %Y" }}{% endif %}{% unless cfp.submitted %}{% if cfp.deadline %} (<b>Einreichungsende:</b> {{ cfp.deadline | date: "%-d %B %Y" }}){% endif %}{% endunless %}{% endif %}
+<p>
+{% if cfp.talks %}
+<b>Einreichungen{% if cfp.submitted %} (vom {{ cfp.submitted | date: "%-d %B %Y" }}){% endif %}:</b>
+<ul class="talk-list">
+        {% for talk in cfp.talks %}
+        <li>{{ talk[0] | default: talk }} (Status: <i class="fa fa-{% if talk[1] == 'x' %}check-circle-o{% elsif talk[1] == 'n' %}thumbs-o-down{% else %}hourglass-o{% endif %}" aria-hidden="true" style="color:{% if talk[1] == 'x' %}green{% elsif talk[1] == 'n' %}red{% else %}black{% endif %}"></i>)</li>
+        {% endfor %}
+</ul>
+{% else %}
+<b>Noch nicht eingereicht!</b>
+{% endif %}
+</p>
+    {% endfor %}
+{% endfor %}
+
+<hr/>
+<h2 id="conferences"><i class="fa fa-microphone" aria-hidden="true"></i> Konferenzen</h2>
+<p>Konferenzen, bei denen ich regelmässig einreiche ...</p>
+
+{% assign all_seasons =  site.data.conferences | map: "season" | uniq %}
+
+{% for season in all_seasons %}
+<h4>{{ season }}</h4>
+<ul>
+{% assign conferences =  site.data.conferences | where: "season", season %}
+{% for conference in conferences %}
+<li><a href="{{ conference.url }}">{{ conference.name }}</a> ({{ conference.location }}) <img style="height:1em" src="/assets/images/conferences/{{ conference.id }}.png" alt="{{ conference.name }}" /></li>
+{% endfor %}
+</ul>
+{% endfor %}

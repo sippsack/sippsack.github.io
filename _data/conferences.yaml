@@ -43,6 +43,11 @@
   location: Nürnberg
   url: https://www.developer-week.de/
   season: Sommer
+- id: jconp
+  name: JCON People
+  location: München
+  url: https://jcon.one/
+  season: Sommer
 - id: jfs
   name: Java Forum Stuttgart
   location: Stuttgart
@@ -80,7 +85,7 @@
   season: Herbst
 - id: jcon
   name: JCON
-  location: Düsseldorf
+  location: Online
   url: https://jcon.one/
   season: Herbst
 - id: wdc
@@ -92,6 +97,11 @@
   name: Software Architecture Alliance
   location: München
   url: https://www.software-architecture-alliance.de
+  season: Herbst
+- id: devoxx
+  name: Devoxx Belgium
+  location: Antwerpen
+  url: https://devoxx.be/
   season: Herbst
 - id: baselone
   name: BaselOne

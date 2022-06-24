@@ -5,7 +5,7 @@ description: Auftritte bei Konferenzen und User Groups
 permalink: /talks/
 ---
 
-{% assign conferences =  site.data.conferences | map: "id" | uniq %}
+{% assign conferences = site.data.conferences | map: "id" | uniq %}
 
 {% for year in site.data.talks %}
 {% assign yearTalks = year[1] %}

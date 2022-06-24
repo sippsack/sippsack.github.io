@@ -10,12 +10,23 @@ links:
   Xing: https://www.xing.com/profile/Falk_Sippach
   LinkedIn: https://www.linkedin.com/in/falk-sippach-845259114/
 photos:
-  "400 px": /images/falk_sippach-400px.jpg
-  "300 dpi": /images/falk_sippach-300dpi.jpg
+  "400 px": 
+    show: true
+    images:
+      - "/images/falk_sippach-400px.jpg"
+      - "/images/falk_sippach-2-400px.jpg"
+  "300 dpi": 
+    images:
+      - /images/falk_sippach-300dpi.jpg
+      - /images/falk_sippach-2-300dpi.jpg
 activities: 
   - event: Java User Group Darmstadt
     activity: Co-Organisator
     link: http://www.jug-da.de/about/
+    since: 2013
+  - event: iJUG e. V.
+    activity: Mitglied
+    link: https://www.ijug.eu/
     since: 2013
   - event: Javaland
     activity: Programmkomitee 
@@ -53,8 +64,28 @@ activities:
     activity: Programmkomitee
     link: https://entwicklertag.de/frankfurt/2021/unser-programmkomitee-2021
     since: 2020
+  - event: embarc Architektur-Punsch und Architektur-Midsommar
+    activity: Organisation
+    link: https://www.embarc.de/events/
+    since: 2020
+  - event: Akkreditierter Trainer für iSAQB Seminare
+    activity: Trainer für CPSA-F, FLEX und IMPROVE
+    link: https://www.isaqb.org/
+    since: 2021
+  - event: iSAQB e. V. (international Software Architecture Qualification Board)
+    activity: Mitglied und Mitarbeit Arbeitsgruppe Foundation Level
+    link: https://www.isaqb.org/
+    since: 2022
+  - event: JakartaOne Livestream - German
+    activity: Mitglied im Programmkomitee
+    link: https://jakartaone.org/2022/german/
+    since: 2022
 talks:
   current:
+    "How to become a speaker" : |
+      Public speaking in front of a group of people is a big hurdle for many of us. With the right preparation and a little practice, however, it doesn't have to be a problem at all and is particularly useful for everyday professional life. And even if it sounds paradoxical, user groups and conferences in particular offer the best conditions to try things out in front of an audience.
+      But how do you find an exciting topic? How do you write an interesting abstract? What does the preparation look like if you have been accepted? What are the best tricks to cut a good figure on stage?
+      We would like to tell you about our experiences both from the perspective of the speaker and as conference and user group organizers. We are sure that we can animate and motivate some of you to take the step in front of the audience. "Aftercare" is free of charge and included.
     "Die Corona-Warn-App unter der Lupe" : |
       Leuchtturmprojekt, Kostengrab, Hoffnungsträger und wichtiger Baustein in der Pandemiebekämpfung — das deutsche Corona-Warn-App-System (kurz CWA), besteht nicht nur aus den recht prominenten nativen iOS- und Android-Apps, die Ihr vielleicht auch auf Eurem Smartphone installiert habt. Zur Umsetzung wichtiger Use Cases wie der persönlichen Risikoermitttlung, dem Melden bzw. der Benachrichtigung von (positiven) Testergebnissen oder dem Austausch mit Warn-Systemen anderer Länder, gehört auch eine vielteilige Server-Lösung. Sie basiert auf einem zeitgemäßen Architekturstil und einem aktuellen Technologie-Stack. Und wurde unter hohem Zeitdruck federführend von SAP und Deutscher Telekom realisiert.
       <br/><br/>
