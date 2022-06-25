@@ -17,6 +17,13 @@
       deadline: 2022-07-04
       submitted:
       talks:
+  - archsummit2:
+      from: 2022-09-12
+      till: 2022-09-14
+      deadline: 2022-06-30
+      submitted: 2022-06-17
+      talks:
+        "Workshop: Documentation-as-Code": x
   - sag:
       from: 2022-11-14
       till: 2022-11-17
@@ -101,7 +108,7 @@
       till: 2022-06-22
       submitted: 2022-03-08
       deadline: 2022-03-31
-      cancled: true
+      canceled: true
       talks:
         "Der S.O.L.I.D.e Softwareentwurf": n
         "Java Pattern Matching": n
