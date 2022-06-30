@@ -1,17 +1,66 @@
 2022:
+  - Dezember:
+    - host: ittage
+      title: Pattern Matching in Java... und warum es dafür algebraische Datentypen braucht
+      date: 2022-12-13
+      link: https://www.ittage.informatik-aktuell.de/programm/2022/pattern-matching-in-java-und-warum-es-dafuer-algebraische-datentypen-braucht.html
+    - host: ittage
+      title: Mit der Zeit gehen – flexible Architekturen
+      date: 2022-12-13
+      link: https://www.ittage.informatik-aktuell.de/programm/2022/software-architektur-mit-der-zeit-gehen-flexible-architekturen.html
+    - host: ittage
+      title: Java 17 und darüber hinaus
+      date: 2022-12-13
+      link: https://www.ittage.informatik-aktuell.de/programm/2022/java-17-und-darueber-hinaus.html
+  - Oktober:
+    - host: baselone
+      title: "Workshop: Pattern Matching mit Java"
+      date: 2022-10-20
+      link: https://baselone.ch/
+    - host: baselone
+      title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
+      date: 2022-10-19
+      link: https://baselone.ch/
+    - host: jfn
+      title: Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version
+      date: 2022-10-06
+      link: https://javaforumnord.de/site/2022/
+    - host: HackTalk Braunschweig
+      title: Nur soviel Architekturarbeit wie nötig ...
+      date: 2022-10-04
+      location: Online
+      link: https://www.hacktalk.de/
+  - September:
+    - host: jcon
+      title: Einführung in die funktionale Programmierung mit Java
+      date: 2022-09-22
+      link: https://jcononline2022.sched.com/event/11lBm?iframe=no
+    - host: jcon
+      title: Der S.O.L.I.D.e Softwareentwurf
+      date: 2022-09-21
+      link: https://jcononline2022.sched.com/event/11lBX?iframe=no
+    - host: Agiler Stammtisch Frankfurt
+      title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+      date: 2022-09-20
+      location: Frankfurt
+      link: https://www.meetup.com/agiler-stammtisch-frankfurt/events/286258480/
+    - host: archsummit2
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      date: 2022-09-12
+      link: https://software-architecture-summit.de/berlin/
   - Juli:
     - host: jfs
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-07-07
       link: https://www.java-forum-stuttgart.de/vortraege/pattern-matching-in-java/
     - host: dwx
-      title: Funktionale Programmierung geht auch mit/trotz Java!
-      date: 2022-07-06
-      link: https://www.developer-week.de/programm/#/talk/funktionale-programmierung-geht-auch-mit-trotz-java-2
-    - host: dwx
       title: Der S.O.L.I.D.e Softwareentwurf
       date: 2022-07-06
       link: https://www.developer-week.de/programm/#/talk/der-s-o-l-i-d-e-softwareentwurf
+    - host: dwx
+      title: Funktionale Programmierung geht auch mit/trotz Java!
+      date: 2022-07-05
+      link: https://www.developer-week.de/programm/#/talk/funktionale-programmierung-geht-auch-mit-trotz-java-2
     - host: cl
       title: Live-Hacking mit Micronaut
       date: 2022-07-01
@@ -1113,7 +1162,7 @@
 2014:
   - Mai:
     - conference: Orientierungspunkt OIO
-      title: SAFE - Architektur im Rahmen grosser Agiler Projekte
+      title: SAFe - Architektur im Rahmen grosser agiler Projekte
       date: 2014-12-18
       location: Mannheim
       link: http://www.oio.de/vortrag-mannheim/orientierungspunkte/vortragsfolien-archiv.htm#OrPoint-2014-06-27
@@ -1132,7 +1181,7 @@
       slides: /files/talks/codingdojo-javaland-2014.pdf
   - Februar:
     - conference: OOP
-      title: Kontinuierliche Architektur im Rahmen grosser Agiler Projekte
+      title: Kontinuierliche Architektur im Rahmen grosser agiler Projekte
       date: 2014-02-04
       location: München
       link: http://www.oop-konferenz.de/oop2014/konferenz/konferenzprogramm/conference-detail/kontinuierliche-architektur-im-rahmen-grosser-agiler-projekte.html?no_cache=1
