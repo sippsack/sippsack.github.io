@@ -1,3 +1,10 @@
+2023:
+  - Februar:
+    - host: oop
+      title: Documentation-as-Code - Dokumentation kontinuierlich und automatisiert erstellen
+      location: Online
+      date: 2023-02-07
+      link: https://www.oop-konferenz.de/oop-2023/
 2022:
   - Dezember:
     - host: ittage
@@ -12,6 +19,16 @@
       title: Java 17 und darüber hinaus
       date: 2022-12-13
       link: https://www.ittage.informatik-aktuell.de/programm/2022/java-17-und-darueber-hinaus.html
+    - conference: betterCode() Clean Architecture 2022
+      title: "Architekturvision in Zeiten von Clean Architecture"
+      date: 2022-12-06
+      location: Online 
+      link: https://clean-architecture.bettercode.eu/veranstaltung-15461-se-0-architekturvision-in-zeiten-von-clean-architecture.html
+  - November:
+    - host: sag
+      title: How to Document and Communicate Software Architectures These Days
+      date: 2022-11-16
+      link: https://conferences.isaqb.org/software-architecture-gathering/speaker/#how-to-document-and-communicate-software-architectures-these-days
   - Oktober:
     - host: baselone
       title: "Workshop: Pattern Matching mit Java"
@@ -21,6 +38,11 @@
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-10-19
       link: https://baselone.ch/
+    - host: saa
+      title: Flexible Architekturen
+      date: 2022-10-11
+      canceled: true
+      link: https://www.software-architecture-alliance.de/software-architecture-alliance-2022/
     - host: jfn
       title: Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version
       date: 2022-10-06
@@ -38,6 +60,7 @@
     - host: jcon
       title: Der S.O.L.I.D.e Softwareentwurf
       date: 2022-09-21
+      canceled: true
       link: https://jcononline2022.sched.com/event/11lBX?iframe=no
     - host: Agiler Stammtisch Frankfurt
       title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
@@ -47,16 +70,21 @@
     - host: archsummit2
       title: "Workshop: Moderne Softwarearchitekturdokumentation"
       date: 2022-09-12
-      link: https://software-architecture-summit.de/berlin/
+      link: https://software-architecture-summit.de/softwarearchitektur/moderne-softwarearchitekturdokumentation/
+    - host: hc
+      title: "Die Corona-Warn-App unter der Lupe"
+      date: 2022-09-07
+      cancled: true
+      link: https://www.herbstcampus.de/
   - Juli:
     - host: jfs
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-07-07
       link: https://www.java-forum-stuttgart.de/vortraege/pattern-matching-in-java/
     - host: dwx
-      title: Der S.O.L.I.D.e Softwareentwurf
-      date: 2022-07-06
-      link: https://www.developer-week.de/programm/#/talk/der-s-o-l-i-d-e-softwareentwurf
+      title: Pattern Matching in Java
+      date: 2022-07-05
+      link: https://www.developer-week.de/programm/#/talk/pattern-matching-in-java-und-warum-es-dafur-algebraische-datentypen-braucht
     - host: dwx
       title: Funktionale Programmierung geht auch mit/trotz Java!
       date: 2022-07-05
@@ -137,44 +165,136 @@
       link: https://www.oop-konferenz.de/oop-2022/programm/konferenzprogramm
 2021:
   - Dezember:
-    - conference: IT-Tage
-    - conference: IT-Tage
-    - conference: IT-Tage
-    - conference: IT-Tage
+    - conference: embarc Architektur-Punsch
+      title: Ein interaktiver Einstieg in Docs-as-Code
+      date: 2020-12-13
+      location: Online
+      link: https://www.embarc.de/architektur-punsch-2021/
+    - host: ittage
+      title: Moderne Softwarearchitekturen dokumentieren und kommunizieren
+      date: 2021-12-08
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/programm/2021/moderne-softwarearchitekturen-dokumentieren-und-kommunizieren.html
+    - host: ittage
+      title: "Die Corona-Warn-App unter der Lupe"
+      date: 2021-12-07
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/programm/2021/die-corona-warn-app-unter-der-lupe.html
+    - host: ittage
+      title: "Java 17: Was erwartet uns in der neuesten LTS-Version?"
+      date: 2021-12-07
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/programm/2021/java-17-was-erwartet-uns-in-der-neuesten-lts-version.html
+    - host: ittage
+      title: "Workshop: Moderne Softwarearchitektur-Dokumentation"
+      date: 2021-12-06
+      location: Online
+      link: https://www.ittage.informatik-aktuell.de/programm/2021/moderne-softwarearchitektur-dokumentation.html
     - conference: JUG Oberpfalz
+      title: "Java 17 - Was erwartet uns in der neuesten LTS-Version?"
+      date: 2021-12-01
+      location: Online
+      link: https://www.meetup.com/jug-oberpfalz/events/277230646/
+    - conference: INNOQ Technology Day
+      title: "Training Bite: Softwarearchitekturen reflektieren"
+      date: 2021-12-01
+      location: Online
+      link: https://technologyday.innoq.com/programm/isaqb-arceval
   - November:
     - conference: JVM-Con
       title: Die Corona-Warn-App unter der Lupe
       date: 2021-11-30
       canceled: true
+    - host: Bonprix GmbH
+      title: "Java 17: Was erwartet uns in der neuesten LTS-Version?"
+      date: 2021-11-29
     - host: JUG Schweiz
       title: "Domain Driven Design für Dummies"
       date: 2021-11-24
       location: Luzern
       link: https://www.jug.ch/html/events/2021/java_17.html
   - Oktober: 
-    - conference: BaselOne
+    - host: baselone
+      date: 2021-10-21
+      title: Mit der Zeit gehen – flexible Architekturen
+      link: https://2021.baselone.ch/speech.html?id=EA959AB0-CF16-4652-A0D2-C839101379DC
+      slides: https://2021.baselone.ch/dam/baselone2021/assets/SpeakerSlides/Falk-Sippach-Flexible-Architekturen.pdf
+    - host: baselone
+      date: 2021-10-21
+      title: Java 17 - Die relevanten Features der neuen LTS-Version
+      link: https://2021.baselone.ch/speech.html?id=B6258BD3-BB4B-47C0-850D-F0260C2D69B2
+      slides: https://2021.baselone.ch/dam/baselone2021/assets/SpeakerSlides/Falk-Sippach-Java17.pdf
       video: https://www.youtube.com/watch?v=HjnkGIsOlp4
-    - conference: BaselOne
-    - conference: Software Architecture Gathering
-    - conference: Software Architecture Alliance
-    - conference: Software Architecture Alliance
+    - host: sag
+      date: 2021-10-12
+      title: "Workshop: Modern Software Architecture Documentation Hands On"
+      link: https://conferences.isaqb.org/software-architecture-gathering/tuesday/#Tuesday_Falk_Sippach_Ralf_D_Muller
+    - host: saa
+      date: 2021-10-07
+      title: "Die Corona-Warn-App unter der Lupe"
+      location: Online
+      link: https://www.software-architecture-alliance.de/software-architecture-alliance-2021/programm/programm#item-3116
+    - host: saa
+      date: 2021-10-06
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      location: Online
+      link: https://www.software-architecture-alliance.de/software-architecture-alliance-2021/programm/programm#item-3137
     - host: jcon
-      title: Die Corona-Warn-App unter der Lupe
+      title: "Die Corona-Warn-App unter der Lupe"
+      date: 2021-10-06
+      link: https://jcon.one/de/
       video: https://www.youtube.com/watch?v=tgHIeVaYhIw
     - host: jcon
       title: Java 17 - Was erwartet uns in der neuesten LTS-Version?
+      date: 2021-10-06
+      link: https://jcon.one/de/
       video: https://www.youtube.com/watch?v=HgaT8yMJLmU
     - host: jcon
-    - conference: JUG Saxony Day
+      title: Moderne Softwarearchitekturen dokumentieren und kommunizieren
+      date: 2021-10-05
+      link: https://jcon.one/de/
+      video: https://www.youtube.com/watch?v=3Qtpg6VEDcc
+    - host: jsd
+      date: 2021-10-01
+      title: "Die Corona-Warn-App unter der Lupe"
+      location: Online
+      link: https://jugsaxony.org/day/
       video: https://vimeo.com/637003242
   - September:
-    - conference: Accento
-    - conference: Java Forum Nord
-    - conference: Herbstcampus
-    - conference: Herbstcampus
-    - conference: Herbstcampus
+    - host: accento
+      date: 2021-09-28
+      title: "Panel: The Present and Future of Java (17)"
+      location: Online
+      link: https://2021.accento.dev/panels/java/
+    - host: accento
+      date: 2021-09-28
+      title: "Java 17 - Was erwartet uns in der neuesten LTS-Version?"
+      location: Online
+      link: https://2021.accento.dev/talks/java-17/
+    - host: hc
+      date: 2021-09-24
+      title: "Workshop: Moderne Softwarearchitekturdokumentation"
+      location: Online
+      link: https://www.herbstcampus.de/2021/veranstaltung-13159-0-moderne-softwarearchitekturdokumentation.html
+    - host: jfn
+      date: 2021-09-16
+      title: "Java 17 - Was erwartet uns in der neuesten LTS-Version?"
+      link: https://javaforumnord.de/site/2021/    
+    - host: hc
+      date: 2021-09-15
+      title: Portfolio as Code – Homepage für ITler
+      location: Online
+      link: https://www.herbstcampus.de/2021/veranstaltung-13111-0-portfolio-as-code--homepage-fuer-itler.html
+    - host: hc
+      date: 2021-09-15
+      title: Die Corona-Warn-App unter der Lupe
+      location: Online
+      link: https://www.herbstcampus.de/2021/veranstaltung-13157-0-die-corona-warn-app-unter-der-lupe.html
     - conference: betterCode() Java 17
+      date: 2021-09-14
+      title: Pattern Matching in Java
+      location: Online
+      link: https://java.bettercode.eu/veranstaltung-13489-se-0-die-wichtigsten-neuerungen-seit-java-11-deep-dive-2-pattern-matching-in-java--der-aktuelle-stand-im-jdk-17.html
   - Juni:
     - conference: Developer Week (DWX)
       date: 2021-06-30
@@ -194,6 +314,12 @@
       location: Online
       link: https://www.developer-week.de/history/programm-2021/#/talk/jvm-functional-language-battle-3
       slides: https://www.embarc.de/dwx-2021/
+    - conference: Architektur Midsommar
+      date: 2021-06-24
+      title: Corona-Warn-App entschlüsselt. Microservices unter der Lupe.
+      location: Online
+      link: https://www.embarc.de/architektur-midsommar-2021/
+      slides: https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2021/Falk-Sippach-CWA_unter_der_Lupe-Midsommar.pdf
     - conference: "Entwickler-Tage @ IT-Tage"
       date: 2021-06-16
       title: "Legacy-Code im Griff dank der Mikado-Methode"

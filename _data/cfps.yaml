@@ -2,7 +2,7 @@
   - jl:
       from: 2023-03-15
       till: 2023-03-17
-      deadline: 2022-09-27
+      deadline: 2022-09-26
       submitted:
       talks:
   - devoxx:
@@ -12,7 +12,7 @@
       submitted: 2022-07-13
       talks:
         "Giving a talk - how to start?": n
-        "How to document and communicate software architectures these days": o
+        "How to document and communicate software architectures these days": n
   - oop:
       from: 2023-02-06
       till: 2023-02-10
