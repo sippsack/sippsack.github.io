@@ -9,14 +9,17 @@
       from: 2022-10-10
       till: 2022-10-14
       deadline: 2022-07-15
-      submitted:
+      submitted: 2022-07-13
       talks:
+        "Giving a talk - how to start?": n
+        "How to document and communicate software architectures these days": o
   - oop:
       from: 2023-02-06
       till: 2023-02-10
       deadline: 2022-07-04
-      submitted:
+      submitted: 2022-07-4
       talks:
+        "Kontinuierlich und automatisiert dokumentieren - Docs-as-Code in der Praxis": x
   - archsummit2:
       from: 2022-09-12
       till: 2022-09-14
@@ -30,19 +33,19 @@
       deadline: 2022-05-25
       submitted: 2022-05-25
       talks:
-        - Die Corona-Warn-App unter der Lupe
-        - Moderne Softwarearchitekturen dokumentieren und kommunizieren
-        - Der S.O.L.I.D.e Softwareentwurf
+        "Die Corona-Warn-App unter der Lupe": n
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": x
+        "Der S.O.L.I.D.e Softwareentwurf": n
   - saa:
       from: 2022-10-11
       till: 2022-10-12
       deadline: 2022-05-09
       submitted: 2022-05-09 
       talks:
-        - Der S.O.L.I.D.e Softwareentwurf
-        - Mit der Zeit gehen - Flexible Architekturen
-        - Documentation-as-Code
-        - Domain Driven Design für Dummies
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Mit der Zeit gehen - Flexible Architekturen": x
+        "Documentation-as-Code": n
+        "Domain Driven Design für Dummies": n
   - jfn:
       from: 2022-10-16
       deadline: 2022-06-01
@@ -129,9 +132,9 @@
       talks:
         "Docs-as-Code": n
         "Moderne Softwarearchitekturdokumentation (Workshop)": n
-        "Pattern Matching mit Java": n
+        "Pattern Matching mit Java": x
         "Pattern Matching mit Java (Workshop)": x
-        "Java 18 + 19": x
+        "Java 18 + 19": n
   - jfs:
       from: 2022-07-07
       till: 2022-07-07
