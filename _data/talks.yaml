@@ -74,13 +74,18 @@
     - host: hc
       title: "Die Corona-Warn-App unter der Lupe"
       date: 2022-09-07
-      cancled: true
+      canceled: true
       link: https://www.herbstcampus.de/
   - Juli:
     - host: jfs
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-07-07
       link: https://www.java-forum-stuttgart.de/vortraege/pattern-matching-in-java/
+    - host: dwx
+      title: Der S.O.L.I.D.e Softwareentwurf
+      date: 2022-07-07
+      canceled: true
+      link: https://www.developer-week.de/
     - host: dwx
       title: Pattern Matching in Java
       date: 2022-07-05

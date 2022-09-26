@@ -1,10 +1,32 @@
+2023:
+  - dwx:
+      from: 2023-06-26
+      till: 2023-06-30
+      deadline: 2023-02-01
+      submitted:
+      talks:
+  - etka:
+      from: 2023-06-14
+      till: 2023-06-15
+      deadline: 2023-02-01
+      submitted:
+      talks:
 2022:
+  - jax:
+      from: 2023-05-08
+      till: 2023-05-12
+      deadline: 2022-11-10
+      submitted:
+      talks:
   - jl:
       from: 2023-03-15
       till: 2023-03-17
       deadline: 2022-09-26
-      submitted:
+      submitted: 2022-09-26
       talks:
+        - "Phantastische Diagramme und wie Du sie selbst erstellst"
+        - "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+        - "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests"
   - devoxx:
       from: 2022-10-10
       till: 2022-10-14
@@ -87,7 +109,7 @@
       till: 2022-09-08
       talks:
         "Der S.O.L.I.D.e Softwareentwurf": n
-        "Die Corona-Warn-App unter der Lupe": n
+        "Die Corona-Warn-App unter der Lupe": x
         "Pattern Matching Workshop": n
   - cl:
       from: 2022-06-29

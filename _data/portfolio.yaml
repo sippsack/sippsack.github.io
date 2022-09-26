@@ -56,6 +56,10 @@ activities:
     activity: Bewerter für die Einreichungen
     link: https://www.oop-konferenz.de/oop2019/programm/reviewer.html
     since: 2018
+  - event: SpeaKonf
+    activity: Mitgründer und Organisator
+    link: https://www.speakonf.de/
+    since: 2019
   - event: CyberLand
     activity: Mitgründer und Organisator
     link: https://cyberland.ijug.eu/about/
@@ -80,8 +84,30 @@ activities:
     activity: Mitglied im Programmkomitee
     link: https://jakartaone.org/2022/german/
     since: 2022
+  - event: "betterCode() Clean Architecture"
+    activity: Programmbeirat
+    link: https://clean-architecture.bettercode.eu/programmbeirat.php?source=0
+    since: 2022
 talks:
   current:
+    "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests (Co-Sprecher: Roland Krüger, Freiberufler, 2022" : |
+      Das Schreiben und Pflegen von Oberflächentests, zum Beispiel mit Selenium, gehört zu den eher ungeliebten Aufgaben beim Erklimmen der Testpyramide. Ein hoher Implementierungsaufwand verbunden mit langen Testlaufzeiten von am Ende dann doch brüchigen und unzuverlässigen Tests machen die Erstellung und Wartung zu einer nervraubenden und kostspieligen Aufgabe.
+
+      Wie wäre es, wenn wir das gängige Page Object Pattern mit einer eigenen domänenspezifischen Sprache auf die nächste Stufe heben? Eine DSL, die mit einer natürlichsprachigen Syntax das verschachtelte Navigieren über eine Webseite optimal abbildet und zudem noch typsicher ist. Durch die syntaktische Mächtigkeit von Kotlin kommen wir zu dem mit wesentlich weniger zu wartendem Code aus, als es rein mit Java machbar wäre.
+
+      In diesem Vortrag zeigen wir, dass die Hinzunahme von Kotlin als weitere Programmiersprache zu einem Java-Projekt sinnvoll sein kann. Wir demonstrieren zentrale Sprachfeatures der alternativen JVM-Sprache, die sich zum Schreiben einer kompakten Oberflächentest-DSL besonders bewährt haben. Nach dem Vortrag habt ihr einen Eindruck davon bekommen, welch elegantes API-Design eine DSL mit Kotlin bietet.
+    "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests (Co-Sprecher: Roland Krüger, Freiberufler, 2022" : |
+      Das Schreiben von automatisierbaren Tests ist mittlerweile akzeptiert und hilft uns, qualitativ hochwertige Software zu entwickeln. Allerdings müssen Tests und deren Architektur mit der gleichen Sorgfalt und nach den gleichen Regeln von Clean Code entstehen, wie das Design des Produktivcodes. Auch Testcode kann verrotten. Schlecht gewählte Namen, Redundanzen und hohe Kopplung des Testcodes an Implementierungsdetails führen zu großen Wartungsaufwänden und im schlimmsten Fall zur temporären, also meist doch dauerhaften Deaktivierung von Tests.
+
+      In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel JUnit 5 bereits für das Schreiben gut wartbarer Tests mit sich bringt. Darüber hinaus zeigen wir Euch, wie ihr durch das Schreiben eigener Assertion-Matcher eure Validierungslogik von Implementierungsdetails unabhängiger macht. Dadurch lernt ihr, wie euer (Test-)Code wartbarer und robuster gegenüber Refactorings ist, damit nicht schon einfache Umbauarbeiten zu großflächigen Anpassungen am Testcode führen.
+    "Phantastische Diagramme und wie Du sie selbst erstellst (Co-Sprecher: Ralf D. Müller, DB Systel GmbH, 2022" : |
+      Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
+
+      Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein..
+
+      In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagrammen auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
+
+      Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
     "How to become a speaker" : |
       Public speaking in front of a group of people is a big hurdle for many of us. With the right preparation and a little practice, however, it doesn't have to be a problem at all and is particularly useful for everyday professional life. And even if it sounds paradoxical, user groups and conferences in particular offer the best conditions to try things out in front of an audience.
       But how do you find an exciting topic? How do you write an interesting abstract? What does the preparation look like if you have been accepted? What are the best tricks to cut a good figure on stage?
@@ -109,7 +135,7 @@ talks:
       * und noch einiges mehr
       <br/><br/>
       In diesem Vortrag betrachten wir außerdem hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Falls Ihr noch nicht bei Java 11 oder höher angekommen seid, bekommt Ihr damit einen kompakten Überblick, wie sich Java aktuell anfühlt.
-    "Portfolio-as-Code - Homepage für ITler (Co-Sprecher: Sandra Parsick, Freiberufler, 2021)": |
+    "Portfolio-as-Code - Homepage für ITler (Co-Sprecher: Sandra Parsick, Freiberufler und Ralf D. Müller, DB Systel GmbH, 2021)": |
       Auch wenn wir als ITler, egal ob angestellt oder freiberuflich, derzeit auf dem Arbeitsmarkt umworben werden, muss man uns erstmal finden. Neben der Präsenz auf diversen beruflichen Kontaktbörsen bietet sich natürlich das Erstellen einer eigenen Internetseite an, auf der die Projektliste, Side-Projekte, Blog-Posts, Artikel, Vorträge und der Lebenslauf präsentiert werden können. Aber nicht jeder möchte sich mit Design und Layout auseinandersetzen, sondern vielmehr auf den Inhalt konzentrieren. Zum Glück gibt es mittlerweile Werkzeuge, die auf uns Entwickler zugeschnitten sind und pragmatische, aber trotzdem ansehnliche Ergebnisse produzieren.
       <br/><br/>
       Aufbauend auf der gewohnten Arbeitsweise wird uns durch diese Tools mit frei verfügbaren Vorlagen nicht nur die mühevolle Gestaltung abgenommen. Getreu dem Motto "Everything-as-Code" unterstützen sie auch bei der Automatisierung des kompletten Entwicklungsprozesses bis zur Auslieferung und vor allem bei der kontinuierlichen Pflege der Webseite. Wir stellen anhand von Beispielen verschiedene Lösungen basierend auf Jekyll, Hugo und JBake, sowie Plattformen wie Github, Gitlab und Netlify vor, geben unsere Erfahrungen weiter und zeigen einige Tipps und Tricks, die sich für uns bewährt haben.
