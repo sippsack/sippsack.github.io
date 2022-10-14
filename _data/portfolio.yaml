@@ -90,17 +90,21 @@ activities:
     since: 2022
 talks:
   current:
-    "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests (Co-Sprecher: Roland Krüger, Freiberufler, 2022" : |
+    "So viel Architekturarbeit wie nötig, 2022" : |
+      Jedes Software-System hat eine Architektur, nur leider haben viele eher eine zufällige. Darunter leidet der Erfolg des Projekts, die Wartbarkeit der Software und die Akzeptanz bei den Projektbeteiligten und Benutzern.
+
+      Dabei muss explizite Softwarearchitekturarbeit nicht schwer sein. Ich zeige Euch, wie ihr mit minimalen Aufwand nicht nur die technischen Anforderungen besser versteht, daraus gezielt die richtigen Lösungsansätze ableitet. Und das Ganze für alle Stakeholder transparent festhaltet, sowie zukünftig leicht weiterentwickeln könnt.
+    "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests (Co-Sprecher: Roland Krüger, Freiberufler), 2022" : |
       Das Schreiben und Pflegen von Oberflächentests, zum Beispiel mit Selenium, gehört zu den eher ungeliebten Aufgaben beim Erklimmen der Testpyramide. Ein hoher Implementierungsaufwand verbunden mit langen Testlaufzeiten von am Ende dann doch brüchigen und unzuverlässigen Tests machen die Erstellung und Wartung zu einer nervraubenden und kostspieligen Aufgabe.
 
       Wie wäre es, wenn wir das gängige Page Object Pattern mit einer eigenen domänenspezifischen Sprache auf die nächste Stufe heben? Eine DSL, die mit einer natürlichsprachigen Syntax das verschachtelte Navigieren über eine Webseite optimal abbildet und zudem noch typsicher ist. Durch die syntaktische Mächtigkeit von Kotlin kommen wir zu dem mit wesentlich weniger zu wartendem Code aus, als es rein mit Java machbar wäre.
 
       In diesem Vortrag zeigen wir, dass die Hinzunahme von Kotlin als weitere Programmiersprache zu einem Java-Projekt sinnvoll sein kann. Wir demonstrieren zentrale Sprachfeatures der alternativen JVM-Sprache, die sich zum Schreiben einer kompakten Oberflächentest-DSL besonders bewährt haben. Nach dem Vortrag habt ihr einen Eindruck davon bekommen, welch elegantes API-Design eine DSL mit Kotlin bietet.
-    "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests (Co-Sprecher: Roland Krüger, Freiberufler, 2022" : |
+    "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests (Co-Sprecher: Roland Krüger, Freiberufler), 2022" : |
       Das Schreiben von automatisierbaren Tests ist mittlerweile akzeptiert und hilft uns, qualitativ hochwertige Software zu entwickeln. Allerdings müssen Tests und deren Architektur mit der gleichen Sorgfalt und nach den gleichen Regeln von Clean Code entstehen, wie das Design des Produktivcodes. Auch Testcode kann verrotten. Schlecht gewählte Namen, Redundanzen und hohe Kopplung des Testcodes an Implementierungsdetails führen zu großen Wartungsaufwänden und im schlimmsten Fall zur temporären, also meist doch dauerhaften Deaktivierung von Tests.
 
       In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel JUnit 5 bereits für das Schreiben gut wartbarer Tests mit sich bringt. Darüber hinaus zeigen wir Euch, wie ihr durch das Schreiben eigener Assertion-Matcher eure Validierungslogik von Implementierungsdetails unabhängiger macht. Dadurch lernt ihr, wie euer (Test-)Code wartbarer und robuster gegenüber Refactorings ist, damit nicht schon einfache Umbauarbeiten zu großflächigen Anpassungen am Testcode führen.
-    "Phantastische Diagramme und wie Du sie selbst erstellst (Co-Sprecher: Ralf D. Müller, DB Systel GmbH, 2022" : |
+    "Phantastische Diagramme und wie Du sie selbst erstellst (Co-Sprecher: Ralf D. Müller, DB Systel GmbH), 2022" : |
       Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
 
       Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein..
@@ -108,7 +112,23 @@ talks:
       In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagrammen auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
 
       Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
-    "How to become a speaker" : |
+    "Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version" : |
+      
+    "Pattern Matching in Java - und warum es dafür algebraische Datentypen braucht (2021)" : |
+      
+    "Architekturvision in Zeiten von Clean Architecture (2022)" : |
+      
+    "How to Document and Communicate Software Architectures These Days (2022)" : |
+      
+    "Nur soviel Architekturarbeit wie nötig ... (2022)" : |
+      
+    "Der S.O.L.I.D.e Softwareentwurf (2022)" : |
+      
+    "Groovy 4 the win! (2022)" : |
+      
+    "" : |
+      
+    "How to become a speaker (2022)" : |
       Public speaking in front of a group of people is a big hurdle for many of us. With the right preparation and a little practice, however, it doesn't have to be a problem at all and is particularly useful for everyday professional life. And even if it sounds paradoxical, user groups and conferences in particular offer the best conditions to try things out in front of an audience.
       But how do you find an exciting topic? How do you write an interesting abstract? What does the preparation look like if you have been accepted? What are the best tricks to cut a good figure on stage?
       We would like to tell you about our experiences both from the perspective of the speaker and as conference and user group organizers. We are sure that we can animate and motivate some of you to take the step in front of the audience. "Aftercare" is free of charge and included.
@@ -253,6 +273,15 @@ talks:
     "Groovy und Grails (Co-Sprecher: Sönke Sothmann, Orientation in Objects GmbH, 2007)": |
       Groovy ist eine dynamische Sprache für die Java Plattform. Sie ist Java ähnlich, bietet jedoch eine ausdrucksstärkere Syntax. Grails ist ein auf Groovy basierendes Webframework. Es nutzt die dynamischen Features von Groovy und setzt auf etablierten Java Enterprise Frameworks auf. Die Session stellt die beiden Technologien vor und zeigt, für welche Problemstellungen sich ein Einsatz lohnt.
 workshops:
+  2022:
+    - title: Developer on the stage
+      abstract: |
+      length: 2 - 4 h
+      co-speaker: Sergej Tihonov (Freiberufler), Steven Schwenke (msg David)
+    - title: Pattern Matching mit Java
+      abstract: |
+      length: 3 - 4 h
+      co-speaker: Merlin Bögershausen (Adesso)
   2021:
     - title: Moderne Softwarearchitekturdokumentation
       abstract: |

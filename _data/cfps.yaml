@@ -15,9 +15,10 @@
   - jax:
       from: 2023-05-08
       till: 2023-05-12
-      deadline: 2022-11-10
-      submitted:
+      deadline: 2022-11-14
+      submitted: 2022-10-10
       talks:
+        - "Workshop: Funktionale Programmierung mit Java"
   - jl:
       from: 2023-03-15
       till: 2023-03-17

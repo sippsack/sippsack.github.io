@@ -38,25 +38,34 @@
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-10-19
       link: https://baselone.ch/
+      slides: https://www.embarc.de/java-pm-baselone-2022/
+    - host: Softwarearchitektur im Stream
+      title: Was ist Documentation-as-Code?
+      date: 2022-10-14
+      link: https://software-architektur.tv/2022/10/14/folge138.html
+      video: https://www.youtube.com/watch?v=7cIQfjDYK04
     - host: saa
       title: Flexible Architekturen
       date: 2022-10-11
       canceled: true
       link: https://www.software-architecture-alliance.de/software-architecture-alliance-2022/
+    - host: HackTalk Braunschweig
+      title: Nur soviel Architekturarbeit wie nötig ...
+      date: 2022-10-11
+      location: Online
+      link: https://www.hacktalk.de/
+      slides: https://www.embarc.de/architekturarbeit-hacktalk-2022/
     - host: jfn
       title: Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version
       date: 2022-10-06
       link: https://javaforumnord.de/site/2022/
-    - host: HackTalk Braunschweig
-      title: Nur soviel Architekturarbeit wie nötig ...
-      date: 2022-10-04
-      location: Online
-      link: https://www.hacktalk.de/
+      slides: https://www.embarc.de/java-18-19-fs-jfn-2022/
   - September:
     - host: jcon
       title: Einführung in die funktionale Programmierung mit Java
       date: 2022-09-22
       link: https://jcononline2022.sched.com/event/11lBm?iframe=no
+      slides: https://www.embarc.de/functional-java-fs-jcon-2022/
     - host: jcon
       title: Der S.O.L.I.D.e Softwareentwurf
       date: 2022-09-21
@@ -112,6 +121,7 @@
       location: Online
       date: 2022-05-19
       link: https://www.sea-con.de/seacon2022/programm/konferenzprogramm#item-4634
+      slides: https://www.embarc.de/docs-as-code-fs-seacon-2022/
     - host: etka
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-05-17
@@ -124,12 +134,14 @@
       title: Pattern Matching in Java ... und warum es dafür algebraische Datentypen braucht
       date: 2022-05-04
       link: https://jax.de/core-java-jvm-languages/pattern-matching-in-java-und-warum-es-dafuer-algebraische-datentypen-braucht/
+      slides: https://www.embarc.de/pattern-matching-fs-jax-2022/
   - April:
     - host: JUG Frankfurt
       title: "Domain Driven Design für Dummies"
       date: 2022-04-27
       location: Online
       link: https://jugf.github.io/posts/domain-driven-design-fuer-dummies-27-04-2022/
+      slides: https://www.embarc.de/ddd-fs-jugf-2022/
     - host: JUG Karlsruhe
       title: Was gibt es Neues bei Java 17 und 18?
       date: 2022-04-26
