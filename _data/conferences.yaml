@@ -8,10 +8,25 @@
   location: Brühl
   url: https://www.javaland.eu/
   season: Frühjahr
+- id: dddevday
+  name: Dev Day
+  location: Dresden
+  url: https://www.devday.de/
+  season: Frühjahr
+- id: mddevdays
+  name: Magdeburger Developer Days
+  location: Magdeburg
+  url: https://md-devdays.de/
+  season: Frühjahr
 - id: jax
   name: JAX
   location: Mainz
   url: https://jax.de/mainz/
+  season: Frühjahr
+- id: mddevdays
+  name: Magdeburger Developer Days
+  location: Magdeburg
+  url: https://md-devdays.de/
   season: Frühjahr
 - id: etka
   name: Entwicklertag
@@ -33,6 +48,11 @@
   location: Filderstadt
   url: https://www.scrum-day.de/
   season: Frühjahr
+- id: madsummit1 
+  name: MAD Summit Sommer
+  location: München
+  url: https://mad-summit.de/muenchen/
+  season: Sommer
 - id: vueday
   name: enterJS Vue Day
   location: Online
