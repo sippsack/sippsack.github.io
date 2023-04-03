@@ -143,6 +143,11 @@
   location: München
   url: https://www.software-architecture-alliance.de
   season: Herbst
+- id: ama
+  name: Agile meets Architecture
+  location: Berlin
+  url: https://www.agile-meets-architecture.com/
+  season: Herbst
 - id: xpdays
   name: XP-Days
   location: Stuttgart

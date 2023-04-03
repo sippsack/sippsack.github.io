@@ -1,61 +1,181 @@
+ideas:
+  - "Dataorientierte Programmierung mit Java"
+  - "Modernisierung von Java-Anwendungen"
+  - "Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein"
+  - "Vorgehensmuster to Go - Best Practices für moderne Softwarearchitektur-Arbeit"
+  - "Workshop mit StefanT"
 2023:
-  - madsummit1:
-      from: 2023-06-19
-      till: 2023-06-21
-      deadline: 2023-01-30
-      submitted:
+  - archsummit2:
+      from: 2023-09-11
+      till: 2023-09-13
+      deadline: 2023-06-30
+      submitted: 
       talks:
-  - mddevdays:
-      from: 2023-05-08
-      till: 2023-05-10
-      deadline: 2023-01-31
+  - bedcon:
+      from: 2023-09-28
+      till: 2023-09-29
+      deadline: 2023-05-22
+      url: https://sessionize.com/bed-con-2023
       submitted:
+      talks: 
+  - wjax:
+      from: 2023-11-06
+      till: 2023-11-10
+      deadline: 2023-05-15
+      url: https://callforpapers.sandsmedia.com/
+      submitted:
+      talks: 
+  - jfn:
+      from: 2023-09-28
+      till: 2023-09-29
+      deadline: 2023-05-02
+      url: https://sessionize.com/bed-con-2023
+      submitted:
+      talks: 
+  - ittage:
+      from: 2023-12-11
+      till: 2023-12-14
+      deadline: 2023-04-28
+      submitted:
+      talks: 
+  - saa:
+      from: 2023-09-27
+      till: 2023-09-28
+      deadline: 2023-04-28
+      url: https://www.software-architecture-alliance.de/2023/call-for-papers
+      submitted:
+      talks: 
+  - hc:
+      from: 2023-09-05
+      till: 2023-09-07
+      deadline: 2023-04-24
+      submitted:
+      talks: 
+  - jsd:
+      from: 2023-09-29
+      till: 2023-09-29
+      deadline: 2023-04-10
+      submitted:
+      talks: 
+  - baselone:
+      from: 2023-10-18
+      till: 2023-10-19
+      submitted:
+      deadline: 2023-04-15
       talks:
-  - dddevday:
-      from: 2023-04-25
-      till: 2023-04-25
-      deadline: 2023-01-15
+  - ama:
+      from: 2023-10-05
+      till: 2023-10-06
       submitted:
+      deadline: 2023-04-02
+      talks:
+  - accento:
+      from: 2023-10-24
+      till: 2023-10-25
+      submitted:
+      deadline: 2023-03-31
       talks:
   - jfs:
       from: 2023-07-12
       till: 2023-07-13
-      deadline: 2023-01-31
-      submitted:
-      talks: + Workshops
-  - dwx:
-      from: 2023-06-26
-      till: 2023-06-30
-      deadline: 2023-01-19
-      submitted:
+      deadline: 2023-03-19
+      submitted: 2023-03-23
+      talks: 
+        "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
+        "Workshop: Java Pattern Matching": x
+        "Phantastische Diagramme und wie Du sie selbst erstellst": o
+  - wdc:
+      from: 2023-09-18
+      till: 2023-09-20
+      deadline: 2023-03-16
+      submitted: 
+      talks: 
+  - wadev:
+      from: 2023-07-27
+      till: 2023-07-28
+      deadline: 2023-02-20
+      submitted: 2023-02-13
+      talks: 
+        - Pattern Matching in Java
+        - How to document and communicate software architectures these days
+        - A S.O.L.I.D. software design
+  - madsummit1:
+      from: 2023-06-19
+      till: 2023-06-21
+      deadline: 2023-01-30
+      submitted: 2023-01-30
       talks:
+        "Patterns für API-Evolution": x
+  - mddevdays:
+      from: 2023-05-08
+      till: 2023-05-10
+      deadline: 2023-01-31
+      submitted: 2023-01-31
+      talks:
+        "Flexible Architekturen": n
+        "Architekturvision in Zeiten von Clean Architecture": x
+        "Dokumentation kontinuierlich und automatisiert erstellen": x
+        "Legacy Code im Griff dank Mikado Methode": n
+        "Pattern Matching mit Java": n
+  - dddevday:
+      from: 2023-04-25
+      till: 2023-04-25
+      deadline: 2023-01-31
+      submitted: 2023-01-31
+      talks:
+        "Nur soviel Architekturarbeit wie nötig": x
+        "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
+        "Moderne Softwarearchitekturen dokumentieren und kommunizieren": n
   - jcon:
       url: https://2023-people.jcon.one/
       from: 2023-06-20
       till: 2023-06-23
       deadline: 2023-01-31
-      submitted:
+      submitted: 2023-01-31
       talks:
+        - Java 20 - Auf dem Weg zur nächsten LTS-Version
+        - Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+        - Pattern Matching mit Java
+        - So viel Architekturarbeit wie nötig
+        - Der S.O.L.I.D.e Softwareentwurf
   - cl:
       from: 2023-06-20
       till: 2023-06-23
-      deadline:
-      submitted:
+      deadline: 2023-01-31
+      submitted: 2023-01-31
       talks:
+        - Mit der Zeit gehen – flexible Architekturen
+  - dwx:
+      from: 2023-06-26
+      till: 2023-06-30
+      deadline: 2023-01-19
+      submitted: 2023-01-19
+      talks:
+        "Docs-as-Code - Dokumentation kontinuierlich und automatisiert erstellen": n
+        "Legacy Code im Griff dank Mikado Methode": n
+        "Java 20 - Auf dem Weg zur nächsten LTS-Version": x
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n
+        "Der S.O.L.I.D.e Softwareentwurf": x
   - etka:
       url: https://entwicklertag.de/2023/cfc.html
       from: 2023-06-14
       till: 2023-06-15
       deadline: 2023-01-25
-      submitted:
+      submitted: 2023-01-26
       talks:
+        - Java 20 - Auf dem Weg zur nächsten LTS-Version
+        - Legacy Code im Griff dank Mikado Methode
+        - So viel Architekturarbeit wie nötig
+        - Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests
   - enterjs:
       url: https://enterjs.de/cfp.php
       from: 2023-06-21
       till: 2023-06-22
       deadline: 2023-01-16
-      submitted:
+      submitted: 2023-01-16
       talks:
+        - So viel Architekturarbeit wie nötig
+        - Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
 2022:
   - jax:
       url: https://callforpapers.sandsmedia.com/

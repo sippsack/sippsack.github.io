@@ -17,6 +17,8 @@ layout: page
 
 <p>Legende: <i class="fa-solid fa-hourglass" aria-hidden="true" style="color:black"></i> offen, <i class="fa fa-check-circle" aria-hidden="true" style="color:green"></i> angenommen, <i class="fa fa-thumbs-down" aria-hidden="true" style="color:red"></i> abgelehnt/abgesagt</p>
 {% for year in site.data.cfps %}
+    {% if year[0] != "ideas" %}
+    <h1 style="color:black; font-size: 2em;">{{ year[0] }}</h1>
     {% for submissions in year[1] %}
         {% for submission in submissions %}
 {% assign conf = conferences | where: "id", submission[0] | first %}
@@ -31,11 +33,12 @@ layout: page
         {% endfor %}
 </ul>
 {% else %}
-<b>Noch nicht eingereicht!</b>
+<b>Nicht eingereicht!</b>
 {% endif %}
 </div>
         {% endfor %}
     {% endfor %}
+    {% endif %}
 {% endfor %}
 
 <hr/>
