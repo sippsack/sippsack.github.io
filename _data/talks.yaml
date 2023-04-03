@@ -1,12 +1,112 @@
 2023:
+  - Juli:
+    - host: jfs
+      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      date: 2023-06-12
+      canceled: true
+      link: https://www.java-forum-stuttgart.de/workshoptag/
+    - host: jfs
+      title: "Workshop: Pattern Matching mit Java"
+      date: 2023-06-12
+      canceled: true
+      link: https://www.java-forum-stuttgart.de/workshoptag/
+  - Juni:
+    - host: dwx
+      title: "Der S.O.L.I.D.e Softwareentwurf"
+      date: 2023-06-28
+      link: https://www.developer-week.de/programm/#/talk/der-s-o-l-i-d-e-softwareentwurf
+    - host: dwx
+      title: "Java 20 – Auf dem Weg zur nächsten LTS-Version"
+      date: 2023-06-27
+      link: https://www.developer-week.de/programm/#/talk/java-20-auf-dem-weg-zur-nachsten-lts-version
+    - host: cl
+      title: "Mit der Zeit gehen – flexible Architekturen"
+      date: 2023-06-22
+      link: https://shop.doag.org/events/cloudland/2023/agenda/#eventDay.all#textSearch.sippach
+    - host: jcon
+      title: "So viel Architekturarbeit wie nötig"
+      date: 2023-06-20
+      link: https://sched.co/1K40c
+    - host: etka
+      title: "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+      date: 2023-06-15
+      link: https://entwicklertag.de/2023/Richtig_gute_Tests_schreiben_-_die_Best_Practices_fuer_bessere_(JUnit-)_Tests.html
+    - host: etka
+      title: "Legacy Code im Griff dank Mikado Methode"
+      date: 2023-06-15
+      link: https://entwicklertag.de/2023/Legacy_Code_im_Griff_dank_Mikado_Methode.html
+  - Mai:
+    - host: jax
+      title: "So viel Architekturarbeit wie nötig"
+      date: 2023-05-11
+      link: https://jax.de/software-architecture/effiziente-software-architektur/
+    - host: mddevdays
+      title: "Architekturvision in Zeiten von Clean Architecture"
+      date: 2023-05-09
+      link: https://md-devdays.de/act-details/1000170
+    - host: mddevdays
+      title: "Documentation-as-Code - Dokumentation kontinuierlich und automatisiert erstellen"
+      date: 2023-05-09
+      link: https://md-devdays.de/act-details/1000171
+  - April:
+    - host: dddevday
+      title: "So viel Architekturarbeit wie nötig"
+      date: 2023-04-25
+      link: https://www.devday.de/dev-day-2023/talk/nur-soviel-architekturarbeit-wie-notig/
+    - host: dddevday
+      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      date: 2023-04-25
+      link: https://www.devday.de/dev-day-2023/talk/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/
+  - März:
+    - host: jl
+      title: "Workshop: Flexible Softwarearchitektur mit der Clean Architecture"
+      date: 2023-03-22
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+    - host: jl
+      title: "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+      date: 2023-03-22
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+      slides: https://www.embarc.de/tests-jl-2023-03/
+    - host: jl
+      title: "Workshop: Funktionale Programmierung in Java"
+      date: 2023-03-21
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+    - host: jl
+      title: "Community Aktivität: Developer on the Stage - Zusammen mit erfahrenen Speakern deinen ersten eigenen Vortrag entwickeln!"
+      date: 2023-03-21
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+    - host: jl
+      title: "Phantastische Diagramme und wie Du sie selbst erstellst"
+      date: 2023-03-21
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+      slides: https://www.embarc.de/diagrams-jl-2023-03/
+    - host: jl
+      title: "Workshop: Die 'Java by Comparison' Kata"
+      date: 2023-03-20
+      link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
+    - host: archsummit1
+      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      date: 2023-03-13
+      link: https://software-architecture-summit.de/softwarearchitektur/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/
+      slides: https://www.embarc.de/diagrams-sas-2023-03/
   - Februar:
+    - host: iSAQB Community Meetup Rhein-Main
+      title: Softwarearchitektur einfach mal üben
+      date: 2023-02-15
+      link: https://www.meetup.com/de-DE/isaqb-software-architektur-meetup-gruppe-fur-interessierte/events/290983617/
     - host: oop
-      title: Documentation-as-Code - Dokumentation kontinuierlich und automatisiert erstellen
+      title: Kontinuierlich und automatisiert dokumentieren – Docs-as-Code in der Praxis
       location: Online
-      date: 2023-02-07
-      link: https://www.oop-konferenz.de/oop-2023/
+      date: 2023-02-09
+      link: https://www.oop-konferenz.de/oop-2023/programm/konferenzprogramm
+      slides: https://www.embarc.de/docs-as-code-fs-oop-2023/
 2022:
   - Dezember:
+    - conference: embarc Architektur-Punsch
+      title: "So gelingt die iSAQB Advanced Prüfung - Entwurf und Dokumentation einer Softwarearchitektur am Fallbeispiel"
+      date: 2022-12-15
+      location: Online
+      link: https://www.embarc.de/architektur-punsch-2022/#w3
     - host: ittage
       title: Pattern Matching in Java... und warum es dafür algebraische Datentypen braucht
       date: 2022-12-13
@@ -19,11 +119,16 @@
       title: Java 17 und darüber hinaus
       date: 2022-12-13
       link: https://www.ittage.informatik-aktuell.de/programm/2022/java-17-und-darueber-hinaus.html
+    - host: iSAQB Community Meetup Rhein-Main
+      title: Die Corona-Warn-App unter der Lupe
+      date: 2022-12-12
+      link: https://www.meetup.com/isaqb-community/events/289516875/
     - conference: betterCode() Clean Architecture 2022
       title: "Architekturvision in Zeiten von Clean Architecture"
       date: 2022-12-06
       location: Online 
       link: https://clean-architecture.bettercode.eu/veranstaltung-15461-se-0-architekturvision-in-zeiten-von-clean-architecture.html
+      slides: https://www.embarc.de/architekturvision-bettercode-2022/
   - November:
     - host: sag
       title: How to Document and Communicate Software Architectures These Days
@@ -184,7 +289,7 @@
   - Dezember:
     - conference: embarc Architektur-Punsch
       title: Ein interaktiver Einstieg in Docs-as-Code
-      date: 2020-12-13
+      date: 2021-12-13
       location: Online
       link: https://www.embarc.de/architektur-punsch-2021/
     - host: ittage

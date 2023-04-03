@@ -15,7 +15,8 @@ permalink: /talks/
 <h4>{{ month[0] }}</h4>
 <ul class="talk-list">
         {% for talk in month[1] %}
-        {% include talk.html talk=talk conferences=conferences %}
+        {% assign id = "" | append: year[0] | append: "-" | append: month[0] | append: "-" | append: forloop.index %}
+        {% include talk.html talk=talk conferences=conferences id=id %}
         {% endfor %}
 </ul>
         {% endfor %}

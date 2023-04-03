@@ -98,3 +98,17 @@
 	});
 
 })(jQuery);
+
+function copySelfLink(element) {  
+	var url = location.protocol+'//'+location.host+location.pathname + "#" + element.parentElement.id
+	navigator.clipboard.writeText(url).then(
+		() => {
+		},
+		() => {
+		}
+	  );
+  }
+
+  if (window.location.hash != null) {
+	window.scroll(0, 100)
+  }

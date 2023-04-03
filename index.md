@@ -8,4 +8,4 @@ permalink: /
 
 Trainer, Berater, Architekt bei [embarc](http://www.embarc.de)
 
-Co-Organisator [JUG Darmstadt](http://www.jug-da.de)  
+Co-Organisator [JUG Darmstadt](http://www.jug-da.de) 
