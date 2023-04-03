@@ -84,6 +84,7 @@ ideas:
         "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
         "Workshop: Java Pattern Matching": x
         "Phantastische Diagramme und wie Du sie selbst erstellst": o
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
   - wdc:
       from: 2023-09-18
       till: 2023-09-20
@@ -133,18 +134,18 @@ ideas:
       deadline: 2023-01-31
       submitted: 2023-01-31
       talks:
-        - Java 20 - Auf dem Weg zur nächsten LTS-Version
-        - Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
-        - Pattern Matching mit Java
-        - So viel Architekturarbeit wie nötig
-        - Der S.O.L.I.D.e Softwareentwurf
+        "Java 20 - Auf dem Weg zur nächsten LTS-Version": o
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": o
+        "Pattern Matching mit Java": o
+        "So viel Architekturarbeit wie nötig": x
+        "Der S.O.L.I.D.e Softwareentwurf": o
   - cl:
       from: 2023-06-20
       till: 2023-06-23
       deadline: 2023-01-31
       submitted: 2023-01-31
       talks:
-        - Mit der Zeit gehen – flexible Architekturen
+        "Mit der Zeit gehen – flexible Architekturen": x
   - dwx:
       from: 2023-06-26
       till: 2023-06-30
@@ -163,10 +164,10 @@ ideas:
       deadline: 2023-01-25
       submitted: 2023-01-26
       talks:
-        - Java 20 - Auf dem Weg zur nächsten LTS-Version
-        - Legacy Code im Griff dank Mikado Methode
-        - So viel Architekturarbeit wie nötig
-        - Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests
+        "Java 20 - Auf dem Weg zur nächsten LTS-Version": n
+        "Legacy Code im Griff dank Mikado Methode": x
+        "So viel Architekturarbeit wie nötig": n
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": x
   - enterjs:
       url: https://enterjs.de/cfp.php
       from: 2023-06-21
@@ -174,8 +175,8 @@ ideas:
       deadline: 2023-01-16
       submitted: 2023-01-16
       talks:
-        - So viel Architekturarbeit wie nötig
-        - Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
+        "So viel Architekturarbeit wie nötig": o
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n
 2022:
   - jax:
       url: https://callforpapers.sandsmedia.com/
@@ -184,22 +185,22 @@ ideas:
       deadline: 2022-11-14
       submitted: 2022-11-07
       talks:
-        - "Workshop: Funktionale Programmierung mit Java"
-        - "Phantastische Diagramme und wie Du sie selbst erstellst"
-        - "So viel Architekturarbeit wie nötig"
-        - "Workshop: Java Pattern Matching Hands-on"
-        - "Pattern Matching in Java"
-        - "Java 18 + 19 + 20 - Auf dem Weg zur nächsten LTS-Version"
-        - "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests"
+        "Workshop: Funktionale Programmierung mit Java": o
+        "Phantastische Diagramme und wie Du sie selbst erstellst": o
+        "So viel Architekturarbeit wie nötig": x
+        "Workshop: Java Pattern Matching Hands-on": o
+        "Pattern Matching in Java": o
+        "Java 18 + 19 + 20 - Auf dem Weg zur nächsten LTS-Version": o
+        "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests": o
   - jl:
       from: 2023-03-15
       till: 2023-03-17
       deadline: 2022-09-26
       submitted: 2022-09-26
       talks:
-        - "Phantastische Diagramme und wie Du sie selbst erstellst"
-        - "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
-        - "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests"
+        "Phantastische Diagramme und wie Du sie selbst erstellst": x
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": x
+        "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests": n
   - devoxx:
       from: 2022-10-10
       till: 2022-10-14
