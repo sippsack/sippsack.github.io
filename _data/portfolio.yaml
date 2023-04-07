@@ -1,5 +1,6 @@
-bio: Falk Sippach ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.
-bio_en: As a software architect, consultant and trainer at embarc Software Consulting GmbH, Falk Sippach is always on the lookout for that spark of passion that he can ignite in his participants, customers and colleagues. He has been supporting mostly agile software development projects in the Java environment for over 15 years. As an active part of the community (co-organizer of the JUG Darmstadt) he also likes to share his knowledge in articles, blog posts, as well as in presentations at conferences or user group meetings and supports the organization of various professional events.
+bio: Falk Sippach ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt und Mitglied der Java Champions) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.
+bio_short: Falk arbeitet bei embarc als Softwarearchitekt, Berater und Trainer. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (JUG Darmstadt, Java Champion) teilt er sein Wissen in Artikeln, Blogs, sowie bei Vorträgen auf Konferenzen oder Usergroups und unterstützt bei der Organisation diverser Veranstaltungen.
+bio_en: As a software architect, consultant and trainer at embarc Software Consulting GmbH, Falk Sippach is always on the lookout for that spark of passion that he can ignite in his participants, customers and colleagues. He has been supporting mostly agile software development projects in the Java environment for over 15 years. As an active part of the community (co-organizer of the JUG Darmstadt and Java Champion) he also likes to share his knowledge in articles, blog posts, as well as in presentations at conferences or user group meetings and supports the organization of various professional events.
 links:
   Homepage: http://www.sippsack.de
   Blog:
@@ -29,7 +30,7 @@ activities:
     link: https://www.ijug.eu/
     since: 2013
   - event: Javaland
-    activity: Programmkomitee 
+    activity: Programmkomitee
     link: http://www.javaland.eu/
     since: 2013
   - event: Entwicklertag Frankfurt
@@ -76,8 +77,12 @@ activities:
     activity: Trainer für CPSA-F, FLEX und IMPROVE
     link: https://www.isaqb.org/
     since: 2021
+  - event: Java Forum Nord
+    activity: Programmgestaltung
+    link: https://javaforumnord.de/
+    since: 2021
   - event: iSAQB e. V. (international Software Architecture Qualification Board)
-    activity: Mitglied und Mitarbeit Arbeitsgruppe Foundation Level
+    activity: Mitglied und Mitarbeit Arbeitsgruppe Audit sowie Foundation Level
     link: https://www.isaqb.org/
     since: 2022
   - event: JakartaOne Livestream - German
@@ -88,12 +93,69 @@ activities:
     activity: Programmbeirat
     link: https://clean-architecture.bettercode.eu/programmbeirat.php?source=0
     since: 2022
+  - event: "betterCode() Moderne Architekturdokumentation"
+    activity: Programmbeirat
+    link: 
+    since: 2023
+  - event: XP Days
+    activity: Fachbeirat
+    link: https://xp-days.de/
+    since: 2023
+
+categories: (Vorträge in Kategorien einteilen)
+  - Softwarearchitektur
+  - Java
+  - Codequalität
+  - Softskills
+
 talks:
   current:
+    "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": |
+      Die Arbeit an unseren Softwaresystemen wird immer komplexer. Insbesondere der explizite Entwurf und die Kommunikation der Softwarearchitektur sind entscheidend um flexible, wartbare und skalierbare Systeme zu gestalten. Wir schauen uns gemeinsam verschiedene, praxiserprobte Praktiken an, um Architekturarbeit dynamischer zu gestalten und den Architekturentwurf effizient in Projekte nach agilen Vorgehensweisen integrieren zu können. 
+
+      Wir diskutieren Ideen für die grundlegende Architekturarbeit (z. B. das Sichtbarmachen von Architekturanforderungen in Form von Szenarien und technischen Schulden), das Treffen von Entscheidungen (z. B. letzter vernünftiger Moment und gerade genug Architektur vorweg), die Zusammenarbeit und Interaktion (z. B. Architektur-Communities und -Katas) und die Reflexion (Testen von Architekturzielen). Ihr könnt viele dieser Vorgehensmuster und Best Practices leicht auf Eure eigenen Projekte übertragen. 
+
+      Kurzform: Die Arbeit an unseren Softwaresystemen wird immer komplexer. Insbesondere der explizite Entwurf und die Kommunikation der Softwarearchitektur sind entscheidend um flexible, wartbare und skalierbare Systeme zu gestalten. Wir schauen uns gemeinsam verschiedene, praxiserprobte Praktiken an, um Architekturarbeit dynamischer zu gestalten und den Architekturentwurf effizient in Projekte nach agilen Vorgehensweisen integrieren zu können. 
+
+      Wir diskutieren Ideen für die grundlegende Architekturarbeit, das Treffen von Entscheidungen, die Zusammenarbeit und Interaktion sowie die Bewertung und Reflexion. Viele dieser Vorgehensmuster und Best Practices könnt ihr direkt auf Eure eigenen Projekte übertragen und somit die Herausforderungen der Softwarearchitekturarbeit besser meistern.
+    "Dataorientierte Programmierung mit Java": |
+      In der Objektorientierten Programmierung (OOP) modellieren wir komplexe Einheiten und Prozesse mit Hilfe von Objekten, die Zustand und Verhalten kombinieren. OOP funktioniert am besten, wenn wir klare Grenzen definieren und verteidigen müssen. Für manche Anwendungsfälle ist dieser Ansatz aber übertrieben. 
+
+      In der datenorientierten Programmierung modellieren wir (unveränderliche) Daten getrennt von der Geschäftslogik. Die im Projekt Amber eingeführten Features Switch-Expression, Sealed Classes, Records und Pattern Matching helfen uns, diesen Ansatz in Java umzusetzen. Gerade kleinere, einfache Programme profitieren dabei zusätzlich von Javas statischem Typsystem.
+
+      Die Techniken der objektorientierten und der datenorientierten Programmierung stehen nicht im Widerspruch zueinander, sie sind unterschiedliche Werkzeuge für unterschiedliche Granularitäten und Situationen. In diesem Vortrag zeige ich, wie die datenorientierte Programmierung aussieht wir die beiden Paradigmen miteinander kombinieren können.
+    "Java 21 - Die nächste LTS-Version": |
+      Alle halben Jahre erscheinen neue Major-Releases, alle zwei Jahre als LTS mit längerer Unterstützung (Long Term Support). Viele von uns arbeiten noch mit der früheren LTS-Version 8 oder sind bisher nur auf 11 umgestiegen. Wir wollen uns daher anschauen, was sich seitdem im Java-Universum getan hat. Das sind so spannende Themen wie Pattern Matching, Virtual Threads sowie viele kleinere Funktionen. Aber es sind noch viele weitere Features in Arbeit oder der Planung, wie die Vector API, die Foreign Function & Memory API, die String Interpolation oder die Primitive bzw. Value Types.
+
+      Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
+    "Workshop: Patterns für API-Evolution": |
+      APIs sind überall, sei es in Funktionen, Methoden oder Netzwerk-Schnittstellen in verteilten Systemen. APIs werden selten mit dem Hintergedanken entworfen, dass sie später angepasst werden müssen. In der Praxis passiert es allerdings sehr schnell, dass Schnittstellen riskant zu ändern sind, weil viele andere Bausteine davon abhängen.
+
+      In diesem Workshop stellen wir euch Patterns vor, die dieses Risiko minimieren.  Wir beschäftigen uns mit API-Versionierung und diskutieren Mechanismen, die ohne Versionierung auskommen. Allgemein könnt ihr diese Patterns für API-Evolution und ein besseres Schnittstellendesign anwenden.
+    "Kontinuierlich und automatisiert dokumentieren – Docs-as-Code in der Praxis, 2023": |
+      Dokumentation wird häufig vernachlässigt. Mit dem Docs-as-Code-Ansatz wird die in Softwareprojekten relevante Dokumentation genau wie Quellcode behandelt, in der Versionsverwaltung abgelegt, mit leichtgewichtigen Entwicklerwerkzeugen (IDE/Texteditor, Build-Tools, CI/CD-Pipelines) bearbeitet und in die Softwareentwicklungsprozesse integriert. Die Inhalte können redundanzfrei verwaltet und manche Informationen aus Modellen oder dem Quellcode generiert werden. Durch die Verwendung leichtgewichtiger Text- und Grafikformate lassen sich die Ergebnisse einfach zielgruppenorientiert zusammenstellen. Die Verarbeitung erfolgt automatisiert über die schon vorhandenen Build-Prozesse.
+
+      Jedwede Art von Dokumentation gewinnt somit an Sichtbarkeit, durch die Eingliederung in die Entwicklungsprozesse und die damit verbundene kontinuierliche Weiterentwicklung steigt die Qualität und damit die Akzeptanz bei den Lesern. Dokumentation kann sogar ausgeführt werden, um zum Beispiel eingebettete Architekturregeln regelmäßig automatisiert zu testen. Die Zuhörer erfahren in diesem Vortrag an konkreten Beispielen, wie sie mit Documentation as Code starten können, welche typischen Fallstricke sie umschiffen und mit welchen konkreten Tools sie am besten arbeiten sollten.
+
+      Kurzform: Dokumentation wird häufig vernachlässigt. Mit dem Docs-as-Code-Ansatz wird die in Softwareprojekten relevante Dokumentation genau wie Quellcode behandelt, in der Versionsverwaltung abgelegt, mit leichtgewichtigen Entwicklerwerkzeugen (IDE/Texteditor, Build-Tools, CI/CD-Pipelines) bearbeitet und in die Softwareentwicklungsprozesse integriert. Die Inhalte können redundanzfrei verwaltet und einige Informationen generiert werden. Durch die Verwendung leichtgewichtiger Text- und Grafikformate lassen sich die Ergebnisse einfach zielgruppenorientiert zusammenstellen. Die Verarbeitung erfolgt automatisiert über die vorhandenen Build-Prozesse. 
+
+      Jedwede Art von Dokumentation gewinnt an Sichtbarkeit, durch die kontinuierliche Weiterentwicklung steigt die Qualität und damit die Akzeptanz der Leser. In diesem Vortrag zeige ich an Beispielen, wie ihr mit Documentation as Code starten könnt, welche typischen Fallstricke ihr umschiffen und mit welchen konkreten Tools sie am besten arbeiten solltet.
+
+      Kurzform 2: Im Gegensatz zu den klassischen Ansätzen verfolgt Docs-as-Code das Ziel, die in Softwareprojekten relevante Dokumentation genau wie den Quelltext zu behandeln. Somit können die gleichen Werkzeuge wie für die Entwicklung verwendet werden, um die Erzeugung und Auslieferung in die automatisierten Build-Prozesse einzubinden.
+
+      Jedwede Art von Dokumentation gewinnt somit an Sichtbarkeit und durch die Eingliederung in die Entwicklungsprozesse und die damit verbundene kontinuierliche Weiterentwicklung steigen Qualität und Akzeptanz bei den Lesern.
+    "Architekturvision in Zeiten von Clean Architecture, 2022" : |
+      Die von uns gebauten Anwendungen oder Systemlandschaften werden immer anspruchsvoller. Mögliche Antworten darauf sind der Einsatz von Microservices-Architekturen und Domain-Driven Design, Cloud-basierte Deployments oder verschiedene Varianten der hexagonalen bzw. Clean Architecture. Diese Ansätze helfen, aber sie werden auch zum Teil des Problems. Denn die Komplexität steigt durch ihren Einsatz nur noch weiter. Und gerade deshalb braucht es zunächst eine stabile und verlässliche, explizite Softwarearchitekturbasis.
+
+      Denn die Architektur sollte der Fels in der Brandung des wogenden Projektgeschehens sein. In diesem Vortrag diskutieren wir, wie ihr mittels der Architekturvision zielgerichtet vorgehen und ohne Overengineering sowie bei bestmöglicher Risikoabschätzung Entscheidungen treffen und so eure Software möglichst flexibel entwickeln könnt.
+
+      Falk zeigt dir, wie du die technischen Anforderungen besser verstehst, daraus gezielt die richtigen Lösungsansätze ableitest und das Ganze transparent für alle Stakeholder festhalten kannst. Explizite Softwarearchitekturarbeit ist essenziell, muss aber nicht schwer sein.
     "So viel Architekturarbeit wie nötig, 2022" : |
       Jedes Software-System hat eine Architektur, nur leider haben viele eher eine zufällige. Darunter leidet der Erfolg des Projekts, die Wartbarkeit der Software und die Akzeptanz bei den Projektbeteiligten und Benutzern.
 
       Dabei muss explizite Softwarearchitekturarbeit nicht schwer sein. Ich zeige Euch, wie ihr mit minimalen Aufwand nicht nur die technischen Anforderungen besser versteht, daraus gezielt die richtigen Lösungsansätze ableitet. Und das Ganze für alle Stakeholder transparent festhaltet, sowie zukünftig leicht weiterentwickeln könnt.
+      Alternative:
+      Die von uns gebauten Anwendungen werden immer anspruchsvoller. Der Einsatz von modernen Architekturstilen und Arbeitsweisen (DevOps) kann helfen, aber wird auch zum Teil des Problems. Gerade deshalb braucht es eine stabile und verlässliche Softwarearchitekturbasis. Denn die Architektur sollte der Fels in der Brandung des wogenden Projektgeschehens sein. In diesem Vortrag diskutieren wir, wie ihr zielgerichtet vorgehen, ohne Overengineering sowie bei bestmöglicher Risikoabschätzung Entscheidungen treffen und so eure Software möglichst flexibel entwickeln sowie für alle Stakeholder transparent festhalten könnt. Explizite Softwarearchitekturarbeit ist essenziell, muss aber nicht schwer sein.
     "Ich bau mir eine eigene Sprache zum UI Testen - Kotlin DSLs für Oberflächentests (Co-Sprecher: Roland Krüger, Freiberufler), 2022" : |
       Das Schreiben und Pflegen von Oberflächentests, zum Beispiel mit Selenium, gehört zu den eher ungeliebten Aufgaben beim Erklimmen der Testpyramide. Ein hoher Implementierungsaufwand verbunden mit langen Testlaufzeiten von am Ende dann doch brüchigen und unzuverlässigen Tests machen die Erstellung und Wartung zu einer nervraubenden und kostspieligen Aufgabe.
 
@@ -105,17 +167,19 @@ talks:
 
       In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel JUnit 5 bereits für das Schreiben gut wartbarer Tests mit sich bringt. Darüber hinaus zeigen wir Euch, wie ihr durch das Schreiben eigener Assertion-Matcher eure Validierungslogik von Implementierungsdetails unabhängiger macht. Dadurch lernt ihr, wie euer (Test-)Code wartbarer und robuster gegenüber Refactorings ist, damit nicht schon einfache Umbauarbeiten zu großflächigen Anpassungen am Testcode führen.
     "Phantastische Diagramme und wie Du sie selbst erstellst (Co-Sprecher: Ralf D. Müller, DB Systel GmbH), 2022" : |
-      Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren.
+      Die wichtigste Aufgabe eines Software-Architekten besteht darin, die Architektur zu kommunizieren. Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein.
 
-      Neben den textuellen Inhalten gilt es auch, Grafiken zu erstellen. Getreu dem Motto "ein Bild sagt mehr als tausend Worte" helfen Diagramme bei einer effektiven und pragmatischen Dokumentation. Damit sie wirken, müssen sie leicht erfassbar, stets aktuell und korrekt sein..
-
-      In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagrammen auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme.
-
-      Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
+      In diesem Talk spüren wir zuerst die Schwachstellen vieler Diagrammen auf und überlegen uns anschließend, wie wir sie umgehen können. Das Ergebnis ist eine Checkliste für richtig gute, fast schon phantastische Architektur-Diagramme. Als Bonus werden wir aufzeigen, wie Diagramme wartbar mit dem Docs-as-Code Ansatz umgesetzt werden, um sie jederzeit aktuell und im Einklang mit der Architektur halten zu können.
     "Java 18 + 19 - Auf dem Weg zur nächsten LTS-Version" : |
       
     "Pattern Matching in Java - und warum es dafür algebraische Datentypen braucht (2021)" : |
+      Pattern Matching ist ein Mechanismus, um Werte gegen Muster abzuprüfen. Bei einem Treffer können diese Werte dann in ihre Bestandteile zerlegt und somit leicht und sicher weiterverarbeitet werden. Dieses in erster Linie aus funktionalen Programmiersprachen bekannte Konzept ist damit eine sehr mächtige und flexible Alternative zu klassischen Switch Statements bzw. if/else-Anweisungskaskaden. Seit einigen Jahren wird nun schon im JDK-Inkubatorprojekt Amber an der Einführung von Pattern Matching in Java gearbeitet. Ein Teil der Implementierungen haben mittlerweile den Weg in das OpenJDK gefunden. Sie versprechen kürzeren und verständlicheren Quellcode, der zudem vom Compiler auf Korrektheit geprüft werden kann. Er ist einfacher zu lesen und lässt sich somit leicht warten und erweitern. 
       
+      Begleitet von Codebeispielen werden wir den Ist-Zustand des Musterabgleichs in Java näher beleuchten. Ihr lernt die neuen Features wie Switch Expression, Type/Record Patterns, Sealed Classes sowie Pattern Matching for switch näher kennen und erfahrt, wo sie sinnvoll eingesetzt werden können. Anschließend werfen wir einen Blick auf zukünftige, alternative Pattern-Typen.
+
+      Kurzform: Pattern Matching ist ein Mechanismus, um Werte gegen Muster abzuprüfen. Bei einem Treffer können diese Werte dann in ihre Bestandteile zerlegt und somit leicht und sicher weiterverarbeitet werden. Dieses in erster Linie aus funktionalen Programmiersprachen bekannte Konzept ist eine sehr mächtige Alternative zu klassischen Switch Statements. Seit einigen Jahren wird im Projekt Amber an der Einführung von Pattern Matching in Java gearbeitet. Ein Teil der Implementierungen sind mittlerweile Teil des OpenJDK. Sie versprechen verständlicheren Code, der zudem vom Compiler geprüft werden kann. Er lässt sich leicht warten und erweitern. 
+
+      Begleitet von Codebeispielen werden wir den Ist-Zustand des Pattern Matchings näher beleuchten. Ihr lernt die neuen Features wie Switch Expression, Type/Record Patterns sowie Sealed Classes kennen und erfahrt, wo sie sinnvoll eingesetzt werden können. Anschließend werfen wir einen Blick auf zukünftige, alternative Pattern-Typen. 
     "Architekturvision in Zeiten von Clean Architecture (2022)" : |
       
     "How to Document and Communicate Software Architectures These Days (2022)" : |
@@ -123,7 +187,11 @@ talks:
     "Nur soviel Architekturarbeit wie nötig ... (2022)" : |
       
     "Der S.O.L.I.D.e Softwareentwurf (2022)" : |
-      
+      Unsere Software-Systeme werden immer komplexer, die Anforderungen an die Architektur und das Design steigen unaufhörlich. Die Programmstruktur soll natürlich weiterhin verständlich und flexibel sein. Zudem muss man den Sourcecode gut warten und leicht erweitern können. Klingt ja eigentlich ganz einfach. Leider sind viele Software-Projekte davon aber weit entfernt und tendieren eher zur viel zitierten Big Ball of Mud.
+
+      Gibt es zur Rettung da nicht schon lange die S.O.L.I.D. Prinzipien? Aber wofür stand gleich nochmal das "I."? Und um was ging es eigentlich beim Liskov'schen Substitutionsprinzip? Durch Frameworks wenden wir tatsächlich viele der Prinzipien tagtäglich an, kennen aber häufig die Hintergründe nicht (mehr). 
+
+      Darum wird es Zeit, sie mal wieder in Erinnerung zu rufen und ihre Auswirkungen auf den Entwurf und die Entscheidungsfindung bei modernen Softwarearchitekturen auf den Prüfstand zu stellen. Wir wollen anhand von Beispielen die Stärken, aber auch mögliche Risiken und Kompromisse diskutieren. Und wir schauen uns alternative Muster und Prinzipien an. So könnt Ihr die Ideen direkt auf Eure Projekte übertragen.
     "Groovy 4 the win! (2022)" : |
       
     "" : |

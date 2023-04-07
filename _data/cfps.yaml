@@ -2,7 +2,7 @@ ideas:
   - "Dataorientierte Programmierung mit Java"
   - "Modernisierung von Java-Anwendungen"
   - "Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein"
-  - "Vorgehensmuster to Go - Best Practices für moderne Softwarearchitektur-Arbeit"
+  - "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit"
   - "Workshop mit StefanT"
 2023:
   - archsummit2:
@@ -16,8 +16,12 @@ ideas:
       till: 2023-09-29
       deadline: 2023-05-22
       url: https://sessionize.com/bed-con-2023
-      submitted:
+      submitted: 2023-04-07
       talks: 
+        "Java 21": o
+        "Pattern Matching in Java": o
+        "So viel Architekturarbeit wie nötig": o
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
   - wjax:
       from: 2023-11-06
       till: 2023-11-10
@@ -30,8 +34,12 @@ ideas:
       till: 2023-09-29
       deadline: 2023-05-02
       url: https://sessionize.com/bed-con-2023
-      submitted:
+      submitted: 2023-04-07
       talks: 
+        "Java 21": o
+        "Vortrag halten": o
+        "Docs-as-Code": o 
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
   - ittage:
       from: 2023-12-11
       till: 2023-12-14
@@ -43,26 +51,42 @@ ideas:
       till: 2023-09-28
       deadline: 2023-04-28
       url: https://www.software-architecture-alliance.de/2023/call-for-papers
-      submitted:
+      submitted: 2023-04-07
       talks: 
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Phantastische Diagramme und wie Du sie selbst erstellst": o
+        "Documentation-as-Code": o
   - hc:
       from: 2023-09-05
       till: 2023-09-07
       deadline: 2023-04-24
-      submitted:
+      submitted: 2023-04-07
       talks: 
+        "Java 21": o
+        "Pattern Matching in Java": o
+        "Workshop: Pattern Matching in Java": o
+        "Der S.O.L.I.D.e Softwareentwurf": o
+        "Die Corona-Warn-App unter der Lupe": o
   - jsd:
       from: 2023-09-29
       till: 2023-09-29
-      deadline: 2023-04-10
-      submitted:
+      deadline: 2023-04-24
+      submitted: 2023-04-07
       talks: 
+        "Java 21": o
+        "Pattern Matching in Java": o
+        "Documentation-as-Code": o
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
   - baselone:
       from: 2023-10-18
       till: 2023-10-19
-      submitted:
       deadline: 2023-04-15
+      submitted: 2023-04-07
       talks:
+        - "Java 21"
+        - "Funktionale Programmierung geht auch mit Java!"
+        - "Datenorientierte Programmierung mit Java"
+        - "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit"
   - ama:
       from: 2023-10-05
       till: 2023-10-06
