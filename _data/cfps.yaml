@@ -46,6 +46,9 @@ ideas:
       deadline: 2023-04-28
       submitted:
       talks: 
+        "Java 21": o
+        "Datenorientierte Programmierung mit Java": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
   - saa:
       from: 2023-09-27
       till: 2023-09-28
@@ -107,8 +110,8 @@ ideas:
       talks: 
         "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
         "Workshop: Java Pattern Matching": x
-        "Phantastische Diagramme und wie Du sie selbst erstellst": o
-        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
+        "Phantastische Diagramme und wie Du sie selbst erstellst": x
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": x
   - wdc:
       from: 2023-09-18
       till: 2023-09-20

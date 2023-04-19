@@ -1,13 +1,21 @@
 2023:
   - Juli:
     - host: jfs
+      title: "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+      date: 2023-07-13
+      link: https://www.java-forum-stuttgart.de/vortraege/2023/
+    - host: jfs
       title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
-      date: 2023-06-12
+      date: 2023-07-13
+      link: https://www.java-forum-stuttgart.de/vortraege/2023/
+    - host: jfs
+      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      date: 2023-07-12
       canceled: true
       link: https://www.java-forum-stuttgart.de/workshoptag/
     - host: jfs
       title: "Workshop: Pattern Matching mit Java"
-      date: 2023-06-12
+      date: 2023-07-12
       canceled: true
       link: https://www.java-forum-stuttgart.de/workshoptag/
   - Juni:
