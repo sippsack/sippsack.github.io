@@ -409,7 +409,7 @@ talks:
           Gibt es zur Rettung da nicht schon lange die S.O.L.I.D. Prinzipien? Aber wofür stand gleich nochmal das "I."? Und um was ging es eigentlich beim Liskov'schen Substitutionsprinzip? Durch Frameworks wenden wir tatsächlich viele der Prinzipien tagtäglich an, kennen aber häufig die Hintergründe nicht (mehr). 
 
           Darum wird es Zeit, sie mal wieder in Erinnerung zu rufen und ihre Auswirkungen auf den Entwurf und die Entscheidungsfindung bei modernen Softwarearchitekturen auf den Prüfstand zu stellen. Wir wollen anhand von Beispielen die Stärken, aber auch mögliche Risiken und Kompromisse diskutieren. Und wir schauen uns alternative Muster und Prinzipien an. So könnt Ihr die Ideen direkt auf Eure Projekte übertragen.
-  - id: 
+  - id: groovy3
     title: 
       de: Groovy 4 the win!
     year: 2021
@@ -621,7 +621,7 @@ talks:
       de: 
         - |
           Oracle hat sein Lizenzmodell geändert, ab JDK 11 kann es in Produktion nicht mehr kostenfrei eingesetzt werden. Seit Januar 2019 gibt es zudem keine freien Updates mehr für das momentan noch viel genutzte Oracle JDK 8. Was sind die Alternativen und wann ergibt der Einsatz welcher JDK-Version Sinn? Wir werfen einen Blick auf die Kosten für das Oracle JDK, auf die Preismodelle von anderen kommerziellen Anbietern wie Azul, IBM und RedHat sowie auf die freien Versionen Oracle OpenJDK, AdoptOpenJDK, Amazon Correto, Alibaba Dragonwell und SapMachine. Zudem werden wir uns die Alternative JVM Eclipse OpenJ9 anschauen, die für gewisse Szenarien Performancevorteile gegenüber der Hotspot Java Virtual Machine von Oracle verspricht. Wir diskutieren weiterhin, ob man bei Java 8 bleiben oder auf 11 bzw. das aktuellste JDK-Release wechseln sollte und welche Konsequenzen das mit sich bringt. Dazu werfen wir natürlich auch einen Blick auf die Neuerungen von JDK 9 bis 13 und besprechen Migrationspfade und Updatestrategien.
-  - id: fp3
+  - id: fp4
     title: 
       de: Einführung in die funktionale Programmierung mit Java
     year: 2019
@@ -695,7 +695,7 @@ talks:
           But how do you find an exciting topic? How do you write an interesting abstract? What does the preparation look like if you have been accepted? What are the best tricks to cut a good figure on stage?
       
           We would like to tell you about our experiences both from the perspective of the speaker and as conference and user group organizers. We are sure that we can animate and motivate some of you to take the step in front of the audience. "Aftercare" is free of charge and included.
-  - id: fp2
+  - id: fp3
     title: 
       de: Funktionale Programmierung geht auch mit/trotz Java!
     year: 2019
@@ -712,7 +712,7 @@ talks:
       
           Anhand eines Real-World-Szenarios machen wir uns mit den fehlenden Puzzlestücken der funktionalen Programmierung vertraut. Dabei geht es um Value Types, Pattern Matching, praktische Anwendung von Monaden (Optional, Try, Either, Validierung), Bedarfsauswertung, partielle Funktionsaufrufe, Currying, Funktionskomposition, persistente Datenstrukturen, Seiteneffektfreiheit, referentielle Transparenz und einiges mehr. Wir diskutieren Lösungsansätze in Java und werfen vor allem einen Blick auf nützliche Bibliotheken wie Immutables und Vavr. Denn erst dadurch macht funktionale Programmierung auch in Java wirklich Spass.
 # 2018
-  - id: fp1
+  - id: fp2
     title: 
       de: Einführung in die Funktionale Programmierung mit Java
     year: 2018
@@ -865,7 +865,7 @@ talks:
       
           In diesem Vortrag liefern wir praktische Tipps, wie man eine tragfähige Architektur im Rahmen iterativer Prozesse einführt, pflegt und weiterentwickelt. Wir haben dazu nach dem Verfahren "Plan, Do, Check, Act" einzelne Aspekte des Architektur-Entwurfs, -Bewertung, -Kommunikation, -Tests usw. zusammengefasst und stellen diese mit unseren Erfahrungen aus der Praxis vor.
 # 2016
-  - id: lcr1
+  - id: lcr3
     title: 
       de: Legacy Code Retreat
     year: 2016
@@ -1058,3 +1058,4 @@ talks:
     abstract:
       de: |
         Groovy ist eine dynamische Sprache für die Java Plattform. Sie ist Java ähnlich, bietet jedoch eine ausdrucksstärkere Syntax. Grails ist ein auf Groovy basierendes Webframework. Es nutzt die dynamischen Features von Groovy und setzt auf etablierten Java Enterprise Frameworks auf. Die Session stellt die beiden Technologien vor und zeigt, für welche Problemstellungen sich ein Einsatz lohnt.
+        
