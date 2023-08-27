@@ -109,6 +109,18 @@ function copySelfLink(element) {
 	  );
   }
 
+  function copyText(id) {
+	let text = document.getElementById(id).innerHTML;
+	navigator.clipboard.writeText(text).then(
+		() => {
+			console.log('Content copied to clipboard');
+		},
+		(err) => {
+			console.error('Failed to copy: ', err);
+		}
+	);
+  }
+
   if (window.location.hash != null) {
 	window.scroll(0, 100)
   }

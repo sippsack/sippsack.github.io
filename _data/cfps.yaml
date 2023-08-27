@@ -1,16 +1,98 @@
 ideas:
-  - "Dataorientierte Programmierung mit Java"
-  - "Modernisierung von Java-Anwendungen"
-  - "Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein"
-  - "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit"
-  - "Workshop mit StefanT"
+  - Consumer Driven Contracts (Inhalt vom MAD Summit mit Code-Beispielen von Pact und ggf. Spring Cloud Contract)
+  - Migrationen mit OpenRewrite
+  - Best Practices um Dokumentation aktuell zu halten (Alternative Docs-as-Code)
+  - Qualitätsszenarien in der Softwarearchitektur oder Bessere Softwarearchitekturen durch Qualitätsszenarien (Konzept des Qualitätsszenario, Bauplan, Arten, Brainstorming, sichtbar machen von Architekturarbeit, ATAM, ...)
+  - Pragmatisch und aktuell - Lebendige Architekturdokumentation (Beispiele von Olli: jMolecule, Modulith - Mail vom 09.05.)
+  - Dataorientierte Programmierung mit Java
+  - Modernisierung von Java-Anwendungen
+  - Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein
+  - Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit
+  - Workshop mit StefanT (OOP 2024)
+  - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
 2023:
+  - jl:
+      from: 2024-02-27
+      till: 2024-02-29
+      submitted:  
+      deadline: 2023-09-19
+      talks: 
+  - seacon:
+      location: Online
+      from: 2023-12-04
+      till: 2023-12-05
+      submitted: 2023-08-25 
+      deadline: 2023-08-25
+      talks: 
+       "Best Practices um Architekturdokumentation aktuell zu halten": o
+       "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+       "Architekturvision in Zeiten von Clean Architecture": o
+  - eclipsecon:
+      from: 2023-10-16
+      till: 2023-10-19
+      deadline: 2023-07-17
+      submitted: 2023-07-14
+      url: https://www.eclipsecon.org/2023/java-community-day
+      talks:      
+        "Pattern Matching in Java ... and why do we need algebraic data types?": o
+  - devoxx:
+      from: 2023-10-02
+      till: 2023-10-06
+      deadline: 2023-07-14
+      submitted: 2023-07-14
+      url: https://dvbe23.cfp.dev/
+      talks: 
+        "Pattern Matching in Java ... and why do we need algebraic data types?": o
+        "Only as much architectural work as needed": o
+        "Fantastic diagrams and how to create them yourself": o    
+  - oop:
+      from: 2024-01-29
+      till: 2024-02-02
+      deadline: 2023-07-03
+      submitted: 
+      talks:     
+        "Best Practices um Dokumentation aktuell zu halten": o
+        "Phantastische Diagramme und wie Du sie selbst erstellst": o 
+  - jcon:
+      name: JCON World
+      url: https://2023.world.jcon.one/
+      from: 2023-11-21
+      till: 2023-11-24
+      deadline: 2023-06-30
+      submitted: 2023-07-02 
+      talks:
+        "S.O.L.I.D.": o
+        "Pattern Matching in Java": o
+        "Continuous and automated documentation - Docs-as-Code in practice": o
+        "So viel Architekturarbeit wie nötig": o
   - archsummit2:
       from: 2023-09-11
       till: 2023-09-13
-      deadline: 2023-06-30
+      deadline: 2023-05-07
+      submitted: 2023-05-07
+      talks:
+        "Workshop: Phantastische Diagramme": x
+  - xpdays:
+      from: 2023-10-05
+      till: 2023-10-06
+      location: Frankfurt
+      deadline: 2023-06-18
+      url: https://www.xpdays.de/2023/call-for-participation/
       submitted: 
       talks:
+        "Refactoring mit der Mikado-Methode": o
+        "Nur soviel Architekturarbeit wie nötig": o
+        "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": o
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
+  - sag:
+      from: 2023-11-27
+      till: 2023-11-30
+      deadline: 2023-06-15
+      url: https://sessionize.com/software-architecture-gathering-2023/
+      submitted: 
+      talks:
+        "Continuous and automated documentation - Docs-as-Code in practice": n
+        "As much architectural work as needed": n
   - bedcon:
       from: 2023-09-28
       till: 2023-09-29
@@ -20,7 +102,7 @@ ideas:
       talks: 
         "Java 21": o
         "Pattern Matching in Java": o
-        "So viel Architekturarbeit wie nötig": o
+        "So viel Architekturarbeit wie nötig": x
         "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
   - wjax:
       from: 2023-11-06
@@ -29,14 +111,18 @@ ideas:
       url: https://callforpapers.sandsmedia.com/
       submitted:
       talks: 
+        "Nur soviel Architekturarbeit wie nötig": x
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Docs-as-Code": o 
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o         
   - jfn:
-      from: 2023-09-28
-      till: 2023-09-29
+      from: 2023-09-12
+      till: 2023-09-12
       deadline: 2023-05-02
-      url: https://sessionize.com/bed-con-2023
+      url: https://sessionize.com/java-forum-nord-2023/
       submitted: 2023-04-07
       talks: 
-        "Java 21": o
+        "Java 21": x
         "Vortrag halten": o
         "Docs-as-Code": o 
         "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
@@ -46,9 +132,9 @@ ideas:
       deadline: 2023-04-28
       submitted:
       talks: 
-        "Java 21": o
-        "Datenorientierte Programmierung mit Java": o
-        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Java 21": x
+        "Datenorientierte Programmierung mit Java": x
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
   - saa:
       from: 2023-09-27
       till: 2023-09-28
@@ -56,18 +142,18 @@ ideas:
       url: https://www.software-architecture-alliance.de/2023/call-for-papers
       submitted: 2023-04-07
       talks: 
-        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
-        "Phantastische Diagramme und wie Du sie selbst erstellst": o
-        "Documentation-as-Code": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
+        "Phantastische Diagramme und wie Du sie selbst erstellst": n
+        "Documentation-as-Code": x
   - hc:
       from: 2023-09-05
       till: 2023-09-07
       deadline: 2023-04-24
       submitted: 2023-04-07
       talks: 
-        "Java 21": o
+        "Java 21": x
         "Pattern Matching in Java": o
-        "Workshop: Pattern Matching in Java": o
+        "Workshop: Java 21 Update": x
         "Der S.O.L.I.D.e Softwareentwurf": o
         "Die Corona-Warn-App unter der Lupe": o
   - jsd:
@@ -76,7 +162,7 @@ ideas:
       deadline: 2023-04-24
       submitted: 2023-04-07
       talks: 
-        "Java 21": o
+        "Java 21": x
         "Pattern Matching in Java": o
         "Documentation-as-Code": o
         "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": o
@@ -86,10 +172,10 @@ ideas:
       deadline: 2023-04-15
       submitted: 2023-04-07
       talks:
-        - "Java 21"
-        - "Funktionale Programmierung geht auch mit Java!"
-        - "Datenorientierte Programmierung mit Java"
-        - "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit"
+        "Java 21": x
+        "Funktionale Programmierung geht auch mit Java!": n
+        "Datenorientierte Programmierung mit Java": n
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
   - ama:
       from: 2023-10-05
       till: 2023-10-06
@@ -124,9 +210,9 @@ ideas:
       deadline: 2023-02-20
       submitted: 2023-02-13
       talks: 
-        - Pattern Matching in Java
-        - How to document and communicate software architectures these days
-        - A S.O.L.I.D. software design
+        "Pattern Matching in Java": o
+        "Workshop: How to document and communicate software architectures these days": x
+        "A S.O.L.I.D. software design": o
   - madsummit1:
       from: 2023-06-19
       till: 2023-06-21
@@ -155,7 +241,8 @@ ideas:
         "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
         "Moderne Softwarearchitekturen dokumentieren und kommunizieren": n
   - jcon:
-      url: https://2023-people.jcon.one/
+      name: JCON Europe
+      url: https://2023.europe.jcon.one/
       from: 2023-06-20
       till: 2023-06-23
       deadline: 2023-01-31
@@ -202,7 +289,7 @@ ideas:
       deadline: 2023-01-16
       submitted: 2023-01-16
       talks:
-        "So viel Architekturarbeit wie nötig": o
+        "So viel Architekturarbeit wie nötig": x
         "Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?": n
 2022:
   - jax:

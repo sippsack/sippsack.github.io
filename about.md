@@ -12,20 +12,20 @@ permalink: /about/
 
 <h2 id="bio">Bio</h2>
 <ul class="talk-list">
-<li>{{ site.data.portfolio.bio }}</li>
-<li>{{ site.data.portfolio.bio_en }}</li>
+<li>{{ site.data.about.bio }}</li>
+<li>{{ site.data.about.bio_en }}</li>
 </ul>
 
 <h2 id="activities">Aktivitäten</h2>
 <ul class="talk-list">
-{% for activity in site.data.portfolio.activities %}
+{% for activity in site.data.about.activities %}
 	<li><a href="{{ activity.link }}">{{ activity.event }}</a>: {{ activity.activity }} seit {{ activity.since }}</li>
 {% endfor %}
 </ul>
 
 <h2 id="links">Links</h2>
 <ul class="talk-list">
-{% for link in site.data.portfolio.links %}
+{% for link in site.data.about.links %}
   <li>{{ link[0] }}: 
   {% if link[1].first %}
     <ul style="margin: 0;" class="talk-list">
@@ -41,7 +41,7 @@ permalink: /about/
 </ul>
 
 <h2 id="photos">Fotos</h2>
-{% for photo in site.data.portfolio.photos %}
+{% for photo in site.data.about.photos %}
 <h4>{{ photo[0] }}</h4>
 {% if photo[1].show %}
 {% for img in photo[1].images %}<img style="margin:10px;" src="{{img}}" alt="{{img}}" />{% endfor %}

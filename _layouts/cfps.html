@@ -51,8 +51,16 @@ layout: page
 <h4>{{ season }}</h4>
 <div style="margin:20px;">
 <ul>
-{% assign conferences =  site.data.conferences | where: "season", season %}
+{% assign conferences = site.data.conferences | where: "season", season %}
 {% for conference in conferences %}
+{% for static_file in site.static_files %}
+    {% assign path = '/assets/images/conferences/' | append: conference.id | append: '.svg' %}
+    {% if static_file.path == path %}
+        {% assign conf_logo = '/assets/images/conferences/' | append: conference.id | append: '.svg' %}
+    {% else %}    
+        {% assign conf_logo = '/assets/images/conferences/' | append: conference.id | append: '.png' %}
+    {% endif %}
+{% endfor %}
 <li><a href="{{ conference.url }}">{{ conference.name }}</a> ({{ conference.location }}) <img style="height:1em" src="/assets/images/conferences/{{ conference.id }}.png" alt="{{ conference.name }}" /></li>
 {% endfor %}
 </ul>
