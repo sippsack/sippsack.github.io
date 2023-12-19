@@ -1,11 +1,11 @@
-<div>
+<div id="{{talk.id}}">
 {% assign category = categories | where: "id", talk.category | first %}
-<h4><i class="fa{% if category.id == 'java' or category.id == 'js' %}-brands{% endif %} fa-{{ category.symbol }}" title="{{ category.name }}"></i>{% if talk.type == "workshop" %} <b><i>Workshop:</i></b>{% endif %} {{ talk.title.de }} ({{ talk.year }}{% if talk.co-speaker %}, Co-Sprecher: {{ talk.co-speaker }}{% endif %})</h4>
+<h4><i class="fa{% if category.id == 'java' or category.id == 'js' %}-brands{% endif %} fa-{{ category.symbol }}" title="{{ category.name }}"></i>{% if talk.type == "workshop" %} <b><i>Workshop:</i></b>{% endif %} <span id="{{talk.id}}_title">{{ talk.title.de }}</span> <sup><i onclick="copyText('{{talk.id}}_title')" style="cursor:pointer;" title="Kopieren" class="fa-regular fa-copy" aria-hidden="true"></i></sup> ({{ talk.year }}{% if talk.co-speaker %}, Co-Sprecher: {{ talk.co-speaker }}{% endif %})</h4>
 {% for abstract in talk.abstract.de %}
 {% assign length = abstract | size %}
 <p>
 {% unless forloop.first %}<b>Alternative:</b>{% endunless %}
-<span id="{{talk.id}}_abstract_{{forloop.index}}">{{ abstract | newline_to_br }}</span> ({{ length }} Zeichen) <i onclick="copyText('{{talk.id}}_abstract_{{forloop.index}}')" style="cursor:pointer;" title="Kopieren" class="fa fa-copy" aria-hidden="true"></i>
+<span id="{{talk.id}}_abstract_{{forloop.index}}">{{ abstract | newline_to_br }}</span> ({{ length }} Zeichen) <sup><i onclick="copyText('{{talk.id}}_abstract_{{forloop.index}}')" style="cursor:pointer;" title="Kopieren" class="fa-regular fa-copy" aria-hidden="true"></i></sup>
 </p>
 {% endfor %}
 </div>

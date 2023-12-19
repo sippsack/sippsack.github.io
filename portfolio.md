@@ -20,7 +20,8 @@ Kategorien:
 {% endfor %}
 </p>
 
-<p id="filter">Filter: <a href="#new" class="more scrolly">Ganz neu</a> |<a href="#current" class="more scrolly">Noch aktuell</a> |
+<p id="filter">Filter: <a href="#new" class="more scrolly">Ganz neu</a> | 
+<a href="#current" class="more scrolly">Noch aktuell</a> |
 <a href="#workshops" class="more scrolly">Workshops</a> |
 <a href="#old" class="more scrolly">Alte Vorträge</a></p>
 

@@ -1,3 +1,8 @@
+- id: voxxedzh 
+  name: Voxxed Days Zürich
+  location: Zürich
+  url: https://voxxeddays.com/zurich/
+  season: Frühjahr
 - id: archsummit1 
   name: Software Architecture Summit Frühjahr
   location: München
@@ -60,7 +65,7 @@
   season: Sommer
 - id: enterjs
   name: enterJS
-  location: Darmstadt
+  location: Darmstadt oder Mainz
   url: https://enterjs.de/
   season: Sommer
 - id: wadev
@@ -84,8 +89,8 @@
   url: https://www.developer-week.de/
   season: Sommer
 - id: jconp
-  name: JCON People
-  location: München
+  name: JCON Europe
+  location: Köln
   url: https://jcon.one/
   season: Sommer
 - id: jfs
@@ -163,6 +168,11 @@
   location: Berlin
   url: https://devopscon.io/berlin-de
   season: Herbst
+- id: eclipsecon
+  name: EclipseCon
+  location: Ludwigsburg
+  url: https://www.eclipsecon.org/
+  season: Herbst
 - id: baselone
   name: BaselOne
   location: Basel
@@ -182,6 +192,11 @@
   name: Microservices Summit Winter
   location: Berlin
   url: https://microservices-summit.de/
+  season: Winter
+- id: madsummit2 
+  name: MAD Summit Winter
+  location: Berlin
+  url: https://mad-summit.de/berlin/
   season: Winter
 - id: jvmcon
   name: JVM-Con
@@ -217,4 +232,9 @@
   name: Entwicklertag
   location: Frankfurt
   url: https://entwicklertag.de/
+  season: Winter
+- id: punsch
+  name: embarc Architektur-Punsch
+  location: Online
+  url: https://www.embarc.de/events/
   season: Winter

@@ -21,15 +21,190 @@ categories: # Vorträge in Kategorien einteilen
     name: JavaScript
     symbol: js
 
+# TODO
+# Java 17 (+ 18)
+# Workshop: Flexible Softwarearchitektur mit der Clean Architecture (JavaLand 2023)
+# Workshop: Die 'Java by Comparison' Kata
+# ggf. Workshop: Softwarearchitektur einfach mal üben
+# So gelingt die iSAQB Advanced Prüfung - Entwurf und Dokumentation einer Softwarearchitektur am Fallbeispiel
+# Architekturdokumentation mit Microsites
+
 talks:
+# 2024
+  - id: cleanevoarc
+    title: 
+      de: Clean Architecture als Unterstützung für evolutionäre Architektur
+    year: 2024
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 
+    abstract:
+      de: 
+        - |
+          Softwaresysteme werden immer komplexer und die Anforderungen an sie wandeln sich ständig. Evolutionäre Softwarearchitektur versucht, sich kontinuierlich und effizient an sich verändernde Rahmenbedingungen, Anforderungen, Technologien und Umgebungen anzupassen. Die Ideen einer Clean Architecture stellen wichtige Grundlagen für evolutionäre Architektur dar. Denn durch die klare Trennung von Verantwortlichkeiten, die Unabhängigkeit von Bibliotheken/Frameworks, die erhöhte Testbarkeit und Flexibilität bietet Clean Architecture eine robuste Struktur, um die Weiterentwicklung einfacher zu ermöglichen. 
+
+          In diesem Vortrag diskutieren wir, wie diese beiden Ansätze den Weg für eine nachhaltige Softwareentwicklung ebnen, insbesondere wie sie Risiken bei Änderungen reduzieren, die Portabilität fördern und die Zusammenarbeit im Entwicklerteam verbessern. 
+  - id: diagrams2w
+    title: 
+      de: Real World Architekturdiagramme
+    year: 2024
+    category: arch
+    type: workshop
+    relevant: new
+    duration: 180
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 
+    abstract:
+      de: 
+        - | 
+          An einem fiktiven, aber realistischen Beispiel werden wir live verschiedene Diagramme entwerfen, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein informelles Überblicksbild oder ein Qualitätsbaum. Wir diskutieren sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei verwenden wir frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net und andere. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
+  - id: flexddd
+    title: 
+      de: Flexibilität durch Domain Driven Design 
+    year: 2024
+    category: arch
+    type: workshop
+    relevant: new
+    duration: 180
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 
+    abstract:
+      de: 
+        - |
+          Bei modernen Softwaresystemen wird eine möglichst flexible Softwarearchitektur gewünscht, um auch langfristig angemessen auf sich ändernde Anforderungen reagieren zu können. Gerade große Softwareprojekte sind aber häufig gekennzeichnet durch die Zusammenarbeit zwischen mehreren Teams, die Notwendigkeit zur Integration mit einer Vielzahl von Teil- und Fremdsystemen sowie der Herausforderung aufgrund nicht trivialer fachlicher sowie anspruchsvoller qualitativer Anforderungen. Domain Driven Design kann helfen, diese Komplexität beherrschbar zu halten, in dem die Zusammenarbeit aller Beteiligten gefördert wird, somit ein tiefes Verständnis für die Fachlichkeit entsteht und das System letztlich in sinnvolle Teile zerlegt werden kann. In diesem Workshop wollen wir gemeinsam an einem Fallbeispiel notwendige Architekturentscheidungen durch Ansätze aus dem Domain Driven Design diskutieren. Dafür müssen wir zunächst die fachlichen Anforderungen verstehen, die architekturrelevanten Qualitätsziele ermitteln und daraus die richtigen Schlüsse ziehen. Darauf aufbauend werden wir eine leichtgewichtige Architektur-Review-Methode diskutieren, welche bei der Absicherung der gewählten domänengetriebenen Lösungsansätze hilft. Im weiteren Projektverlauf kann somit abgeschätzt werden, in welchen Dimensionen die Softwarearchitektur durch die Hilfe von DDD flexibler geworden ist (im Sinne der evolutionären Architektur).
+  - id: archbusiness
+    title: 
+      de: Softwarearchitektur enables Business 
+    year: 2024
+    category: arch
+    type: workshop
+    relevant: new
+    duration: 180
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 
+    abstract:
+      de: 
+        - |
+          Die Analyse der fachlichen Anforderungen sowie die daraus resultierenden, notwendigen Rückschlüsse auf die Softwarearchitektur und die Implementierung sind nicht trivial. Häufig fühlt sich das Team nicht „enabled“ und muss bei jeder auftretenden Unsicherheit Rücksprache mit dem Product Owner halten. Dabei können wir als Entwickler:innen und Architekt:innen schon im Vorfeld wertvollen Input liefern und der Anforderungsseite helfen, wichtige implizite Anforderungen und Rahmenbedingungen zu identifizieren und zu kommunizieren. In diesem Workshop teilen wir Erfahrungen und geben Methoden sowie Werkzeuge an die Hand, wie man zu besseren Anforderungen kommt, Qualitätsanforderungen explizit aufnimmt, dafür sorgt, dass die Ziele hinter User Stories verstanden sind und wie mit klar definierten Rahmenbedingungen selbstständig gute Entscheidungen getroffen und passende Lösungen entwickelt werden können. Zur regelmäßigen Überprüfung der gewünschten Qualität bieten sich zudem Architekturreviews an. Wir diskutieren eine leichtgewichtige Methode, um die Softwarearchitektur immer wieder auf den Prüfstand zu stellen. Damit bekommt ihr ein hilfreiches Werkzeug an die Hand, die Qualitätsanforderungen gegen die Anforderungsseite regelmäßig zu evaluieren.
 # 2023
+  - id: records
+    title: 
+      de: Java for the records
+    year: 2023
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 
+    abstract:
+      de: 
+        - |
+          ..
+  - id: stringtemplates
+    title: 
+      de: Robuste und flexible String Templates in Java
+    year: 2023
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    learning-goals: |
+      * Anwendung der String Templates verstehen
+      * Eigene Template Prozessoren erzeugen
+      * Flexible und robuste String Interpolation
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Java-Kenntnisse, Interesse an den Neuerungen, Text-Blöcke aus Java 15
+    tags: Java 21, String Interpolation, String Templates
+    abstract:
+      de: 
+        - |
+          Java 21 war vollgepackt mit spannenden und bahnbrechenden Neuerungen. Im Schatten der sehr präsenten Themen wurden relativ überraschend String Templates als Preview Feature eingeführt und sind auch im OpenJDK 22 erneut dabei. Sie ermöglichen das Einbetten von Ausdrücken in String-Literalen und Textblöcken. Dank selbst definierbarer Template Prozessoren ist diese Vorgehensweise sogar anpassbar.
+
+          Wir diskutieren die Verwendung der String Templates, schauen uns die Vorteile aber auch die Grenzen an. Durch das Erstellen eigener Template Prozessoren können wir die eingebetteten Ausdrücke validieren, transformieren und aus Java Strings letztlich beliebige Java-Objekte wie JSON-Dokumente oder SQL-Resultsets erzeugen zu können. Ihr könnt diese Ideen in Eure tägliche Arbeit übernehmen und jetzt schon String Interpolation ausprobieren.
+  - id: archqs
+    title: 
+      de: Qualitätsszenarien - die Hidden Champions in der Architekturarbeit
+    year: 2023
+    category: arch
+    type: talk
+    relevant: true
+    duration: 45
+    learning-goals:
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse in der Softwarearchitektur
+    tags: Qualitätsmerkmale, Architekturziele, Qualitätsszenarien, Qualitätsbaum
+    abstract:
+      de: 
+        - |
+          Grundlegende Architekturarbeit ist nicht schwierig, wird aber häufig vernachlässigt. Wenn die Architekturziele nicht klar sind, werden die getroffenen Entscheidungen aber nicht unbedingt zu den vorgegebenen Rahmenbedingungen und notwendigen Qualitätsanforderungen passen und im schlimmsten Fall das Projekt sogar zum Scheitern bringen. Der Fachbereich bzw. die Rolle des Product Owner haben in erster Linie die fachlichen Anforderungen im Blick, dementsprechend gibt es zunächst auch keine konkreten Architekturaufgaben im Product Backlog.
+
+          Qualitätsszenarien helfen uns, Architekturarbeit sichtbar zu machen und somit in die iterativ, inkrementelle Arbeitsweise einzuplanen. Außerdem können wir mit Hilfe von Szenarien unsere Softwarearchitektur qualitativ bewerten. In diesem Vortrag schauen wir, welche Arten von Szenarien es gibt, wie ihr sie erstellt bzw. aktuell haltet und wie ihr dann in Eurer täglichen Arbeit davon profitiert.
+  - id: cdct
+    title: 
+      de: Auf gute Zusammenarbeit - effiziente APIs dank Consumer Driven Contracts
+    year: 2023
+    category: arch
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals:
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse in der Softwarearchitektur
+    tags: Consumer-Driven Contract Testing, API Testing, PACT
+    abstract:
+      de: 
+        - |
+          Verteilte Anwendungen sind heute weit verbreitet. Die Schnittstellen zwischen den Services können fehleranfällig sein und führen außerdem zu einer hohen Kopplung. Durch Consumer-Driven Contract Testing werden Verträge zwischen Konsumenten und Anbietern definiert. Das stärkt die Zusammenarbeit und verhindert unerwünschte Nebenwirkungen durch Schnittstellenänderungen. Durch den Einsatz von Werkzeugen wie Pact oder Spring Cloud Contract werden die Verträge letztlich automatisiert getestet. Das erhöht die Entwicklungsgeschwindigkeit und verbessert die Qualität der verteilten Anwendungen. Entdeckt in diesem Vortrag, wie ihr mit CDC und den entsprechenden Tools die Effizienz Eurer API-Entwicklung revolutionieren könnt.
+  - id: archbasics3
+    title: 
+      de: Die Relevanz von Softwarearchitektur
+    year: 2023
+    category: arch
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+      * Komplexität in heutigen Software-Projekten
+      * Rolle des Softwarearchitekten
+      * Qualitätsanforderungen und -modelle
+      * Kommunikationsstrukturen in der Softwarearchitektur
+      * Architekturdokumentation und -diagramme
+      * Qualitätssicherung in der Softwarearchitektur
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Mehrjährige Erfahrung in Softwareprojekten, Grundlegende Kenntnisse in der Softwarearchitektur
+    tags: Komplexität, Accidental Architecture, Qualitätsziele, Conways Law, Team Topologies
+    abstract:
+      de: 
+        - |
+          Die Digitalisierung schreitet unaufhaltsam voran. Unsere Softwaresysteme leisten immer mehr, gerade die fachlichen Anforderungen steigen und müssen verstanden werden. Aber auch die modernen technischen Möglichkeiten sowie die gemeinsame Umsetzung mit verschiedenen Kollegen in cross-funktionalen Teams und die Einbettung in agile Prozesse erhöhen die Komplexität.
+
+          Lasst uns diskutieren, worauf es bei der Architekturarbeit in der heutigen Zeit ankommt. Und wie der explizite Entwurf und die Kommunikation der Softwarearchitektur entscheidend sind, um flexible, wartbare und skalierbare Systeme zu gestalten. Welche Architekturstile und -prinzipien sind dafür aktuell besonders relevant? Wir schauen gemeinsam auf wichtige Vorgehensmuster sowie praxiserprobte Best Practices, die bei der systematischen Architekturarbeit unterstützen. Außerdem besprechen wir, wie sich Architekturziele prüfen lassen. Viele der vorgestellten Ideen könnt ihr direkt in Eurer täglichen Arbeit anwenden.
   - id: archpatterns1
     title: 
       de: Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit
     year: 2023
     category: arch
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     learning-goals: |
       * Einbinden der Architekturarbeit in agile Prozesse
@@ -50,7 +225,7 @@ talks:
           Wir diskutieren Ideen für die grundlegende Architekturarbeit, das Treffen von Entscheidungen, die Zusammenarbeit und Interaktion sowie die Bewertung und Reflexion. Viele dieser Vorgehensmuster und Best Practices könnt ihr direkt auf Eure eigenen Projekte übertragen und somit die Herausforderungen der Softwarearchitekturarbeit besser meistern.
         - |
           Verschiedene Praktiken helfen, Architekturarbeit dynamischer zu gestalten und den Architekturentwurf effizient in agile Projekte zu integrieren. Ihr könnt viele dieser Vorgehensmuster und Best Practices leicht auf Eure eigenen Projekte übertragen.
-  - id: docsascode7
+  - id: docsascode6
     title: 
       de: Best Practices um Architekturdokumentation aktuell zu halten
     year: 2023
@@ -77,18 +252,55 @@ talks:
           Der Vortrag stellt einfach anzuwendende Methoden, Vorlagen und Tools vor, die zum Erstellen einer hochwertigen, sich selbst validierenden Softwaredokumentation eingesetzt werden können. Dabei schauen wir auch auf das Sichtbarmachen von Softwarearchitekturkonzepten im Code und das Einbinden von Software-Analyse-Werkzeugen, die den kontinuierlichen Abgleich der Soll- und Ist-Strukturen ermöglichen und so die Architekturdokumentation lebendiger machen.
         - |
           Docs-as-Code erleichtert durch leichtgewichtige Text- und Grafikformate, den Einsatz von Entwicklerwerkzeugen sowie die Integration in die Entwicklungsprozesse bei der Pflege einer optimalen, sich selbst validierenden Architektur-Beschreibung.
+  - id: java21w
+    title: 
+      de: "Java 21: Die neuen Features rund um Pattern Matching und Virtual Threads"
+    year: 2023
+    category: java
+    type: workshop
+    relevant: true
+    duration: 360
+    learning-goals: |
+      * Die neuen Features nicht nur kennenlernen, sondern auch ausprobieren
+      * Auf Basis des Gelernten entscheiden, welche der Funktionen für die Praxis relevant werden
+      * Sich mit der zukünftigen Entwicklung von Java vertraut machen
+    target-audience:
+    prerequisites: |
+      * Grundlegende Kenntnisse in Java 8 oder 11
+      * Interesse an datenorientierter Programmierung und funktionalen Konstrukten
+      * Erste Erfahrungen mit Nebenläufigkeit
+    co-speaker: Michael Wiedeking, MATHEMA GmbH
+    abstract:
+      de: |
+        Java 21 bringt jede Menge neuer Funktionen. Einige werden finalisiert, andere sind noch in einem Preview-Modus. Wir wollen uns in diesem Workshop mit zwei der größeren Themenbereichen beschäftigen: Pattern Matching und Virtual Threads.
+
+        Seit einiger Zeit wird Java um Pattern Matching erweitert. Dieses eigentlich aus funktionalen Programmiersprachen bekannte Feature ermöglicht elegantere Lösungsansätze bei der Verarbeitung von Datenstrukturen und macht den Java-Code verständlicher und wartbarer. Wir schauen uns gemeinsam die bereits finalen Funktionen wie Switch Expression, Records, Sealed Classes, Type sowie Record Patterns und Pattern Matching for switch an. Wir werfen auch einen Blick auf die noch in Arbeit oder der Planung befindlichen Themen wie die Unnamed oder die Array Patterns.
+
+        Virtuelle Threads sind eine der spektakulärsten Neuerungen der letzten Jahre. Sie erlauben es, die konkurrierende Verarbeitung von parallel ausgeführten Aufgaben auch bei einer großen Anzahl an Threads zu implementieren und dabei dank der Structured Concurrency auch leicht les- und gut wartbaren Code zu schreiben. Mit den Scoped Values ist zudem eine Alternative zu den ThreadLocal-Variablen in Arbeit.
+
+        In diesem Workshop wollen wir uns anhand von praktischen Beispielen die neuesten Features erarbeiten und anhand typischer Aufgabenstellungen direkt gemeinsam ausprobieren. Außerdem werfen wir einen Blick auf weitere Neuerungen wie String Templates, Unnamed Classes, Sequenced Collections usw.
+        
+        Technische Anforderungen:
+        * Eigener Laptop
+        * Java 21 vorinstalliert (ggf. Early Access Version), nutzt dazu am besten SDKMan
+        * IDE (IntelliJ, Eclipse, ... möglichst die aktuellste Version)
   - id: dop1
     title: 
       de: Datenorientierte Programmierung mit Java
     year: 2023
     category: java
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     sessionize: https://sessionize.com/s/sippsack/datenorientierte-programmierung-mit-java/68626
-    learning-goals: 
-    target-audience:
-    prerequisites:
+    learning-goals: |
+      * Pattern Matching
+      * Switch Expression
+      * Sealed Classes
+      * Records
+      * Pattern Types
+    target-audience: Erfahrene Java-Entwickler mit Interesse an den Features über Java 11
+    prerequisites: Grundlegende Java-Kenntnisse mindestens von Version 8 oder 11
     abstract:
       de: |
         In der Objektorientierten Programmierung (OOP) modellieren wir komplexe Einheiten und Prozesse mit Hilfe von Objekten, die Zustand und Verhalten kombinieren. OOP funktioniert am besten, wenn wir klare Grenzen definieren und verteidigen müssen. Für manche Anwendungsfälle ist dieser Ansatz aber übertrieben. 
@@ -112,7 +324,7 @@ talks:
         Alle halben Jahre erscheinen neue Major-Releases, alle zwei Jahre als LTS mit längerer Unterstützung (Long Term Support). Viele von uns arbeiten noch mit der früheren LTS-Version 8 oder sind bisher nur auf 11 umgestiegen. Wir wollen uns daher anschauen, was sich seitdem im Java-Universum getan hat. Das sind so spannende Themen wie Pattern Matching, Virtual Threads sowie viele kleinere Funktionen. Aber es sind noch einige weitere Features in Arbeit oder der Planung, wie die Vector API, die Foreign Function & Memory API, die String Interpolation, die Sequenced Collections, die Unnamed Classes and Instance Main Methods oder die Primitive bzw. Value Types.
 
         Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
-  - id: docsascode6
+  - id: docsascode5
     title: 
       de: Lebendige Architekturdokumentation mit Docs-as-Code, jQAssistant und jMolecules
     year: 2023
@@ -130,7 +342,7 @@ talks:
         Es ist kein Mythos, dass eine gute Softwaredokumentation ein Garant für erfolgreichere Softwareprojekte ist. Die Kunst und Herausforderung zugleich ist es jedoch, den Aufwand überschaubar und mit geeigneten Konzepten die Dokumentation lebendig zu halten.
 
         Der Vortrag stellt leichtgewichtige Methoden, Vorlagen und Tools vor, die zum Erstellen einer hochwertigen, sich selbst validierenden Softwaredokumentation eingesetzt werden. Wir schauen uns Ansätze wie Docs-as-Code, leichtgewichtige Textformate, Ablage in der Versionsverwaltung und die Einbettung in die Build- und Review-Prozesse an. Das Sichtbarmachen von Softwarearchitekturkonzepten im Code mit jMolecules und das Einbinden von Software-Analyse-Werkzeugen wie jQAssistant ermöglichen den kontinuierlichen Abgleich der Soll- und Ist-Strukturen und machen die Architekturdokumentation lebendiger.
-  - id: api1
+  - id: apipatterns1w
     title: 
       de: Patterns für API-Evolution
     year: 2023
@@ -152,7 +364,7 @@ talks:
     year: 2023
     category: java
     type: talk
-    relevant: true
+    relevant: false
     duration: 60
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: 
@@ -169,7 +381,7 @@ talks:
 
           Neben den JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
 # 2022
-  - id: docsascode5
+  - id: docsascode4
     title: 
       de: Kontinuierlich und automatisiert dokumentieren - Docs-as-Code in der Praxis
     year: 2022
@@ -264,7 +476,7 @@ talks:
           Wie wäre es, wenn wir das gängige Page Object Pattern mit einer eigenen domänenspezifischen Sprache auf die nächste Stufe heben? Eine DSL, die mit einer natürlichsprachigen Syntax das verschachtelte Navigieren über eine Webseite optimal abbildet und zudem noch typsicher ist. Durch die syntaktische Mächtigkeit von Kotlin kommen wir zu dem mit wesentlich weniger zu wartendem Code aus, als es rein mit Java machbar wäre.
 
           In diesem Vortrag zeigen wir, dass die Hinzunahme von Kotlin als weitere Programmiersprache zu einem Java-Projekt sinnvoll sein kann. Wir demonstrieren zentrale Sprachfeatures der alternativen JVM-Sprache, die sich zum Schreiben einer kompakten Oberflächentest-DSL besonders bewährt haben. Nach dem Vortrag habt ihr einen Eindruck davon bekommen, welch elegantes API-Design eine DSL mit Kotlin bietet.
-  - id: test1
+  - id: testing1
     title: 
       de: Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests
     year: 2022
@@ -281,7 +493,7 @@ talks:
           Das Schreiben von automatisierbaren Tests ist mittlerweile akzeptiert und hilft uns, qualitativ hochwertige Software zu entwickeln. Allerdings müssen Tests und deren Architektur mit der gleichen Sorgfalt und nach den gleichen Regeln von Clean Code entstehen, wie das Design des Produktivcodes. Auch Testcode kann verrotten. Schlecht gewählte Namen, Redundanzen und hohe Kopplung des Testcodes an Implementierungsdetails führen zu großen Wartungsaufwänden und im schlimmsten Fall zur temporären, also meist doch dauerhaften Deaktivierung von Tests.
 
           In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel JUnit 5 bereits für das Schreiben gut wartbarer Tests mit sich bringt. Darüber hinaus zeigen wir Euch, wie ihr durch das Schreiben eigener Assertion-Matcher eure Validierungslogik von Implementierungsdetails unabhängiger macht. Dadurch lernt ihr, wie euer (Test-)Code wartbarer und robuster gegenüber Refactorings ist, damit nicht schon einfache Umbauarbeiten zu großflächigen Anpassungen am Testcode führen.
-  - id: diagrams2
+  - id: diagrams1w
     title: 
       de: Phantastische Diagramme und wie Du sie selbst erstellst
     year: 2022
@@ -321,7 +533,7 @@ talks:
     year: 2022
     category: java
     type: talk
-    relevant: true
+    relevant: false
     duration: 60
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: 
@@ -339,7 +551,7 @@ talks:
           * und noch einiges mehr
 
           Neben den JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
-  - id: dots1
+  - id: dots1w
     title: 
       de: Developer on the stage
     year: 2022
@@ -353,7 +565,7 @@ talks:
         Vorträge zu halten ist in der IT Community eine der wichtigsten Mittel, Wissen zu verteilen. Zusätzlich dazu erhöht der Sprecher seine eigene Sichtbarkeit und wird als Experte in seinem Thema wahrgenommen. Das sind nur zwei der vielen Vorteile eines Konferenz- oder Community-Event Vortrags.
 
         In diesem Community-Event lernst du von gleich drei sehr erfahrenen Speakern, wie du dein ganz individuelles Thema findest, dich umfassend auf deinen Auftritt vorbereitest und erfolgreich vorträgst. Anschließend werfen wir noch einen Blick auf die oft vernachlässigte Nachbereitung und auf Materialien, die dir dabei helfen, ein erfolgreicher Speaker zu werden. Dabei nehmen wir uns die Zeit, erste inhaltliche Ideen für deinen Vortrag zu entwickeln und ausführlich Fragen zu beantworten. Am Ende hast du nicht nur ganz konkrete inhaltliche Ansätze für deinen ersten eigenen Vortrag, sondern weißt auch genau, wie du dich organisatorisch vorbereiten solltest.
-  - id: javapm2
+  - id: javapm1w
     title: 
       de: Pattern Matching mit Java
     year: 2022
@@ -454,7 +666,7 @@ talks:
     year: 2021
     category: java
     type: talk
-    relevant: true
+    relevant: false
     duration: 60
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: 
@@ -473,7 +685,7 @@ talks:
           * und noch einiges mehr
       
           In diesem Vortrag betrachten wir außerdem hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Falls Ihr noch nicht bei Java 11 oder höher angekommen seid, bekommt Ihr damit einen kompakten Überblick, wie sich Java aktuell anfühlt.
-  - id: docsascode4
+  - id: docsascode3
     title: 
       de: Moderne Softwarearchitekturen dokumentieren und kommunizieren
       en: How to Document and Communicate Software Architectures These Days
@@ -529,9 +741,10 @@ talks:
           Auch wenn wir als ITler, egal ob angestellt oder freiberuflich, derzeit auf dem Arbeitsmarkt umworben werden, muss man uns erstmal finden. Neben der Präsenz auf diversen beruflichen Kontaktbörsen bietet sich natürlich das Erstellen einer eigenen Internetseite an, auf der die Projektliste, Side-Projekte, Blog-Posts, Artikel, Vorträge und der Lebenslauf präsentiert werden können. Aber nicht jeder möchte sich mit Design und Layout auseinandersetzen, sondern vielmehr auf den Inhalt konzentrieren. Zum Glück gibt es mittlerweile Werkzeuge, die auf uns Entwickler zugeschnitten sind und pragmatische, aber trotzdem ansehnliche Ergebnisse produzieren.
       
           Aufbauend auf der gewohnten Arbeitsweise wird uns durch diese Tools mit frei verfügbaren Vorlagen nicht nur die mühevolle Gestaltung abgenommen. Getreu dem Motto "Everything-as-Code" unterstützen sie auch bei der Automatisierung des kompletten Entwicklungsprozesses bis zur Auslieferung und vor allem bei der kontinuierlichen Pflege der Webseite. Wir stellen anhand von Beispielen verschiedene Lösungen basierend auf Jekyll, Hugo und JBake, sowie Plattformen wie Github, Gitlab und Netlify vor, geben unsere Erfahrungen weiter und zeigen einige Tipps und Tricks, die sich für uns bewährt haben.
-  - id: docsascode3
+  - id: docsascode3w
     title: 
       de: Moderne Softwarearchitekturdokumentation
+      en: How to document and communicate software architectures these days
     year: 2020
     category: arch
     type: workshop
@@ -545,6 +758,12 @@ talks:
         Anhand von vielen praktischen Übungen geht es um Begriffe wie Continuous Documentation und Documentation as Code. Das Ziel ist die moderne, effektive und pragmatische Dokumentation der Softwarearchitektur. Wir bauen auf bewährte Methoden, Formate und Tools wie AsciiDoc/Markdown, PlantUML, docToolchain, Maven/Gradle, jqAssistant und viele weitere. Im Detail kümmern wir uns um die Automatisierung des Dokumentations-Build-Prozesses, das Generieren von Inhalten aus dem Modell, Datenbankschema oder Sourcecode, die strukturierte Ablage inklusive Versionier- und Historisierbarkeit und die Verwendung bzw. Erstellung von aussagekräftigen und einfach wartbaren Grafiken.
 
         Agile Entwicklungsteams können so die Dokumentationsarbeit in ihre täglichen Aufgaben integrieren und jederzeit aktuelle, umfassende und gut strukturierte Ergebnisse ausliefern. Zudem lässt sich die Erstellung der Dokumentation in den Reviewprozess integrieren und so stetig verbessern und weiterentwickeln.
+      en: |
+        Our software projects are getting bigger and more complex. Technologically, a lot has been done in recent years to get this complexity under control. But communication between all project stakeholders has become even more important.
+
+        The software architecture documentation should be as up-to-date, pragmatic, and goal-oriented as possible. But unfortunately, documentation often has a low priority in our projects. Suboptimal tools like word processing, heavyweight UML tools or wikis nip all efforts in the bud. We want to end prejudices and show with concrete examples how documenting can not only be fun but also easy. We will focus on lightweight tools and lean text/graphic formats.
+
+        They facilitate the automated creation of effective, comprehensive, and redundancy-free documentation that can be optimized for different target groups. Embedding it in our review processes also enables good traceability, continuous improvement, and further development.
   - id: flexarch1
     title: 
       de: Mit der Zeit gehen – flexible Architekturen
@@ -567,7 +786,7 @@ talks:
           * Lang- oder Kurzlebigkeit?
           
           Je nach eingesetzten Architekturstilen und -mustern kommen heutzutage ganz neue Herausforderungen auf euch zu. Wir diskutieren in diesem Vortrag, wie agile Teams eine flexible und vor allem auch robuste Softwarearchitektur entwerfen, sie festhalten, kommunizieren und pflegen können. Und das auch, wenn von der grünen Wiese nach ein paar Monaten nicht mehr viel zu sehen ist.
-  - id: pbrt1
+  - id: pbrt1w
     title: 
       de: Property Based Resilience Testing Workshop
     year: 2020
@@ -579,7 +798,7 @@ talks:
     abstract:
       de: |
         Property Based Resilience Testing ist die Kombination von Resilience Testing und Property Based Testing. Resilienztests bestimmen den Umfang der Fähigkeit eines Systems, bei Störungen oder Teilausfällen nicht vollständig zu versagen. Property Based Testing hilft bei der Erstellung zufälliger Testpläne, bei deren Ausführung darauf geachtet wird, dass bestimmte Verhaltenseigenschaften bestehen bleiben. In diesem Workshop für Anfänger und Fortgeschrittene zeigen wir euch, wie sich Container-basierte Systeme damit testen lassen.
-  - id: multiplatform1
+  - id: multiplatform1w
     title: 
       de: Kotlin/Native und Multiplatform
     year: 2020
@@ -594,7 +813,7 @@ talks:
          
         Voraussetzungen:<br/>
         Ein Laptop mit IDE nach Wahl (IntelliJ, Eclipse etc.) und Android Studio, Android SDK, Emulator/Smartphone oder Apple Mac mit XCode.    
-  - id: kubernetes1
+  - id: kubernetes1w
     title: 
       de: Entwicklung einer verteilten Anwendung auf Kubernetes (Hands On)
     year: 
@@ -613,7 +832,7 @@ talks:
     year: 2019
     category: java
     type: talk
-    relevant: true
+    relevant: false
     duration: 60
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: 
@@ -621,7 +840,7 @@ talks:
       de: 
         - |
           Oracle hat sein Lizenzmodell geändert, ab JDK 11 kann es in Produktion nicht mehr kostenfrei eingesetzt werden. Seit Januar 2019 gibt es zudem keine freien Updates mehr für das momentan noch viel genutzte Oracle JDK 8. Was sind die Alternativen und wann ergibt der Einsatz welcher JDK-Version Sinn? Wir werfen einen Blick auf die Kosten für das Oracle JDK, auf die Preismodelle von anderen kommerziellen Anbietern wie Azul, IBM und RedHat sowie auf die freien Versionen Oracle OpenJDK, AdoptOpenJDK, Amazon Correto, Alibaba Dragonwell und SapMachine. Zudem werden wir uns die Alternative JVM Eclipse OpenJ9 anschauen, die für gewisse Szenarien Performancevorteile gegenüber der Hotspot Java Virtual Machine von Oracle verspricht. Wir diskutieren weiterhin, ob man bei Java 8 bleiben oder auf 11 bzw. das aktuellste JDK-Release wechseln sollte und welche Konsequenzen das mit sich bringt. Dazu werfen wir natürlich auch einen Blick auf die Neuerungen von JDK 9 bis 13 und besprechen Migrationspfade und Updatestrategien.
-  - id: fp4
+  - id: fp3
     title: 
       de: Einführung in die funktionale Programmierung mit Java
     year: 2019
@@ -695,7 +914,7 @@ talks:
           But how do you find an exciting topic? How do you write an interesting abstract? What does the preparation look like if you have been accepted? What are the best tricks to cut a good figure on stage?
       
           We would like to tell you about our experiences both from the perspective of the speaker and as conference and user group organizers. We are sure that we can animate and motivate some of you to take the step in front of the audience. "Aftercare" is free of charge and included.
-  - id: fp3
+  - id: fp2
     title: 
       de: Funktionale Programmierung geht auch mit/trotz Java!
     year: 2019
@@ -712,7 +931,7 @@ talks:
       
           Anhand eines Real-World-Szenarios machen wir uns mit den fehlenden Puzzlestücken der funktionalen Programmierung vertraut. Dabei geht es um Value Types, Pattern Matching, praktische Anwendung von Monaden (Optional, Try, Either, Validierung), Bedarfsauswertung, partielle Funktionsaufrufe, Currying, Funktionskomposition, persistente Datenstrukturen, Seiteneffektfreiheit, referentielle Transparenz und einiges mehr. Wir diskutieren Lösungsansätze in Java und werfen vor allem einen Blick auf nützliche Bibliotheken wie Immutables und Vavr. Denn erst dadurch macht funktionale Programmierung auch in Java wirklich Spass.
 # 2018
-  - id: fp2
+  - id: fp2w
     title: 
       de: Einführung in die Funktionale Programmierung mit Java
     year: 2018
@@ -765,7 +984,7 @@ talks:
       de: 
         - |
           Seit dem Release von Java 9 hat Oracle ein Rapid-Release-Modell für neue Java-Versionen etabliert. Im halbjährlichen Rhythmus kommen jetzt neue Featurereleases. Um nicht im Supportwahnsinn zu versinken, wird Oracle nur noch bestimmte Versionen langfristig unterstützen. Das erste dieser LTS-Releases ist Java 11, welches Java 8 als letztes klassisches Release mit langfristiger Unterstützung beerbt hat. Es ist also an der Zeit, dass wir Java-Entwickler uns einen Überblick über die Neuerungen der vergangenen drei Major-Releases verschaffen. Lässt man das Modulsystem (JPMS/Jigsaw) außer Acht, haben die Java-Versionen 9 bis 11 nämlich noch viele andere, spannende Änderungen mitgebracht. Neben den Sprachänderungen wie "Local Variable Type Inference" möchten wir einen genauen Blick auf die vielen kleinen Erweiterungen der JDK-Klassenbibliothek werfen.
-  - id: mikado2
+  - id: mikado1
     title: 
       de: Refactoring mit der Mikado-Methode
     year: 2018
@@ -834,7 +1053,7 @@ talks:
       de: 
         - |
           Mobile First war gestern, Offline First heißt die neue Devise. Mit diesem Credo kommen Progressive Web Apps (PWA) nicht nur sehr nahe an native Smartphone Applikationen heran, sie erhöhen vor allem die User Experience bei fehlender oder sehr schlechter Internetverbindung und müssen nicht mehr über App Stores ausgeliefert werden. Anhand einer Beispielapplikation werden wir die Grundkonzepte wie Service Worker, Application Shell, Caching und Push Notifications diskutieren und einen Ausblick auf die mobilen Anwendungen der Zukunft werfen.
-  - id: mikado1
+  - id: mikado1w
     title: 
       de: Refactoring von Legacy Anwendungen mit der Mikado-Methode
     year: 2017
@@ -865,7 +1084,7 @@ talks:
       
           In diesem Vortrag liefern wir praktische Tipps, wie man eine tragfähige Architektur im Rahmen iterativer Prozesse einführt, pflegt und weiterentwickelt. Wir haben dazu nach dem Verfahren "Plan, Do, Check, Act" einzelne Aspekte des Architektur-Entwurfs, -Bewertung, -Kommunikation, -Tests usw. zusammengefasst und stellen diese mit unseren Erfahrungen aus der Praxis vor.
 # 2016
-  - id: lcr3
+  - id: lcr3w
     title: 
       de: Legacy Code Retreat
     year: 2016
@@ -928,7 +1147,7 @@ talks:
       
           Mit testgetriebener Entwicklung scheint es eine Allzweckwaffe für gutes Design und eine geringe Fehlerrate zu geben. Aber TDD und Legacy Code schließen sich eigentlich aus. Anhand von Live Coding schauen wir, wie die testgetriebene Entwicklung trotzdem helfen kann, den Code ohne allzu große Bauchschmerzen anzupassen. Schöner Nebeneffekt wird das Entstehen eines automatisierten Testbetts sein, welches zukünftige Refactorings leichter macht.    
 # 2015
-  - id: archkata1
+  - id: archkata1w
     title: 
       de: Architektur Kata
     year: 2015
@@ -985,7 +1204,7 @@ talks:
          
         Wir werden uns die wichtigsten und interessantesten Neuerungen der vergangenen Releases anschauen und natürlich auch einen Ausblick auf die Zukunft und Roadmaps wagen.
 # 2013
-  - id: dojo1
+  - id: dojo1w
     title: 
       de: Coding Dojo
     year: 2014
@@ -1058,4 +1277,3 @@ talks:
     abstract:
       de: |
         Groovy ist eine dynamische Sprache für die Java Plattform. Sie ist Java ähnlich, bietet jedoch eine ausdrucksstärkere Syntax. Grails ist ein auf Groovy basierendes Webframework. Es nutzt die dynamischen Features von Groovy und setzt auf etablierten Java Enterprise Frameworks auf. Die Session stellt die beiden Technologien vor und zeigt, für welche Problemstellungen sich ein Einsatz lohnt.
-        

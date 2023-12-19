@@ -1,3 +1,50 @@
+2023:
+  - Oktober:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "JavaLand 2024: Chance statt Enttäuschung zum zehnjährigen Jubiläum"
+      date: 2023-10-02
+      link: https://heise.de/-9322819
+  - September:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: Java 21 ist eines der spannendsten Releases der letzten Jahre
+      date: 2023-09-19
+      link: https://heise.de/-9309203
+    - publisher: iX Magazin
+      title: "Java 21: Version mit LTS, String-Templates und Virtual Threads vorgestellt"
+      date: 2023-09-18
+      link: https://heise.de/-9302335
+    - publisher: entwickler.de
+      title: "Interview zu den Java 21 Features: String Templates werden einen großen Mehrwert bringen"
+      date: 2023-09-15
+      link: https://entwickler.de/reader/reading/entwickler.de-blog/9.2023/a846d89916c577abbf9f8ad0
+  - Juni:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Oracles GraalVM ist ab sofort für alle kostenlos"
+      date: 2023-06-30
+      link: https://www.heise.de/blog/Java-Oracles-GraalVM-ist-ab-sofort-fuer-alle-kostenlos-9199872.html
+  - April:
+    - publisher:
+      link: https://entwickler.de/java/java-20-release-features
+  - März:
+    - publisher: Entwickler Magazin 3.2023
+      title: "Java-Trends 2023: Wohin geht die Reise?"
+      date: 2023-03-01
+      link: https://entwickler.de/magazine-ebooks/entwickler-magazin/entwickler-magazin-32023/
+    - publisher: Javamagazin 4.2023
+      title: "Die Highlights 2022 und die Trends 2023 in der Java-Community - Sieben Experten im Interview"
+      date: 2023-03-01
+      link: https://entwickler.de/magazine-ebooks/java-magazin/java-magazin-42023
+  - Januar:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Hello World 2.0: Der Java-Blog bei heise Developer startet wieder durch"
+      date: 2023-01-24
+      link: https://heise.de/-7464768
+2022:
+  - Oktober:
+    - publisher: Javamagazin 11.2022
+      title: "Die neuen Features im OpenJDK 19: Virtual Threads und Structured Concurrency in Java 19"
+      date: 2022-10-01
+      link: https://www.embarc.de/artikel-java-19/  
 2021:
   - Januar:
     - publisher: Entwickler Magazin 2.2021

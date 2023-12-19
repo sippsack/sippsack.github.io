@@ -1,55 +1,227 @@
+# TODO
+# SIGS Java Day
+# entwickler.de Java Day
+# JCON One
+# Workshop betterCode
+
+2024:
+  - März:
+    - conference: betterCode() Clean Architecture 2024
+      id: cleanevoarc
+      date: 2024-03-19
+      location: Online 
+      link: 
+  - Februar:
+    - host: oop
+      title: Best Practices, um Architekturdokumentation aktuell zu halten
+      date: 2024-02-01
+      link: https://www.oop-konferenz.de/oop-2024/programm/konferenzprogramm#item-6713 
+  - Januar:
+    - conference: inside agile - Agile Softwareentwicklung im Unternehmen
+      title: Die Relevanz von Softwarearchitektur
+      date: 2024-01-25
+      link: https://asu.inside-agile.de/veranstaltung-21481-se-0-die-relevanz-von-softwarearchitektur.html
 2023:
+  - Dezember:
+    - conference: JUG Darmstadt
+      id: archqs
+      date: 2023-12-21
+      link: https://www.jug-da.de/2023/12/Vierter-Kunterbunter-Abend/
+    - host: punsch
+      id: cdct
+      date: 2023-12-14
+      link: https://www.embarc.de/architektur-punsch-2023/#w2
+    - host: ittage
+      id: java21
+      date: 2023-12-12
+      link: https://www.ittage.informatik-aktuell.de/programm/2023/java-21-die-naechste-lts-version.html
+    - host: ittage
+      id: dop1 
+      date: 2023-12-12
+      link: https://www.ittage.informatik-aktuell.de/programm/2023/datenorientierte-programmierung-mit-java.html
+    - conference: Objektforum Frankfurt
+      title: "Mit der Zeit gehen – flexible Architekturen"
+      location: Darmstadt
+      date: 2023-12-05
+      link: https://www.andrena.de/event/weinachtsspecial-mit-der-zeit-gehen-flexible-architekturen
+    - host: madsummit2
+      id: apipatterns1w
+      date: 2023-12-04
+      link: https://mad-summit.de/architektur/patterns-for-api-evolution/
+    - host: seacon
+      title: Architekturvision in Zeiten von Clean Architecture
+      location: Online
+      date: 2023-12-04
+      link: https://www.sea-con.de/seacon2023/programm/konferenzprogramm#item-7014
+  - November:
+    - host: sag
+      title: As much architectural work as needed
+      lang: en
+      date: 2023-11-30
+      link: https://conferences.isaqb.org/software-architecture-gathering/program-2023/#as-much-architectural-work-as-needed
+    - host: JUG Frankfurt
+      id: diagrams1
+      title: "Phantastische Diagramme und wie du sie selbst erstellst"
+      date: 2023-11-22
+      link: https://jugf.github.io/posts/phantastische-diagramme-29-11-2023/
+    - host: jcon
+      title: Continuous and Automated Documentation - Docs-As-Code in Practice
+      lang: en
+      date: 2023-11-21
+      link: https://sched.co/1RRYy
+    - conference: Java 21 Info Days
+      id: dop1
+      date: 2023-11-15
+      link: https://www.infodays.de/java-lts/#c13619
+    - host: wjax
+      id: archbasics1
+      date: 2023-11-07
+      link: https://jax.de/software-architecture/effiziente-software-architektur/
+  - Oktober:
+    - conference: CSS DevCon^2
+      location: Luzern
+      id: archbasics3
+      date: 2023-10-20
+    - host: baselone
+      id: java21
+      date: 2023-10-19
+      link: https://baselone.ch/speech.html?id=645F2751-9CA0-4571-B073-FA1769B23AE0
+    - conference: betterCode() Java 21
+      id: java21w
+      date: 2023-10-18
+      link: https://java.bettercode.eu/veranstaltung-21287-se-0-java-21-die-neuen-features-rund-um-pattern-matching-und-virtual-threads.html
+    - conference: eclipsecon Java Community Day
+      title: Pattern Matching in Java ... and why do we need algebraic data types?
+      lang: en
+      date: 2023-10-16
+      link: https://www.eclipsecon.org/2023/java-community-day
+    - host: Softwerkskammer Köln
+      id: archbasics1
+      date: 2023-10-09
+      link: https://www.meetup.com/de-DE/softwerkskammer-koln/events/293249584/
+    - host: xpdays
+      id: dots1w
+      date: 2023-10-06
+      link: https://www.xpdays.de/2023/sessions/141-ich-moechte-auch-mal-einen-vortrag-halten-wo-fange-ich-bloss-an.html
+    - conference: betterCode() Java 21 
+      id: javapm1
+      date: 2023-10-04      
+      link: https://java.bettercode.eu/veranstaltung-21278-se-0-pattern-matching-in-java-%26ndash%3B-und-warum-es-dafuer-algebraische-datentypen-braucht.html
+  - September:
+    - host: jsd
+      id: java21
+      date: 2023-09-29
+      link: https://jugsaxony.org/day/infos
+      video: https://t.co/2Ar27qDGmF
+    - host: bedcon
+      id: archbasics1
+      date: 2023-09-28
+      link: https://www.bed-con.org/2023/programm
+    - host: saa
+      id: docsascode4
+      date: 2023-09-27
+      link: https://www.software-architecture-alliance.de/2023/programm/programm#item-6570
+    - conference: devm.io Java 21 Release Party
+      title: Pattern Matching in Java
+      lang: en
+      date: 2023-09-19
+      link: https://devm.io/java-21-release/
+    - host: jfn
+      id: java21
+      date: 2023-09-12
+      link: https://javaforumnord.de/2023/programm/
+    - host: archsummit2
+      id: diagrams1w
+      date: 2023-09-11
+      link: https://software-architecture-summit.de/softwarearchitektur/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/
+    - host: hc
+      id: java21
+      date: 2023-09-06
+      canceled: true
+      link: https://www.herbstcampus.de/veranstaltung-20804-0-java-21--die-naechste-lts-version.html
+    - host: hc
+      id: java21w
+      date: 2023-09-05
+      canceled: true
+      link: https://www.herbstcampus.de/veranstaltung-20801-0-java-21-die-neuen-features-rund-um-pattern-matching-und-virtual-threads.html
   - Juli:
+    - host: wadev
+      id: docsascode3w
+      lang: en
+      date: 2023-07-27
+      link: https://www.wearedevelopers.com/world-congress/workshops
     - host: jfs
-      title: "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+      id: testing1
       date: 2023-07-13
       link: https://www.java-forum-stuttgart.de/vortraege/2023/
     - host: jfs
-      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      id: diagrams1
       date: 2023-07-13
       link: https://www.java-forum-stuttgart.de/vortraege/2023/
     - host: jfs
-      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      id: diagrams1w
       date: 2023-07-12
       canceled: true
       link: https://www.java-forum-stuttgart.de/workshoptag/
     - host: jfs
-      title: "Workshop: Pattern Matching mit Java"
+      id: javapm1w
       date: 2023-07-12
       canceled: true
       link: https://www.java-forum-stuttgart.de/workshoptag/
+    - host: betterCode() ArchDoc 2023
+      id: diagrams1w
+      date: 2023-07-10
+      link: https://archdoc.bettercode.eu/veranstaltung-20887-se-0-fantastische-diagramme-und-wie-du-sie-selbst-erstellst.html
+    - host: JUG Schweiz
+      location: Zürich
+      id: javapm1w
+      link: https://www.jug.ch/html/events/2023/pattern_matching_mit_java.html
+      date: 2023-07-04
   - Juni:
     - host: dwx
-      title: "Der S.O.L.I.D.e Softwareentwurf"
+      id: solid1
       date: 2023-06-28
       link: https://www.developer-week.de/programm/#/talk/der-s-o-l-i-d-e-softwareentwurf
     - host: dwx
-      title: "Java 20 – Auf dem Weg zur nächsten LTS-Version"
+      id: java20
       date: 2023-06-27
       link: https://www.developer-week.de/programm/#/talk/java-20-auf-dem-weg-zur-nachsten-lts-version
-    - host: cl
-      title: "Mit der Zeit gehen – flexible Architekturen"
+    - host: betterCode() ArchDoc 2023
+      id: docsascode5
+      date: 2023-06-26
+      link: http://archdoc.bettercode.eu/veranstaltung-20915-se-0-lebendige-architekturdokumentation-mit-docs-as-code-jqassistant-und-jmolecules.html
+    - host: enterjs
+      id: archbasics1
       date: 2023-06-22
+      link: https://enterjs.de/veranstaltung-20241-0-so-viel-architekturarbeit-wie-noetig.html
+    - host: cl
+      id: flexarch1
+      date: 2023-06-21
       link: https://shop.doag.org/events/cloudland/2023/agenda/#eventDay.all#textSearch.sippach
     - host: jcon
-      title: "So viel Architekturarbeit wie nötig"
+      id: archbasics1
       date: 2023-06-20
       link: https://sched.co/1K40c
+      video: https://youtu.be/UecQREkYTMU?si=Gx7W5Tchi-heRzcs
+    - host: madsummit1
+      id: apipatterns1w
+      date: 2023-06-19
+      link: https://mad-summit.de/architektur/patterns-fuer-api-evolution/
     - host: etka
-      title: "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests"
+      id: testing1
       date: 2023-06-15
       link: https://entwicklertag.de/2023/Richtig_gute_Tests_schreiben_-_die_Best_Practices_fuer_bessere_(JUnit-)_Tests.html
     - host: etka
-      title: "Legacy Code im Griff dank Mikado Methode"
+      id: mikado1
       date: 2023-06-15
       link: https://entwicklertag.de/2023/Legacy_Code_im_Griff_dank_Mikado_Methode.html
   - Mai:
     - host: jax
-      title: "So viel Architekturarbeit wie nötig"
+      id: archbasics1
       date: 2023-05-11
       link: https://jax.de/software-architecture/effiziente-software-architektur/
     - host: mddevdays
-      title: "Architekturvision in Zeiten von Clean Architecture"
+      id: archbasics2
       date: 2023-05-09
       link: https://md-devdays.de/act-details/1000170
     - host: mddevdays
@@ -58,11 +230,11 @@
       link: https://md-devdays.de/act-details/1000171
   - April:
     - host: dddevday
-      title: "So viel Architekturarbeit wie nötig"
+      id: archbasics1
       date: 2023-04-25
       link: https://www.devday.de/dev-day-2023/talk/nur-soviel-architekturarbeit-wie-notig/
     - host: dddevday
-      title: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      id: diagrams1w
       date: 2023-04-25
       link: https://www.devday.de/dev-day-2023/talk/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/
   - März:
@@ -389,6 +561,7 @@
       title: "Die Corona-Warn-App unter der Lupe"
       location: Online
       link: https://jugsaxony.org/day/
+      slides: https://jugsaxony.org/downloads/day/slides/JSD2023_Java21_Falk-Sippach.pdf
       video: https://vimeo.com/637003242
   - September:
     - host: accento

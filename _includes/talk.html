@@ -5,6 +5,10 @@
     {% assign host = site.data.conferences | where: "id", talk.conference | first %}
 {% endif %}
 
+{% unless talk.title %}
+    {% assign portfolioTalk = site.data.portfolio.talks | where: "id", talk.id | first %}
+{% endunless %}
+
 {% assign location = false %}
 {% if talk.location %}
     {% assign location = talk.location %}
@@ -19,4 +23,27 @@
     {% assign link = host.url %}
 {% endif %}
 
-<li id="{{id}}"><i onclick="copySelfLink(this)" style="cursor:pointer;" title="Selbstlink" class="fa fa-link" aria-hidden="true"></i> {% if talk.canceled %}Abgesagt: {% endif %}{% if link %}<a {% if talk.canceled %} style="text-decoration:line-through;"{% endif %} href="{{ link }}">{% endif %}"<b>{{ talk.title }}</b>"{% if link %}</a>{% endif %} ({% if host %}{{ host.name }}{% elsif talk.host %}{{ talk.host }}{% else %}{{ talk.conference }}{% endif %}{% if location %}, {{ location }}{% endif %}){% if talk.slides %} <a class="icon" href="{{ talk.slides }}"><i title="Folien" class="fa-brands fa-slideshare" aria-hidden="true"></i></a>{% endif %}{% if talk.sourcecode %} <a class="icon" href="{{ talk.sourcecode }}"><i title="Sourcecode" class="fa-brands fa-github" aria-hidden="true"></i></a>{% endif %}{% if talk.video %} <a class="icon" href="{{ talk.video }}"><i title="Video" class="fa fa-video-camera" aria-hidden="true"></i></a>{% endif %}</li>
+{% capture text %}
+    <i onclick="copySelfLink(this)" style="cursor:pointer;" title="Selbstlink" class="fa fa-link" aria-hidden="true"></i> 
+    {% if talk.lang == "en" %}🇺🇸 {% endif %}
+    {% if talk.canceled %}Abgesagt: {% endif %}
+        <span{% if talk.canceled %} style="text-decoration:line-through;"{% endif %}>
+        <b>
+            {% if talk.title %}
+                {{ talk.title }}
+            {% else %}
+                <a href="/portfolio#{{ portfolioTalk.id }}">
+                    {% assign language = talk.lang | default: 'de'  %}
+                    {{ portfolioTalk.title[ language ] }}
+                </a>
+            {% endif %}
+        </b>
+        </span>&nbsp;
+    ({% if host %}{{ host.name }}{% elsif talk.host %}{{ talk.host }}{% else %}{{ talk.conference }}{% endif %}{% if link %} <a href="{{ link }}"><i title="Zum Veranstalter" class="fa-solid fa-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
+    {% if location %}, {{ location }}{% endif %})
+    {% if talk.slides %} <a class="icon" href="{{ talk.slides }}"><i title="Folien" class="fa-brands fa-slideshare" aria-hidden="true"></i></a>{% endif %}
+    {% if talk.sourcecode %} <a class="icon" href="{{ talk.sourcecode }}"><i title="Sourcecode" class="fa-brands fa-github" aria-hidden="true"></i></a>{% endif %}
+    {% if talk.video %} <a class="icon" href="{{ talk.video }}"><i title="Video" class="fa fa-video-camera" aria-hidden="true"></i></a>{% endif %}
+{% endcapture %}
+
+<li id="{{id}}">{{ text }}</li>

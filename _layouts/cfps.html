@@ -29,7 +29,9 @@ layout: page
 {% if cfp.talks %}<p style="margin-bottom: 0;"><b>Einreichungen{% if cfp.submitted %} (vom {{ cfp.submitted | date: "%-d %B %Y" }}){% endif %}:</b></p>
 <ul class="talk-list">
         {% for talk in cfp.talks %}
-        <li>{{ talk[0] | default: talk }} (Status: <i class="fa-solid fa-{% if talk[1] == 'x' %}check-circle{% elsif talk[1] == 'n' %}thumbs-down{% else %}hourglass{% endif %}" aria-hidden="true" style="color:{% if talk[1] == 'x' %}green{% elsif talk[1] == 'n' %}red{% else %}black{% endif %}"></i>)</li>
+        {% assign talkIdOrTitle = talk[0] | default: talk %}
+        {% assign portfolioTalk = site.data.portfolio.talks | where: "id", talkIdOrTitle | first %}
+        <li>{% if portfolioTalk %}<a href="/portfolio#{{ portfolioTalk.id }}">{{ portfolioTalk.title.de }}</a>{% else %}{{ talkIdOrTitle }}{% endif %} (Status: <i class="fa-solid fa-{% if talk[1] == 'x' %}check-circle{% elsif talk[1] == 'n' %}thumbs-down{% else %}hourglass{% endif %}" aria-hidden="true" style="color:{% if talk[1] == 'x' %}green{% elsif talk[1] == 'n' %}red{% else %}black{% endif %}"></i>)</li>
         {% endfor %}
 </ul>
 {% else %}
