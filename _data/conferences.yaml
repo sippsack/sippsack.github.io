@@ -13,6 +13,11 @@
   location: Brühl
   url: https://www.javaland.eu/
   season: Frühjahr
+- id: mc 
+  name: Mathema Campus
+  location: Erlangen
+  url: https://www.mathema.de/events/mathema-campus
+  season: Frühjahr
 - id: dddevday
   name: Dev Day
   location: Dresden

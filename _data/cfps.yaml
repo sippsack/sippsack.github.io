@@ -30,10 +30,36 @@ ideas:
   - Workshop mit StefanT (OOP 2024)
   - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
 2024:
+  - jfs:
+      from: 2024-07-31
+      till: 2024-07-31
+      deadline: 2024-03-30 
+      submitted: 
+      talks: 
+  - madsummit1:
+      from: 2024-06-10
+      till: 2024-06-12
+      deadline: 2024-01-31
+      submitted: 
+      talks:
+  - wadev:
+      url: https://sessionize.com/wearedevelopers-world-congress-2024
+      from: 2024-07-17
+      till: 2024-07-19
+      deadline: 2024-01-31
+      submitted: 
+      talks: 
   - cl:
       url: https://meine.doag.org/events/cloudland/cfp/
       from: 2024-06-18
       till: 2024-06-21
+      deadline: 2024-01-31
+      submitted: 
+      talks:
+  - dddevday:
+      url: https://www.devday.de/session/dev-day-2024/submit/
+      from: 2024-04-16
+      till: 2024-04-16
       deadline: 2024-01-31
       submitted: 
       talks:
@@ -44,27 +70,41 @@ ideas:
       deadline: 2024-01-24
       submitted: 
       talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
+        "Die Relevanz von Softwarearchitektur": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+  - mc:
+      from: 2024-04-11
+      till: 2024-04-13
+      deadline: 2024-01-21
+      submitted: 2024-01-21
+      talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
+        "Die Relevanz von Softwarearchitektur": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
   - dwx:
       from: 2024-07-01
       till: 2024-07-05
       deadline: 2024-01-14
       submitted: 
       talks:
+        "Mikado Methode": o
+        "Richtig gute Tests schreiben": o
+        "Mit der Zeit gehen - Flexible Architekturen": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
   - mddevdays:
       url: https://md-devdays.de/call-for-papers
       from: 2024-05-13
       till: 2024-05-15
-      deadline: 2024-01-06
-      submitted: 
+      deadline: 2024-01-31
+      submitted: 2024-01-15
       talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
 2023:
-  - dddevday:
-      url: https://www.devday.de/session/dev-day-2024/submit/
-      from: 2024-04-16
-      till: 2024-04-16
-      deadline: 2023-12-31
-      submitted: 
-      talks:
   - jcon:
       name: JCON Europe
       url: https://2023.europe.jcon.one/
