@@ -310,7 +310,9 @@ talks:
         Die Techniken der objektorientierten und der datenorientierten Programmierung stehen nicht im Widerspruch zueinander, sie sind unterschiedliche Werkzeuge für unterschiedliche Granularitäten und Situationen. In diesem Vortrag zeige ich, wie die datenorientierte Programmierung aussieht wir die beiden Paradigmen miteinander kombinieren können.
   - id: java21
     title: 
-      de: Java 21 - Die nächste LTS-Version
+      de: 
+        - "Java 21 und höher: Die neuen Features rund um Pattern Matching und Virtual Threads"
+        - Java 21 - Die nächste LTS-Version
     year: 2023
     category: java
     type: talk
@@ -320,10 +322,15 @@ talks:
     learning-goals: 
     target-audience:
     abstract:
-      de: |
-        Alle halben Jahre erscheinen neue Major-Releases, alle zwei Jahre als LTS mit längerer Unterstützung (Long Term Support). Viele von uns arbeiten noch mit der früheren LTS-Version 8 oder sind bisher nur auf 11 umgestiegen. Wir wollen uns daher anschauen, was sich seitdem im Java-Universum getan hat. Das sind so spannende Themen wie Pattern Matching, Virtual Threads sowie viele kleinere Funktionen. Aber es sind noch einige weitere Features in Arbeit oder der Planung, wie die Vector API, die Foreign Function & Memory API, die String Interpolation, die Sequenced Collections, die Unnamed Classes and Instance Main Methods oder die Primitive bzw. Value Types.
+      de:
+        - |
+          Alle halben Jahre erscheinen neue Major-Releases, alle zwei Jahre als LTS mit längerer Unterstützung (Long Term Support). Viele von uns arbeiten noch mit der früheren LTS-Version 8 oder sind bisher nur auf 11 umgestiegen. Wir wollen uns daher anschauen, was sich seitdem im Java-Universum getan hat. Das sind so spannende Themen wie Pattern Matching und Virtual Threads. Aber es sind noch einige weitere Features in Arbeit oder der Planung, wie die Vector API, die Foreign Function & Memory API, die String Interpolation, die Sequenced Collections, die Unnamed Classes and Instance Main Methods, Statements before super(), Stream Gatherers oder die Primitive bzw. Value Types.
 
-        Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
+          Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
+        - |
+          Alle halben Jahre erscheinen neue Major-Releases, alle zwei Jahre als LTS mit längerer Unterstützung (Long Term Support). Viele von uns arbeiten noch mit der früheren LTS-Version 8 oder sind bisher nur auf 11 umgestiegen. Wir wollen uns daher anschauen, was sich seitdem im Java-Universum getan hat. Das sind so spannende Themen wie Pattern Matching, Virtual Threads sowie viele kleinere Funktionen. Aber es sind noch einige weitere Features in Arbeit oder der Planung, wie die Vector API, die Foreign Function & Memory API, die String Interpolation, die Sequenced Collections, die Unnamed Classes and Instance Main Methods oder die Primitive bzw. Value Types.
+
+          Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
   - id: docsascode5
     title: 
       de: Lebendige Architekturdokumentation mit Docs-as-Code, jQAssistant und jMolecules

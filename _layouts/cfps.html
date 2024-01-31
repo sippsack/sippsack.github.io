@@ -23,7 +23,15 @@ layout: page
         {% for submission in submissions %}
 {% assign conf = conferences | where: "id", submission[0] | first %}
 {% assign cfp = submission[1] %}
-<h4><a href="{% if cfp.url %}{{cfp.url}}{% else %}{{conf.url}}{% endif %}">{% if cfp.canceled %}<del>{{ conf.name }}</del>{% else %}{{ conf.name }}{% endif %} ({{ cfp.location | default: conf.location }}{% if cfp.canceled %}, <span style="color:red;">Abgesagt</span>{% endif %}) <img style="height:1em" src="/assets/images/conferences/{{ conf.id }}.png" alt="{{ conf.name }}" /></a></h4>
+<h4><a href="{% if cfp.url %}{{cfp.url}}{% else %}{{conf.url}}{% endif %}">{% if cfp.canceled %}<del>{{ conf.name }}</del>{% else %}{{ conf.name }}{% endif %} ({{ cfp.location | default: conf.location }}{% if cfp.canceled %}, <span style="color:red;">Abgesagt</span>{% endif %}) 
+    {% assign img_path = "/assets/images/conferences/" | append: conf.id | append: ".png" %}
+    {% assign file = site.static_files | where: "path", img_path | first %}
+    {% if file %}
+      <img style="height:1em" src="{{ img_path }}" alt="{{ conf.name }}" />
+    {% else %}
+      <img style="height:1em" src="/assets/images/conferences/{{ conf.id }}.svg" alt="{{ conf.name }}" />
+    {% endif %}
+</a></h4>
 <div style="margin:20px;">
 {% if cfp.from %}<b>Zeitraum:</b> {{ cfp.from | date: "%-d %B %Y" }}{% if cfp.till %} - {{ cfp.till | date: "%-d %B %Y" }}{% endif %}{% unless cfp.submitted %}{% if cfp.deadline %} (<b>Einreichungsende:</b> {{ cfp.deadline | date: "%-d %B %Y" }}){% endif %}{% endunless %}{% endif %}
 {% if cfp.talks %}<p style="margin-bottom: 0;"><b>Einreichungen{% if cfp.submitted %} (vom {{ cfp.submitted | date: "%-d %B %Y" }}){% endif %}:</b></p>

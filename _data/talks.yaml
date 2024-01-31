@@ -10,8 +10,13 @@
       id: cleanevoarc
       date: 2024-03-19
       location: Online 
-      link: 
+      link: https://clean-architecture.bettercode.eu/veranstaltung-21862-se-0-clean-architecture-als-grundlage-fuer-evolutionaere-architektur.html
   - Februar:
+    - conference: iSAQB Community-Meetup Köln
+      title: Best Practices, um Architekturdokumentation aktuell zu halten
+      date: 2024-02-22
+      location: Köln 
+      link: https://www.meetup.com/isaqb-software-architektur-meetup-gruppe-fur-interessierte/events/298732544/
     - host: oop
       title: Best Practices, um Architekturdokumentation aktuell zu halten
       date: 2024-02-01
@@ -77,6 +82,11 @@
       id: archbasics1
       date: 2023-11-07
       link: https://jax.de/software-architecture/effiziente-software-architektur/
+    - conference: Softwerkskammer Thüringen
+      id: archpatterns1
+      location: Erfurt
+      date: 2023-11-01
+      link: https://www.meetup.com/swkthde/events/296988125/
   - Oktober:
     - conference: CSS DevCon^2
       location: Luzern

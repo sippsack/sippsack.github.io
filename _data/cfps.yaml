@@ -30,32 +30,58 @@ ideas:
   - Workshop mit StefanT (OOP 2024)
   - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
 2024:
+  - kandddinsky:
+      url: https://sessionize.com/kandddinsky-2024
+      from: 2024-10-28
+      till: 2024-10-30
+      deadline: 2024-03-31 
+      submitted: 
+      talks: 
   - jfs:
       from: 2024-07-31
       till: 2024-07-31
       deadline: 2024-03-30 
       submitted: 
       talks: 
+  - dddeu:
+      url: https://sessionize.com/dddeu24/
+      from: 2024-05-27
+      till: 2024-05-31
+      deadline: 2024-02-15 
+      submitted: 
+      talks: 
   - madsummit1:
       from: 2024-06-10
       till: 2024-06-12
       deadline: 2024-01-31
-      submitted: 
+      submitted: 2024-01-25
       talks:
+        "Workshop: Softwarearchitektur enables Business": o
   - wadev:
       url: https://sessionize.com/wearedevelopers-world-congress-2024
       from: 2024-07-17
       till: 2024-07-19
-      deadline: 2024-01-31
+      deadline: 2024-02-15
       submitted: 
       talks: 
+        "S.O.L.I.D.": o
+        #"Functional Programming in Java": o
+        #"Mikado Method": o
+        #"Pattern Matching in Java ... and why do we need algebraic data types?": o
+        #"Only as much architectural work as needed": o
+        #"Fantastic diagrams and how to create them yourself": o   
   - cl:
       url: https://meine.doag.org/events/cloudland/cfp/
       from: 2024-06-18
       till: 2024-06-21
       deadline: 2024-01-31
-      submitted: 
+      submitted: 2024-01-31
       talks:
+        "Die Relevanz von Softwarearchitektur": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Best Practices um Dokumentation aktuell zu halten": o
+        "Auf gute Zusammenarbeit - effiziente APIs dank Consumer Driven Contracts": o
   - dddevday:
       url: https://www.devday.de/session/dev-day-2024/submit/
       from: 2024-04-16
@@ -63,6 +89,10 @@ ideas:
       deadline: 2024-01-31
       submitted: 
       talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Die Relevanz von Softwarearchitektur": o
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
+        "Robuste und flexible String Templates in Java": o
   - etka:
       url: https://entwicklertag.de/cfc
       from: 2024-06-03
@@ -74,6 +104,7 @@ ideas:
         "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
         "Die Relevanz von Softwarearchitektur": o
         "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Java 21+": o
   - mc:
       from: 2024-04-11
       till: 2024-04-13
@@ -113,10 +144,10 @@ ideas:
       deadline: 2023-12-10
       submitted: 2023-12-06
       talks:
-        - S.O.L.I.D.
-        - Data Oriented Programming
-        - String Templates
-        - Agile Architekturmuster
+        "S.O.L.I.D.": o
+        "Data Oriented Programming": o
+        "String Templates": x
+        "Agile Architekturmuster": o
   - enterjs:
       url: https://enterjs.de/cfp.php
       from: 2024-05-07
