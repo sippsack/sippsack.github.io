@@ -30,6 +30,37 @@ ideas:
   - Workshop mit StefanT (OOP 2024)
   - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
 2024:
+  - jfn:
+      from: 2024-09-10
+      till: 2024-09-10
+      deadline: 
+      url: https://sessionize.com/java-forum-nord-2024/
+      submitted: 
+      talks: 
+  - ittage:
+      from: 2024-12-09
+      till: 2024-12-12
+      deadline: 2024-04-29
+      submitted:
+      talks: 
+  - clc:
+      from: 2024-11-12
+      till: 2024-11-14
+      deadline: 2024-05-05
+      submitted:
+      talks: 
+  - jsd:
+      from: 2024-09-26
+      till: 2024-09-27
+      deadline: 2024-04-01
+      submitted: 
+      talks: 
+  - baselone:
+      from: 2024-10-16
+      till: 2024-10-17
+      deadline: 2024-04-01
+      submitted: 
+      talks:
   - kandddinsky:
       url: https://sessionize.com/kandddinsky-2024
       from: 2024-10-28
@@ -65,11 +96,11 @@ ideas:
       submitted: 
       talks: 
         "S.O.L.I.D.": o
-        #"Functional Programming in Java": o
-        #"Mikado Method": o
-        #"Pattern Matching in Java ... and why do we need algebraic data types?": o
-        #"Only as much architectural work as needed": o
-        #"Fantastic diagrams and how to create them yourself": o   
+        "Functional Programming in Java": o
+        "Mikado Method": o
+        "Pattern Matching in Java ... and why do we need algebraic data types?": o
+        "Only as much architectural work as needed": o
+        "Fantastic diagrams and how to create them yourself": o   
   - cl:
       url: https://meine.doag.org/events/cloudland/cfp/
       from: 2024-06-18
@@ -77,54 +108,54 @@ ideas:
       deadline: 2024-01-31
       submitted: 2024-01-31
       talks:
-        "Die Relevanz von Softwarearchitektur": o
-        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
-        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
-        "Best Practices um Dokumentation aktuell zu halten": o
-        "Auf gute Zusammenarbeit - effiziente APIs dank Consumer Driven Contracts": o
+        "Die Relevanz von Softwarearchitektur": n
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": n
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
+        "Best Practices um Dokumentation aktuell zu halten": n
+        "Auf gute Zusammenarbeit - effiziente APIs dank Consumer Driven Contracts": x
   - dddevday:
       url: https://www.devday.de/session/dev-day-2024/submit/
       from: 2024-04-16
       till: 2024-04-16
       deadline: 2024-01-31
-      submitted: 
+      submitted: 2024-01-31
       talks:
-        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
-        "Die Relevanz von Softwarearchitektur": o
-        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
-        "Robuste und flexible String Templates in Java": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": n
+        "Die Relevanz von Softwarearchitektur": n
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+        "Robuste und flexible String Templates in Java": n
   - etka:
       url: https://entwicklertag.de/cfc
       from: 2024-06-03
       till: 2024-06-05
       deadline: 2024-01-24
-      submitted: 
+      submitted: 2024-01-24
       talks:
         "Clean Architecture als Unterstützung für evolutionäre Architektur": o
         "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
         "Die Relevanz von Softwarearchitektur": o
         "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
-        "Java 21+": o
+        "Java 21+": x
   - mc:
       from: 2024-04-11
       till: 2024-04-13
       deadline: 2024-01-21
       submitted: 2024-01-21
       talks:
-        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
-        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
-        "Die Relevanz von Softwarearchitektur": o
-        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+        "Die Relevanz von Softwarearchitektur": n
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
   - dwx:
       from: 2024-07-01
       till: 2024-07-05
       deadline: 2024-01-14
       submitted: 
       talks:
-        "Mikado Methode": o
-        "Richtig gute Tests schreiben": o
-        "Mit der Zeit gehen - Flexible Architekturen": o
-        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Mikado Methode": n
+        "Richtig gute Tests schreiben": n
+        "Mit der Zeit gehen - Flexible Architekturen": n
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": x
   - mddevdays:
       url: https://md-devdays.de/call-for-papers
       from: 2024-05-13
@@ -132,8 +163,8 @@ ideas:
       deadline: 2024-01-31
       submitted: 2024-01-15
       talks:
-        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
-        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
         "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
 2023:
   - jcon:

@@ -188,8 +188,13 @@
   location: Berlin
   url: https://kandddinsky.de/
   season: Herbst
+- id: clc
+  name: Continous Lifecycle und Container Conf
+  location: Mannheim
+  url: https://www.continuouslifecycle.de/
+  season: Winter
 - id: sag
-  name: Software Architecture Gathering Digital
+  name: Software Architecture Gathering
   location: Online
   url: https://conferences.isaqb.org/software-architecture-gathering/
   season: Winter

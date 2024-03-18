@@ -64,14 +64,15 @@ layout: page
 {% assign conferences = site.data.conferences | where: "season", season %}
 {% for conference in conferences %}
 {% for static_file in site.static_files %}
-    {% assign path = '/assets/images/conferences/' | append: conference.id | append: '.svg' %}
-    {% if static_file.path == path %}
-        {% assign conf_logo = '/assets/images/conferences/' | append: conference.id | append: '.svg' %}
-    {% else %}    
+    {% assign img_path = "/assets/images/conferences/" | append: conference.id | append: ".png" %}
+    {% assign file = site.static_files | where: "path", img_path | first %}
+    {% if file %}
         {% assign conf_logo = '/assets/images/conferences/' | append: conference.id | append: '.png' %}
+        {% else %}    
+        {% assign conf_logo = '/assets/images/conferences/' | append: conference.id | append: '.svg' %}
     {% endif %}
 {% endfor %}
-<li><a href="{{ conference.url }}">{{ conference.name }}</a> ({{ conference.location }}) <img style="height:1em" src="/assets/images/conferences/{{ conference.id }}.png" alt="{{ conference.name }}" /></li>
+<li><a href="{{ conference.url }}">{{ conference.name }}</a> ({{ conference.location }}) <img style="height:1em" src="{{ conf_logo }}" alt="{{ conference.name }}" /></li>
 {% endfor %}
 </ul>
 </div>
