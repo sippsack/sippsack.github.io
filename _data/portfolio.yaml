@@ -231,7 +231,7 @@ talks:
     year: 2023
     category: arch
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     learning-goals: |
       * Erstellung und Pflege einer aktuellen Softwarearchitektur-Dokumentation erleichtern
