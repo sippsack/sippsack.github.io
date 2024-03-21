@@ -26,7 +26,7 @@ Kategorien:
 <a href="#old" class="more scrolly">Alte Vorträge</a></p>
 
 <h2 id="new">Ganz neu</h2>
-Neue Vorträge bzw. Workshops, die ich demnächst erstmals halten werde.
+Ideen für neue Vorträge bzw. Workshops, diese Themen sind teilweise schon auf Konferenzen eingereicht und ggf. auch angenommen, aber im Moment noch nicht fertig.
 
 {% assign talks = site.data.portfolio.talks | where: "relevant", "new" %}
 

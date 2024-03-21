@@ -37,7 +37,7 @@ talks:
     year: 2024
     category: arch
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     learning-goals: |
       * 
@@ -56,7 +56,7 @@ talks:
     year: 2024
     category: arch
     type: workshop
-    relevant: new
+    relevant: true
     duration: 180
     learning-goals: |
       * 
@@ -118,14 +118,14 @@ talks:
     abstract:
       de: 
         - |
-          ..
+          Abstract noch nicht final. Inhaltlich ein Deep Dive in Records.
   - id: stringtemplates
     title: 
       de: Robuste und flexible String Templates in Java
     year: 2023
     category: java
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     learning-goals: |
       * Anwendung der String Templates verstehen

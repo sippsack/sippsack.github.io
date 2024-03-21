@@ -143,6 +143,11 @@
   location: Online
   url: https://jcon.one/
   season: Herbst
+- id: ct
+  name: code.talks
+  location: Hamburg
+  url: https://codetalks.com/
+  season: Herbst
 - id: wdc
   name: Web Developer Conference
   location: Hamburg

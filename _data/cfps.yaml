@@ -5,25 +5,13 @@ ideas:
   - Functional Java revisited
   - DDD Konzepte sichtbar machen und reviewen: |
       habe noch eine neue Idee zu DDD, können wir mal für später im Hinterkopf behalten.  Würde auch LASR beinhalten. Weiss aber noch nicht, ob es gut passt. Die Idee ist, DDD Konzepte im Code sichtbar zu machen. Da gibt es Bibliotheken wie ContextMapper, xMolecules, ggf. ArchUnit und jQAssistant so als Art Fitness Fitness Functions. Und dazu würde dann LASR als leichtgewichtige Reviewmethode passen
-  - CSS-Keynote - Die Relevanz von Softwarearchitektur:
-    abstract: |
-      Die Digitalisierung schreitet voran und unsere Softwaresysteme müssen immer mehr leisten. Die Anwendungslogik 
-
-      Inhaltlich: 
-      - Wie wichtig ist Architekturarbeit heute?
-      - Welche Werkzeuge helfen uns bei der Architekturarbeit?
-      - Welche modernen Architekturstile und -prinzipien gibt es? 
-      - Wie haben Infrastructure as Code, Containerisierung, Cloud unsere Arbeit verändert?
-  - String Templates: |
-      Java 21 war vollgepackt mit spannenden Neuerungen. Im Schatten der sehr präsenten Themen 
   - Samman Coaching Learning Hours: |
       eher einzelne Methoden vorstellen, nicht unbedingt das Coaching an sich (das nur kurz erkären), ggf. einzelne Themen für Clean Code Workshop 
   - Java for the Records - Schlüssel zum Pattern Matching und noch mehr ...
   - hexagonale Architektur explained: |
       "Wenn hexagonale Architektur die Lösung, was war eigentlich die Frage?" mit Exkurs in Richtung Softwarearchitektur bringen, also in Richtung Qualitätsziele des Softwaresystems
-  - Consumer Driven Contracts (Inhalt vom MAD Summit mit Code-Beispielen von Pact und ggf. Spring Cloud Contract)
   - Migrationen mit OpenRewrite
-  - Qualitätsszenarien in der Softwarearchitektur oder Bessere Softwarearchitekturen durch Qualitätsszenarien (Konzept des Qualitätsszenario, Bauplan, Arten, Brainstorming, sichtbar machen von Architekturarbeit, ATAM, ...)
+  - FFDD - Fitness Function Driven Development: https://www.thoughtworks.com/insights/articles/fitness-function-driven-development
   - Pragmatisch und aktuell - Lebendige Architekturdokumentation (Beispiele von Olli: jMolecule, Modulith - Mail vom 09.05.)
   - Modernisierung von Java-Anwendungen
   - Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein
@@ -49,12 +37,25 @@ ideas:
       deadline: 2024-05-05
       submitted:
       talks: 
+  - saa:
+      from: 2024-10-22
+      till: 2024-10-23
+      deadline: 2024-04-16
+      submitted:
+      talks: 
   - jsd:
       from: 2024-09-26
       till: 2024-09-27
       deadline: 2024-04-01
       submitted: 
       talks: 
+  - ct:
+      from: 2024-09-19
+      till: 2024-09-20
+      url: https://app.codetalks.com/call-for-papers
+      deadline: 2024-07-01
+      submitted:
+      talks:
   - baselone:
       from: 2024-10-16
       till: 2024-10-17
