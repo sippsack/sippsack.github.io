@@ -23,7 +23,6 @@ categories: # Vorträge in Kategorien einteilen
 
 # TODO
 # Java 17 (+ 18)
-# Workshop: Flexible Softwarearchitektur mit der Clean Architecture (JavaLand 2023)
 # Workshop: Die 'Java by Comparison' Kata
 # ggf. Workshop: Softwarearchitektur einfach mal üben
 # So gelingt die iSAQB Advanced Prüfung - Entwurf und Dokumentation einer Softwarearchitektur am Fallbeispiel
@@ -31,6 +30,71 @@ categories: # Vorträge in Kategorien einteilen
 
 talks:
 # 2024
+  - id: tech2talkw
+    title: 
+      de: "Tech2Talk - Erstelle mit Hilfe erfahrener Speaker deinen ersten eigenen Vortrag!"
+    year: 2024
+    category: soft
+    type: workshop
+    co-speaker: |
+      * Steven Schwenke, msg DAVID
+      * Sergej Tihonov, Freiberufler
+    relevant: true
+    duration: 120
+    learning-goals: Der ganze Workshop ist so aufgebaut, dass die Teilnehmer und ihre entstehenden Talks im Vordergrund stehen. Wir nehmen uns viel Zeit, ausführlich Fragen zu beantworten und bereits gesammelten Erfahrungen einfließen zu lassen. Am Ende hast du nicht nur ganz konkrete inhaltliche Ansätze für deinen ersten eigenen Vortrag, sondern weißt auch genau, wie du dich organisatorisch vorbereiten solltest. Im besten Fall hast du sogar schon die erste Version deines Vortrags für einen ersten Probelauf!
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Wir werden aktiv an deinem Vortrag arbeiten. Bring also etwas zum Festhalten deiner Ideen mit, in aller Regel also deinen Laptop. Wir werden per Beamer Inhalte präsentieren und an einem Flipchart oder Whiteboard wichtige Gedanken festhalten.
+    tags: Public Speaking, Vorträge halten, Konferenzen, Meetups
+    abstract:
+      de: 
+        - |
+          Vorträge zu halten ist in der IT Community eine der wichtigsten Mittel, Wissen zu verteilen. Zusätzlich dazu erhöht der Sprecher seine eigene Sichtbarkeit und wird als Experte in seinem Thema wahrgenommen. Das sind nur zwei der vielen Vorteile eines Konferenz- oder User Group Vortrages.
+
+          In diesem Community-Event gehst du Hands-On mit Hilfe von gleich drei sehr erfahrenen Speakern (Falk Sippach, Steven Schwenke, Sergej Tihonov) die ersten Schritte auf dem Weg zu deinem ersten Vortrag. Gemeinsam finden wir dein ganz individuelles Thema, strukturieren deinen Vortrag und bereiten dich umfassend auf deinen Auftritt vor. Anschließend werfen wir noch einen Blick auf die oft vernachlässigte Nachbereitung und auf Materialien, die dir dabei helfen, ein erfolgreicher Speaker zu werden.
+  - id: kgptw
+    title: 
+      de: "Wir erstellen einen ChatGPT-Klon von Grund auf, in Kotlin"
+    year: 2024
+    category: java
+    type: workshop
+    co-speaker: |
+      * Michal Harakal, Deutsche Telekom
+      * Alexander von Below, Deutsche Telekom 
+    relevant: true
+    duration: 180
+    learning-goals: Ziel des Workshops ist eine funktionsfähige Implementierung auf dem Laptop, die wir auf einem (viel) kleineren Datensatz trainieren und testen können.
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: |
+      * Es sind keine Vorkenntnisse in GPT oder Data Science erforderlich und dieser Workshop ist auch für Java-Entwickler mit grundlegenden Kotlin-Kenntnissen geeignet. Wir werden die verschiedenen Komponenten und Konzepte von dem Modell erforschen, während wir gemeinsam den Code schreiben - von der ersten bis zur letzten Zeile.
+      * In unserem Workshop soll wirklich gearbeitet werden, deshalb bringt am besten einen Laptop (macOS, Linux, Windows) mit, einer JVM/Kotlin/Gradle fähigen Entwicklungsumgebung in der aktuellen Version. Das ist zum Beispiel IntelliJ oder Android Studio. Aktuelle Informationen zum Workshop gibs hier: https://michalharakal.github.io/KPTChat
+    tags: GPT, Kotlin
+    abstract:
+      de: 
+        - |
+          In diesem Workshop implementieren wir ein Sprachmodell, mit einer ähnlichen Architektur, auf der auch die bekannte "Large Language Models" wie z.B. ChatGPT aufbauen, mit Kotlin für JVM von Grund auf. Wir lernen dabei, wie das ganze funktioniert. Wir werden sämtliche relevanten Konzepte und Ideen erläutern und sie auf eine Weise präsentieren, die es erlaubt, sie in anderen Sprachen selbst nachzubauen. 
+  - id: refactoringcleanarch1w
+    title: 
+      de: "Refactoring Towards Clean Architecture"
+    year: 2024
+    category: arch
+    type: workshop
+    co-speaker: Matthias Eschold, EnBW 
+    relevant: true
+    duration: 120
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: |
+      * Java Kenntnisse
+      * Eigener Laptop (oder mindestens ein Laptop je Gruppe) mit IDE & Java 21+
+      * Schichtenarchitektur
+      * Von Vorteil: Grundkenntnisse Clean Architecture, Hexagonal Architecture oder Onion Architecture
+      * Von Vorteil: Grundkenntnisse taktisches Domain-Driven Design 
+    tags: 
+    abstract:
+      de: 
+        - |
+          Im Rahmen unseres Workshops setzen wir uns intensiv mit der Herausforderung auseinander, einen "Big Ball of Mud" mithilfe der Philosophie des Clean Architecture Pattern in wartbare und verständliche Strukturen zu überführen. Dieser Workshop bietet eine interaktive Plattform, um das Clean Architecture Pattern kennenzulernen, zu verstehen und es als neue Zielarchitektur bei umfangreichen Refactorings einzusetzen. In Kleingruppen werden wir systematisch eine Komponente des "Big Ball of Mud" in ein sauber strukturiertes Modul gemäß dem Clean Architecture Pattern überführen. Deine Teilnahme ermöglicht also nicht nur die theoretische Auseinandersetzung mit diesen Konzepten, sondern auch deren praktische Anwendung. 
   - id: cleanevoarc
     title: 
       de: Clean Architecture als Unterstützung für evolutionäre Architektur
@@ -52,7 +116,7 @@ talks:
           In diesem Vortrag diskutieren wir, wie diese beiden Ansätze den Weg für eine nachhaltige Softwareentwicklung ebnen, insbesondere wie sie Risiken bei Änderungen reduzieren, die Portabilität fördern und die Zusammenarbeit im Entwicklerteam verbessern. 
   - id: diagrams2w
     title: 
-      de: "Workshop: Real World Architekturdiagramme"
+      de: "Real World Architekturdiagramme"
     year: 2024
     category: arch
     type: workshop
@@ -63,13 +127,14 @@ talks:
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
     tags: 
+    co-speaker: Ralf D. Müller, DB Systel GmbH 
     abstract:
       de: 
         - | 
           An einem fiktiven, aber realistischen Beispiel werden wir live verschiedene Diagramme entwerfen, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein informelles Überblicksbild oder ein Qualitätsbaum. Wir diskutieren sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei verwenden wir frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net und andere. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
   - id: flexddd
     title: 
-      de: "Workshop: Flexibilität durch Domain Driven Design"
+      de: "Flexibilität durch Domain Driven Design"
     year: 2024
     category: arch
     type: workshop
@@ -84,9 +149,9 @@ talks:
       de: 
         - |
           Bei modernen Softwaresystemen wird eine möglichst flexible Softwarearchitektur gewünscht, um auch langfristig angemessen auf sich ändernde Anforderungen reagieren zu können. Gerade große Softwareprojekte sind aber häufig gekennzeichnet durch die Zusammenarbeit zwischen mehreren Teams, die Notwendigkeit zur Integration mit einer Vielzahl von Teil- und Fremdsystemen sowie der Herausforderung aufgrund nicht trivialer fachlicher sowie anspruchsvoller qualitativer Anforderungen. Domain Driven Design kann helfen, diese Komplexität beherrschbar zu halten, in dem die Zusammenarbeit aller Beteiligten gefördert wird, somit ein tiefes Verständnis für die Fachlichkeit entsteht und das System letztlich in sinnvolle Teile zerlegt werden kann. In diesem Workshop wollen wir gemeinsam an einem Fallbeispiel notwendige Architekturentscheidungen durch Ansätze aus dem Domain Driven Design diskutieren. Dafür müssen wir zunächst die fachlichen Anforderungen verstehen, die architekturrelevanten Qualitätsziele ermitteln und daraus die richtigen Schlüsse ziehen. Darauf aufbauend werden wir eine leichtgewichtige Architektur-Review-Methode diskutieren, welche bei der Absicherung der gewählten domänengetriebenen Lösungsansätze hilft. Im weiteren Projektverlauf kann somit abgeschätzt werden, in welchen Dimensionen die Softwarearchitektur durch die Hilfe von DDD flexibler geworden ist (im Sinne der evolutionären Architektur).
-  - id: archbusiness
+  - id: archbusi1w
     title: 
-      de: "Workshop: Softwarearchitektur enables Business" 
+      de: "Softwarearchitektur enables Business" 
     year: 2024
     category: arch
     type: workshop
@@ -254,7 +319,7 @@ talks:
           Docs-as-Code erleichtert durch leichtgewichtige Text- und Grafikformate, den Einsatz von Entwicklerwerkzeugen sowie die Integration in die Entwicklungsprozesse bei der Pflege einer optimalen, sich selbst validierenden Architektur-Beschreibung.
   - id: java21w
     title: 
-      de: "Workshop: Java 21 - Die neuen Features rund um Pattern Matching und Virtual Threads"
+      de: "Java 21 - Die neuen Features rund um Pattern Matching und Virtual Threads"
     year: 2023
     category: java
     type: workshop
@@ -351,7 +416,7 @@ talks:
         Der Vortrag stellt leichtgewichtige Methoden, Vorlagen und Tools vor, die zum Erstellen einer hochwertigen, sich selbst validierenden Softwaredokumentation eingesetzt werden. Wir schauen uns Ansätze wie Docs-as-Code, leichtgewichtige Textformate, Ablage in der Versionsverwaltung und die Einbettung in die Build- und Review-Prozesse an. Das Sichtbarmachen von Softwarearchitekturkonzepten im Code mit jMolecules und das Einbinden von Software-Analyse-Werkzeugen wie jQAssistant ermöglichen den kontinuierlichen Abgleich der Soll- und Ist-Strukturen und machen die Architekturdokumentation lebendiger.
   - id: apipatterns1w
     title: 
-      de: "Workshop: Patterns für API-Evolution"
+      de: "Patterns für API-Evolution"
     year: 2023
     category: arch
     type: workshop
@@ -365,6 +430,27 @@ talks:
           APIs sind überall, sei es in Funktionen, Methoden oder Netzwerk-Schnittstellen in verteilten Systemen. APIs werden selten mit dem Hintergedanken entworfen, dass sie später angepasst werden müssen. In der Praxis passiert es allerdings sehr schnell, dass Schnittstellen riskant zu ändern sind, weil viele andere Bausteine davon abhängen.
 
           In diesem Workshop stellen wir euch Patterns vor, die dieses Risiko minimieren. Wir beschäftigen uns mit API-Versionierung und diskutieren Mechanismen, die ohne Versionierung auskommen. Allgemein könnt ihr diese Patterns für API-Evolution und ein besseres Schnittstellendesign anwenden.
+  - id: cleanarch1w
+    title: 
+      de: "Flexible Softwarearchitektur mit der Clean Architecture"
+    year: 2023
+    category: arch
+    type: workshop
+    co-speaker: Matthias Eschold, EnBW 
+    relevant: true
+    duration: 120
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    learning-goals: |
+      * Die Probleme der Schichtenarchitektur erkennen und ihnen mittels Ports & Adapter sowie fachlicher Modularisierung begegnen können 
+      * Die Clean Architecture implementieren sowie diese Architekturmuster unterscheiden können 
+      * Unterschiedliche Modularisierungsvarianten und Mappingsstrategien für die Clean Architecture anwenden können
+    abstract:
+      de: 
+        - |
+          Flexible Geschäftsmodelle benötigen flexible Softwarearchitekturen. Setzt die Softwarearchitektur die Bedürfnisse der fachlichen Domäne optimal um, können entscheidende Wettbewerbsvorteile erzielt werden. Neben einer fachlichen Ausrichtung der Softwarearchitektur werden Architekturmuster benötigt, die "Design for Change" und weiterführend "Flexibility by Design" unterstützen. Die Clean Architecture verspricht eine Entkopplung der fachlichen Domäne von infrastrukturellen Aspekten. Dies ist die Basis für eine flexible Softwarearchitektur. Die zu Grunde liegende Idee von Ports und Adapters ist mächtig und hilft technische und fachliche in der Anwendungsarchitektur zu realisieren.
+          
+          In diesem Community-Workshop werden wir uns die Kernaspekte der Clean Architecture mit verschiedenen praktischen Übungen gemeinsam erarbeiten. Ihr erhaltet ein tiefgehendes Verständnis und könnt einschätzen, wann der Einsatz der Clean Architecture zielführend ist und wie ihr sie auf der technischen Ebene realisiert. Anhand von Codebeispielen in Java diskutieren wir Vorteile, Nachteile sowie Kompromisse für pragmatische Lösungen.
   - id: java20
     title: 
       de: Java 20 - Auf dem Weg zur nächsten LTS-Version
@@ -502,7 +588,7 @@ talks:
           In diesem Vortrag besprechen wir zunächst, welche fortgeschrittenen Bordmittel JUnit 5 bereits für das Schreiben gut wartbarer Tests mit sich bringt. Darüber hinaus zeigen wir Euch, wie ihr durch das Schreiben eigener Assertion-Matcher eure Validierungslogik von Implementierungsdetails unabhängiger macht. Dadurch lernt ihr, wie euer (Test-)Code wartbarer und robuster gegenüber Refactorings ist, damit nicht schon einfache Umbauarbeiten zu großflächigen Anpassungen am Testcode führen.
   - id: diagrams1w
     title: 
-      de: "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst"
+      de: "Phantastische Diagramme und wie Du sie selbst erstellst"
     year: 2022
     category: arch
     type: workshop
@@ -568,7 +654,7 @@ talks:
           Neben den JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
   - id: dots1w
     title: 
-      de: "Workshop: Developer on the stage"
+      de: "Developer on the stage"
     year: 2022
     category: soft
     type: workshop
@@ -582,7 +668,7 @@ talks:
         In diesem Community-Event lernst du von gleich drei sehr erfahrenen Speakern, wie du dein ganz individuelles Thema findest, dich umfassend auf deinen Auftritt vorbereitest und erfolgreich vorträgst. Anschließend werfen wir noch einen Blick auf die oft vernachlässigte Nachbereitung und auf Materialien, die dir dabei helfen, ein erfolgreicher Speaker zu werden. Dabei nehmen wir uns die Zeit, erste inhaltliche Ideen für deinen Vortrag zu entwickeln und ausführlich Fragen zu beantworten. Am Ende hast du nicht nur ganz konkrete inhaltliche Ansätze für deinen ersten eigenen Vortrag, sondern weißt auch genau, wie du dich organisatorisch vorbereiten solltest.
   - id: javapm1w
     title: 
-      de: "Workshop: Pattern Matching mit Java"
+      de: "Pattern Matching mit Java"
     year: 2022
     category: java
     type: workshop
@@ -758,7 +844,7 @@ talks:
           Aufbauend auf der gewohnten Arbeitsweise wird uns durch diese Tools mit frei verfügbaren Vorlagen nicht nur die mühevolle Gestaltung abgenommen. Getreu dem Motto "Everything-as-Code" unterstützen sie auch bei der Automatisierung des kompletten Entwicklungsprozesses bis zur Auslieferung und vor allem bei der kontinuierlichen Pflege der Webseite. Wir stellen anhand von Beispielen verschiedene Lösungen basierend auf Jekyll, Hugo und JBake, sowie Plattformen wie Github, Gitlab und Netlify vor, geben unsere Erfahrungen weiter und zeigen einige Tipps und Tricks, die sich für uns bewährt haben.
   - id: docsascode3w
     title: 
-      de: "Workshop: Moderne Softwarearchitekturdokumentation"
+      de: "Moderne Softwarearchitekturdokumentation"
       en: How to document and communicate software architectures these days
     year: 2020
     category: arch
@@ -803,7 +889,7 @@ talks:
           Je nach eingesetzten Architekturstilen und -mustern kommen heutzutage ganz neue Herausforderungen auf euch zu. Wir diskutieren in diesem Vortrag, wie agile Teams eine flexible und vor allem auch robuste Softwarearchitektur entwerfen, sie festhalten, kommunizieren und pflegen können. Und das auch, wenn von der grünen Wiese nach ein paar Monaten nicht mehr viel zu sehen ist.
   - id: pbrt1w
     title: 
-      de: "Workshop: Property Based Resilience Testing"
+      de: "Property Based Resilience Testing"
     year: 2020
     category: quality
     type: workshop
@@ -815,7 +901,7 @@ talks:
         Property Based Resilience Testing ist die Kombination von Resilience Testing und Property Based Testing. Resilienztests bestimmen den Umfang der Fähigkeit eines Systems, bei Störungen oder Teilausfällen nicht vollständig zu versagen. Property Based Testing hilft bei der Erstellung zufälliger Testpläne, bei deren Ausführung darauf geachtet wird, dass bestimmte Verhaltenseigenschaften bestehen bleiben. In diesem Workshop für Anfänger und Fortgeschrittene zeigen wir euch, wie sich Container-basierte Systeme damit testen lassen.
   - id: multiplatform1w
     title: 
-      de: "Workshop: Kotlin/Native und Multiplatform"
+      de: "Kotlin/Native und Multiplatform"
     year: 2020
     category: java
     type: workshop
@@ -830,7 +916,7 @@ talks:
         Ein Laptop mit IDE nach Wahl (IntelliJ, Eclipse etc.) und Android Studio, Android SDK, Emulator/Smartphone oder Apple Mac mit XCode.    
   - id: kubernetes1w
     title: 
-      de: "Workshop: Entwicklung einer verteilten Anwendung auf Kubernetes (Hands On)"
+      de: "Entwicklung einer verteilten Anwendung auf Kubernetes (Hands On)"
     year: 
     category: cloud
     type: workshop
@@ -948,7 +1034,7 @@ talks:
 # 2018
   - id: fp2w
     title: 
-      de: "Workshop: Einführung in die Funktionale Programmierung mit Java"
+      de: "Einführung in die Funktionale Programmierung mit Java"
     year: 2018
     category: java
     type: workshop
@@ -1070,7 +1156,7 @@ talks:
           Mobile First war gestern, Offline First heißt die neue Devise. Mit diesem Credo kommen Progressive Web Apps (PWA) nicht nur sehr nahe an native Smartphone Applikationen heran, sie erhöhen vor allem die User Experience bei fehlender oder sehr schlechter Internetverbindung und müssen nicht mehr über App Stores ausgeliefert werden. Anhand einer Beispielapplikation werden wir die Grundkonzepte wie Service Worker, Application Shell, Caching und Push Notifications diskutieren und einen Ausblick auf die mobilen Anwendungen der Zukunft werfen.
   - id: mikado1w
     title: 
-      de: "Workshop: Refactoring von Legacy Anwendungen mit der Mikado-Methode"
+      de: "Refactoring von Legacy Anwendungen mit der Mikado-Methode"
     year: 2017
     category: quality
     type: workshop
@@ -1101,7 +1187,7 @@ talks:
 # 2016
   - id: lcr3w
     title: 
-      de: "Workshop: Legacy Code Retreat"
+      de: "Legacy Code Retreat"
     year: 2016
     category: quality
     type: workshop
@@ -1221,7 +1307,7 @@ talks:
 # 2013
   - id: dojo1w
     title: 
-      de: "Workshop: Coding Dojo"
+      de: "Coding Dojo"
     year: 2014
     category: quality
     type: workshop

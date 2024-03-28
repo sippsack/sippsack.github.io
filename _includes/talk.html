@@ -34,7 +34,7 @@
             {% else %}
                 <a href="/portfolio#{{ portfolioTalk.id }}">
                     {% assign language = talk.lang | default: 'de'  %}
-                    {{ portfolioTalk.title[ language ] }}
+                    {% if portfolioTalk.type == "workshop" %}Workshop: {% endif %}{{ portfolioTalk.title[ language ] }}
                 </a>
             {% endif %}
         </b>

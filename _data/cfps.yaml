@@ -21,7 +21,7 @@ ideas:
   - jfn:
       from: 2024-09-10
       till: 2024-09-10
-      deadline: 
+      deadline: 2024-05-02
       url: https://sessionize.com/java-forum-nord-2024/
       submitted: 
       talks: 
@@ -204,7 +204,7 @@ ideas:
         "Architekturvision in Zeiten von Clean Architecture": o
         "Real World Architekturdiagramme": o        
         "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
-        "Robuste und flexible String Templates in Java": o
+        "Robuste und flexible String Templates in Java": x
   - codedays:
       url: https://confcall.sigsdatacom.de/submit.php?&CID=56&mode=new
       from: 2024-01-30

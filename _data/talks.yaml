@@ -5,12 +5,72 @@
 # Workshop betterCode
 
 2024:
+  - Juli:
+    - host: dwx
+      id: archpatterns1
+      date: 2024-07-03
+      link: https://www.developer-week.de/programm/#/talk/vorgehensmuster-und-best-practices-fur-moderne-softwarearchitekturarbeit
+  - Juni:
+    - host: cl
+      id: cdct
+      date: 2024-06-20
+      link: https://meine.doag.org/events/cloudland/2024/agenda/#agendaId.4301
+    - host: madsummit1
+      id: archbusi1w
+      date: 2024-06-12
+      link: https://mad-summit.de/architektur/software-architektur-enables-business/
+    - host: etka
+      id: java21
+      date: 2024-06-20
+      link: https://entwicklertag.de/programm/Die%20neuen%20Features%20rund%20um%20Pattern%20Matching%20und%20Virtual%20Threads
+  - Mai:
+    - host: jconp
+      id: stringtemplates
+      date: 2024-05-15
+      link: https://2024.europe.jcon.one/schedule
+    - host: mddevdays
+      id: cleanevoarc
+      date: 2024-05-14
+      link: https://md-devdays.de/act-details/1000384
+  - April:
+    - host: jax
+      id: stringtemplates
+      date: 2024-04-25
+      link: https://jax.de/core-java-jvm-languages/java-string-templates/
+    - host: mc
+      id: cleanevoarc
+      date: 2024-04-12
+      link: https://www.mathema.de/events/mathema-campus/programm
+    - host: jl
+      id: kgptw
+      date: 2024-04-10
+      location: Nürburgring 
+      link: https://meine.doag.org/events/javaland/2024/agenda/#agendaId.4078
+    - host: jl
+      id: refactoringcleanarch1w
+      date: 2024-04-09
+      location: Nürburgring
+      link: https://meine.doag.org/events/javaland/2024/agenda/#agendaId.4092
+    - host: jl
+      id: stringtemplates
+      date: 2024-04-09
+      location: Nürburgring
+      link: https://meine.doag.org/events/javaland/2024/agenda/#agendaId.3685
+    - host: jl
+      id: tech2talkw
+      date: 2024-04-08
+      location: Nürburgring
+      link: https://meine.doag.org/events/javaland/2024/agenda/#agendaId.4079
   - März:
     - conference: betterCode() Clean Architecture 2024
       id: cleanevoarc
       date: 2024-03-19
       location: Online 
       link: https://clean-architecture.bettercode.eu/veranstaltung-21862-se-0-clean-architecture-als-grundlage-fuer-evolutionaere-architektur.html
+    - host: archsummit1
+      id: diagrams2w
+      date: 2024-03-11
+      link: https://software-architecture-summit.de/session/real-world-architekturdiagramme/
   - Februar:
     - conference: iSAQB Community-Meetup Köln
       title: Best Practices, um Architekturdokumentation aktuell zu halten
@@ -249,7 +309,7 @@
       link: https://www.devday.de/dev-day-2023/talk/phantastische-diagramme-und-wie-du-sie-selbst-erstellst/
   - März:
     - host: jl
-      title: "Workshop: Flexible Softwarearchitektur mit der Clean Architecture"
+      id: cleanarch1w
       date: 2023-03-22
       link: https://shop.doag.org/events/javaland/2023/agenda/#eventDay.all#textSearch.sippach
     - host: jl
