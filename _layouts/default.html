@@ -9,6 +9,17 @@
 		<title>sippsack.de</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta property="og:title" content="Falk Sippach: {{ page.title }}">
+		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Falk Sippach unterstützt seit 20 Jahren agile Softwareentwicklungsprojekte im Java-Umfeld. Seine Schwerpunkte sind Architekturberatung, -bewertung und -dokumentation. Als Java Champion und aktiver Bestandteil der Community teilt er sein Wissen in Artikeln, Blogs, auf Konferenzen oder bei User Groups. Zudem ist er Mit-Organisator diverser Fachveranstaltungen.{% endif %}">
+		<meta property="og:url" content="{{ site.url }}">
+		<meta property="og:image" content="{{ "/images/falk_sippach-2-300dpi.jpg" | absolute_url }}">
+	
+		<meta property="twitter:title" content="Falk: Sippach {{ page.title }}">
+		<meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Falk Sippach unterstützt seit 20 Jahren agile Softwareentwicklungsprojekte im Java-Umfeld. Seine Schwerpunkte sind Architekturberatung, -bewertung und -dokumentation. Als Java Champion und aktiver Bestandteil der Community teilt er sein Wissen in Artikeln, Blogs, auf Konferenzen oder bei User Groups. Zudem ist er Mit-Organisator diverser Fachveranstaltungen.{% endif %}">	
+		<meta property="twitter:image" content="{{ "/images/falk_sippach-2-300dpi.jpg" | absolute_url }}">
+	
+
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/fontawesome.min.css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/brands.min.css" />
