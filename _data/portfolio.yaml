@@ -22,14 +22,258 @@ categories: # Vorträge in Kategorien einteilen
     symbol: js
 
 # TODO
-# Java 17 (+ 18)
-# Workshop: Die 'Java by Comparison' Kata
-# ggf. Workshop: Softwarearchitektur einfach mal üben
-# So gelingt die iSAQB Advanced Prüfung - Entwurf und Dokumentation einer Softwarearchitektur am Fallbeispiel
-# Architekturdokumentation mit Microsites
 
 talks:
+# 2025
+  - id: emergentarch
+    title: 
+      de: 
+        - Emergente Praktiken in der Softwarearchitektur
+    year: 2025
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+  - id: gatherers
+    title: 
+      de: 
+        - Intermediate Operationen mit Stream Gatherers
+    year: 2025
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+  - id: jbang
+    title: 
+      de: 
+        - "Self-Contained Java mit JBang: Skripten, Teilen, Ausführen"
+    year: 2025
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+  - id: java25
+    title: 
+      de: 
+        - 30 Jahre Java - Die Neuerungen in Java 21 bis 25
+      en:
+        - 30 years of Java - The innovations in Java 21 to 25
+    year: 2025
+    category: java
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: 
+    target-audience:
+    tags: Java 24, Java 25, OpenJDK 24, OpenJDK 25, String Templates, Stream Gatherers, Pattern Matching, Virtual Threads, Class File API 
+    abstract:
+      de:
+        - |
+          Alle halben Jahre erscheinen Major-Releases mit einer Vielzahl von neuen Features. Manche starten als Inkubator und viele durchlaufen mehrere Preview-Phasen. Und auch wenn wir die neuen Funktionen nicht direkt einsetzen können, lohnt sich immer der Blick auf den aktuellsten Stand. Aktuell geht es um so spannende Themen wie Erweiterungen zum Pattern Matching, Bibliotheken rund um Virtual Threads wie Structured Concurrency, String Templates, Stream Gatherers, Flexible Constructor Bodies, Module Import Declarations, Simple Source Files and Instance Main Methods, die Class File API, Stable Values und Value Types.
+
+          Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
+  - id: valuetypes
+    title: 
+      de: "Value Objects - das nächste große Ding in Java"
+    year: 2025
+    category: java
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+      * Syntax von Value Classes and Objects kennenlernen
+      * Verstehen, wie der Speicherverbrauch minimiert und die Performance erhöht wird
+      * Umgang mit Null Values, sowie Null-Restricted and nullable Types
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Erfahrungen mit Java
+    tags: Value Types, Value Objects
+    abstract:
+      de: 
+        - | 
+          Einer der großen Pluspunkte von Java war und ist das statische, starke Typsystem. Das hilft Millionen von Entwicklern, viele Fehler bereits zur Compilezeit zu entdecken und macht die Entwicklung robuster sowie effizienter. Allerdings schleppt Java mit der Unterscheidung zwischen primitiven und Referenztypen von Beginn an eine schwere Bürde mit sich. Die vor etwa 30 Jahren aus Performancegründen eingeführten primitiven Datentypen integrieren sich nicht gut mit modernen Ansätze wie Generics, Stream API oder Pattern Matching. Die Value Objects werden Abhilfe schaffen und die Vorteile beider Welten kombinieren. Damit können wir in Zukunft unveränderbare Datentypen (Zustand und Verhalten, aber ohne eigene Identität) entwerfen, die sich wie primitive Datentypen verhalten. Das steigert nicht nur die Performance und senkt den Speicherverbrauch, es erhöht auch die Les- und Wartbarkeit, da wir dann viel einfacher ausdrucksstarke und trotzdem performante Typen nach den Ideen von DDD selbst definieren können.
+        
+          Schon seit etwa 10 Jahren wird im Rahmen vom Projekt Valhalla an dieser großen Änderung des Java Typsystems gearbeitet. Daran hängen einige komplexe Fragestellungen, wie z. B. der Umgang mit Default-Werten sowie null-Values, der Umbau der Wrapper-Typen und die Verwendung als generische Typisierung. Im Sommer 2024 hat Java Language Architekt Brian Goetz verkündet, dass nach der langen Zeit der Durchbruch in der Umsetzung erreicht ist. Darum wollen wir gemeinsam schauen, wie Value Classes, Null-Restricted und Nullable Types sowie erweitertes Primitive Boxing die Art und Weise verändern, wie wir in Zukunft programmieren werden.
+        - |
+          Einer der großen Pluspunkte von Java war und ist das statische, starke Typsystem. Es hilft, viele Fehler bereits zur Compilezeit zu entdecken und macht die Entwicklung robuster sowie effizienter. Allerdings integrieren sich die vor etwa 30 Jahren aus Performancegründen eingeführten primitiven Datentypen nicht gut mit modernen Ansätze wie Generics, Stream API oder Pattern Matching. Value Objects versprechen Abhilfe und werden die Vorteile beider Welten kombinieren. Damit können wir in Zukunft unveränderbare Datentypen entwerfen, die sich wie primitive Datentypen verhalten. Das steigert nicht nur die Performance und senkt den Speicherverbrauch, es erhöht durch das Schreiben von ausdrucksstarken Typen auch die Les- und Wartbarkeit.
+        
+          Schon seit etwa 10 Jahren wird im Rahmen vom Projekt Valhalla an dieser großen Änderung des Java Typsystems gearbeitet. Daran hängen einige komplexe Fragestellungen, wie z. B. der Umgang mit Default-Werten sowie null-Values, der Umbau der Wrapper-Typen (Integer, …) und die Verwendung als generische Typisierung. Im Sommer 2024 hat Java Language Architekt Brian Goetz verkündet, dass nach der langen Zeit der Durchbruch in der Umsetzung erreicht ist. Darum wollen wir gemeinsam schauen, wie Value Classes, Null-Restricted und Nullable Types sowie erweitertes Primitive Boxing die Art und Weise verändern, wie wir in Zukunft programmieren werden.
 # 2024
+  - id: docsascode7
+    title: 
+      de: "Ausführbare Dokumentation - Architekturregeln festhalten und testen"
+    year: 2024
+    category: arch
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+      * selbst validierende, ausführbare Dokumentation
+      * Qualitätsansprüche der Softwarearchitektur wiederkehrend prüfen
+      * Absichern mit Fitness Functions
+      * Architekturkonzepte im Code sichtbar machen
+      * xMolecules, ContextMapper, jQAssistant, ArchUnit
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Erfahrungen in Softwarearchitektur und Dokumentation
+    tags: Legacy, Modernisierung, Modulith, Fitness Functions
+    abstract:
+      de: 
+        - | 
+          Es ist kein Mythos, dass eine gute Architekturdokumentation ein Garant für erfolgreiche Softwareprojekte ist. Die Kunst und Herausforderung zugleich ist es jedoch, den Aufwand überschaubar und mit geeigneten Konzepten die Dokumentation lebendig zu halten. Leichtgewichtige Methoden, Vorlagen und Werkzeuge aus dem Docs-as-Code-Umfeld bringen das Dokumentieren näher an den Sourcecode und unterstützen Entwicklungs-Teams bei der Erstellung einer hochwertigen Architekturdokumentation.
+
+          Leider veraltet Dokumentation auch sehr schnell. In diesem Vortrag betrachten wir daher, wie wir eine selbst validierende, ausführbare Dokumentation nutzen können, um die Qualitätsansprüche der Softwarearchitektur wiederkehrend zu prüfen und mit Fitness Functions abzusichern. Dazu machen wir Architekturkonzepte im Code sichtbar z. B. mit xMolecules und ContextMapper, binden Software-Analyse-Werkzeuge wie jQAssistant ein bzw. führen regelmässig programmatische Tests z. B. mit ArchUnit aus für einen kontinuierlichen Abgleich der Soll- und Ist-Strukturen. Ihr könnt diese Ideen in Eure Projekte übertragen, Eure Architekturdokumentation wird dadurch lebendig und Teil Eurer kontinuierlichen Qualitätsmaßnahmen.
+  - id: archmodernization1
+    title: 
+      de: "Modernisierung in der Praxis: Modulith statt Microservices?"
+    year: 2024
+    category: arch
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Erfahrungen in Enterprise Projekten, Herausforderung von Legacy-Projekten kennen
+    tags: Legacy, Modernisierung, Modulith, Fitness Functions
+    co-speaker: Stefan Toth, embarc 
+    abstract:
+      de: 
+        - | 
+          Heutzutage stehen viele Unternehmen vor der Herausforderung, ihre in die Jahre gekommenen Anwendungen zu modernisieren, flexibler zu machen und geeignet zu strukturieren. Während Microservices weit verbreitet sind, bietet ein Modulith – modular strukturierter Monolith – eine vielversprechende Alternative, die oft übersehen wird.
+
+          Dieser Vortrag liefert einen Einblick in die praktische Arbeit mit Modulithen und die Migration dort hin. Wir berichten auch von Erfahrungen mit passenden Technologien wie Spring Modulith, xMolecules, ArchUnit sowie jQAssistant und besprechen, worauf bei deren Einsatz zu achten ist.
+
+          Außerdem besprechen wir Vorteile und Herausforderungen, die sich gegenüber der Transformation hin zu Microservices ergeben. Wir betrachten Aspekte wie Implementierungsaufwand, Impact auf den vorhandenen Quellcode, grundsätzliche Risiken bei langlaufenden Ablösungsprojekten, Teststrategien, Cognitive Load, Abhängigkeiten auf fachlicher und technischer Ebene und die Auswirkungen, die all diese Themen in der Praxis haben.
+
+          Insgesamt bietet der Vortrag einen erfahrungsbasierten Überblick zu Modulithen und richtet sich an Softwarearchitekten, Entwickler und IT-Entscheider, die sich mit der Modernisierung ihrer bestehenden Systeme auseinandersetzen.
+  - id: javahistory
+    title: 
+      de: "Hätte, hätte, Fahrradkette - Java gestern, heute und morgen"
+    year: 2024
+    category: java
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Erfahrungen mit Java
+    tags: 
+    co-speaker: Mike Sperber, Active Group GmbH 
+    abstract:
+      de: 
+        - | 
+          Java ist inzwischen 30 Jahre alt, und hat seit der Geburt viele Features dazubekommen. Die meisten davon wurden nicht vom JDK-Team erfunden, sondern aus anderen Programmiersprachen und Forschungsarbeiten angepasst übernommen. 
+
+          Durch die mittlerweile halbjährlichen Releases gibt es aktuell viel Bewegung im Java Ökosystem. Und die nächste tolle Funktion gibt es höchstwahrscheinlich schon irgendwo da draußen. Aber wisst Ihr eigentlich, woher die Features der Vergangenheit kommen? Und können wir vielleicht jetzt schon vorhersehen, was die Zukunft bringen wird? Im Vortrag werfen Falk (Java-Enthusiast) und Mike (Experte für Programmiersprachen) einen Blick in die Geschichte und in die Glaskugel:
+
+          * Was haben Generics, Lambdas, Streams und Virtual Threads gemeinsam?
+          * Warum nerven funktionale Programmierer:innen immer wegen der "tail calls"?
+          * Warum heißen Lambdas so und was fehlt, damit sie richtig toll werden?
+          * Was sind in Monaden und wo gibt's die in Java?
+          * Ist Java mit Lambdas, Stream API und Pattern Matching schon eine funktionale Sprache?
+          * Ist Kotlin das Java der Zukunft?
+          * … und noch einiges mehr. 
+
+          Kommt vorbei, um besser zu verstehen, warum Java ist, wie es ist und was eigentlich alles möglich wäre.                    
+  - id: archpatterns2
+    title: 
+      de: Walking Skeleton - Softwarearchitektur ohne Fleisch?
+    year: 2024
+    category: arch
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+      * Einbinden der Architekturarbeit in agile Prozesse
+      * Risikoorientierung
+      * früh Feedback erhalten
+      * grundlegende Architekturkonzepte verproben
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: Walking Skeleton, Architekturvision, letzter vernünftiger Moment
+    abstract:
+      de: 
+        - | 
+          In den agilen Vorgehensweisen wird Softwarearchitektur iterativ inkrementell im Rahmen der Architekturvision entworfen und weiterentwickelt. Dabei empfiehlt sich ein risikobasiertes Vorgehen. Es wird versucht, die risikoreichen Ansätze möglichst früh zu verproben um so wertvolles Feedback zu sammeln und zeitnah nachjustieren zu können. Mit dem Walking Skeleton hat Alistair Cockburn dazu ein Konzept vorgestellt. Es umfasst es alle grundlegenden Elemente, die für die Entwicklung, die Auslieferung und den Betrieb eines Softwaresystems erforderlich sind. Dazu zählen neben der Entwicklungs- und Betriebsinfrastruktur auch die Integrationspunkte und grundlegende Architekturkonzepte. 
+          
+          Wir diskutieren die Vorteile und die Herausforderungen dieses Patterns und erarbeiten die Unterschiede zu einem MVP (Minimum Viable Product), Prototyp sowie Durchstich. Außerdem betrachten wir das Zusammenspiel mit anderen Vorgehensmustern in der agilen Architekturarbeit wie Architekturvision, letzter vernünftiger Moment und qualitative Tests.
+  - id: cleanevoarcw
+    title: 
+      de: 
+        - Clean Architecture als Unterstützung für evolutionäre Architektur
+        - Von Clean Architecture zu evolutionärer Architektur
+    year: 2024
+    category: arch
+    type: workshop
+    relevant: true
+    duration: 180
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: Hexagonale Architektur, Onion Architecture, Clean Architecture, Evolutionäre Architektur, Fitness Functions
+    abstract:
+      de: 
+        - |
+          Softwaresysteme werden immer komplexer und die Anforderungen an sie wandeln sich ständig. Evolutionäre Softwarearchitektur versucht, sich kontinuierlich und effizient an sich verändernde Rahmenbedingungen, Anforderungen, Technologien und Umgebungen anzupassen. Die Ideen einer Clean Architecture stellt wichtige Grundlagen für evolutionäre Architektur dar. Denn durch die klare Trennung von Verantwortlichkeiten, die Unabhängigkeit von Bibliotheken/Frameworks, die erhöhte Testbarkeit und Flexibilität bietet Clean Architecture eine robuste Struktur, um die Weiterentwicklung einfacher zu ermöglichen. 
+
+          In diesem Workshop diskutieren wir, wie diese beiden Ansätze den Weg für eine nachhaltige Softwareentwicklung ebnen, insbesondere wie sie Risiken bei Änderungen reduzieren, die Portabilität fördern und die Zusammenarbeit im Entwicklerteam verbessern. Wir werden uns zunächst die Eigenschaften, Konsequenzen aber auch die Unterschiede der verschiedenen Architekturansätze von Hexagonal (Ports & Adapters), über Onion bis hin zur Clean Architecture erarbeiten. Anschließend sammeln wir Ideen für Fitness Functions, mit denen wir unsere Architektur ständig überprüfen und so evolutionär weiterentwickeln können. 
+    agenda:
+      de:
+        - |
+          Architekturmuster
+            * Basierend auf den Qualitätsanforderungen sind Architekturmuster Lösungsansätze für wiederkehrende Problemstellungen
+
+          Von Hexagonaler zu Clean Architecture
+            * Vorstellung und Ziele der modernen Architekturansätze
+
+          Evolutionärer Ansatz
+            * Wie geht die Natur mit Herausforderungen um und wie können wir das auf Softwarearchitektur übertragen?
+
+          Clean & Evolutionär
+            * Wie hilft Hexagonal/Onion/Clean Architecture bei evolutionärer Architektur?
+
+          Fazit und Ausblick
+            * Zusammenfassung
+            * Vorstellung Evolutionary Architecture Canvas und weitere Hinweise
+  - id: java23
+    title: 
+      de: 
+        - Java 23 - Die Neuerungen im Überblick
+      en:
+        - Java 23 - Overview of the new features
+    year: 2023
+    category: java
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: 
+    target-audience:
+    tags: Java 23, OpenJDK 23, String Templates, Stream Gatherers, Pattern Matching, Virtual Threads
+    abstract:
+      de:
+        - |
+          Alle halben Jahre erscheinen Major-Releases mit einer Vielzahl von neuen Features. Manche starten als Inkubator und viele durchlaufen mehrere Preview-Phasen. Und auch wenn wir die neuen Funktionen nicht direkt einsetzen können, lohnt sich immer der Blick auf den aktuellsten Stand. Aktuell geht es um so spannende Themen wie Erweiterungen zum Pattern Matching, Bibliotheken rund um Virtual Threads, String Templates, Stream Gatherers, Statements before super, Implicitly Declared Classes & Instance Main Methods und die Class File API.
+
+          Neben diesen verschiedenen JDK Enhancement Proposals (JEPs) werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren. Ihr bekommt einen Überblick über die neusten Entwicklungen im Java-Umfeld und seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird.
+  - id: diagrams2
+    title: 
+      de: "Real World Architekturdiagramme"
+    year: 2024
+    category: arch
+    type: talk
+    relevant: true
+    duration: 180
+    learning-goals: |
+      * 
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
+    tags: 4 + 1 Sichten, arc42, C4, Structurizr, Diagrams-as-Code
+    co-speaker: Ralf D. Müller, DB Systel GmbH 
+    abstract:
+      de: 
+        - |
+          An einem fiktiven, aber realistischen Beispiel werden wir verschiedene Diagramme diskutieren, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein Big Picture oder ein Qualitätsbaum. Wir besprechen sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei kommen frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net zum Einsatz. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
   - id: tech2talkw
     title: 
       de: "Tech2Talk - Erstelle mit Hilfe erfahrener Speaker deinen ersten eigenen Vortrag!"
@@ -97,7 +341,9 @@ talks:
           Im Rahmen unseres Workshops setzen wir uns intensiv mit der Herausforderung auseinander, einen "Big Ball of Mud" mithilfe der Philosophie des Clean Architecture Pattern in wartbare und verständliche Strukturen zu überführen. Dieser Workshop bietet eine interaktive Plattform, um das Clean Architecture Pattern kennenzulernen, zu verstehen und es als neue Zielarchitektur bei umfangreichen Refactorings einzusetzen. In Kleingruppen werden wir systematisch eine Komponente des "Big Ball of Mud" in ein sauber strukturiertes Modul gemäß dem Clean Architecture Pattern überführen. Deine Teilnahme ermöglicht also nicht nur die theoretische Auseinandersetzung mit diesen Konzepten, sondern auch deren praktische Anwendung. 
   - id: cleanevoarc
     title: 
-      de: Clean Architecture als Unterstützung für evolutionäre Architektur
+      de: 
+        - Clean Architecture als Unterstützung für evolutionäre Architektur
+        - Von Clean Architecture zu evolutionärer Architektur
     year: 2024
     category: arch
     type: talk
@@ -107,7 +353,7 @@ talks:
       * 
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
-    tags: 
+    tags: Hexagonale Architektur, Onion Architecture, Clean Architecture, Evolutionäre Architektur, Fitness Functions
     abstract:
       de: 
         - |
@@ -126,19 +372,21 @@ talks:
       * 
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: Grundlegende Kenntnisse von Softwarearchitektur
-    tags: 
+    tags: 4 + 1 Sichten, arc42, C4, Structurizr, Diagrams-as-Code
     co-speaker: Ralf D. Müller, DB Systel GmbH 
     abstract:
       de: 
         - | 
           An einem fiktiven, aber realistischen Beispiel werden wir live verschiedene Diagramme entwerfen, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein informelles Überblicksbild oder ein Qualitätsbaum. Wir diskutieren sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei verwenden wir frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net und andere. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
+        - |
+          An einem fiktiven, aber realistischen Beispiel werden wir verschiedene Diagramme diskutieren, um wichtige Lösungsansätze und Entscheidungen festzuhalten. Dazu zählen neben den vier Sichten (Systemkontext, Baustein-, Laufzeit- und Verteilungssicht) auch weitere Visualisierungen wie zum Beispiel ein Big Picture oder ein Qualitätsbaum. Wir besprechen sowohl, was inhaltlich in das jeweilige Diagramm gehört und welche Form und Style-Richtlinien eingehalten werden sollten. Dabei kommen frei verfügbare Werkzeuge und leichtgewichtige Methoden wie Diagrams-as-Code, Documentation-as-Code, C4, arc42, docToolchain, kroki.io, PlantUML, Structurizr, draw.io/diagrams.net zum Einsatz. Ihr könnt das Gelernte direkt auf Eure Projekte übertragen und werdet in Zukunft Eure Kollegen mit gut verständlichen und leicht zu wartenden Softwarearchitekturdiagrammen beglücken.
   - id: flexddd
     title: 
       de: "Flexibilität durch Domain Driven Design"
     year: 2024
     category: arch
     type: workshop
-    relevant: new
+    relevant: false
     duration: 180
     learning-goals: |
       * 
@@ -155,7 +403,7 @@ talks:
     year: 2024
     category: arch
     type: workshop
-    relevant: new
+    relevant: true
     duration: 180
     learning-goals: |
       * 
@@ -173,7 +421,7 @@ talks:
     year: 2023
     category: java
     type: talk
-    relevant: new
+    relevant: true
     duration: 60
     learning-goals: |
       * 
@@ -183,10 +431,15 @@ talks:
     abstract:
       de: 
         - |
-          Abstract noch nicht final. Inhaltlich ein Deep Dive in Records.
+          Records bieten viele Vorteile gegenüber Klassen, wenn man hauptsächlich mit Daten arbeitet. Allerdings müssen wir die Details verstehen, um sie sinnvoll einsetzen zu können. Dabei geht es nicht nur um die Reduzierung von überflüssigem Code indem Konstruktoren, Accessoren sowie die Methoden equals(), hashCode() und toString() automatisch vom Compiler erzeugt werden. Wir können Records auch in der datenorientierten Programmierung als Teil von algebraischen Datentypen verwenden.
+          
+          In diesem Vortrag diskutieren wir die Details zur Konstruktion und des Lebenszyklus von Records und sammeln die Vorteile sowie die Herausforderungen. Diese Erkenntnisse helfen Euch, sie in Euren Projekten besser nutzen zu können und Überraschungen zu vermeiden.
   - id: stringtemplates
     title: 
-      de: Robuste und flexible String Templates in Java
+      de: 
+        - Robuste und flexible String Templates in Java
+        - Wie geht es weiter mit String Templates in Java
+      en: Robust and Flexible String Templates in Java
     year: 2023
     category: java
     type: talk
@@ -199,12 +452,17 @@ talks:
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: Grundlegende Java-Kenntnisse, Interesse an den Neuerungen, Text-Blöcke aus Java 15
     tags: Java 21, String Interpolation, String Templates
+    comment: Das Thema wird zwar aktuell nochmal überarbeitet (fehlt im OpenJDK 23), wird aber voraussichtlich in Java 24 oder 25 etwas abgewandelt wieder enthalten sein. Die Grundideen bleiben gleich.
     abstract:
       de: 
         - |
-          Java 21 war vollgepackt mit spannenden und bahnbrechenden Neuerungen. Im Schatten der sehr präsenten Themen wurden relativ überraschend String Templates als Preview Feature eingeführt und sind auch im OpenJDK 22 erneut dabei. Sie ermöglichen das Einbetten von Ausdrücken in String-Literalen und Textblöcken. Dank selbst definierbarer Template Prozessoren ist diese Vorgehensweise sogar anpassbar.
+          Java 21 war vollgepackt mit spannenden und bahnbrechenden Neuerungen. Im Schatten der sehr präsenten Themen wurden relativ überraschend String Templates als Preview Feature eingeführt. Im OpenJDK 22 war es wieder enthalten. Aufgrund des Feedbacks wird es aktuell überarbeitet, die Grundideen werden aber bleiben. Die String Templates ermöglichen das Einbetten von Ausdrücken in Zeichenketten und Textblöcken. Dank selbst definierbarer Logik ist diese Vorgehensweise sogar anpassbar. Das ermöglicht die Minimierung von Angriffsflächen (z. B. SQL Injection).
 
-          Wir diskutieren die Verwendung der String Templates, schauen uns die Vorteile aber auch die Grenzen an. Durch das Erstellen eigener Template Prozessoren können wir die eingebetteten Ausdrücke validieren, transformieren und aus Java Strings letztlich beliebige Java-Objekte wie JSON-Dokumente oder SQL-Resultsets erzeugen zu können. Ihr könnt diese Ideen in Eure tägliche Arbeit übernehmen und jetzt schon String Interpolation ausprobieren.
+          Wir diskutieren die Verwendung der String Templates, schauen uns die Vorteile aber auch die Grenzen an. Durch das Erstellen eigener Verarbeitungsschritte können wir die eingebetteten Ausdrücke validieren, transformieren und aus Java Strings letztlich beliebige Java-Objekte wie JSON-Dokumente oder SQL-Resultsets erzeugen zu können. Ihr könnt diese Ideen in Eure tägliche Arbeit übernehmen und jetzt schon String Interpolation ausprobieren.
+        - |
+          Java 21 war vollgepackt mit spannenden und bahnbrechenden Neuerungen. Im Schatten der sehr präsenten Themen wurden relativ überraschend String Templates als Preview Feature eingeführt und ich möchte sie seitdem nicht mehr missen. Leider werden sie im OpenJDK 23 aufgrund eines notwendigen Redesigns zunächst wieder entfallen, sind aber für die folgenden Versionen erneut angekündigt. 
+
+          Lasst uns jetzt trotzdem über die String Templates sprechen, ihre Vorteile, aber auch ihre Grenzen diskutieren. Sie ermöglichen das Einbetten von Ausdrücken in Zeichenketten und Textblöcken. Dank selbst definierbarer Logik ist diese Vorgehensweise sogar anpassbar. Das ermöglicht die gezielte Minimierung von Angriffsflächen (z. B. Verhinderung von SQL Injection). Durch das Erstellen eigener Template-Prozessoren können wir eingebettete Ausdrücke validieren, transformieren und aus Java Strings letztlich beliebige Java-Objekte wie JSON-Dokumente oder SQL-Resultsets erzeugen. Ihr könnt diese Ideen jetzt schon in Eure tägliche Arbeit übernehmen, sofern Ihr Java 21 oder 22 einsetzt und müsst dann für die kommenden Versionen nur ein paar Anpassungen vornehmen.
   - id: archqs
     title: 
       de: Qualitätsszenarien - die Hidden Champions in der Architekturarbeit
@@ -370,9 +628,9 @@ talks:
       de: |
         In der Objektorientierten Programmierung (OOP) modellieren wir komplexe Einheiten und Prozesse mit Hilfe von Objekten, die Zustand und Verhalten kombinieren. OOP funktioniert am besten, wenn wir klare Grenzen definieren und verteidigen müssen. Für manche Anwendungsfälle ist dieser Ansatz aber übertrieben. 
 
-        In der datenorientierten Programmierung modellieren wir (unveränderliche) Daten getrennt von der Geschäftslogik. Die im Projekt Amber eingeführten Features Switch-Expression, Sealed Classes, Records und Pattern Matching helfen uns, diesen Ansatz in Java umzusetzen. Gerade kleinere, einfache Programme profitieren dabei zusätzlich von Javas statischem Typsystem.
+        In der datenorientierten Programmierung halten wir (unveränderliche) Daten getrennt von der Geschäftslogik. Die im Projekt Amber eingeführten Features Switch-Expression, Sealed Classes, Records und Pattern Matching helfen uns, diesen Ansatz in Java umzusetzen. Gerade kleinere, einfache Programme profitieren dabei zusätzlich von Javas statischem Typsystem.
 
-        Die Techniken der objektorientierten und der datenorientierten Programmierung stehen nicht im Widerspruch zueinander, sie sind unterschiedliche Werkzeuge für unterschiedliche Granularitäten und Situationen. In diesem Vortrag zeige ich, wie die datenorientierte Programmierung aussieht wir die beiden Paradigmen miteinander kombinieren können.
+        Die Techniken der objektorientierten und der datenorientierten Programmierung stehen nicht im Widerspruch zueinander, sie sind unterschiedliche Werkzeuge für unterschiedliche Granularitäten und Situationen. In diesem Vortrag zeige ich, wie die datenorientierte Programmierung aussieht und wie wir die beiden Paradigmen miteinander kombinieren können.
   - id: java21
     title: 
       de: 
@@ -556,7 +814,7 @@ talks:
     year: 2022
     category: java
     type: talk
-    relevant: new
+    relevant: false
     duration: 60
     target-audience: Architekten, Entwickler
     prerequisites: 
@@ -954,6 +1212,8 @@ talks:
     abstract:
       de: 
         - |
+          Seit Version 8 und Lambdas/Streams sowie dem Pattern Matching ab dem OpenJDK 21 stehen auch Java-Anwendern diverse funktionale Sprachkonstrukte zur Verfügung. Aber die funktionale Programmierung ist viel mehr und auch in Java kann man noch einiges anwenden. Nach diesem Vortrag wirst Du verstehen, was eine pure Funktion ist und warum referentielle Transparenz bzw. Seiteneffektfreiheit wichtige Konzepte sind. Wir schauen zudem auf Value Objects und wie funktionale Datenstrukturen aufgebaut sind und wie man dank Bedarfsauswertung auch mit sehr großen Datenmengen effizient umgehen kann. Weiterhin besprechen wir die Elemente der Wiederverwendung wie Funktionskomposition, Currying, partielle Funktionsaufrufe und Funktionen höherer Ordnung. Abschließend werfen wir noch ein Blick auf die Destrukturierung von Datenstrukturen mittels Pattern Matching, das Kapseln von Seiteneffekten und wie man in seiner Softwarearchitektur einen funktionalen Kern umsetzt.
+        - |
           Funktionale Programmierung ist im Moment in aller Munde. Seit Version 8 und Lambdas/Streams stehen auch Java-Anwendern diverse Werkzeuge zur Verfügung. Daher wird es Zeit, sich mit den grundlegenden Konzepten der funktionalen Programmierung auseinanderzusetzen.
       
           Nach diesem Vortrag wirst Du verstehen, was eine pure Funktion ist und warum referentielle Transparenz bzw. Seiteneffektfreiheit wichtige Konzepte sind. Wir schauen zudem auf Value Types und wie funktionale Datenstrukturen aufgebaut sind und wie man dank Bedarfsauswertung auch mit sehr großen Datenmengen effizient umgehen kann. Weiterhin besprechen wir die Elemente der Wiederverwendung wie Funktionskomposition, Currying, partielle Funktionsaufrufe und Funktionen höherer Ordnung. Abschließend werfen wir noch ein Blick auf die Destrukturierung von Datenstrukturen mittels Pattern Matching, das Kapseln von Seiteneffekten und wie man in seiner Softwarearchitektur einen funktionalen Kern umsetzt.
@@ -1002,6 +1262,7 @@ talks:
     duration: 60
     target-audience: Architekten, Entwickler, ITler
     prerequisites: 
+    tags: Public Speaking, Einreichen, Foliengestaltung, Auf der Bühne
     abstract:
       de: 
         - |

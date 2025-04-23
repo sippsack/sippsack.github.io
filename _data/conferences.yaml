@@ -3,6 +3,16 @@
   location: Zürich
   url: https://voxxeddays.com/zurich/
   season: Frühjahr
+- id: navigate 
+  name: NAVIGATE Kongress
+  location: Online
+  url: https://navigate-kongress.de/
+  season: Frühjahr
+- id: bobkonf 
+  name: BOB Konferenz
+  location: Berlin
+  url: https://bobkonf.de/
+  season: Frühjahr
 - id: archsummit1 
   name: Software Architecture Summit Frühjahr
   location: München
@@ -108,6 +118,11 @@
   location: Nürnberg
   url: https://herbstcampus.de/
   season: Herbst
+- id: summit
+  name: entwickler Summit
+  location: Berlin
+  url: https://entwickler.de/entwickler-summit/
+  season: Herbst
 - id: archsummit2 
   name: Software Architecture Summit Herbst
   location: Berlin
@@ -187,6 +202,11 @@
   name: BaselOne
   location: Basel
   url: https://baselone.ch/
+  season: Herbst
+- id: ocx
+  name: Open Community Experience
+  location: Mainz
+  url: https://www.ocxconf.org/
   season: Herbst
 - id: kandddinsky
   name: KanDDDinsky

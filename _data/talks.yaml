@@ -5,7 +5,49 @@
 # Workshop betterCode
 
 2024:
+  - November:
+    - wjax, jug stuttgart
+  - Oktober:
+    - conference: betterCode() Java 23
+      id: java23w
+      date: 2024-10-30
+      link: https://java.bettercode.eu
+    - host: ocx
+      id: 
+      date: 2024-10-24
+      link: https://www.ocxconf.org/event/778b82cc-6834-48a4-a58e-f883c5a7b8c9/websitePage:26bc9d91-446a-49e1-9f08-8fcc4680073e?session=c766631e-ed42-4332-9fcd-0b39f1683396&shareLink=true
+    - host: saa
+      id: 
+      date: 2024-10-23
+      link: https://www.software-architecture-alliance.de/2024/programm/konferenzprogramm#item-7982
+    - host: baselone
+      id: java23
+      date: 2024-10-17
+      link: https://baselone.org/
+    - host: archsummit2
+      id: diagrams2w
+      date: 2024-10-16
+      link: https://software-architecture-summit.de/session/real-world-architekturdiagramme/
+    - conference: betterCode() Java 23
+      id: stringtemplates
+      date: 2024-10-15
+      link: https://java.bettercode.eu/veranstaltung-22590-se-0-wie-geht-es-weiter-mit-string-templates-in-java.html
+    - host: archsummit2
+      id: 
+      date: 2024-10-14
+      link: https://software-architecture-summit.de/softwarearchitecture/von-clean-architecture-zu-evolutionaerer-architektur/
+    - host: xpdays
+      id: archqs
+      date: 2024-10-11
+      link: https://www.xpdays.de/2024/sessions/173-qualitaetsszenarien-die-hidden-champions-in-der-architekturarbeit.html
+    - host: xpdays
+      id: mikado1
+      date: 2024-10-11
+      link: https://www.xpdays.de/2024/sessions/169-refactoring-mit-der-mikado-methode.html
+  - September:
+    - jfn, bedcon, JUGTH
   - Juli:
+    - jfs
     - host: dwx
       id: archpatterns1
       date: 2024-07-03
@@ -24,8 +66,14 @@
       date: 2024-06-20
       link: https://entwicklertag.de/programm/Die%20neuen%20Features%20rund%20um%20Pattern%20Matching%20und%20Virtual%20Threads
   - Mai:
+    - conference: JUG Deutschland
+      title: Java 21 u. 22 - Die neuen Features
+      date: 2024-05-16
+      location: Göttingen 
+      link: http://www.java.de/roller/blog/page/stammtisch_goettingen
     - host: jconp
       id: stringtemplates
+      lang: en
       date: 2024-05-15
       link: https://2024.europe.jcon.one/schedule
     - host: mddevdays
@@ -165,6 +213,7 @@
       lang: en
       date: 2023-10-16
       link: https://www.eclipsecon.org/2023/java-community-day
+      video: https://www.youtube.com/watch?v=_gpb5UrpGbo
     - host: Softwerkskammer Köln
       id: archbasics1
       date: 2023-10-09

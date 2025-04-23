@@ -1,6 +1,14 @@
 ideas:
+  - Metriken mit Markus Harrer als Summit-Workshop (Wie sind Metriken aufgebaut, wie könnenn wir sie selbst implementieren? ChatGPT, Probleme von Metriken, Codescene.io)
+  - mit Nicole was zu funktionaler Programmierung in Java (Vortrag und Workshop)
+  - "Emergente Praktiken in der Softwarearchitektur": https://chatgpt.com/c/67cc03a4-5d48-8003-b9dc-a32614abf314  
+  - Gatherers: Java Stream Gatherers
+  - JBang: https://www.youtube.com/watch?v=U4y7rIMXIj0
+  - "80 % Testcoverage - reicht das schon?": |
+      Test-Coverage ist keine gute Metrik, was brauchen wir noch (Teile aus Vortrag von Roland und mir plus Property Based Testing und Mutation Testing)
   - Architektur-Haiku: https://www.neverletdown.net/2015/03/architecture-haiku.html
   - Workshop: Hands-on Docs-as-Code
+  - Präsentieren leicht gemacht (Ideen/Tipps aus Presentation Zen)
   - Softwarearchitekturdiagramme am Real World Szenario 
   - Functional Java revisited
   - DDD Konzepte sichtbar machen und reviewen: |
@@ -17,38 +25,215 @@ ideas:
   - Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein
   - Workshop mit StefanT (OOP 2024)
   - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
-2024:
+2025:
   - jfn:
-      from: 2024-09-10
-      till: 2024-09-10
-      deadline: 2024-05-02
-      url: https://sessionize.com/java-forum-nord-2024/
+      from: 2025-09-16
+      till: 2025-09-16
+      deadline: 2025-05-14
+      url: 
       submitted: 
       talks: 
+  - madsummit2:
+      from: 2025-11-24
+      till: 2025-11-26
+      deadline: 2025-05-11
+      submitted:
+      talks:
+  - archsummit2:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2025-10-13
+      till: 2025-10-17
+      deadline: 2025-04-30
+      submitted: 
+      talks:
   - ittage:
-      from: 2024-12-09
-      till: 2024-12-12
-      deadline: 2024-04-29
-      submitted:
+      from: 2025-12-08
+      till: 2025-12-11
+      url: https://www.ittage.informatik-aktuell.de/call-for-papers.html
+      deadline: 2025-04-30
+      submitted: 2025-04-23
       talks: 
-  - clc:
-      from: 2024-11-12
-      till: 2024-11-14
-      deadline: 2024-05-05
-      submitted:
-      talks: 
-  - saa:
-      from: 2024-10-22
-      till: 2024-10-23
-      deadline: 2024-04-16
-      submitted:
-      talks: 
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Value Objects - das nächste große Ding in Java": o
+        "Walking Skeleton": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "Best Practices um Architekturdokumentation aktuell zu halten": o
+  - bedcon:
+      from: 2025-10-07
+      till: 2025-10-08
+      url: https://sessionize.com/bed-con-2025
+      deadline: 2025-04-30
+      submitted: 
+      talks:
   - jsd:
-      from: 2024-09-26
-      till: 2024-09-27
-      deadline: 2024-04-01
+      from: 2025-09-25
+      till: 2025-09-26
+      deadline: 2025-04-15
+      submitted: 2025-04-15
+      talks: 
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Value Objects - das nächste große Ding in Java": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+  - baselone:
+      from: 2025-10-15
+      till: 2025-10-16
+      deadline: 2025-04-15
+      submitted: 2025-04-15
+      talks:
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+  - summit: 
+      url: https://callforpapers.sandsmedia.com/
+      from: 2025-09-18
+      till: 2025-09-18
+      deadline: 2025-03-31 
+      submitted: 2025-03-24
+      talks: 
+        "Value Objects": o
+        "Ausführbare Dokumentation": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+  - jfs:
+      from: 2025-07-10
+      till: 2025-07-10
+      deadline: 2025-03-29 
+      submitted: 2025-03-24
+      talks: 
+        "Value Objects": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+  - mc:
+      from: 2025-05-23
+      till: 2025-05-24
+      deadline: 2025-01-31
+      submitted: 2025-01-30
+      talks:
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": x
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Ausführbare Dokumentation - Architekturregeln festhalten und testen": o
+  - wadev:
+      url: https://sessionize.com/wearedevelopers-world-congress-2025/
+      from: 2025-07-09
+      till: 2025-07-11
+      deadline: 2025-02-03
       submitted: 
       talks: 
+  - cl:
+      url: https://meine.doag.org/events/cloudland/cfp/
+      from: 2025-07-01
+      till: 2025-07-04
+      deadline: 2025-01-31
+      submitted: 2025-01-30
+      talks:
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
+  - etka:
+      url: https://entwicklertag.de/cfc
+      from: 2025-06-02
+      till: 2025-06-04
+      deadline: 2025-01-22
+      submitted: 2025-01-22
+      talks:
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": n
+        "Der S.O.L.I.D.e Softwareentwurf": n
+        "Modernisierung in der Praxis: Modulith statt Microservices?": x
+        "Walking Skeleton": o
+  - dddevday:
+      url: https://talks.devday.de/devday-2025/cfp
+      from: 2025-04-08
+      till: 2025-04-08
+      deadline: 2025-01-05
+      submitted:
+      talks:
+  - mddevdays:
+      url: https://2023.europe.jcon.one/
+      from: 2025-05-12
+      till: 2025-05-14
+      deadline: 2025-01-05
+      submitted: 2025-01-04
+      talks:
+        "Ausführbare Dokumentation - Architekturregeln festhalten und testen": x
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+        "Walking Skeleton": n
+  - dwx: 
+      url: https://sessionize.com/developer-week-25/   
+      from: 2025-06-30
+      till: 2025-07-03
+      deadline: 2025-01-12
+      submitted: 2025-01-04
+      talks:
+        "Mikado Methode": n
+        "Richtig gute Tests schreiben": x
+        "Der S.O.L.I.D.e Softwareentwurf": n
+2024:
+  - voxxedzh:
+      url: https://vdz25.cfp.dev/#/
+      from: 2025-03-25
+      till: 2025-03-25
+      deadline: 2024-12-02
+      submitted: 2024-12-02
+      talks:
+        "Best Practices um Architekturdokumentation aktuell zu halten": x
+        "Functional Java": n
+        "Giving a talk - how to start?": n
+  - bobkonf:
+      url: https://2023.europe.jcon.one/
+      from: 2025-03-14
+      till: 2025-03-14
+      deadline: 2024-11-15
+      submitted: 2024-11-19
+      talks:
+        "Best Practices um Architekturdokumentation aktuell zu halten": n
+  - jcon:
+      name: JCON Europe
+      url: https://2023.europe.jcon.one/
+      from: 2025-05-19
+      till: 2025-05-22
+      deadline: 2024-11-15
+      submitted: 2024-11-14
+      talks:
+        "Java Pattern Matching": n
+        "Data Oriented Programming": n
+        "Value Objects": x
+        "Functional Java": n
+  - archsummit1:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2025-03-24
+      till: 2025-03-26
+      deadline: 2024-11-28
+      submitted: 2024-11-11
+      talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Softwarearchitektur enables Business": x
+  - jax:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2025-05-05
+      till: 2025-05-09
+      deadline: 2024-11-11
+      submitted: 2024-11-06
+      talks:
+        "Value Objects": x
+        "Data Oriented Programming": n
+        "Pattern Matching": n
+        "Funktionale Programmierung": n
+  - navigate:
+      url: https://sessionize.com/navigate-2025/
+      from: 2025-03-18
+      till: 2025-03-18
+      deadline: 2024-11-27
+      submitted: 2024-10-24
+      talks:
+        "Mikado-Methode": x
+  - oop:
+      from: 2025-02-03
+      till: 2025-02-07
+      url: https://www.conftool.pro/oop2025/
+      deadline: 2024-07-01
+      submitted: 2024-07-01
+      talks:
+        "Modernisierung in der Praxis: Modulith statt Microservices?": x
+        "Ausführbare Dokumentation - Architekturregeln festhalten und testen": n
   - ct:
       from: 2024-09-19
       till: 2024-09-20
@@ -56,12 +241,126 @@ ideas:
       deadline: 2024-07-01
       submitted:
       talks:
+  - ocx:
+      from: 2024-09-19
+      till: 2024-09-20
+      url: https://www.ocxconf.org/event/778b82cc-6834-48a4-a58e-f883c5a7b8c9/websitePage:77f60b73-336c-43be-827d-8d8fcb1aaf64
+      deadline: 2024-06-10
+      submitted:
+      talks:
+        "Functional Java": x
+        "String Templates": o
+        "Java for the records": n
+  - xpdays:
+      from: 2024-10-10
+      till: 2024-10-11
+      url: https://xp-days.de/2024/call-for-participation/
+      deadline: 2024-06-10
+      submitted: 2024-06-08
+      talks:
+        "Refactoring mit der Mikado-Methode": x
+        "Nur soviel Architekturarbeit wie nötig": n
+        "Richtig gute Tests schreiben - die Best Practices für bessere (JUnit-) Tests": n
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+  - sag:
+      from: 2024-11-11
+      till: 2024-11-14
+      deadline: 2024-06-04
+      location: Berlin
+      url: https://sessionize.com/isaqb-software-architecture-gathering/
+      submitted: 
+      talks:
+  - wjax:
+      from: 2024-11-04
+      till: 2024-11-08
+      deadline: 2024-05-06
+      url: https://callforpapers.sandsmedia.com/
+      submitted: 2024-04-29
+      talks:
+        "Datenorientierte Programmierung mit Java": x
+        "Java for the records": o 
+        "Von Clean Architecture zu evolutionärer Architektur": o
+        "Real World Architekturdiagramme": o        
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Robuste und flexible String Templates in Java": o
+  - clc:
+      from: 2024-11-12
+      till: 2024-11-14
+      deadline: 2024-05-05
+      submitted:
+      talks: 
+  - jfn:
+      from: 2024-09-10
+      till: 2024-09-10
+      deadline: 2024-05-02
+      url: https://sessionize.com/java-forum-nord-2024/
+      submitted: 2024-04-15
+      talks: 
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Data Oriented Programming": x
+        "Java 23": o
+  - ittage:
+      from: 2024-12-09
+      till: 2024-12-12
+      deadline: 2024-04-29
+      submitted: 2024-04-23
+      talks: 
+        "Ich möchte auch mal einen Vortrag halten": x
+        "Java 23": o
+        "S.O.L.I.D.": o
+        "Pattern Matching in Java": x
+        "Robuste und flexible String Templates in Java": o
+  - archsummit2:
+      from: 2024-10-14
+      till: 2024-10-16
+      url: https://callforpapers.sandsmedia.com/
+      deadline: 2024-04-25
+      submitted: 2024-04-23
+      talks: 
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Real World Architekturdiagramme": x
+        "Die Relevanz von Softwarearchitektur": o
+  - saa:
+      from: 2024-10-22
+      till: 2024-10-23
+      url: https://sessionize.com/saa2024/
+      dedline: 2024-04-16
+      submitted: 2024-03-31
+      talks: 
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": n
+        "Real World Architekturdiagramme": n
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+        "Softwarearchitektur enables Business": n
+        "Best Practices um Architekturdokumentation aktuell zu halten": x
+  - bedcon:
+      from: 2024-09-19
+      till: 2024-09-20
+      url: https://sessionize.com/bed-con-2024
+      deadline: 2024-04-12
+      submitted: 2024-03-31
+      talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": n
+        "Real World Architekturdiagramme": x
+        "Robuste und flexible String Templates in Java": n
+  - jsd:
+      from: 2024-09-26
+      till: 2024-09-27
+      deadline: 2024-04-15
+      submitted: 2024-03-30 
+      talks: 
+        "Ich möchte auch mal einen Vortrag halten": x
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Java 23": x
   - baselone:
       from: 2024-10-16
       till: 2024-10-17
       deadline: 2024-04-01
-      submitted: 
+      submitted: 2024-03-31
       talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": n
+        "Java 23 - Die Neuerungen im Überblick": x
+        "Java for the records": n
   - kandddinsky:
       url: https://sessionize.com/kandddinsky-2024
       from: 2024-10-28
@@ -73,8 +372,14 @@ ideas:
       from: 2024-07-31
       till: 2024-07-31
       deadline: 2024-03-30 
-      submitted: 
+      submitted: 2024-03-30
       talks: 
+        "Robuste und flexible String Templates in Java": n
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": x
+        "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": n
+        "Real World Architekturdiagramme": n
+        "Best Practices um Architekturdokumentation aktuell zu halten": n
+        "Ich möchte auch mal einen Vortrag halten": n
   - dddeu:
       url: https://sessionize.com/dddeu24/
       from: 2024-05-27
@@ -88,7 +393,7 @@ ideas:
       deadline: 2024-01-31
       submitted: 2024-01-25
       talks:
-        "Workshop: Softwarearchitektur enables Business": o
+        "Workshop: Softwarearchitektur enables Business": x
   - wadev:
       url: https://sessionize.com/wearedevelopers-world-congress-2024
       from: 2024-07-17
@@ -97,9 +402,9 @@ ideas:
       submitted: 
       talks: 
         "S.O.L.I.D.": o
-        "Functional Programming in Java": o
-        "Mikado Method": o
-        "Pattern Matching in Java ... and why do we need algebraic data types?": o
+        "Functional Programming in Java": x
+        "Mikado Method": n
+        "Pattern Matching in Java ... and why do we need algebraic data types?": n
         "Only as much architectural work as needed": o
         "Fantastic diagrams and how to create them yourself": o   
   - cl:
@@ -196,8 +501,8 @@ ideas:
       talks:
   - jax:
       url: https://callforpapers.sandsmedia.com/
-      from: 2023-04-22
-      till: 2023-04-26
+      from: 2024-04-22
+      till: 2024-04-26
       deadline: 2023-11-13
       submitted: 2023-11-09
       talks:
