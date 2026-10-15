@@ -1,31 +1,436 @@
+# Ideen für künftige Einreichungen (werden auf /cfps/ nicht angezeigt)
+# title:  Arbeitstitel (Pflicht)
+# format: "Vortrag", "Workshop" oder "Vortrag/Workshop" (weglassen = noch offen)
+# co-speaker: Name des Mit-Sprechers (optional, wie in portfolio.yaml)
+# notes:  Freitext, Hintergrund, Mitstreiter, Abgrenzung
+# links:  Liste von Quellen/Inspirationen
 ideas:
-  - Metriken mit Markus Harrer als Summit-Workshop (Wie sind Metriken aufgebaut, wie könnenn wir sie selbst implementieren? ChatGPT, Probleme von Metriken, Codescene.io)
-  - mit Nicole was zu funktionaler Programmierung in Java (Vortrag und Workshop)
-  - "Emergente Praktiken in der Softwarearchitektur": https://chatgpt.com/c/67cc03a4-5d48-8003-b9dc-a32614abf314  
-  - Gatherers: Java Stream Gatherers
-  - JBang: https://www.youtube.com/watch?v=U4y7rIMXIj0
-  - "80 % Testcoverage - reicht das schon?": |
-      Test-Coverage ist keine gute Metrik, was brauchen wir noch (Teile aus Vortrag von Roland und mir plus Property Based Testing und Mutation Testing)
-  - Architektur-Haiku: https://www.neverletdown.net/2015/03/architecture-haiku.html
-  - Workshop: Hands-on Docs-as-Code
-  - Präsentieren leicht gemacht (Ideen/Tipps aus Presentation Zen)
-  - Softwarearchitekturdiagramme am Real World Szenario 
-  - Functional Java revisited
-  - DDD Konzepte sichtbar machen und reviewen: |
-      habe noch eine neue Idee zu DDD, können wir mal für später im Hinterkopf behalten.  Würde auch LASR beinhalten. Weiss aber noch nicht, ob es gut passt. Die Idee ist, DDD Konzepte im Code sichtbar zu machen. Da gibt es Bibliotheken wie ContextMapper, xMolecules, ggf. ArchUnit und jQAssistant so als Art Fitness Fitness Functions. Und dazu würde dann LASR als leichtgewichtige Reviewmethode passen
-  - Samman Coaching Learning Hours: |
-      eher einzelne Methoden vorstellen, nicht unbedingt das Coaching an sich (das nur kurz erkären), ggf. einzelne Themen für Clean Code Workshop 
-  - Java for the Records - Schlüssel zum Pattern Matching und noch mehr ...
-  - hexagonale Architektur explained: |
-      "Wenn hexagonale Architektur die Lösung, was war eigentlich die Frage?" mit Exkurs in Richtung Softwarearchitektur bringen, also in Richtung Qualitätsziele des Softwaresystems
-  - Migrationen mit OpenRewrite
-  - FFDD - Fitness Function Driven Development: https://www.thoughtworks.com/insights/articles/fitness-function-driven-development
-  - Pragmatisch und aktuell - Lebendige Architekturdokumentation (Beispiele von Olli: jMolecule, Modulith - Mail vom 09.05.)
-  - Modernisierung von Java-Anwendungen
-  - Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein
-  - Workshop mit StefanT (OOP 2024)
-  - Vortrag/Workshop: Design Patterns revisited mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
+  - title: Metriken
+    format: Workshop
+    co-speaker: Markus Harrer
+    notes: Summit-Workshop. Wie sind Metriken aufgebaut, wie können wir sie selbst implementieren? ChatGPT, Probleme von Metriken, Codescene.io
+  - title: "Gatherers: Java Stream Gatherers"
+  - title: JBang
+    links:
+      - https://www.youtube.com/watch?v=U4y7rIMXIj0
+  - title: 80 % Testcoverage - reicht das schon?
+    notes: Test-Coverage ist keine gute Metrik, was brauchen wir noch (Teile aus Vortrag von Roland und mir plus Property Based Testing und Mutation Testing)
+  - title: Architektur-Haiku
+    links:
+      - https://www.neverletdown.net/2015/03/architecture-haiku.html
+  - title: Präsentieren leicht gemacht
+    notes: Ideen/Tipps aus Presentation Zen
+  - title: Softwarearchitekturdiagramme am Real World Szenario
+  - title: Functional Java revisited
+  - title: DDD Konzepte sichtbar machen und reviewen
+    notes: >-
+      Habe noch eine neue Idee zu DDD, können wir mal für später im Hinterkopf behalten. Würde auch LASR beinhalten.
+      Weiss aber noch nicht, ob es gut passt. Die Idee ist, DDD Konzepte im Code sichtbar zu machen. Da gibt es
+      Bibliotheken wie ContextMapper, xMolecules, ggf. ArchUnit und jQAssistant so als Art Fitness Functions.
+      Und dazu würde dann LASR als leichtgewichtige Reviewmethode passen
+  - title: Samman Coaching Learning Hours
+    notes: Eher einzelne Methoden vorstellen, nicht unbedingt das Coaching an sich (das nur kurz erklären), ggf. einzelne Themen für Clean Code Workshop
+  - title: hexagonale Architektur explained
+    notes: '"Wenn hexagonale Architektur die Lösung, was war eigentlich die Frage?" mit Exkurs in Richtung Softwarearchitektur bringen, also in Richtung Qualitätsziele des Softwaresystems'
+  - title: Migrationen mit OpenRewrite
+  - title: FFDD - Fitness Function Driven Development
+    links:
+      - https://www.thoughtworks.com/insights/articles/fitness-function-driven-development
+  - title: Modernisierung von Java-Anwendungen
+  - title: "Überzeuge die Skeptiker: explizite Architekturarbeit sollte nicht optional sein"
+  - title: Design Patterns revisited
+    format: Vortrag/Workshop
+    notes: Mit Übungen (wichtigste Patterns, Patterns implementieren, ...), ggf. mit SOLID, ...
+  - title: Design Patterns funktional gedacht
+    links:
+      - https://chatgpt.com/c/6a3252a7-eff0-83eb-a249-cdba5ec70668
+  - title: Learning by Speaking - Erfahrungen aus 20 Jahren Konferenztourismus
+    links:
+      - https://chatgpt.com/c/6a3260b8-1398-83ed-9394-0d782d487e1f
+
+2026:
+  - bobkonf:
+      name: Bob Konf
+      url: https://bobkonf.de/2027/en/cfc.html
+      from: 2027-02-26
+      till: 2027-02-26
+      deadline: 2026-11-02
+      submitted: 
+      talks:
+  - jax:
+      name: JAX Conference
+      url: https://callforpapers.sandsmedia.com/submissions/open-calls
+      from: 2027-05-10
+      till: 2027-05-14
+      deadline: 2026-11-11
+      submitted: 
+      talks:
+  - dcd:
+      name: Digital Crafts Day
+      url: https://sessionize.com/digital-crafts-day-2027/ 
+      from: 2027-04-16
+      till: 2027-04-16
+      deadline: 2026-10-31
+      submitted: 
+      talks:
+  - jchampconf:
+      name: jChampions Conference
+      url: https://sessionize.com/jchampions-conference-2027
+      from: 2027-01-21
+      till: 2027-01-26
+      deadline: 2026-10-26
+      submitted: 
+      talks:
+  - jcon:
+      name: JCON Europe
+      url: https://sessionize.com/jcon-europe-2027
+      from: 2027-04-26
+      till: 2027-04-29
+      deadline: 2026-10-23
+      submitted: 
+      talks:
+  - jl:
+      from: 2027-03-02
+      till: 2027-03-04
+      submitted: 2026-09-14  
+      deadline: 2026-09-14
+      talks: 
+        "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?": o
+        "Modernes Java in der Praxis - Features, die einen Unterschied machen": o
+        "Softwarearchitektur meets KI: Docs-as-Code als Kontext für LLMs": o
+        "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
+        "Der KI-Experte sagt Tensor. Der Java-Experte sagt FloatVector.": o
+        "Wie sich Java durch Value Objects weiterentwickeln wird": o
+        "Legacy modernisieren mit KI - Chancen und Grenzen": o
+  - devoxx:
+      url: https://dvbe26.cfp.dev/#/
+      from: 2026-10-05
+      till: 2026-10-09
+      deadline: 2026-07-17
+      submitted: 2026-07-17
+      talks:
+        "Walking Skeleton": n
+        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": n
+        "Modern Java in Practice - The Features That Matter": x
+  - agenticsummitberlin:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-11-16
+      till: 2026-11-20
+      deadline: 2026-06-30
+      submitted: 2026-06-30
+      talks:
+        "Legacy modernisieren mit KI - Chancen und Grenzen bei der Verbesserung von Softwarearchitekturen": o
+  - oop:
+      from: 2027-02-02
+      till: 2027-02-05
+      deadline: 2026-07-06
+      submitted: 
+      talks: 
+        "Legacy + KI": n  
+  - sag:
+      from: 2026-11-16
+      till: 2026-11-19
+      location: Berlin
+      url: https://sessionize.com/sag2026-cfp/
+      deadline: 2026-06-09
+      submitted: 
+      talks:
+  - sigsinfodays:
+      url: https://www.infodays.de/sa/call-for-papers
+      from: 2026-10-06
+      till: 2026-10-07
+      deadline: 2026-05-26
+      submitted: 
+      talks: 
+  - archsummit2:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-10-12
+      till: 2026-10-16
+      deadline: 2026-04-30
+      submitted: 
+      talks: 
+  - wjax:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-11-02
+      till: 2026-11-06
+      deadline: 2026-05-11
+      submitted: 
+      talks:
+        "Softwarearchitektur meets KI: Docs as Code als Kontext für LLMs": x
+        "Value Objects": o
+        "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
+        "Emergente Praktiken in der Softwarearchitektur": o
+        "Busted! Mythen und Legenden der Softwarearchitektur": x
+  - wstch:
+      url: https://pretalx.com/workshop-tage-2026/cfp
+      from: 2026-09-08
+      till: 2026-09-10
+      deadline: 2026-05-10
+      submitted: 
+      talks:
+  - bedcon:
+      from: 2026-09-23
+      till: 2026-09-24
+      url: https://sessionize.com/bed-con-2026/
+      deadline: 2026-04-26
+      submitted: 
+      talks:
+        "Emergente Praktiken in der Softwarearchitektur": x
+        "Walking Skeleton": o
+        "Value Classes - Java bereitet sich auf KI-Workloads vor": o
+  - jfn:
+      from: 2026-09-22
+      till: 2026-09-22
+      deadline: 2026-05-05
+      url: 
+      submitted: 
+      talks: 
+        "mit Mike": o
+  - ittage:
+      from: 2026-12-07
+      till: 2026-12-10
+      url: https://www.ittage.informatik-aktuell.de/call-for-papers.html
+      deadline: 2026-04-30
+      submitted: 
+      talks: 
+        "Walking Skeleton": o
+        "Java 26 + 27": x
+        "Funktionale Programmierung in Java": o
+        "Value Objects": x
+        "Emergente Praktiken in der Softwarearchitektur": o
+  - baselone:
+      from: 2026-10-14
+      till: 2026-10-15
+      deadline: 2026-04-30
+      submitted:
+      talks:
+        "Java 26 + 27": o
+        "Value Objects": o
+  - jfs:
+      from: 2026-07-09
+      till: 2026-07-09
+      deadline: 2026-03-18 
+      submitted: 2026-03-17
+      talks: 
+        "Walking Skeleton": n
+        "Virtual Threads, Continuations und weiterhin Ärger mit dem Stack": n
+        "Java 26 + 27": n
+        "Funktionale Programmierung in Java": x
+        "Pattern Matching in Java": n
+  - summit: 
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-09-17
+      till: 2026-09-17
+      deadline: 2026-03-16 
+      submitted: 2026-03-16 
+      talks: 
+        "Value Objects": o
+        "Pattern Matching in Java": o
+        "Walking Skeleton": o
+  - jsd:
+      from: 2026-09-25
+      till: 2026-09-25
+      deadline: 2026-03-31
+      submitted: 2026-02-15
+      talks: 
+        "Java 26 + 27": n
+        "Funktionales Java – Was wir von Haskell lernen können": n
+        "Emergente Praktiken in der Softwarearchitektur": n
+  - vibe:
+      url: https://vibekode.it/call-for-papers/
+      from: 2026-06-23
+      till: 2026-06-26
+      deadline: 2026-01-14
+      submitted: 
+      talks:
+        "was mit Felix zu Landtag NRW": o
+  - etka:
+      url: https://entwicklertag.de/cfc
+      from: 2026-06-08
+      till: 2026-06-10
+      deadline: 2026-01-28
+      submitted: 
+      talks:
+        "Emergente Praktiken in der Softwarearchitektur": o
+        "Walking Skeleton": x
+        "CUPID: SOLID neu gedacht": o
+        "Value Objects": o
+  - dwx: 
+      url: https://sessionize.com/developer-week-25/   
+      from: 2026-06-29
+      till: 2026-07-02
+      deadline: 2026-01-11
+      submitted: 
+      talks:
+        "Kontinuierlich und automatisiert dokumentieren – Docs-as-Code in der Praxis": n
+        "Von Clean Architecture zu evolutionärer Architektur": n
+        "Lebendige Architektur-Dokumentation - kontinuierlich und effizient": n
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+        "Legacy Code im Griff dank Mikado Methode": n
+        "CUPID: SOLID neu gedacht": n
+  - bcgenai:
+      url: https://genai-summit.bettercode.eu/
+      from: 2026-06-10
+      till: 2026-06-11
+      deadline: 2026-01-11
+      submitted: 2026-01-11
+      talks:
+        "Workshop: Wir erstellen eine Daily-StandAPP auf Basis eines lokalen LLM": o
+  - mddevdays:
+      url: https://www.md-devdays.de/call-for-papers
+      from: 2026-05-18
+      till: 2026-05-20
+      deadline: 2026-01-05
+      submitted: 
+      talks:
+        "Emergente Praktiken in der Softwarearchitektur": o
+        "Walking Skeleton": o
+        "Modulith statt Microservices": x
+        "CUPID: SOLID neu gedacht": o
 2025:
+  - voxxedzh:
+      url: https://vdz26.cfp.dev/#
+      from: 2026-03-24
+      till: 2026-03-24
+      deadline: 2025-12-01
+      submitted: 
+      talks:
+  - cl:
+      url: https://meine.doag.org/events/cloudland/cfp/
+      from: 2026-05-19
+      till: 2026-05-22
+      deadline: 2025-11-28
+      submitted: 
+      talks:
+  - bobkonf:
+      url: https://pretalx.com/bob-2026/
+      from: 2026-03-13
+      till: 2026-03-13
+      deadline: 2025-11-17
+      submitted: 
+      talks:
+        "Functional Programming for the Busy Java Developer": x
+  - enterjs:
+      url: https://enterjs.de/cfp.php
+      from: 2026-06-16
+      till: 2026-06-17
+      deadline: 2025-11-12
+      submitted: 2025-11-12
+      talks:
+        "Busted! Mythen und Legenden der Softwarearchitektur": n
+  - jax:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-05-04
+      till: 2026-05-08
+      deadline: 2025-11-10
+      submitted: 2025-11-10
+      talks:
+        "Value Objects": o
+        "JBang – Java einfach skripten": o
+        "Funktionales Java – Was wir von Haskell lernen können": o
+  - jchampconf:
+      url: https://sessionize.com/jchampions-conference-2026/
+      from: 2026-01-22
+      till: 2026-01-27
+      deadline: 2025-10-31
+      submitted: 2025-10-21
+      talks:
+        "Value Objects": x 
+        "JBang – Java einfach skripten": o
+        "Functional Java – What we can learn from Haskell": o
+  - voxxedcern:
+      url: https://vdcern26.cfp.dev/#
+      from: 2026-02-10
+      till: 2026-02-10
+      deadline: 2025-10-21
+      submitted: 2025-10-21
+      talks:
+        "Functional Java – What we can learn from Haskell": o
+        "The modern Java toolbox – productive development with JBang, SDKMAN, and more.": o
+        "Value Objects - the next big thing in Java": o
+  - voxxedtic:
+      url: https://vdt26.cfp.dev/#
+      from: 2026-02-06
+      till: 2026-02-06
+      deadline: 2025-10-21
+      submitted: 2025-10-21
+      talks:
+        "Functional Java – What we can learn from Haskell": n
+        "The modern Java toolbox – productive development with JBang, SDKMAN, and more.": n
+        "Value Objects - the next big thing in Java": n
+  - jcon:
+      name: JCON Europe
+      url: https://sessionize.com/jcon-europe-2026
+      from: 2026-04-20
+      till: 2026-04-23
+      deadline: 2025-10-24
+      submitted: 
+      talks:
+        "Functional Java": x
+        "Woulda, coulda, shoulda: Java yesterday, today, and tomorrow": o
+        "Functional Java – What we can learn from Haskell": o
+        "The modern Java toolbox – productive development with JBang, SDKMAN, and more.": o
+  - archsummit1:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2026-03-09
+      till: 2026-03-13
+      deadline: 2025-10-31
+      submitted:
+      talks:
+  - navigate:
+      url: https://sessionize.com/navigate-2026/
+      from: 2026-03-17
+      till: 2026-03-17
+      deadline: 2024-10-31
+      submitted: 2024-10-14
+      talks:
+        "Best Practices um Architekturdokumentation aktuell zu halten": n  
+        "Qualitätsszenarien - die Hidden Champions in der Architekturarbeit": n
+  - jl:
+      from: 2026-03-10
+      till: 2026-03-12
+      submitted: 2025-09-16  
+      deadline: 2025-09-16
+      talks: 
+        "Value Objects - das nächste große Ding in Java": o
+        "Ausführbare Dokumentation - Architekturregeln festhalten und testen": x
+        "Busted! Mythen und Legenden der Softwarearchitektur": x
+        "API Security: Lücken, die Du vielleicht nicht im Blick hast ...": x
+        "CUPID: SOLID neu gedacht": o
+  - oop:
+      from: 2026-02-10
+      till: 2026-02-13
+      deadline: 2025-06-30
+      submitted: 
+      talks:     
+  - sag:
+      from: 2025-11-24
+      till: 2025-11-27
+      location: Berlin
+      url: https://sessionize.com/sag2025-cfp/
+      deadline: 2025-06-10
+      submitted: 
+      talks: 
+  - saa:
+      from: 2025-10-28
+      till: 2025-10-29
+      location: Online
+      url: https://sessionize.com/infodays-software-architektur/
+      deadline: 2025-05-25
+      submitted: 
+      talks: 
+  - wjax:
+      url: https://callforpapers.sandsmedia.com/
+      from: 2025-11-03
+      till: 2025-11-07
+      deadline: 2025-05-12
+      submitted: 2025-05-07
+      talks:
+        "Value Objects": o
+        "Data Oriented Programming": o
+        "Funktionale Programmierung": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": o
+        "Best Practices um Architekturdokumentation aktuell zu halten": o
   - jfn:
       from: 2025-09-16
       till: 2025-09-16
@@ -39,6 +444,8 @@ ideas:
       deadline: 2025-05-11
       submitted:
       talks:
+        "Clean Architecture als Unterstützung für evolutionäre Architektur": o
+        "APIs strategisch gestalten": o
   - archsummit2:
       url: https://callforpapers.sandsmedia.com/
       from: 2025-10-13
@@ -53,18 +460,22 @@ ideas:
       deadline: 2025-04-30
       submitted: 2025-04-23
       talks: 
-        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": x
         "Value Objects - das nächste große Ding in Java": o
         "Walking Skeleton": o
         "Clean Architecture als Unterstützung für evolutionäre Architektur": o
         "Best Practices um Architekturdokumentation aktuell zu halten": o
+        "Busted! Mythen und Legenden der Softwarearchitektur": x
   - bedcon:
       from: 2025-10-07
       till: 2025-10-08
       url: https://sessionize.com/bed-con-2025
       deadline: 2025-04-30
-      submitted: 
+      submitted: 2025-04-30
       talks:
+        "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
+        "Value Objects - das nächste große Ding in Java": o
+        "Modernisierung in der Praxis: Modulith statt Microservices?": x
   - jsd:
       from: 2025-09-25
       till: 2025-09-26
@@ -72,7 +483,7 @@ ideas:
       submitted: 2025-04-15
       talks: 
         "Java wird 30 - Die Neuerungen in Java 21 bis 25": o
-        "Value Objects - das nächste große Ding in Java": o
+        "Value Objects - das nächste große Ding in Java": x
         "Modernisierung in der Praxis: Modulith statt Microservices?": o
         "Clean Architecture als Unterstützung für evolutionäre Architektur": o
   - baselone:
@@ -99,9 +510,10 @@ ideas:
       deadline: 2025-03-29 
       submitted: 2025-03-24
       talks: 
-        "Value Objects": o
+        "Value Objects": x
         "Modernisierung in der Praxis: Modulith statt Microservices?": o
         "Vorgehensmuster und Best Practices für moderne Softwarearchitekturarbeit": o
+        "Java gestern, heute und morgen": x
   - mc:
       from: 2025-05-23
       till: 2025-05-24
@@ -147,7 +559,7 @@ ideas:
       submitted:
       talks:
   - mddevdays:
-      url: https://2023.europe.jcon.one/
+      url: https://www.md-devdays.de/call-for-papers
       from: 2025-05-12
       till: 2025-05-14
       deadline: 2025-01-05
@@ -178,16 +590,16 @@ ideas:
         "Functional Java": n
         "Giving a talk - how to start?": n
   - bobkonf:
-      url: https://2023.europe.jcon.one/
+      url: https://pretalx.com/bob-2026/
       from: 2025-03-14
       till: 2025-03-14
       deadline: 2024-11-15
-      submitted: 2024-11-19
+      submitted: 2024-11-15
       talks:
         "Best Practices um Architekturdokumentation aktuell zu halten": n
   - jcon:
       name: JCON Europe
-      url: https://2023.europe.jcon.one/
+      url: https://sessionize.com/jcon-europe-2025/
       from: 2025-05-19
       till: 2025-05-22
       deadline: 2024-11-15
@@ -324,7 +736,7 @@ ideas:
       from: 2024-10-22
       till: 2024-10-23
       url: https://sessionize.com/saa2024/
-      dedline: 2024-04-16
+      deadline: 2024-04-16
       submitted: 2024-03-31
       talks: 
         "Clean Architecture als Unterstützung für evolutionäre Architektur": n
@@ -579,7 +991,7 @@ ideas:
       from: 2023-11-21
       till: 2023-11-24
       deadline: 2023-06-30
-      submitted: 2023-07-02 
+      submitted: 2023-06-30
       talks:
         "S.O.L.I.D.": n
         "Pattern Matching in Java": n
@@ -712,7 +1124,7 @@ ideas:
       from: 2023-07-12
       till: 2023-07-13
       deadline: 2023-03-19
-      submitted: 2023-03-23
+      submitted: 2023-03-19
       talks: 
         "Workshop: Phantastische Diagramme und wie Du sie selbst erstellst": x
         "Workshop: Java Pattern Matching": x
@@ -796,7 +1208,7 @@ ideas:
       from: 2023-06-14
       till: 2023-06-15
       deadline: 2023-01-25
-      submitted: 2023-01-26
+      submitted: 2023-01-25
       talks:
         "Java 20 - Auf dem Weg zur nächsten LTS-Version": n
         "Legacy Code im Griff dank Mikado Methode": x

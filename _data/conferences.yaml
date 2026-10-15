@@ -278,3 +278,48 @@
   location: Online
   url: https://www.embarc.de/events/
   season: Winter
+- id: jchampconf
+  name: JChampions Conference
+  location: Online
+  url: https://jchampionsconf.com/
+  season: Winter
+- id: voxxedcern
+  name: Voxxed Days CERN
+  location: Genf
+  url: https://vdc26.voxxeddays.ch/
+  season: Winter
+- id: voxxedtic
+  name: Voxxed Days Ticino
+  location: Lugano
+  url: https://vdt26.voxxeddays.ch/
+  season: Winter
+- id: dcd
+  name: Digital Crafts Day
+  location: Weiden i. d. OPf.
+  url: https://digital-crafts-day.de/
+  season: Frühjahr
+- id: bcgenai
+  name: betterCode() GenAI Summit
+  location: Mannheim
+  url: https://genai-summit.bettercode.eu/
+  season: Sommer
+- id: vibe
+  name: VibeKode
+  location: München
+  url: https://vibekode.it/
+  season: Sommer
+- id: wstch
+  name: Workshop-Tage
+  location: Rapperswil
+  url: https://workshoptage.ch/
+  season: Herbst
+- id: sigsinfodays
+  name: InfoDays Software-Architektur
+  location: Online
+  url: https://www.infodays.de/sa
+  season: Herbst
+- id: agenticsummitberlin
+  name: AI Engineering Summit
+  location: Berlin
+  url: https://ai-engineering-summit.de/berlin/
+  season: Herbst
