@@ -4,6 +4,230 @@
 # JCON One
 # Workshop betterCode
 
+2026:
+  - Dezember:
+    - host: ittage
+      id: java2627
+      date: 2026-12-09
+      link: https://ittage.informatik-aktuell.de/programm/2026/java-26-27-die-aktuellen-neuerungen.html
+    - host: ittage
+      id: valueclasses1
+      date: 2026-12-09
+      link: https://ittage.informatik-aktuell.de/programm/2026/value-classes-java-bereitet-sich-auf-ki-workloads-vor.html
+  - November:
+    - conference: betterCode() Java 26
+      id: modernjava1w
+      date: 2026-11-24
+      location: Online
+      link: https://java.bettercode.eu/veranstaltung-89673-se-0-modernes-java-in-der-praxis-die-features-die-wirklich-zaehlen.html
+    - conference: rheinjug
+      id: valuetypes
+      date: 2026-11-12
+      location: Düsseldorf
+      link: https://rheinjug.de/veranstaltung/rheinjug_20261121/
+    - conference: JUG Dortmund
+      id: java2627
+      date: 2026-11-11
+      location: Dortmund
+      link: https://www.meetup.com/de-de/jug-dortmund/events/316869289/
+    - host: wjax
+      id: docsascode8
+      date: 2026-11-03
+      link: https://jax.de/software-architecture/softwarearchitektur-ki-docs-as-code-llms/
+    - host: wjax
+      id: busted1
+      date: 2026-11-03
+      link: https://jax.de/software-architecture/busted-mythen-legenden-softwarearchitektur/
+  - Oktober:
+    - conference: JUG Nürnberg
+      title: "Von algebraischen Datentypen zu Pattern Matching überall"
+      date: 2026-10-28
+      location: Nürnberg
+      link: https://www.meetup.com/jug-nurnberg/events/317006791
+    - host: baselone
+      id: valueclasses1
+      date: 2026-10-15
+      link: https://baselone.org/#programm
+      slides: https://www.embarc.de/value-classes-baselone-2026/
+    - conference: entwickler.de Live-Event
+      title: "Java 27 Unboxed: Das steckt im neuen Release"
+      date: 2026-10-14
+      location: Online
+      link: https://entwickler.de/live-events/java-27-unboxed/
+    - conference: betterCode() Java 26
+      id: javapm2
+      date: 2026-10-13
+      location: Online
+      link: https://java.bettercode.eu/veranstaltung-89655-se-0-pattern-matching-ueberall.html
+      slides: https://www.embarc.de/pattern-matching-bettercode-2026/
+    - conference: DATEV Coding Festival
+      id: busted1
+      date: 2026-10-06
+      location: Online
+    - conference: DATEV Coding Festival
+      id: docsascode7
+      date: 2026-10-06
+      location: Online
+    - host: devoxx
+      id: modernjava1w
+      lang: en
+      date: 2026-10-05
+      link: https://m.devoxx.com/events/dvbe26/talks/23524/modern-java-in-practice-the-features-that-matter
+  - September:
+    - conference: JUG Görlitz
+      id: archpatterns2
+      date: 2026-09-24
+      location: Görlitz
+      link: https://www.jug-gr.de/
+    - host: bedcon
+      id: emergentarch
+      date: 2026-09-23
+      link: https://www.bed-con.org/2026/programm
+      slides: https://www.embarc.de/emergente-praktiken-bedcon/
+    - host: jfn
+      id: java2627
+      date: 2026-09-22
+      link: https://javaforumnord.de/2026/programm/
+      slides: https://www.embarc.de/java-26-27-jfn/
+    - conference: Software Architecture Meetup Nürnberg
+      id: kiarch1
+      date: 2026-09-16
+      location: Nürnberg
+      link: https://www.meetup.com/software-architecture-meetup-nurnberg/events/316070935/
+      slides: https://www.embarc.de/docs-as-code-meets-ki/
+  - August:
+    - conference: entwickler.de Live-Event
+      id: kiarch1
+      date: 2026-08-17
+      location: Online
+      link: https://entwickler.de/live-events/ki-braucht-architektur/
+  - Juli:
+    - host: jfs
+      id: fp4
+      date: 2026-07-09
+      link: https://www.java-forum-stuttgart.de/vortraege/funktionale-programmierung-in-java/
+  - Juni:
+    - conference: iSAQB Software Architecture Forum
+      title: "Flexible Architekturen – nur wie?"
+      date: 2026-06-16
+      location: München
+      link: https://www.software-architecture-forum.de/session/flexible-architekturen-nur-wie/
+      slides: https://www.embarc.de/flex-forum/
+    - host: etka
+      id: archpatterns2
+      date: 2026-06-09
+      link: https://entwicklertag.de/programm/Walking%20Skeleton
+  - Mai:
+    - host: mddevdays
+      title: "Der modulare Monolith - Modulith statt Microservices"
+      date: 2026-05-19
+      link: https://www.md-devdays.de/act-details/1000869
+      slides: https://www.embarc.de/fp-java-jcon/
+    - host: jax
+      title: "Panel - Microservices & Modularisierung: Lehren aus 10 Jahren"
+      date: 2026-05-05
+      link: https://jax.de/microservices/panel-microservices-modularisierung-lehren-aus-10-jahren/
+    - host: jax
+      title: "Wie sich Java durch Value Objects weiterentwickeln wird"
+      date: 2026-05-05
+      link: https://jax.de/core-java-jvm-languages/java-value-objects/
+  - März:
+    - conference: entwickler.de Live-Event
+      title: "Neuerungen von Java 26"
+      date: 2026-03-19
+      location: Online
+      link: https://entwickler.de/reader/workshops
+    - host: bobkonf
+      id: fp4
+      lang: en
+      date: 2026-03-13
+      link: https://bobkonf.de/2026/sippach-rauch.html
+    - host: jl
+      title: "API Security: Lücken, die Du vielleicht nicht im Blick hast..."
+      date: 2026-03-10
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2026/agenda/#agendaId.6822
+    - host: jl
+      id: busted1
+      date: 2026-03-10
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2026/agenda/#agendaId.6900
+    - host: jl
+      id: docsascode7
+      date: 2026-03-10
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2026/agenda/#agendaId.6866
+  - Februar:
+    - host: oop
+      id: busted1
+      date: 2026-02-11
+      link: https://www.oop-konferenz.de/de/programm/konferenzprogramm/details/mi-44
+  - Januar:
+    - conference: jChampions Conference
+      id: valuetypes
+      lang: en
+      date: 2026-01-26
+      location: Online
+      link: https://jchampionsconf.com/schedule.html#sippachCard
+    - conference: JUG Paderborn
+      id: archpatterns2
+      date: 2026-01-21
+      location: Paderborn
+      link: https://jug-pb.gitlab.io/blog/2026/walking-skeleton.html
+2025:
+  - Dezember:
+    - host: ittage
+      id: java25
+      date: 2025-12-09
+      link: https://www.ittage.informatik-aktuell.de/programm/2025/30-jahre-java-die-neuerungen-in-java-21-bis-25.html
+    - host: ittage
+      id: busted1
+      date: 2025-12-09
+      link: https://www.ittage.informatik-aktuell.de/programm/2025/busted-mythen-und-legenden-der-softwarearchitektur.html
+  - November:
+    - conference: JUG Thüringen
+      id: emergentarch
+      date: 2025-11-27
+      location: Erfurt
+      link: https://www.meetup.com/de-DE/jugthde/events/311549775/
+    - host: madsummit2
+      title: "Workshop: Softwarearchitekturdokumentation pragmatisch und effizient erstellen"
+      date: 2025-11-25
+      link: https://mad-summit.de/software-design-patterns/softwarearchitekturdokumentation-pragmatisch-und-effizient-erstellen/
+    - conference: JUG Bonn
+      id: valuetypes
+      date: 2025-11-19
+      location: Bonn
+      link: https://www.meetup.com/de-DE/jug-bonn/events/311759628/
+    - conference: JUG Schweiz
+      id: valuetypes
+      date: 2025-11-06
+      location: Bern
+      link: https://www.jug.ch/html/events/2025/value-objects_be.html
+  - Oktober:
+    - conference: majug
+      title: "Java 25 und Java Value Objects"
+      date: 2025-10-29
+      location: Mannheim
+      link: https://www.meetup.com/mannheim-java-usergroup/events/311356930/
+    - conference: betterCode() Java 25
+      title: "Workshop: Java 25 - Die neuen Features der letzten zwei Jahre"
+      date: 2025-10-17
+      location: Online
+      link: https://java.bettercode.eu/veranstaltung-22596-se-0-java-25-die-neuen-features-der-letzten-zwei-jahre.html
+    - host: baselone
+      id: java25
+      date: 2025-10-16
+      link: https://baselone.org/#programm
+    - host: bedcon
+      id: archmodernization1
+      date: 2025-10-07
+      link: https://www.bed-con.org/2025/
+  - September:
+    - host: jsd
+      id: valuetypes
+      date: 2025-09-26
+      link: https://jugsaxony.org/day
 2024:
   - November:
     - wjax, jug stuttgart

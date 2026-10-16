@@ -24,6 +24,133 @@ categories: # Vorträge in Kategorien einteilen
 # TODO
 
 talks:
+# 2026
+  - id: javapm2
+    title: 
+      de: 
+        - Pattern Matching überall
+        - Von algebraischen Datentypen zu Pattern Matching überall
+    year: 2026
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Pattern Matching, Algebraische Datentypen, Records, Sealed Classes, Datenorientierte Programmierung, Carrier Classes
+    abstract:
+      de:
+        - |
+          Pattern Matching ist eine der spannendsten Entwicklungen im modernen Java und eine wichtige Voraussetzung für die datenorientierte Programmierung. Es erlaubt, Werte nicht nur zu prüfen, sondern sie passend zu ihrer Struktur sicher zu zerlegen und direkt weiterzuverarbeiten. Dadurch wird Code prägnanter, verständlicher und besser durch den Compiler überprüfbar. Denn gerade klassische Fallunterscheidungen werden bei komplexeren Modellen schnell unübersichtlich und ungültige Zustände oft erst spät zur Laufzeit sichtbar. Mit Pattern Matching werden die Unterschiede zwischen Daten explizit und ihre Verarbeitung klarer und robuster.
+
+          Java bietet dafür inzwischen eine ganze Reihe neuer Sprachmittel, darunter Switch Expressions, Records, Sealed Classes, Type, Record, Unnamed sowie perspektivisch Primitive Type Patterns und die Verwendung dieser Patterns im switch. Im Zusammenspiel mit algebraischen Datentypen und der Trennung von Daten und Verhalten entstehen so präzisere Modelle und eindeutigere Fallunterscheidungen. Der Vortrag zeigt den heutigen Stand und wirft auch einen Blick auf künftige Erweiterungen wie die Dekonstruktion beliebiger Java-Klassen (durch Carrier Classes als veränderliche Alternative zu den immutable Records) und damit eine stark vereinfachte (De-)Serialisierung.
+  - id: java2627
+    title: 
+      de: 
+        - Java 26 + 27 - Die aktuellen Neuerungen
+    year: 2026
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Java 26, Java 27, OpenJDK 26, OpenJDK 27, Pattern Matching, Virtual Threads, Structured Concurrency
+    abstract:
+      de:
+        - |
+          Mit den OpenJDKs 26 + 27 setzt die Java-Plattform ihren kontinuierlichen Evolutionspfad fort. Wie in jedem halbjährlichen Release bringen auch diese Versionen eine Mischung aus neuen Sprachfeatures, API-Erweiterungen und Verbesserungen an der JVM mit sich. In diesem Vortrag werfen wir einen praxisnahen Blick auf die wichtigsten Neuerungen. Dazu gehören Weiterentwicklungen rund um das Pattern Matching und die Sprachsyntax, neue und verbesserte Bibliotheken – etwa im Umfeld von Virtual Threads und Structured Concurrency – sowie Fortschritte bei Performanceoptimierungen (weniger Speicherverbrauch, schnellere Startzeiten). Neben diesen verschiedenen JEPs, werfen wir natürlich auch einen Blick auf hilfreiche API-Verbesserungen und Änderungen an der JVM, z. B. bei den Garbage Collectoren.
+
+          Die Teilnehmer bekommen in diesem Vortrag einen Überblick über die neusten Entwicklungen im Java-Umfeld. Seht heute schon, was Euch in den nächsten Jahren in der täglichen Arbeit erwarten wird!
+  - id: valueclasses1
+    title: 
+      de: 
+        - Value Classes - Java bereitet sich auf KI-Workloads vor
+    year: 2026
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Value Classes, Value Types, Project Valhalla, Null-Restricted Types
+    abstract:
+      de:
+        - |
+          Java verdankt seine Stärke seit jeher einem statischen, starken Typsystem. Doch die alte Trennung zwischen primitiven und Referenztypen ist bis heute eine Sollbruchstelle der Sprache: primitive Typen sind schnell und kompakt, integrieren sich aber nur schlecht mit Generics, Collections, Streams und modernen Sprachmitteln. Klassen sind ausdrucksstark, kosten aber oft unnötig Speicher, Indirektion und Performance.
+
+          Mit Value Classes will Project Valhalla diese Kluft schließen. Sie erlauben Datentypen ohne eigene Identität, die sich fachlich wie Klassen modellieren lassen, zur Laufzeit aber deutlich näher an primitiven Typen liegen. Das verspricht kompaktere Datenstrukturen, weniger Objekt-Overhead, bessere Datenlokalität und damit genau die Eigenschaften, die auch für numerische und KI-nahe Workloads immer wichtiger werden. Denn wer mit Embeddings, Vektoren, Matrizen oder großen Mengen kleiner, unveränderlicher Datenstrukturen arbeitet, profitiert besonders von effizientem Speicherlayout und geringerer Indirektion. Gleichzeitig werden fachliche Typen wieder attraktiver: präzise, unveränderbar und trotzdem performant.
+
+          Der Vortrag zeigt, wohin sich Java mit Value Classes, null-restricted / nullable types und einem vereinheitlichten Typmodell entwickelt und warum das gerade für die Zukunft von Java im Umfeld von AI, Data Processing und High-Performance wichtig wird.
+  - id: modernjava1w
+    title: 
+      de: 
+        - "Modernes Java in der Praxis - Die Features, die wirklich zählen"
+      en:
+        - "Modern Java in Practice - The Features That Matter"
+    year: 2026
+    category: java
+    type: workshop
+    relevant: new
+    tags: Java 21, Java 25, Pattern Matching, Records, Sealed Classes, Virtual Threads, Structured Concurrency, Scoped Values
+    abstract:
+      de:
+        - |
+          Java entwickelt sich schneller als je zuvor. Seit Java 17 sind zahlreiche Sprachmerkmale, APIs und Laufzeitverbesserungen hinzugekommen. Einige davon fallen sofort ins Auge, andere wirken zunächst unscheinbar. Besonders interessant wird es dort, wo mehrere Neuerungen zusammenspielen und neue Möglichkeiten für den Entwurf und die Implementierung von Java-Anwendungen eröffnen.
+
+          In diesem Workshop werfen wir gemeinsam mit den Teilnehmenden einen umfassenden Blick auf die wichtigsten Entwicklungen seit Java 17. Dabei geht es nicht darum, möglichst viele Release Notes abzuhaken. Wir konzentrieren uns auf Features, die im Entwicklungsalltag tatsächlich einen Unterschied machen: weniger Zeremonie (Compact Source Files, Module Import Declarations, Flexible Constructor Bodies), die Domäne im Code (Records, Sealed Classes, Pattern Matching), Nebenläufigkeit im Alltag (Virtual Threads, Structured Concurrency, Scoped Values) und den Umgang mit Preview Features sowie die schrittweise Modernisierung bestehender Codebasen.
+  - id: docsascode8
+    title: 
+      de: 
+        - "Softwarearchitektur meets KI: Docs as Code als Kontext für LLMs"
+    year: 2026
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Docs-as-Code, KI, LLM, Softwarearchitektur
+  - id: busted1
+    title: 
+      de: 
+        - Busted! Mythen und Legenden der Softwarearchitektur
+        - Busted! Mythen und Legenden in der Softwarearchitektur
+    year: 2026
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Softwarearchitektur, Mythen
+  - id: kiarch1
+    title: 
+      de: 
+        - "KI braucht Architektur: Warum Docs-as-Code jetzt unverzichtbar wird"
+    year: 2026
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+    target-audience: Softwarearchitekt:innen, Engineering Teams, DevOps- und Plattform-Teams, Tech Leads und Senior Developer
+    tags: Docs-as-Code, KI, LLM, ADR, arc42, C4, OpenAPI
+    abstract:
+      de:
+        - |
+          KI-gestützte Entwicklung braucht mehr als guten Code – sie braucht verlässlichen Kontext. In modernen Softwareprojekten steckt Architekturwissen oft verteilt in Tickets, Chats, Wikis oder einzelnen Köpfen. Für Entwickler:innen ist das bereits problematisch, für LLMs wird es zum echten Risiko: Ohne strukturierte Dokumentation entstehen schnell plausible, aber falsche Aussagen über Schnittstellen, Systemgrenzen oder Architekturentscheidungen.
+
+          Der Vortrag zeigt, warum Docs-as-Code im KI-Zeitalter unverzichtbar wird und wie sich Architekturwissen mit ADRs, arc42, C4-Modellen und OpenAPI-Spezifikationen versionierbar, reviewbar und gleichzeitig für Menschen wie KI-Systeme nutzbar machen lässt. Du erfährst, wie KI beim Schreiben und Reviewen von ADRs helfen kann, technische Diskussionen zusammenfasst, veraltete Dokumentation erkennt und sogar prüfbare Architekturregeln ableitet. Dabei wird deutlich: KI ersetzt Architekturdokumentation nicht – sie macht gute Dokumentation wichtiger denn je.
+  - id: fp4
+    title: 
+      de: 
+        - Funktionale Programmierung in Java - Was wir von Haskell lernen können
+      en:
+        - Functional Programming for the Busy Java Developer
+    year: 2026
+    category: java
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Funktionale Programmierung, Haskell, Lambdas, Stream API, Pattern Matching, Records, Sealed Classes
+    abstract:
+      de:
+        - |
+          In vielen Java-Projekten wird funktionale Programmierung noch immer als exotisch oder unnötig betrachtet. Statt klarer Datenflüsse und unveränderlicher Zustände dominieren imperative Strukturen, Seiteneffekte und schwer testbarer Code. Das führt zu Komplexität, unerwartetem Verhalten und wachsendem Wartungsaufwand – besonders in großen Systemen.
+
+          Haskell zeigt seit Jahrzehnten, wie elegant und robust sich Probleme durch reine Funktionen, Immutability und Komposition lösen lassen. Auch wenn Java kein rein funktionales Paradigma verfolgt, bietet es mit Rekursion, Lambdas, der Stream-API, Higher-Order Functions, Function Composition, Pattern Matching, Records und Sealed Classes heute mächtige Mittel, um funktional zu denken und zu programmieren.
+
+          In diesem Vortrag übertragen wir zentrale Haskell-Konzepte in modernes Java (8 – 25). Wir betrachten aber nicht nur die bereits existierenden Bordmittel, sondern auch, wie andere wichtige Konzepte der funktionalen Programmierung (List Comprehensions, Partial Function Application, Currying und Zipping) in Java abgebildet werden können. Anhand vieler kleiner, verständlicher Code-Beispiele vergleichen wir den imperativen mit dem funktionalen Stil und entdecken, wie sich dadurch Lesbarkeit, Testbarkeit und Wartbarkeit deutlich verbessern – ganz ohne das Java-Ökosystem zu verlassen.
 # 2025
   - id: emergentarch
     title: 
@@ -75,6 +202,7 @@ talks:
   - id: valuetypes
     title: 
       de: "Value Objects - das nächste große Ding in Java"
+      en: "Value Objects - the next big thing in Java"
     year: 2025
     category: java
     type: talk
