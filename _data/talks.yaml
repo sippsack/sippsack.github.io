@@ -318,6 +318,34 @@
       date: 2025-04-01
       location: Nürburgring
       link: https://www.javaland.eu/de/home/
+  - März:
+    - host: archsummit1
+      id: archbusi1w
+      date: 2025-03-26
+      link: https://software-architecture-summit.de/modeling-und-design/softwaredevelopment-enables-business/
+    - host: voxxedzh
+      id: docsascode6
+      lang: en
+      date: 2025-03-25
+      link: https://zurich.voxxeddays.com/talk/?id=8557
+    - host: archsummit1
+      title: "Workshop: Von Clean Architecture zu evolutionärer Architektur"
+      date: 2025-03-24
+      link: https://software-architecture-summit.de/softwarearchitecture/von-clean-architecture-zu-evolutionaerer-architektur/
+    - host: navigate
+      id: mikado1
+      date: 2025-03-18
+      link: https://navigate-kongress.de/programm/legacy-code-im-griff-dank-mikado-methode-navigate-kongress-2025/
+    - conference: entwickler.de Live-Event
+      id: java25
+      date: 2025-03-13
+      location: Online
+      link: https://entwickler.de/live-events/30-jahre-java/
+  - Februar:
+    - host: oop
+      id: archmodernization1
+      date: 2025-02-04
+      link: https://www.oop-konferenz.de/de/programm/konferenzprogramm#item-7714
 2024:
   - November:
     - wjax, jug stuttgart

@@ -679,6 +679,7 @@ talks:
   - id: docsascode6
     title: 
       de: Best Practices um Architekturdokumentation aktuell zu halten
+      en: Best practices for keeping architecture documentation up to date
     year: 2023
     category: arch
     type: talk
