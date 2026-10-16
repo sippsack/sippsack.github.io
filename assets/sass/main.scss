@@ -1516,8 +1516,15 @@
 		}
 
 		p {
+			background-color: rgba(220, 220, 220, 0.85);
+			color: #000;
 			letter-spacing: _size(letter-spacing-alt);
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			padding: 0.5em 1em;
 			text-transform: uppercase;
+			width: fit-content;
 
 			a {
 				color: inherit;
@@ -1669,11 +1676,11 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/falk-comic-bw.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: -53vh center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: auto 100vh;
 			text-align: center;
 
 			h2 {
@@ -1794,11 +1801,12 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', 'url("../../images/falk-comic-bw.png")');
 			background-attachment: fixed;
-			background-position: center center;
+			background-color: _palette(bg);
+			background-position: -53vh center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: auto 100vh;
 			padding-top: 0;
 		}
 
@@ -1813,12 +1821,12 @@
 				background: none;
 			}
 
-			#banner,
-			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
-				background-position: center center;
+			#banner {
+				@include vendor('background-image', 'url("../../images/falk-comic-bw.png")');
+				background-color: _palette(bg);
+				background-position: -53vh center;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: auto 100vh;
 			}
 
 			#footer {
