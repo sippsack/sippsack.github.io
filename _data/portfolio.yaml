@@ -151,6 +151,38 @@ talks:
           Haskell zeigt seit Jahrzehnten, wie elegant und robust sich Probleme durch reine Funktionen, Immutability und Komposition lösen lassen. Auch wenn Java kein rein funktionales Paradigma verfolgt, bietet es mit Rekursion, Lambdas, der Stream-API, Higher-Order Functions, Function Composition, Pattern Matching, Records und Sealed Classes heute mächtige Mittel, um funktional zu denken und zu programmieren.
 
           In diesem Vortrag übertragen wir zentrale Haskell-Konzepte in modernes Java (8 – 25). Wir betrachten aber nicht nur die bereits existierenden Bordmittel, sondern auch, wie andere wichtige Konzepte der funktionalen Programmierung (List Comprehensions, Partial Function Application, Currying und Zipping) in Java abgebildet werden können. Anhand vieler kleiner, verständlicher Code-Beispiele vergleichen wir den imperativen mit dem funktionalen Stil und entdecken, wie sich dadurch Lesbarkeit, Testbarkeit und Wartbarkeit deutlich verbessern – ganz ohne das Java-Ökosystem zu verlassen.
+  - id: diagramsai1
+    title: 
+      de: 
+        - KI kann Diagramme. Kann sie auch Architektur?
+    year: 2026
+    category: arch
+    type: talk
+    relevant: new
+    duration: 60
+    tags: Diagrams-as-Code, KI, LLM, PlantUML, Mermaid, Architekturdiagramme, Guardrails
+    abstract:
+      de:
+        - |
+          Mit Docs- und Diagrams-as-Code liegen Texte und Diagramme als versionierbare Quellen vor. Gerade bei Diagrammen ist das ein großer Schritt gegenüber proprietären Binärformaten. LLMs können textuelle Diagrammquellen lesen, erklären und verändern. Außerdem helfen sie uns durch ihre Wissensbasis, mit PlantUML, Mermaid & Co. schnell zu ersten, brauchbaren Diagrammen zu kommen.
+
+          In diesem Beitrag beleuchten wir die aktuelle Tool-Landschaft rund um Diagrams-as-Code und zeigen, wie uns KI beim Architekturentwurf unterstützen kann. Denn ein syntaktisch korrektes und ansehnliches Diagramm ist noch lange keine gute Architekturdarstellung. An konkreten Beispielen untersuchen wir, was gute Diagramme ausmacht und wie Guardrails für Aussage, Abstraktionsniveau, Notation, Konsistenz und fachliche Richtigkeit ihre Qualität verbessern können. Dabei klären wir auch, was sich automatisiert prüfen lässt – und wo weiterhin architektonisches Urteilsvermögen gefragt ist.
+  - id: bausteinsicht1
+    title: 
+      de: 
+        - Eine Architektur, viele Sichten - Mit Bausteinsicht vom Modell zum Diagramm und wieder zurück
+    year: 2026
+    category: arch
+    type: talk
+    relevant: new
+    duration: 90
+    tags: Bausteinsicht, Architekturmodell, arc42, C4, draw.io, Mermaid, PlantUML, Structurizr, LikeC4, KI
+    abstract:
+      de:
+        - |
+          Softwarearchitektur lässt sich selten mit einem einzigen Diagramm erklären. Je nach Fragestellung brauchen wir unterschiedliche Sichten auf Kontext, Bausteine, Laufzeit oder Verteilung. Werden diese Diagramme getrennt gepflegt, widersprechen sie sich irgendwann – und verlieren ihren Wert für Entwurf, Kommunikation und Reviews. Nachdem wir geklärt haben, welche Fragen die Sichten beantworten, wie sie sich in arc42 einordnen und wie sie z. B. mit C4 zusammenpassen, betrachten wir verschiedene Wege zur Umsetzung: klassische draw.io-Diagramme, Mermaid und PlantUML sowie modellbasierte Ansätze wie Structurizr und LikeC4.
+
+          An einem Beispiel zeigen wir schließlich, welchen Weg Bausteinsicht einschlägt: Ein versionierbares Architekturmodell liefert mehrere Diagrammsichten; Änderungen am Modell und in draw.io werden in beide Richtungen synchronisiert. Das strukturierte Modell kann auch KI-Assistenten als Kontext dienen. Wir diskutieren, wo dieser Ansatz die Pflege der Architektur erleichtert – und warum die Erstellung der Sichten weiterhin eine Aufgabe des Teams bleiben sollte.
 # 2025
   - id: emergentarch
     title: 

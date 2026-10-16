@@ -22,3 +22,5 @@ permalink: /talks/
         {% endfor %}
     {% endfor %}
 {% endfor %}
+
+{% include talkStatistics.html %}

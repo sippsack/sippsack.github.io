@@ -1,0 +1,10 @@
+{% comment %}
+  Gibt den Titel eines Vortrags aus, entweder verlinkt auf das Portfolio (key = Portfolio-ID) oder als freien Titel.
+{% endcomment %}
+{% assign statPortfolioTalk = site.data.portfolio.talks | where: "id", include.key | first %}
+{% if statPortfolioTalk %}
+    {% assign statTitles = statPortfolioTalk.title.de | join: "§" | split: "§" %}
+    <a href="/portfolio#{{ statPortfolioTalk.id }}">{{ statTitles | first }}</a>
+{% else %}
+    {{ include.key }}
+{% endif %}
