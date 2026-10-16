@@ -254,6 +254,70 @@
       date: 2025-07-03
       location: Mannheim
       link: https://www.developer-week.de/programm/#/talk/richtig-gute-tests-schreiben-die-best-practices-fur-bessere-junit-tests
+  - Juni:
+    - conference: JUG Ostfalen
+      id: java25
+      date: 2025-06-26
+      location: Braunschweig
+      link: https://www.jug-ostfalen.de/event/2025/06/26/java-21-27.html
+    - conference: JUG Hamburg
+      id: valuetypes
+      date: 2025-06-24
+      location: Hamburg
+      link: https://www.meetup.com/jug-hamburg/events/308307135
+    - conference: Technology Night Rhein-Main
+      id: valuetypes
+      date: 2025-06-12
+      location: Offenbach
+      link: https://www.meetup.com/technology-night-rhein-main/events/307819320/
+    - host: etka
+      id: archmodernization1
+      date: 2025-06-03
+      link: https://entwicklertag.de/programm/modulith-statt-microservices
+  - Mai:
+    - conference: Objektforum Frankfurt
+      id: archpatterns1
+      date: 2025-05-27
+      location: Frankfurt
+      link: https://www.andrena.de/event/vorgehensmuster-und-best-practices-fuer-moderne-softwarearchitekturarbeit
+    - host: mc
+      id: archmodernization1
+      date: 2025-05-24
+      link: https://www.mathema.de/mathema/events/programm
+    - host: jconp
+      id: valuetypes
+      lang: en
+      date: 2025-05-14
+      link: https://schedule.jcon.one/session/783684
+    - host: mddevdays
+      id: docsascode7
+      date: 2025-05-13
+      link: https://www.md-devdays.de/act-details/1000590
+    - conference: betterCode() ArchDoc 2025
+      id: docsascode7
+      date: 2025-05-12
+      location: Online
+      link: https://archdoc.bettercode.eu/veranstaltung-83494-se-0-ausfuehrbare-dokumentation--architekturregeln-mit-docs-as-code-festhalten-und-testen.html
+    - host: jax
+      id: valuetypes
+      date: 2025-05-06
+      link: https://jax.de/core-java-jvm-languages/java-value-objects/
+  - April:
+    - host: jl
+      title: "Workshop: Coding Dojo: Die verschiedenen Schulen der TDD"
+      date: 2025-04-02
+      location: Nürburgring
+      link: https://meine.doag.org/events/javaland/2025/agenda/#agendaId.5377
+    - host: jl
+      title: "Workshop: Eine Offline-First-App in Java, Kotlin mit eingebetteter KI"
+      date: 2025-04-02
+      location: Nürburgring
+      link: https://meine.doag.org/events/javaland/2025/agenda/#agendaId.5382
+    - host: jl
+      id: archpatterns2
+      date: 2025-04-01
+      location: Nürburgring
+      link: https://www.javaland.eu/de/home/
 2024:
   - November:
     - wjax, jug stuttgart
