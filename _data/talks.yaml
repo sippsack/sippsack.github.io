@@ -228,6 +228,32 @@
       id: valuetypes
       date: 2025-09-26
       link: https://jugsaxony.org/day
+  - August:
+    - conference: JUG Mainz
+      id: valuetypes
+      date: 2025-08-13
+      location: Mainz
+      link: https://events.ijug.eu/events/160580fa-a448-421b-9901-d355fb9aeeb4
+  - Juli:
+    - conference: JUG Berlin-Brandenburg
+      id: docsascode7
+      date: 2025-07-16
+      location: Berlin
+      link: https://www.meetup.com/jug-bb/events/308593834/
+    - host: jfs
+      id: valuetypes
+      date: 2025-07-10
+      link: https://www.java-forum-stuttgart.de/vortraege/value-objects/
+    - conference: JUG Schweiz
+      id: valuetypes
+      date: 2025-07-07
+      location: Luzern
+      link: https://www.jug.ch/html/events/2025/value-objects_lu.html
+    - host: dwx
+      id: testing1
+      date: 2025-07-03
+      location: Mannheim
+      link: https://www.developer-week.de/programm/#/talk/richtig-gute-tests-schreiben-die-best-practices-fur-bessere-junit-tests
 2024:
   - November:
     - wjax, jug stuttgart
