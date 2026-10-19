@@ -20,3 +20,12 @@ Ticker pausiert der Wechsel. Bei reduzierter Bewegung startet er pausiert.
 Manuelles Blättern endet an der ersten bzw. letzten Seite; der automatische
 Wechsel beginnt nach der letzten Seite wieder vorn.
 Ohne JavaScript bleiben alle Termine in einer scrollbar begrenzten Liste lesbar.
+
+## Deployment
+
+GitHub Pages wird mit `.github/workflows/pages.yml` bei Pushes auf `master`
+oder manuell per `workflow_dispatch` gebaut und veröffentlicht. In den
+Pages-Einstellungen muss als Quelle **GitHub Actions** ausgewählt sein:
+Der eingeschränkte Standard-Build unterstützt `jekyll-get-json` nicht.
+Der Workflow bricht bei fehlendem oder ungültigem Vortragsfeed ab, statt
+eine Seite ohne importierte Termindaten zu veröffentlichen.

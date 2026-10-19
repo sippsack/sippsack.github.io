@@ -1,0 +1,55 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - uses: actions/configure-pages@v5
+      - name: Build site and verify imported talks
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec ruby <<'RUBY'
+          require "jekyll"
+          site = Jekyll::Site.new(Jekyll.configuration)
+          site.process
+          feed = site.data["upcoming_talks"]
+          abort "Talk feed was not imported; refusing to deploy a site without its data." unless feed.is_a?(Hash) && feed["termine"].is_a?(Array)
+          RUBY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
