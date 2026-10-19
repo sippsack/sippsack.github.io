@@ -49,6 +49,13 @@ ideas:
       - https://chatgpt.com/c/6a3260b8-1398-83ed-9394-0d782d487e1f
 
 2026:
+  - mddevdays:
+      url: https://www.md-devdays.de/call-for-papers
+      from: 2027-05-03
+      till: 2027-05-05
+      deadline: 2027-01-05
+      submitted:
+      talks:
   - bobkonf:
       name: Bob Konf
       url: https://bobkonf.de/2027/en/cfc.html
