@@ -3448,8 +3448,15 @@
 			}
 
 		#banner p {
+			background-color: rgba(220, 220, 220, 0.85);
+			color: #000;
 			letter-spacing: 0.225em;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			padding: 0.5em 1em;
 			text-transform: uppercase;
+			width: fit-content;
 		}
 
 			#banner p a {
@@ -3636,14 +3643,14 @@
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/falk-comic-bw.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/falk-comic-bw.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/falk-comic-bw.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/falk-comic-bw.png");
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: -53vh center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto 100vh;
 		text-align: center;
 	}
 
@@ -3720,6 +3727,13 @@
 				color: rgba(255, 255, 255, 0.5);
 			}
 
+				#footer .icons a .social-icon-svg {
+					fill: currentColor;
+					height: 1em;
+					vertical-align: -0.125em;
+					width: 1em;
+				}
+
 				#footer .icons a:hover {
 					color: #fff;
 				}
@@ -3786,14 +3800,12 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: url("../../images/falk-comic-bw.png");
 		background-attachment: fixed;
-		background-position: center center;
+		background-color: #2e3842;
+		background-position: -53vh center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto 100vh;
 		padding-top: 0;
 	}
 
@@ -3805,15 +3817,12 @@
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-position: center center;
+	body.is-mobile.landing #banner {
+		background-image: url("../../images/falk-comic-bw.png");
+		background-color: #2e3842;
+		background-position: -53vh center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto 100vh;
 	}
 
 	body.is-mobile.landing #footer {

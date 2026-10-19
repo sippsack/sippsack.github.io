@@ -1,0 +1,21 @@
+{% comment %}
+  Zeigt die häufigsten Werte einer Liste als nummerierte Liste.
+  Parameter: list (Array von Strings), limit (Anzahl der Einträge), portfolio (true: Werte sind Portfolio-IDs bzw. Titel)
+{% endcomment %}
+{% assign topUniqueValues = include.list | uniq %}
+{% assign topRanking = "" | split: "" %}
+{% for value in topUniqueValues %}
+    {% assign valueCount = include.list | where_exp: "v", "v == value" | size %}
+    {% assign paddedValueCount = "0000" | append: valueCount | slice: -4, 4 %}
+    {% capture topEntry %}{{ paddedValueCount }}§{{ value }}{% endcapture %}
+    {% assign topRanking = topRanking | push: topEntry %}
+{% endfor %}
+{% assign topRanking = topRanking | sort | reverse %}
+<ol>
+    {% for topEntry in topRanking limit: include.limit %}
+        {% assign topParts = topEntry | split: "§" %}
+        {% assign valueCount = topParts[0] | plus: 0 %}
+        {% assign topValue = topParts[1] %}
+    <li>{% if include.portfolio %}{% include statTalkTitle.html key=topValue %}{% else %}{{ topValue }}{% endif %} ({{ valueCount }}×)</li>
+    {% endfor %}
+</ol>

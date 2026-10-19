@@ -1,0 +1,202 @@
+{% comment %}
+  Statistik über alle Einträge aus _data/talks.yaml.
+  Gezählt werden nur vollständige Einträge (mit Datum), abgesagte Vorträge werden ignoriert.
+  Vorträge werden anhand der Portfolio-ID gruppiert, Einträge mit freiem Titel anhand des Titels.
+  Themen (Kategorie, Tags) und Workshop-Typ stammen aus dem Portfolio und sind nur bei Einträgen mit ID bekannt.
+  Als Trenner in den Hilfs-Strings dient "§".
+{% endcomment %}
+
+{% assign allKeys = "" | split: "" %}
+{% assign keyDates = "" | split: "" %}
+{% assign yearStats = "" | split: "" %}
+{% assign monthStats = "" | split: "" %}
+{% assign hostNames = "" | split: "" %}
+{% assign places = "" | split: "" %}
+{% assign categoryIds = "" | split: "" %}
+{% assign tagNames = "" | split: "" %}
+{% assign total = 0 %}
+{% assign maxPerYear = 0 %}
+{% assign workshops = 0 %}
+{% assign english = 0 %}
+{% assign online = 0 %}
+{% assign onsite = 0 %}
+{% assign categories = site.data.portfolio.categories %}
+
+{% for year in site.data.talks %}
+    {% assign yearCount = 0 %}
+    {% for months in year[1] %}
+        {% for month in months %}
+            {% assign monthCount = 0 %}
+            {% for talk in month[1] %}
+                {% if talk.date and talk.canceled != true %}
+                    {% assign yearCount = yearCount | plus: 1 %}
+                    {% assign monthCount = monthCount | plus: 1 %}
+                    {% assign key = talk.id | default: talk.title %}
+                    {% assign statPortfolio = nil %}
+                    {% if talk.id %}
+                        {% assign statPortfolio = site.data.portfolio.talks | where: "id", talk.id | first %}
+                    {% endif %}
+
+                    {% if key %}
+                        {% assign allKeys = allKeys | push: key %}
+                        {% capture keyDate %}§{{ key }}§{{ talk.date | date: "%s" }}{% endcapture %}
+                        {% assign keyDates = keyDates | push: keyDate %}
+                    {% endif %}
+
+                    {% if statPortfolio.type == "workshop" or talk.title contains "Workshop" %}
+                        {% assign workshops = workshops | plus: 1 %}
+                    {% endif %}
+                    {% if talk.lang == "en" %}{% assign english = english | plus: 1 %}{% endif %}
+
+                    {% assign hostKey = talk.host | default: talk.conference %}
+                    {% assign hostObject = site.data.conferences | where: "id", hostKey | first %}
+                    {% assign hostName = hostObject.name | default: hostKey %}
+                    {% if hostName %}
+                        {% assign hostName = hostName | strip | replace: " Frühjahr", "" | replace: " Herbst", "" | replace: " Sommer", "" | replace: " Winter", "" %}
+                        {% assign hostNames = hostNames | push: hostName %}
+                    {% endif %}
+
+                    {% assign place = talk.location | default: hostObject.location | strip %}
+                    {% if place == "Online" %}
+                        {% assign online = online | plus: 1 %}
+                    {% elsif place != "" %}
+                        {% assign onsite = onsite | plus: 1 %}
+                        {% assign places = places | push: place %}
+                    {% endif %}
+
+                    {% if statPortfolio.category %}
+                        {% assign categoryIds = categoryIds | push: statPortfolio.category %}
+                    {% endif %}
+                    {% if statPortfolio.tags %}
+                        {% assign talkTags = statPortfolio.tags | split: "," %}
+                        {% for tag in talkTags %}
+                            {% assign tag = tag | strip %}
+                            {% if tag != "" %}{% assign tagNames = tagNames | push: tag %}{% endif %}
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% if monthCount > 0 %}
+                {% assign paddedMonthCount = "0000" | append: monthCount | slice: -4, 4 %}
+                {% capture monthStat %}{{ paddedMonthCount }}§{{ year[0] }}§{{ month[0] }}{% endcapture %}
+                {% assign monthStats = monthStats | push: monthStat %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% assign total = total | plus: yearCount %}
+    {% if yearCount > maxPerYear %}{% assign maxPerYear = yearCount %}{% endif %}
+    {% capture yearStat %}{{ year[0] }}§{{ yearCount }}{% endcapture %}
+    {% assign yearStats = yearStats | push: yearStat %}
+{% endfor %}
+
+{% assign talksOnly = total | minus: workshops %}
+{% assign workshopShare = workshops | times: 1000 | divided_by: total %}
+{% assign talkShare = 1000 | minus: workshopShare %}
+{% assign englishShare = english | times: 1000 | divided_by: total %}
+{% assign locatedTotal = online | plus: onsite %}
+{% assign onlineShare = online | times: 1000 | divided_by: locatedTotal %}
+{% assign onsiteShare = 1000 | minus: onlineShare %}
+{% assign categorizedTotal = categoryIds | size %}
+
+{% comment %} Lebensdauer: erster bis letzter Termin je Vortrag, nur Vorträge mit mindestens zwei Terminen {% endcomment %}
+{% assign lifespans = "" | split: "" %}
+{% assign uniqueKeys = allKeys | uniq %}
+{% for key in uniqueKeys %}
+    {% assign marker = "§" | append: key | append: "§" %}
+    {% assign keyEntries = keyDates | where_exp: "e", "e contains marker" %}
+    {% if keyEntries.size > 1 %}
+        {% assign epochs = "" | split: "" %}
+        {% for keyEntry in keyEntries %}
+            {% assign epoch = keyEntry | split: "§" | last %}
+            {% assign epochs = epochs | push: epoch %}
+        {% endfor %}
+        {% assign epochs = epochs | sort %}
+        {% assign firstEpoch = epochs | first | plus: 0 %}
+        {% assign lastEpoch = epochs | last | plus: 0 %}
+        {% assign lifespanMonths = lastEpoch | minus: firstEpoch | divided_by: 2629800 %}
+        {% assign paddedMonths = "0000" | append: lifespanMonths | slice: -4, 4 %}
+        {% capture lifespan %}{{ paddedMonths }}§{{ key }}§{{ firstEpoch }}§{{ lastEpoch }}§{{ keyEntries.size }}{% endcapture %}
+        {% assign lifespans = lifespans | push: lifespan %}
+    {% endif %}
+{% endfor %}
+{% assign lifespans = lifespans | sort | reverse %}
+{% assign monthStats = monthStats | sort | reverse %}
+
+<h2 id="statistik">Statistik</h2>
+
+<p><b>{{ total }}</b> Vorträge und Workshops insgesamt (ohne abgesagte).</p>
+
+<h4>Überblick</h4>
+<ul>
+    <li>Vorträge: {{ talksOnly }} ({{ talkShare | divided_by: 10 }},{{ talkShare | modulo: 10 }}&nbsp;%),
+        Workshops: {{ workshops }} ({{ workshopShare | divided_by: 10 }},{{ workshopShare | modulo: 10 }}&nbsp;%)</li>
+    <li>Englischsprachig: {{ english }} ({{ englishShare | divided_by: 10 }},{{ englishShare | modulo: 10 }}&nbsp;%)</li>
+    <li>Online: {{ online }} ({{ onlineShare | divided_by: 10 }},{{ onlineShare | modulo: 10 }}&nbsp;%),
+        vor Ort: {{ onsite }} ({{ onsiteShare | divided_by: 10 }},{{ onsiteShare | modulo: 10 }}&nbsp;%)
+        <small>(nur Termine mit bekanntem Ort)</small></li>
+</ul>
+
+<h4>Pro Jahr</h4>
+<table class="talk-stats">
+    {% for yearStat in yearStats %}
+        {% assign parts = yearStat | split: "§" %}
+        {% assign percent = parts[1] | times: 100 | divided_by: maxPerYear %}
+    <tr>
+        <td>{{ parts[0] }}</td>
+        <td style="text-align:right; padding:0 1em;">{{ parts[1] }}</td>
+        <td style="width:100%;"><div style="background:#2a7ae2; height:0.8em; width:{{ percent }}%;"></div></td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h4>Die zehn am häufigsten gehaltenen Vorträge</h4>
+{% include statTopList.html list=allKeys limit=10 portfolio=true %}
+
+<h4>Die zehn häufigsten Veranstalter</h4>
+{% include statTopList.html list=hostNames limit=10 %}
+
+<h4>Die zehn häufigsten Orte (vor Ort)</h4>
+{% include statTopList.html list=places limit=10 %}
+
+<h4>Themen</h4>
+<p><small>Basis: {{ categorizedTotal }} Termine mit Portfolio-Eintrag</small></p>
+<table class="talk-stats">
+    {% for category in categories %}
+        {% assign categoryCount = categoryIds | where_exp: "c", "c == category.id" | size %}
+        {% if categoryCount > 0 %}
+            {% assign percent = categoryCount | times: 100 | divided_by: categorizedTotal %}
+    <tr>
+        <td>{{ category.name }}</td>
+        <td style="text-align:right; padding:0 1em;">{{ categoryCount }}</td>
+        <td style="width:100%;"><div style="background:#2a7ae2; height:0.8em; width:{{ percent }}%;"></div></td>
+    </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+
+<h4>Die zehn häufigsten Tags</h4>
+{% include statTopList.html list=tagNames limit=10 %}
+
+<h4>Die zehn Vorträge mit der längsten Lebensdauer</h4>
+<p><small>Zeitraum zwischen dem ersten und dem letzten Termin, nur Vorträge mit mindestens zwei Terminen</small></p>
+<ol>
+    {% for lifespan in lifespans limit: 10 %}
+        {% assign parts = lifespan | split: "§" %}
+        {% assign lifespanMonths = parts[0] | plus: 0 %}
+        {% assign firstEpoch = parts[2] | plus: 0 %}
+        {% assign lastEpoch = parts[3] | plus: 0 %}
+        {% assign lifespanKey = parts[1] %}
+        {% assign lifespanYears = lifespanMonths | divided_by: 12 %}
+        {% assign lifespanRestMonths = lifespanMonths | modulo: 12 %}
+    <li>{% include statTalkTitle.html key=lifespanKey %} ({{ firstEpoch | date: "%m/%Y" }} bis {{ lastEpoch | date: "%m/%Y" }}, {{ lifespanYears }} {% if lifespanYears == 1 %}Jahr{% else %}Jahre{% endif %} {{ lifespanRestMonths }} {% if lifespanRestMonths == 1 %}Monat{% else %}Monate{% endif %}, {{ parts[4] }}×)</li>
+    {% endfor %}
+</ol>
+
+<h4>Die zehn Monate mit den meisten Vorträgen</h4>
+<ol>
+    {% for monthStat in monthStats limit: 10 %}
+        {% assign parts = monthStat | split: "§" %}
+        {% assign monthCount = parts[0] | plus: 0 %}
+    <li>{{ parts[2] }} {{ parts[1] }} ({{ monthCount }}×)</li>
+    {% endfor %}
+</ol>
