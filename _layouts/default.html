@@ -21,6 +21,9 @@
 	
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		{% if page.layout == 'startpage' %}
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/event-ticker.css" />
+		{% endif %}
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/fontawesome.min.css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/brands.min.css" />
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/solid.min.css" />		
@@ -101,6 +104,9 @@
 			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+			{% if page.layout == 'startpage' %}
+			<script src="{{ site.baseurl }}/assets/js/event-ticker.js"></script>
+			{% endif %}
 
 	</body>
 </html>

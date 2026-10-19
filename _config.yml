@@ -31,6 +31,13 @@ github_username:  sippsack
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-get-json
+
+jekyll_get_json:
+  - data: trainings
+    json: "https://embarc-termine-json.s3.eu-central-1.amazonaws.com/socreatory-termine/fs_de.json"
+  - data: upcoming_talks
+    json: "https://embarc-termine-json.s3.eu-central-1.amazonaws.com/embarc-termine/fs.json"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

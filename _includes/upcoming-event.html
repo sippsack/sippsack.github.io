@@ -1,0 +1,13 @@
+{% assign event = include.event %}
+{% assign topic = event.beschreibung | default: event.titel %}
+<li class="event-ticker-item">
+  <time datetime="{{ event.datum | date: '%Y-%m-%d' }}">{{ event.datum | date: "%d.%m.%Y" }}</time>
+  <div>
+    {% if event.url and event.url != "" %}
+      <a class="event-ticker-topic" href="{{ event.url | escape }}">{{ topic | escape }}</a>
+    {% else %}
+      <span class="event-ticker-topic">{{ topic | escape }}</span>
+    {% endif %}
+    <span class="event-ticker-venue">{{ event.titel | escape }}{% if event.ort and event.ort != "" %} · {{ event.ort | escape }}{% endif %}</span>
+  </div>
+</li>
