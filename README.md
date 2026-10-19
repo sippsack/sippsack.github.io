@@ -13,6 +13,8 @@ Verwendete Feed-Felder: `datum` (inklusive des heutigen Tages), `beschreibung`
 Ohne kommende Termine wird der Ticker nicht angezeigt.
 
 Die Terminbox hat eine feste Höhe mit zwei gleich großen Eintragsplätzen.
+Sie wird erst nach der Einblendung des Kurzprofils sichtbar; ihr Platz bleibt
+währenddessen reserviert, damit sich das Layout nicht verschiebt.
 Bei einer ungeraden Anzahl bleibt der zweite Platz auf der letzten Seite leer.
 Alle acht Sekunden wechselt der Ticker zur nächsten Gruppe. Pfeilbuttons und
 Start/Pause-Symbole rechts neben der Box ermöglichen die manuelle Bedienung; bei Mauszeiger oder Fokus im
