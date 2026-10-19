@@ -3727,6 +3727,13 @@
 				color: rgba(255, 255, 255, 0.5);
 			}
 
+				#footer .icons a .social-icon-svg {
+					fill: currentColor;
+					height: 1em;
+					vertical-align: -0.125em;
+					width: 1em;
+				}
+
 				#footer .icons a:hover {
 					color: #fff;
 				}

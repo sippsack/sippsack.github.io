@@ -1743,6 +1743,14 @@
 			a {
 				color: _palette(fg-light);
 
+				.social-icon-svg {
+					fill: currentColor;
+					height: 1em;
+					vertical-align: -0.125em;
+					width: 1em;
+
+				}
+
 				&:hover {
 					color: _palette(fg);
 				}
