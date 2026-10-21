@@ -73,8 +73,8 @@ body.is-loading #banner .event-ticker {
 	box-shadow: inset 0 -1px rgba(255, 255, 255, 0.2);
 	display: grid;
 	font-size: 0.8em;
-	gap: 0.2em 1em;
-	grid-template-columns: 6.5em minmax(0, 1fr);
+	gap: 0.2em 1.5em;
+	grid-template-columns: 7.5em minmax(0, 1fr) 1.25em;
 	line-height: 1.2;
 	min-height: 0;
 	overflow-y: auto;
@@ -86,10 +86,18 @@ body.is-loading #banner .event-ticker {
 	font-weight: 600;
 }
 
+.event-ticker-date {
+	white-space: nowrap;
+}
+
 .event-ticker-date > span {
 	display: block;
-	font-size: 0.9em;
-	white-space: nowrap;
+}
+
+.event-ticker-kind {
+	align-self: center;
+	font-size: 1.2em;
+	text-align: center;
 }
 
 .event-ticker-topic {
@@ -110,8 +118,21 @@ body.is-loading #banner .event-ticker {
 	}
 
 	.event-ticker-item {
-		gap: 0.2em;
-		grid-template-columns: 1fr;
+		gap: 0.2em 0.75em;
+		grid-template-columns: minmax(0, 1fr) 1.25em;
+	}
+
+	.event-ticker-date {
+		grid-column: 1;
+	}
+
+	.event-ticker-item > div {
+		grid-column: 1;
+	}
+
+	.event-ticker-kind {
+		grid-column: 2;
+		grid-row: 1 / 3;
 	}
 
 	.event-ticker-list {

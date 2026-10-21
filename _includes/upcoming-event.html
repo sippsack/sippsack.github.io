@@ -1,13 +1,21 @@
 {% assign event = include.event %}
 {% assign topic = event.beschreibung | default: event.titel %}
+{% assign event_kind = "Vortrag" %}
+{% assign event_icon = "fa-microphone" %}
+{% assign event_title = event.titel | downcase %}
 {% if event.seminar_kuerzel %}
   {% assign topic = event.seminar_name | default: topic %}
+  {% assign event_kind = "Schulung" %}
+  {% assign event_icon = "fa-chalkboard-user" %}
+{% elsif event_title contains "workshop" %}
+  {% assign event_kind = "Workshop" %}
+  {% assign event_icon = "fa-chalkboard-user" %}
 {% endif %}
 <li class="event-ticker-item">
   <span class="event-ticker-date">
-    <time datetime="{{ event.datum | date: '%Y-%m-%d' }}">{{ event.datum | date: "%d.%m.%Y" }}</time>
+    <time datetime="{{ event.datum | date: '%Y-%m-%d' }}">{{ event.datum | date: "%d.%m.%Y" }}</time>{% if event.termin_datum_ende and event.termin_datum_ende != event.datum %} -{% endif %}
     {% if event.termin_datum_ende and event.termin_datum_ende != event.datum %}
-      <span>bis <time datetime="{{ event.termin_datum_ende | date: '%Y-%m-%d' }}">{{ event.termin_datum_ende | date: "%d.%m.%Y" }}</time></span>
+      <span><time datetime="{{ event.termin_datum_ende | date: '%Y-%m-%d' }}">{{ event.termin_datum_ende | date: "%d.%m.%Y" }}</time></span>
     {% endif %}
   </span>
   <div>
@@ -16,6 +24,7 @@
     {% else %}
       <span class="event-ticker-topic">{{ topic | escape }}</span>
     {% endif %}
-    <span class="event-ticker-venue">{% if event.seminar_kuerzel %}Schulung · socreatory · {{ event.seminar_kuerzel | upcase | escape }}{% else %}Vortrag · {{ event.titel | escape }}{% endif %}{% if event.ort and event.ort != "" %} · {{ event.ort | escape }}{% endif %}</span>
+    <span class="event-ticker-venue">{{ event_kind }} · {% if event.seminar_kuerzel %}socreatory · {{ event.seminar_kuerzel | upcase | escape }}{% else %}{{ event.titel | escape }}{% endif %}{% if event.ort and event.ort != "" %} · {{ event.ort | escape }}{% endif %}</span>
   </div>
+  <i class="event-ticker-kind fa-solid {{ event_icon }}" title="{{ event_kind }}" aria-hidden="true"></i>
 </li>

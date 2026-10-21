@@ -15,6 +15,9 @@ Schulungen verwenden zusätzlich `seminar_name`, `seminar_kuerzel` und
 `termin_datum_ende`. Sie sind als „Schulung“ gekennzeichnet, Vorträge als
 „Vortrag“. Mehrtägige Schulungen zeigen den Zeitraum und bleiben bis
 einschließlich ihres letzten Tages sichtbar.
+Der Zeitraum steht zweizeilig mit Bindestrich hinter dem Startdatum.
+Rechts kennzeichnet ein Mikrofon Vorträge und ein Schulungsicon Schulungen
+und Workshops (im Vortragsfeed am Veranstaltungstitel erkennbar).
 Ohne kommende Termine wird der Ticker nicht angezeigt.
 
 Die Terminbox hat eine feste Höhe mit zwei gleich großen Eintragsplätzen.
