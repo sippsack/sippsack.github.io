@@ -86,6 +86,12 @@ body.is-loading #banner .event-ticker {
 	font-weight: 600;
 }
 
+.event-ticker-date > span {
+	display: block;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
 .event-ticker-topic {
 	font-weight: 600;
 	overflow-wrap: anywhere;

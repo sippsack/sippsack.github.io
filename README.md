@@ -1,15 +1,20 @@
 # sippsack.github.io
 
-## Vortragsticker auf der Startseite
+## Terminticker auf der Startseite
 
-Der Ticker zeigt zwei kommende Vorträge, chronologisch sortiert, zwischen
+Der Ticker zeigt zwei Vortrags- oder Schulungstermine, gemeinsam chronologisch sortiert, zwischen
 Kurzprofil und Kontaktdaten. Die Daten werden beim Jekyll-Build über
-`jekyll-get-json` als `upcoming_talks` importiert (Quelle in `_config.yml`).
+`jekyll-get-json` als `upcoming_talks` und `trainings` importiert (Quellen in `_config.yml`).
 Das lokale Vortragsarchiv in `_data/talks.yaml` bleibt davon unabhängig.
-Schulungen werden aktuell nicht im Ticker angezeigt.
+Der Schulungsfeed für Falk ist
+https://embarc-termine-json.s3.eu-central-1.amazonaws.com/socreatory-termine/fs_de.json.
 
 Verwendete Feed-Felder: `datum` (inklusive des heutigen Tages), `beschreibung`
 (Thema), `titel` (Konferenz/Usergroup), optional `ort` und `url`.
+Schulungen verwenden zusätzlich `seminar_name`, `seminar_kuerzel` und
+`termin_datum_ende`. Sie sind als „Schulung“ gekennzeichnet, Vorträge als
+„Vortrag“. Mehrtägige Schulungen zeigen den Zeitraum und bleiben bis
+einschließlich ihres letzten Tages sichtbar.
 Ohne kommende Termine wird der Ticker nicht angezeigt.
 
 Die Terminbox hat eine feste Höhe mit zwei gleich großen Eintragsplätzen.
@@ -29,5 +34,5 @@ GitHub Pages wird mit `.github/workflows/pages.yml` bei Pushes auf `master`
 oder manuell per `workflow_dispatch` gebaut und veröffentlicht. In den
 Pages-Einstellungen muss als Quelle **GitHub Actions** ausgewählt sein:
 Der eingeschränkte Standard-Build unterstützt `jekyll-get-json` nicht.
-Der Workflow bricht bei fehlendem oder ungültigem Vortragsfeed ab, statt
+Der Workflow bricht bei fehlendem oder ungültigem Vortrags- oder Schulungsfeed ab, statt
 eine Seite ohne importierte Termindaten zu veröffentlichen.

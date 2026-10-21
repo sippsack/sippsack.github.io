@@ -1,23 +1,25 @@
 {% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign events = site.data.upcoming_talks.termine %}
-{% if events %}{% assign events = events | sort: "datum" %}{% endif %}
+{% assign empty_events = "" | split: "," %}
+{% assign talks = site.data.upcoming_talks.termine | default: empty_events %}
+{% assign trainings = site.data.trainings.termine | default: empty_events %}
+{% assign events = talks | concat: trainings | sort: "datum" %}
 {% capture event_items %}
     {% for event in events %}
-      {% assign day = event.datum | date: "%Y-%m-%d" %}
+      {% assign day = event.termin_datum_ende | default: event.datum | date: "%Y-%m-%d" %}
       {% if day < today or event.canceled %}{% continue %}{% endif %}
       {% include upcoming-event.html event=event %}
     {% endfor %}
 {% endcapture %}
 {% assign event_items = event_items | strip %}
 {% unless event_items == "" %}
-<section id="events" class="event-ticker" aria-label="Nächste Vorträge">
+<section id="events" class="event-ticker" aria-label="Nächste Vorträge und Schulungen">
   <ul id="event-ticker-list" class="event-ticker-list">
     {{ event_items }}
   </ul>
   <div class="event-ticker-controls" hidden>
-    <button type="button" data-ticker="previous" aria-label="Vorherige Vorträge" aria-controls="event-ticker-list"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+    <button type="button" data-ticker="previous" aria-label="Vorherige Termine" aria-controls="event-ticker-list"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
     <button type="button" data-ticker="pause" aria-label="Automatischen Wechsel pausieren" aria-pressed="false"><i class="fa-solid fa-pause" aria-hidden="true"></i></button>
-    <button type="button" data-ticker="next" aria-label="Weitere Vorträge" aria-controls="event-ticker-list"><i class="fa-solid fa-arrow-down" aria-hidden="true"></i></button>
+    <button type="button" data-ticker="next" aria-label="Weitere Termine" aria-controls="event-ticker-list"><i class="fa-solid fa-arrow-down" aria-hidden="true"></i></button>
   </div>
 </section>
 {% endunless %}

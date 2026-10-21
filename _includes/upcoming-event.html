@@ -1,13 +1,21 @@
 {% assign event = include.event %}
 {% assign topic = event.beschreibung | default: event.titel %}
+{% if event.seminar_kuerzel %}
+  {% assign topic = event.seminar_name | default: topic %}
+{% endif %}
 <li class="event-ticker-item">
-  <time datetime="{{ event.datum | date: '%Y-%m-%d' }}">{{ event.datum | date: "%d.%m.%Y" }}</time>
+  <span class="event-ticker-date">
+    <time datetime="{{ event.datum | date: '%Y-%m-%d' }}">{{ event.datum | date: "%d.%m.%Y" }}</time>
+    {% if event.termin_datum_ende and event.termin_datum_ende != event.datum %}
+      <span>bis <time datetime="{{ event.termin_datum_ende | date: '%Y-%m-%d' }}">{{ event.termin_datum_ende | date: "%d.%m.%Y" }}</time></span>
+    {% endif %}
+  </span>
   <div>
     {% if event.url and event.url != "" %}
       <a class="event-ticker-topic" href="{{ event.url | escape }}">{{ topic | escape }}</a>
     {% else %}
       <span class="event-ticker-topic">{{ topic | escape }}</span>
     {% endif %}
-    <span class="event-ticker-venue">{{ event.titel | escape }}{% if event.ort and event.ort != "" %} · {{ event.ort | escape }}{% endif %}</span>
+    <span class="event-ticker-venue">{% if event.seminar_kuerzel %}Schulung · socreatory · {{ event.seminar_kuerzel | upcase | escape }}{% else %}Vortrag · {{ event.titel | escape }}{% endif %}{% if event.ort and event.ort != "" %} · {{ event.ort | escape }}{% endif %}</span>
   </div>
 </li>
