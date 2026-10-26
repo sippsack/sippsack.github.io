@@ -86,14 +86,17 @@ ideas:
       from: 2027-01-21
       till: 2027-01-26
       deadline: 2026-10-26
-      submitted: 
+      submitted: 2026-10-26
       talks:
+        "Modern Java in Practice: The Features That Matter": o
+        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": o
+        "Functional Programming for the Busy Java Developer": o
   - jcon:
       name: JCON Europe
       url: https://sessionize.com/jcon-europe-2027
       from: 2027-04-26
       till: 2027-04-29
-      deadline: 2026-10-23
+      deadline: 2026-10-30
       submitted: 
       talks:
   - jl:
@@ -343,8 +346,8 @@ ideas:
       submitted: 2025-10-21
       talks:
         "Value Objects": x 
-        "JBang – Java einfach skripten": o
-        "Functional Java – What we can learn from Haskell": o
+        "JBang – Java einfach skripten": n
+        "Functional Java – What we can learn from Haskell": n
   - voxxedcern:
       url: https://vdcern26.cfp.dev/#
       from: 2026-02-10
