@@ -53,6 +53,7 @@
       date: 2026-10-28
       location: Nürnberg
       link: https://www.meetup.com/jug-nurnberg/events/317006791
+      slides: https://www.sippsack.de/java-pattern-matching-dop/2026-10-28-jug-nuernberg/
     - host: baselone
       id: valueclasses1
       date: 2026-10-15
@@ -115,6 +116,7 @@
       id: fp4
       date: 2026-07-09
       link: https://www.java-forum-stuttgart.de/vortraege/funktionale-programmierung-in-java/
+      slides: https://www.java-forum-stuttgart.de/static/7216ebe3285eef32264c9715a77f098a/2026__cd016f2c01e84d56ad17f32fff4545f8__0a921ed7ec3a4814866527789dcde6d5.pdf
   - Juni:
     - conference: iSAQB Software Architecture Forum
       title: "Flexible Architekturen – nur wie?"
@@ -151,6 +153,7 @@
       lang: en
       date: 2026-03-13
       link: https://bobkonf.de/2026/sippach-rauch.html
+      slides: https://www.embarc.de/fp-java-bobkonf/
     - host: jl
       title: "API Security: Lücken, die Du vielleicht nicht im Blick hast..."
       date: 2026-03-10
@@ -166,6 +169,7 @@
       date: 2026-03-10
       location: Europa-Park Rust
       link: https://meine.doag.org/events/javaland/2026/agenda/#agendaId.6866
+      slides: https://www.embarc.de/ausfuehrbare-dokumentation-jl/
   - Februar:
     - host: oop
       id: busted1
@@ -199,6 +203,7 @@
       id: busted1
       date: 2025-12-09
       link: https://www.ittage.informatik-aktuell.de/programm/2025/busted-mythen-und-legenden-der-softwarearchitektur.html
+      slides: https://www.embarc.de/ittage25-myth-busters/
   - November:
     - conference: JUG Thüringen
       id: emergentarch
@@ -234,15 +239,18 @@
       id: java25
       date: 2025-10-16
       link: https://baselone.org/#programm
+      slides: https://www.embarc.de/java25-baselone/
     - host: bedcon
       id: archmodernization1
       date: 2025-10-07
       link: https://www.bed-con.org/2025/
+      slides: https://www.embarc.de/microservices-oder-modulith-bedcon25/
   - September:
     - host: jsd
       id: valuetypes
       date: 2025-09-26
       link: https://jugsaxony.org/day
+      slides: https://www.embarc.de/java-value-objects/
   - August:
     - conference: JUG Mainz
       id: valuetypes
@@ -259,6 +267,7 @@
       id: valuetypes
       date: 2025-07-10
       link: https://www.java-forum-stuttgart.de/vortraege/value-objects/
+      slides: https://www.java-forum-stuttgart.de/static/1446c77cce6fa81f99b8894276755346/2025_B7_Sippach.pdf
     - conference: JUG Schweiz
       id: valuetypes
       date: 2025-07-07
@@ -289,6 +298,7 @@
       id: archmodernization1
       date: 2025-06-03
       link: https://entwicklertag.de/programm/modulith-statt-microservices
+      slides: https://www.embarc.de/microservices-oder-modulith-etka25/
   - Mai:
     - conference: Objektforum Frankfurt
       id: archpatterns1
@@ -304,19 +314,23 @@
       lang: en
       date: 2025-05-14
       link: https://schedule.jcon.one/session/783684
+      slides: https://www.embarc.de/java-value-objects-jcon/
     - host: mddevdays
       id: docsascode7
       date: 2025-05-13
       link: https://www.md-devdays.de/act-details/1000590
+      slides: https://www.embarc.de/ausfuehrbare-dokumentation/
     - conference: betterCode() ArchDoc 2025
       id: docsascode7
       date: 2025-05-12
       location: Online
       link: https://archdoc.bettercode.eu/veranstaltung-83494-se-0-ausfuehrbare-dokumentation--architekturregeln-mit-docs-as-code-festhalten-und-testen.html
+      slides: https://www.embarc.de/ausfuehrbare-dokumentation/
     - host: jax
       id: valuetypes
       date: 2025-05-06
       link: https://jax.de/core-java-jvm-languages/java-value-objects/
+      slides: https://www.embarc.de/java-value-objects-jax/
   - April:
     - host: jl
       title: "Workshop: Coding Dojo: Die verschiedenen Schulen der TDD"
@@ -333,6 +347,7 @@
       date: 2025-04-01
       location: Nürburgring
       link: https://www.javaland.eu/de/home/
+      slides: https://www.embarc.de/walking-skeleton-javaland/
   - März:
     - host: archsummit1
       id: archbusi1w
@@ -343,6 +358,7 @@
       lang: en
       date: 2025-03-25
       link: https://zurich.voxxeddays.com/talk/?id=8557
+      slides: https://www.embarc.de/best-practices-docs-as-code/
     - host: archsummit1
       title: "Workshop: Von Clean Architecture zu evolutionärer Architektur"
       date: 2025-03-24
@@ -356,6 +372,7 @@
       date: 2025-03-13
       location: Online
       link: https://entwickler.de/live-events/30-jahre-java/
+      slides: https://www.embarc.de/java24-fsippach/
   - Februar:
     - host: oop
       id: archmodernization1
@@ -370,17 +387,21 @@
       date: 2024-10-30
       link: https://java.bettercode.eu
     - host: ocx
-      id: 
+      title: Functional Programming with Java
+      lang: en
       date: 2024-10-24
       link: https://www.ocxconf.org/event/778b82cc-6834-48a4-a58e-f883c5a7b8c9/websitePage:26bc9d91-446a-49e1-9f08-8fcc4680073e?session=c766631e-ed42-4332-9fcd-0b39f1683396&shareLink=true
+      slides: https://www.embarc.de/functional-java-2024-fsippach/
     - host: saa
-      id: 
+      title: Best Practices, um Architekturdokumentation aktuell zu halten
       date: 2024-10-23
       link: https://www.software-architecture-alliance.de/2024/programm/konferenzprogramm#item-7982
+      slides: https://www.embarc.de/best-practices-architektur-doku-2024-fsippach/
     - host: baselone
       id: java23
       date: 2024-10-17
       link: https://baselone.org/
+      slides: https://www.embarc.de/java23-2024-fsippach/
     - host: archsummit2
       id: diagrams2w
       date: 2024-10-16
@@ -389,6 +410,7 @@
       id: stringtemplates
       date: 2024-10-15
       link: https://java.bettercode.eu/veranstaltung-22590-se-0-wie-geht-es-weiter-mit-string-templates-in-java.html
+      slides: https://www.embarc.de/string-templates-bettercode-2024-fsippach/
     - host: archsummit2
       id: 
       date: 2024-10-14
@@ -397,10 +419,12 @@
       id: archqs
       date: 2024-10-11
       link: https://www.xpdays.de/2024/sessions/173-qualitaetsszenarien-die-hidden-champions-in-der-architekturarbeit.html
+      slides: https://www.embarc.de/szenarien-2024-fsippach/
     - host: xpdays
       id: mikado1
       date: 2024-10-11
       link: https://www.xpdays.de/2024/sessions/169-refactoring-mit-der-mikado-methode.html
+      slides: https://www.embarc.de/mikado-methode-2024-fsippach/
   - September:
     - jfn, bedcon, JUGTH
   - Juli:
@@ -409,19 +433,22 @@
       id: archpatterns1
       date: 2024-07-03
       link: https://www.developer-week.de/programm/#/talk/vorgehensmuster-und-best-practices-fur-moderne-softwarearchitekturarbeit
+      slides: https://www.embarc.de/vorgehensmuster-dwx-2024-fsippach/
   - Juni:
     - host: cl
       id: cdct
       date: 2024-06-20
       link: https://meine.doag.org/events/cloudland/2024/agenda/#agendaId.4301
+      slides: https://www.embarc.de/cdct-cloudland-2024-fsippach/
     - host: madsummit1
       id: archbusi1w
       date: 2024-06-12
       link: https://mad-summit.de/architektur/software-architektur-enables-business/
     - host: etka
       id: java21
-      date: 2024-06-20
+      date: 2024-06-04
       link: https://entwicklertag.de/programm/Die%20neuen%20Features%20rund%20um%20Pattern%20Matching%20und%20Virtual%20Threads
+      slides: https://www.embarc.de/java22-etka-2024-fsippach/
   - Mai:
     - conference: JUG Deutschland
       title: Java 21 u. 22 - Die neuen Features
@@ -437,11 +464,13 @@
       id: cleanevoarc
       date: 2024-05-14
       link: https://md-devdays.de/act-details/1000384
+      slides: https://www.embarc.de/clean-evo-arc-mddevdays-2024-fsippach/
   - April:
     - host: jax
       id: stringtemplates
       date: 2024-04-25
       link: https://jax.de/core-java-jvm-languages/java-string-templates/
+      slides: https://www.embarc.de/string-templates-jax-2024-fsippach/
     - host: mc
       id: cleanevoarc
       date: 2024-04-12
@@ -486,11 +515,13 @@
       title: Best Practices, um Architekturdokumentation aktuell zu halten
       date: 2024-02-01
       link: https://www.oop-konferenz.de/oop-2024/programm/konferenzprogramm#item-6713 
+      slides: https://www.embarc.de/best-practices-oop-2024-fsippach/
   - Januar:
     - conference: inside agile - Agile Softwareentwicklung im Unternehmen
       title: Die Relevanz von Softwarearchitektur
       date: 2024-01-25
       link: https://asu.inside-agile.de/veranstaltung-21481-se-0-die-relevanz-von-softwarearchitektur.html
+      slides: https://www.embarc.de/relevanz-architektur-2024/
 2023:
   - Dezember:
     - conference: JUG Darmstadt
@@ -531,6 +562,7 @@
       lang: en
       date: 2023-11-30
       link: https://conferences.isaqb.org/software-architecture-gathering/program-2023/#as-much-architectural-work-as-needed
+      slides: https://www.embarc.de/necessary-architectural-work-sag-2023/
     - host: JUG Frankfurt
       id: diagrams1
       title: "Phantastische Diagramme und wie du sie selbst erstellst"
@@ -590,6 +622,7 @@
       id: java21
       date: 2023-09-29
       link: https://jugsaxony.org/day/infos
+      slides: https://jugsaxony.org/downloads/day/slides/JSD2023_Java21_Falk-Sippach.pdf
       video: https://t.co/2Ar27qDGmF
     - host: bedcon
       id: archbasics1
@@ -608,6 +641,7 @@
       id: java21
       date: 2023-09-12
       link: https://javaforumnord.de/2023/programm/
+      slides: https://www.embarc.de/java21-fs/
     - host: archsummit2
       id: diagrams1w
       date: 2023-09-11
@@ -636,6 +670,7 @@
       id: diagrams1
       date: 2023-07-13
       link: https://www.java-forum-stuttgart.de/vortraege/2023/
+      slides: https://www.embarc.de/diagrams-jfs-2023-07/
     - host: jfs
       id: diagrams1w
       date: 2023-07-12
@@ -655,6 +690,7 @@
       id: javapm1w
       link: https://www.jug.ch/html/events/2023/pattern_matching_mit_java.html
       date: 2023-07-04
+      slides: https://www.embarc.de/workshop-pattern-matching-fs-jugch-2023/
   - Juni:
     - host: dwx
       id: solid1
@@ -668,18 +704,22 @@
       id: docsascode5
       date: 2023-06-26
       link: http://archdoc.bettercode.eu/veranstaltung-20915-se-0-lebendige-architekturdokumentation-mit-docs-as-code-jqassistant-und-jmolecules.html
+      slides: https://www.embarc.de/lebendige-architekturdokumentation-fs-bettercode-archdoc-2023/
     - host: enterjs
       id: archbasics1
       date: 2023-06-22
       link: https://enterjs.de/veranstaltung-20241-0-so-viel-architekturarbeit-wie-noetig.html
+      slides: https://www.embarc.de/architekturarbeit-fs-jcon-enterjs-2023/
     - host: cl
       id: flexarch1
       date: 2023-06-21
       link: https://shop.doag.org/events/cloudland/2023/agenda/#eventDay.all#textSearch.sippach
+      slides: https://www.embarc.de/flexible-architekturen-fs-cloudland-2023/
     - host: jcon
       id: archbasics1
       date: 2023-06-20
       link: https://sched.co/1K40c
+      slides: https://www.embarc.de/architekturarbeit-fs-jcon-enterjs-2023/
       video: https://youtu.be/UecQREkYTMU?si=Gx7W5Tchi-heRzcs
     - host: madsummit1
       id: apipatterns1w
@@ -698,6 +738,7 @@
       id: archbasics1
       date: 2023-05-11
       link: https://jax.de/software-architecture/effiziente-software-architektur/
+      slides: https://www.embarc.de/architekturarbeit-fs-jax-2023/
     - host: mddevdays
       id: archbasics2
       date: 2023-05-09
@@ -792,6 +833,7 @@
       title: How to Document and Communicate Software Architectures These Days
       date: 2022-11-16
       link: https://conferences.isaqb.org/software-architecture-gathering/speaker/#how-to-document-and-communicate-software-architectures-these-days
+      slides: https://www.embarc.de/docs-as-code-sag-2022/
   - Oktober:
     - host: baselone
       title: "Workshop: Pattern Matching mit Java"
@@ -922,10 +964,12 @@
       title: Groovy 4 the win!
       date: 2022-03-16
       link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647385200
+      slides: https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2022/Falk-Sippach-Groovy4.pdf
     - host: jl
       title: "Community Workshop: Funktionale Programmierung mit Java"
       date: 2022-03-16
       link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647385200
+      slides: https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2022/Trefs-Sippach-Functional+Programming+Workshop.pdf
     - host: jl
       title: "Community Aktivität: Developer on the stage"
       date: 2022-03-15
@@ -934,15 +978,18 @@
       title: Ich möchte auch mal einen Vortrag halten - Wo fange ich bloß an?
       date: 2022-03-15
       link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647298800
+      slides: https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2022/Falk-Sippach-Vortrag-halten.pdf
     - host: jl
       title: "Community Workshop: Java Pattern Matching"
       date: 2022-03-14
       link: https://shop.doag.org/javaland/2022/agenda/#textSearch.falk#eventDay.1647212400
+      slides: https://embarc-downloads.s3.eu-central-1.amazonaws.com/folien/fs/2022/Sippach-Boegershausen-Pattern-Matching-Workshop.pdf
   - Februar:
     - host: oop
       title: "Documentation-as-Code – Dokumentation kontinuierlich und automatisiert erstellen"
       date: 2022-02-03
       link: https://www.oop-konferenz.de/oop-2022/programm/konferenzprogramm
+      slides: https://www.embarc.de/docs-as-code-fs-oop-2022/
 2021:
   - Dezember:
     - conference: embarc Architektur-Punsch
@@ -1039,7 +1086,7 @@
       title: "Die Corona-Warn-App unter der Lupe"
       location: Online
       link: https://jugsaxony.org/day/
-      slides: https://jugsaxony.org/downloads/day/slides/JSD2023_Java21_Falk-Sippach.pdf
+      slides: https://www.embarc.de/cwa-unter-lupe-jug-saxony-day-2021/
       video: https://vimeo.com/637003242
   - September:
     - host: accento
@@ -1052,6 +1099,7 @@
       title: "Java 17 - Was erwartet uns in der neuesten LTS-Version?"
       location: Online
       link: https://2021.accento.dev/talks/java-17/
+      slides: https://www.embarc.de/java-17-accento-2021/
     - host: hc
       date: 2021-09-24
       title: "Workshop: Moderne Softwarearchitekturdokumentation"
