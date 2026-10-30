@@ -83,6 +83,7 @@
       lang: en
       date: 2026-10-05
       link: https://m.devoxx.com/events/dvbe26/talks/23524/modern-java-in-practice-the-features-that-matter
+      video: https://www.youtube.com/watch?v=zC2tbq7S5UE
   - September:
     - conference: JUG Görlitz
       id: archpatterns2
@@ -154,6 +155,7 @@
       date: 2026-03-13
       link: https://bobkonf.de/2026/sippach-rauch.html
       slides: https://www.embarc.de/fp-java-bobkonf/
+      video: https://media.ccc.de/v/bob11-2026-fp-fuer-java-sippach-rauch
     - host: jl
       title: "API Security: Lücken, die Du vielleicht nicht im Blick hast..."
       date: 2026-03-10
@@ -182,6 +184,7 @@
       date: 2026-01-26
       location: Online
       link: https://jchampionsconf.com/schedule.html#sippachCard
+      video: https://www.youtube.com/watch?v=7HU8uB8CmLA
     - conference: JUG Paderborn
       id: archpatterns2
       date: 2026-01-21
@@ -240,6 +243,7 @@
       date: 2025-10-16
       link: https://baselone.org/#programm
       slides: https://www.embarc.de/java25-baselone/
+      video: https://www.youtube.com/watch?v=X_7AXPsQ-EU
     - host: bedcon
       id: archmodernization1
       date: 2025-10-07
@@ -315,6 +319,7 @@
       date: 2025-05-14
       link: https://schedule.jcon.one/session/783684
       slides: https://www.embarc.de/java-value-objects-jcon/
+      video: https://www.youtube.com/watch?v=cNh9aKjq3PE
     - host: mddevdays
       id: docsascode7
       date: 2025-05-13
@@ -359,6 +364,7 @@
       date: 2025-03-25
       link: https://zurich.voxxeddays.com/talk/?id=8557
       slides: https://www.embarc.de/best-practices-docs-as-code/
+      video: https://www.youtube.com/watch?v=Fsx36ZTGMag
     - host: archsummit1
       title: "Workshop: Von Clean Architecture zu evolutionärer Architektur"
       date: 2025-03-24
@@ -367,6 +373,7 @@
       id: mikado1
       date: 2025-03-18
       link: https://navigate-kongress.de/programm/legacy-code-im-griff-dank-mikado-methode-navigate-kongress-2025/
+      video: https://www.youtube.com/watch?v=YP9N1SK_X-0
     - conference: entwickler.de Live-Event
       id: java25
       date: 2025-03-13
@@ -392,6 +399,7 @@
       date: 2024-10-24
       link: https://www.ocxconf.org/event/778b82cc-6834-48a4-a58e-f883c5a7b8c9/websitePage:26bc9d91-446a-49e1-9f08-8fcc4680073e?session=c766631e-ed42-4332-9fcd-0b39f1683396&shareLink=true
       slides: https://www.embarc.de/functional-java-2024-fsippach/
+      video: https://www.youtube.com/watch?v=gihS1FE1EJ0
     - host: saa
       title: Best Practices, um Architekturdokumentation aktuell zu halten
       date: 2024-10-23
@@ -573,6 +581,7 @@
       lang: en
       date: 2023-11-21
       link: https://sched.co/1RRYy
+      video: https://www.youtube.com/watch?v=UPUCFJKafuc
     - conference: Java 21 Info Days
       id: dop1
       date: 2023-11-15
@@ -834,6 +843,7 @@
       date: 2022-11-16
       link: https://conferences.isaqb.org/software-architecture-gathering/speaker/#how-to-document-and-communicate-software-architectures-these-days
       slides: https://www.embarc.de/docs-as-code-sag-2022/
+      video: https://www.youtube.com/watch?v=amFN7d2bsgg
   - Oktober:
     - host: baselone
       title: "Workshop: Pattern Matching mit Java"
@@ -871,6 +881,7 @@
       date: 2022-09-22
       link: https://jcononline2022.sched.com/event/11lBm?iframe=no
       slides: https://www.embarc.de/functional-java-fs-jcon-2022/
+      video: https://www.youtube.com/watch?v=_qS8gcZQdY8
     - host: jcon
       title: Der S.O.L.I.D.e Softwareentwurf
       date: 2022-09-21
@@ -1036,10 +1047,11 @@
       title: "Java 17: Was erwartet uns in der neuesten LTS-Version?"
       date: 2021-11-29
     - host: JUG Schweiz
-      title: "Domain Driven Design für Dummies"
+      title: "Java 17 – Die relevanten Features der neuen LTS-Version"
       date: 2021-11-24
       location: Luzern
       link: https://www.jug.ch/html/events/2021/java_17.html
+      video: https://www.youtube.com/watch?v=cXJEYypkHFQ
   - Oktober: 
     - host: baselone
       date: 2021-10-21
@@ -1100,6 +1112,7 @@
       location: Online
       link: https://2021.accento.dev/talks/java-17/
       slides: https://www.embarc.de/java-17-accento-2021/
+      video: https://www.youtube.com/watch?v=AGD_s2cHtEs
     - host: hc
       date: 2021-09-24
       title: "Workshop: Moderne Softwarearchitekturdokumentation"
