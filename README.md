@@ -1,5 +1,19 @@
 # sippsack.github.io
 
+## Clientseitige Suche
+
+Die Lupe im Seitenkopf und der Menüpunkt „Suche“ öffnen auf jeder Seite einen
+modalen Dialog. Schließen ist per Escape, Schließen-Button oder Klick auf
+den Hintergrund möglich; der Fokus kehrt zur Lupe zurück. Die Hintergrundseite
+bleibt stehen, die Trefferliste scrollt innerhalb des Dialogs.
+Der Browser lädt beim ersten Öffnen einmalig die eigenen Seiten `/portfolio/`, `/talks/` und
+`/publications/` und durchsucht deren einzelne Einträge, einschließlich
+Abstracts, Veranstaltern und Verlagen. Es gibt keinen externen Suchdienst.
+Mehrere Suchwörter werden mit UND verknüpft; Groß-/Kleinschreibung und
+Akzente werden ignoriert. Treffer im Titel stehen zuerst. Typfilter,
+markierte Suchbegriffe erleichtern die Suche. Alle Treffer werden im Dialog angezeigt.
+Externe Artikel werden nur verlinkt, ihr Volltext wird nicht abgerufen.
+
 ## Terminticker auf der Startseite
 
 Der Ticker zeigt zwei Vortrags- oder Schulungstermine, gemeinsam chronologisch sortiert, zwischen

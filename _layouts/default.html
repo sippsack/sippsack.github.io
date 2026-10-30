@@ -21,6 +21,7 @@
 	
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/search.css" />
 		{% if page.layout == 'startpage' %}
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/event-ticker.css" />
 		{% endif %}
@@ -39,11 +40,13 @@
 						<h1><a href="{{ site.baseurl }}/">sippsack.de</a></h1>
 						<nav id="nav">
 							<ul>
+								<li><button type="button" class="search-link" data-open-search aria-label="Suche" aria-haspopup="dialog" aria-controls="site-search" title="Suche"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button></li>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
 											<li><a href="{{ site.baseurl }}/">Home</a></li>
+											<li><button type="button" class="search-menu-link" data-open-search aria-haspopup="dialog" aria-controls="site-search">Suche</button></li>
 											<li><a href="{{ site.baseurl }}/about/">Über mich</a></li>
 											<li><a href="{{ site.baseurl }}/talks/">Vorträge</a></li>
 											<li><a href="{{ site.baseurl }}/cfps/">Einreichungen</a></li>
@@ -110,12 +113,14 @@
 			</div>
 
 		<!-- Scripts -->
+			{% include search.html %}
 			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
 			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+			<script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
 			{% if page.layout == 'startpage' %}
 			<script src="{{ site.baseurl }}/assets/js/event-ticker.js"></script>
 			{% endif %}
