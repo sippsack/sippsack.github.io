@@ -79,8 +79,11 @@ ideas:
       from: 2027-04-16
       till: 2027-04-16
       deadline: 2026-10-31
-      submitted: 
+      submitted: 2026-10-30
       talks:
+        "CUPID: SOLID neu gedacht": o
+        "Qualitätsszenarien – die Hidden Champions in der Architekturarbeit": o
+        "Walking Skeleton – Softwarearchitektur ohne Fleisch?": o
   - jchampconf:
       name: jChampions Conference
       url: https://sessionize.com/jchampions-conference-2027
