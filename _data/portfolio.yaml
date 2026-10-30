@@ -25,6 +25,66 @@ categories: # Vorträge in Kategorien einteilen
 
 talks:
 # 2026
+  - id: javavt2
+    title:
+      de:
+        - "Virtual Threads, Continuations und weiterhin Ärger mit dem Stack"
+        - "Continuations, Tail Calls und Threads – Immer Ärger mit dem Stack"
+    year: 2026
+    category: java
+    type: talk
+    relevant: true
+    duration: 60
+    learning-goals: |
+
+    target-audience: Architekten, Entwickler, Entscheider
+    prerequisites: Grundlegende Erfahrungen mit Java
+    tags:
+    co-speaker: Michael Sperber, Active Group GmbH
+    abstract:
+      de:
+        - |
+          Virtual Threads sind eines der wichtigsten Features der letzten Java-Versionen. Sie machen das klassische Thread-pro-Request-Modell wieder praktikabel und vereinfachen nebenläufige Programme erheblich. Doch warum funktionieren Virtual Threads eigentlich so gut – und was steckt technisch dahinter? Der Schlüssel liegt in einem Mechanismus der JVM, der meist unsichtbar bleibt: Continuations. Die Idee dahinter ist über 60 Jahre alt und taucht in vielen Programmiersprachen immer wieder auf. Mit Project Loom hat sie nun auch Einzug in die Java-Plattform gehalten.
+
+          In diesem Vortrag schauen wir unter die Oberfläche: Wir erklären, was Continuations sind, warum der Stack bei klassischen Threads zum Problem wird und wie Virtual Threads dieses Problem lösen. Außerdem zeigen wir, wie darauf aufbauende Konzepte wie Structured Concurrency und Scoped Values das Nebenläufigkeitsmodell von Java weiterentwickeln. Wir reden auch darüber, was noch fehlt - was "proper tail calls" sind, und wie ihre Implementierung unsere Programme verändern wird. Der Talk verbindet historische Ideen aus der Programmiersprachenforschung mit den aktuellen Entwicklungen der JVM – und zeigt, was das alles für Java-Entwickler:innen bedeutet.
+        - |
+          Wie merkt sich ein Programm, wo es nach einem Funktionsaufruf weitergeht? Hinter dieser alltäglichen Frage steckt das Konzept der Continuations. Meist begegnet es uns in Form des Stacks. Continuations können aber noch viel mehr: Sie helfen, Exceptions zu verstehen und bilden eine Grundlage für leichtgewichtige Threads.
+
+          In diesem Vortrag schauen wir unter die Oberfläche: Wir erklären, was Continuations sind, wann Stacks Probleme machen, welche Alternativen es gibt und was die Bedeutung von Tail Calls ist. Vor allem zeigen wir, wie ein tieferes Verständnis von Continuations neue Perspektiven auf vertraute Programmiertechniken eröffnet, von DSLs und leichtgewichtigen Threads bis zu Effect Handlers und reaktiven Pipelines. Außerdem erklären wir, wozu Proper Tail Calls gut sind, warum ihre Unterstützung weit mehr als eine Optimierung für rekursive Funktionen ist und warum es ein Verbrechen ist, dass sie zum Beispiel in Java immer noch nicht unterstützt werden. Der Vortrag verbindet grundlegende Ideen der Programmiersprachenforschung mit anschaulichen Beispielen und zeigt, was Entwickler unabhängig von ihrer bevorzugten Programmiersprache daraus mitnehmen können.
+  - id: modernjava
+    title:
+      de:
+      en: Modern Java in Practice - The Features That Matter
+    category: java
+    year: 2026
+    type: talk
+    relevant: new
+    duration: 180
+    target-audience: Architekten, Entwickler, Entscheider
+    learning-goals: |
+    abstract:
+      de:
+        - |
+      en:
+        - |
+          You may be on the latest Java version but are you getting the most out of it? Recent releases have added a lot of features and while some might have flown under the radar, others come together to form more than the sum of their parts. Either way, it is worth looking at the whole corpus of Java changes over the last years:
+
+          * pattern matching and Data-Oriented Programming
+          * virtual threads and structured concurrency
+          * an on-ramp for beginners and better experiments for experts
+          * new APIs, from stream gatherers to sequenced collections, from lazy constants to HTTP/3
+          * improved performance, like ahead-of-time computation and compact object headers
+          * better security and tooling - most out of the box, some on demand
+
+          And there’ll even be time to take a peak at the future and look into the current proposals for value types and string templates, deconstructible class and “withers”.After this deep dive, you’ll be ready to get the most out of the latest Java versions - or at least have good arguments to convince your tech lead to update.
+        - |
+          You may be running a recent Java version, but are you getting the most out of it? Modern Java is more than a collection of individual features: the biggest benefits emerge when language constructs, libraries and runtime improvements work together.
+
+          This session connects selected features to everyday development problems. We explore how records, sealed types and pattern matching support clearer domain models; how virtual threads, structured concurrency and scoped values reshape concurrent code; and how sequenced collections and stream gatherers simplify data processing. Compact source files and other reductions in ceremony make small programs and experiments easier to write.
+
+          Rather than walking through release notes, we use practical examples to explain when these features help, where their limits are, and how to adopt them incrementally in an existing codebase. We also highlight selected runtime improvements, such as compact object headers and ahead-of-time optimizations, and distinguish stable features from previews and future proposals.
+
+          You will leave with a focused toolkit for modernizing Java code and concrete arguments for choosing which features to adopt next.
   - id: javapm2
     title: 
       de: 
@@ -282,8 +342,11 @@ talks:
 
           Leider veraltet Dokumentation auch sehr schnell. In diesem Vortrag betrachten wir daher, wie wir eine selbst validierende, ausführbare Dokumentation nutzen können, um die Qualitätsansprüche der Softwarearchitektur wiederkehrend zu prüfen und mit Fitness Functions abzusichern. Dazu machen wir Architekturkonzepte im Code sichtbar z. B. mit xMolecules und ContextMapper, binden Software-Analyse-Werkzeuge wie jQAssistant ein bzw. führen regelmässig programmatische Tests z. B. mit ArchUnit aus für einen kontinuierlichen Abgleich der Soll- und Ist-Strukturen. Ihr könnt diese Ideen in Eure Projekte übertragen, Eure Architekturdokumentation wird dadurch lebendig und Teil Eurer kontinuierlichen Qualitätsmaßnahmen.
   - id: archmodernization1
-    title: 
-      de: "Modernisierung in der Praxis: Modulith statt Microservices?"
+    title:
+      de:
+        - "Modernisierung in der Praxis: Modulith statt Microservices?"
+        - "Der modulare Monolith – Modulith statt Microservices"
+      en: "Modernizing Java Applications: Modular Monoliths Instead of Microservices?"
     year: 2024
     category: arch
     type: talk
@@ -294,10 +357,10 @@ talks:
     target-audience: Architekten, Entwickler, Entscheider
     prerequisites: Erfahrungen in Enterprise Projekten, Herausforderung von Legacy-Projekten kennen
     tags: Legacy, Modernisierung, Modulith, Fitness Functions
-    co-speaker: Stefan Toth, embarc 
+    co-speaker: Stefan Toth, embarc
     abstract:
-      de: 
-        - | 
+      de:
+        - |
           Heutzutage stehen viele Unternehmen vor der Herausforderung, ihre in die Jahre gekommenen Anwendungen zu modernisieren, flexibler zu machen und geeignet zu strukturieren. Während Microservices weit verbreitet sind, bietet ein Modulith – modular strukturierter Monolith – eine vielversprechende Alternative, die oft übersehen wird.
 
           Dieser Vortrag liefert einen Einblick in die praktische Arbeit mit Modulithen und die Migration dort hin. Wir berichten auch von Erfahrungen mit passenden Technologien wie Spring Modulith, xMolecules, ArchUnit sowie jQAssistant und besprechen, worauf bei deren Einsatz zu achten ist.
@@ -305,6 +368,19 @@ talks:
           Außerdem besprechen wir Vorteile und Herausforderungen, die sich gegenüber der Transformation hin zu Microservices ergeben. Wir betrachten Aspekte wie Implementierungsaufwand, Impact auf den vorhandenen Quellcode, grundsätzliche Risiken bei langlaufenden Ablösungsprojekten, Teststrategien, Cognitive Load, Abhängigkeiten auf fachlicher und technischer Ebene und die Auswirkungen, die all diese Themen in der Praxis haben.
 
           Insgesamt bietet der Vortrag einen erfahrungsbasierten Überblick zu Modulithen und richtet sich an Softwarearchitekten, Entwickler und IT-Entscheider, die sich mit der Modernisierung ihrer bestehenden Systeme auseinandersetzen.
+        - |
+          Modulithen gelten zunehmend als attraktive Alternative zu Microservices, um bestehende Anwendungen strukturell zu modernisieren. Während Microservices oft als Königsweg propagiert werden, punktet ein modular strukturierter Monolith – der Modulith – mit einer überschaubaren Komplexität, klaren Modulgrenzen und einer stabilen Grundlage für die Evolution bestehender Systeme.
+
+          Dieser Vortrag beleuchtet praxisnah die Vorteile von Modulithen im Vergleich zu Microservices: Von verringertem Implementierungsaufwand und besser beherrschbarer Komplexität über geringere Risiken bei langlaufenden Projekten bis hin zu Aspekten wie Testbarkeit, technischer Schuldenabbau und Reduzierung von Abhängigkeiten. Außerdem wird gezeigt, wie Frameworks und Werkzeuge wie Spring Modulith, ArchUnit und jQAssistant die Arbeit mit Modulithen unterstützen und den Weg zu einer nachhaltigen Architektur ebnen.
+      en:
+        - |
+          Modernizing a legacy Java application does not have to mean splitting it into microservices. A modular monolith can provide clear boundaries and a foundation for evolution without introducing a distributed system's operational complexity.
+
+          Drawing on practical modernization experience, this talk explores how to move from a tightly coupled application toward explicit domain modules. We discuss how Spring Modulith, xMolecules, ArchUnit and jQAssistant can help make architectural concepts visible, verify dependencies and protect module boundaries as the codebase evolves.
+
+          We compare this approach with a microservices migration: implementation effort, impact on existing code, testing strategies, cognitive load, and the risks of long-running modernization projects. We also examine the limits of modular monoliths and when independent deployment or scaling may justify extracting services.
+
+          You will leave with concrete ideas for identifying module boundaries, checking architectural rules and planning incremental modernization steps. The goal is not to declare a universal winner, but to choose an architecture that fits your system and team.
   - id: javahistory
     title: 
       de: "Hätte, hätte, Fahrradkette - Java gestern, heute und morgen"

@@ -62,8 +62,9 @@ ideas:
       from: 2027-02-26
       till: 2027-02-26
       deadline: 2026-11-02
-      submitted: 
+      submitted: 2026-10-30
       talks:
+        "Continuations, Tail Calls und Threads – Immer Ärger mit dem Stack": o
   - jax:
       name: JAX Conference
       url: https://callforpapers.sandsmedia.com/submissions/open-calls
@@ -97,8 +98,12 @@ ideas:
       from: 2027-04-26
       till: 2027-04-29
       deadline: 2026-10-30
-      submitted: 
+      submitted: 2026-10-30
       talks:
+        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": o
+        "Testable Concurrency with Virtual Threads": o
+        "Modern Java in Practice - The Features That Matter": o
+        "Modernizing Java Applications: Modular Monoliths Instead of Microservices?": o
   - jl:
       from: 2027-03-02
       till: 2027-03-04
