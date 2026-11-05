@@ -1,5 +1,15 @@
 2026:
+  - November:
+    - publisher: iX Magazin 13/2026
+      title: "Best Practices: Richtig gute Tests schreiben"
+      date: 2026-11-05
+      link: https://www.heise.de/select/ix/2026/13/2605409275361677406
   - Oktober:
+    - publisher: Java Aktuell 04/2026
+      title: "OpenJDK 26 und 27: Die Neuerungen bei Java in 2026"
+      date: 2026-10-29
+      link: https://meine.doag.org/zeitschriften/id.236.java-aktuell-04-26/
+      pdf: /files/publications/04-2026-Java_aktuell-WEB.pdf
     - publisher: JAX Blog
       title: "Java 27: Die wichtigsten Neuerungen"
       date: 2026-10-02
@@ -9,6 +19,10 @@
       date: 2026-10-01
       link: https://devm.io/java/java-27-features
   - September:
+    - publisher: heise Developer
+      title: "Java 27: Sicherheit, Laufzeit und reifende APIs"
+      date: 2026-09-22
+      link: https://www.heise.de/news/Java-27-Sicherheit-Laufzeit-und-reifende-APIs-11460106.html
     - publisher: entwickler.de
       title: "Java 27: Diese neuen Defaults wirken ohne Codeänderung"
       date: 2026-09-15
