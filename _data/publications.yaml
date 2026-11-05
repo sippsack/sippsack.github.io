@@ -1,27 +1,207 @@
-2024:
-  - Juni: 
-    - link: https://www.isaqb.org/blog/demystifying-the-isaqb-advanced-examination-introduction/
-    - link: https://www.heise.de/hintergrund/Softwaredokumentation-Tipps-fuer-mehr-Freude-und-Effektivitaet-9750682.html
-    
-  - Mai: 
-    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
-      title: ""
-  - April:
-    - publisher: Javamagazin x.2024
-      title: ""
-    - publisher: Java Aktuell xx/2024
-      title: ""
-2023:
+2026:
   - Oktober:
-    - publisher: Javamagazin x.2023
-      title: ""
-    - publisher: Java Aktuell xx/2023
-      title: ""
+    - publisher: JAX Blog
+      title: "Java 27: Die wichtigsten Neuerungen"
+      date: 2026-10-02
+      link: https://jax.de/blog/java-27-neuerungen/
+    - publisher: devm.io
+      title: "Java 27: The Most Important New Features"
+      date: 2026-10-01
+      link: https://devm.io/java/java-27-features
+  - September:
+    - publisher: entwickler.de
+      title: "Java 27: Diese neuen Defaults wirken ohne Codeänderung"
+      date: 2026-09-15
+      link: https://entwickler.de/java/java-27-compact-headers-g1
+  - April:
+    - publisher: devm.io
+      title: "Java 26 – A Strategic Release"
+      date: 2026-04-27
+      link: https://devm.io/java/java-26-release-strategic
+  - März:
+    - publisher: entwickler.de
+      title: "Java 26 – ein strategisches Release"
+      date: 2026-03-10
+      link: https://entwickler.de/java/java-26-ein-strategisches-release
     - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
-      title: "JavaLand 2024: Chance statt Enttäuschung zum zehnjährigen Jubiläum"
+      title: "30 Jahre Java – Interview mit Community-Vertretern (Teil 5)"
+      date: 2026-03-02
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Community-Vertretern-Teil-5-11122950.html
+  - Februar:
+    - publisher: Java Aktuell 01/2026
+      title: "Java 25 – Die Neuerungen der LTS-Version"
+      date: 2026-02-13
+      link: https://www.doag.org/de/home/news/java-aktuell-01-2026/
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "30 Jahre Java – Interview mit Community-Vertretern (Teil 4)"
+      date: 2026-02-04
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Community-Vertretern-Teil-4-11122817.html
+  - Januar:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Community-Interview zu 30 Jahren Java: \"Java hat mir nicht gefallen\" (Teil 3)"
+      date: 2026-01-07
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Community-Vertretern-Teil-3-11122747.html
+2025:
+  - Dezember:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "30 Jahre Java – Interview mit Community-Vertretern (Teil 2)"
+      date: 2025-12-29
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Community-Vertretern-Teil-2-11122674.html
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "30 Jahre Java – Interview mit Community-Vertretern (Teil 1)"
+      date: 2025-12-22
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Community-Vertretern-Teil-1-10328653.html
+  - Oktober:
+    - publisher: iX Magazin 10/2025
+      title: "Java 25 bringt Deferred Immutability"
+      date: 2025-10-01
+      link: https://www.heise.de/select/ix/2025/10/2522312583369954276
+  - September:
+    - publisher: entwickler.de
+      title: "Java 25: Immutability on demand und mehr – 18 JEPs sind umgesetzt"
+      date: 2025-09-23
+      link: https://entwickler.de/java/immutability-on-demand-und-mehr-18-jeps-sind-umgesetzt
+    - publisher: JAX Blog
+      title: "Java 25: Alle Neuerungen & Features im Überblick"
+      date: 2025-09-09
+      link: https://jax.de/blog/java-25-neuerungen-features-ueberblick/
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Die nicht ganz so bekannten neuen Features von Java 25"
+      date: 2025-09-03
+      link: https://www.heise.de/blog/Java-25-Neue-Features-nicht-so-bekannt-aber-wichtig-10530723.html
+  - August:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Die wichtigsten Neuerungen von Java 25: Schneller Startup mit Stable Values"
+      date: 2025-08-29
+      link: https://www.heise.de/blog/Die-wichtigsten-Neuerungen-von-Java-25-Schneller-Startup-mit-Stable-Values-10530625.html
+    - publisher: devm.io
+      title: "Java 24 – Big Release for its 30th Birthday"
+      date: 2025-08-18
+      link: https://devm.io/java/java-24-new-features
+    - publisher: Java Aktuell 03/2025
+      title: "Java 24 – Diese Neuerungen gibt es zum 30. Geburtstag"
+      date: 2025-08-08
+      link: https://www.doag.org/de/home/news/java-aktuell-03-2025/
+  - Juni:
+    - publisher: iX Magazin 6/2025
+      title: "Java gehört noch lange nicht zum alten Eisen"
+      date: 2025-06-01
+      link: https://www.heise.de/select/ix/2025/6/2504210325186978922
+  - Mai:
+    - publisher: entwickler.de
+      title: "Java 24 – großes Release zum 30. Geburtstag"
+      date: 2025-05-13
+      link: https://entwickler.de/java/java-24-grosses-release-zum-30-geburtstag
+  - April:
+    - publisher: entwickler.de
+      title: "30 Jahre Java – Wünsche für die Zukunft (Expertenrunde, Teil 2)"
+      date: 2025-04-29
+      link: https://entwickler.de/java/30-jahre-java-wunsche-fur-die-zukunft
+    - publisher: entwickler.de
+      title: "30 Jahre Java – Höhen und Tiefen (Expertenrunde, Teil 1)"
+      date: 2025-04-22
+      link: https://entwickler.de/java/30-jahre-java-hohen-und-tiefen
+    - publisher: iX Magazin 4/2025
+      title: "Java 24 finalisiert Stream Gatherers und Class-File API"
+      date: 2025-04-01
+      link: https://www.heise.de/select/ix/2025/4/2504210291325518650
+  - März:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Java: Die nicht so bekannten Features des OpenJDK 24"
+      date: 2025-03-21
+      link: https://www.heise.de/blog/Java-Die-nicht-so-bekannten-Features-des-OpenJDK-24-10322221.html
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "30 Jahre Java – Interview mit Adam Bien"
+      date: 2025-03-05
+      link: https://www.heise.de/blog/30-Jahre-Java-Interview-mit-Adam-Bien-10304215.html
+  - Februar:
+    - publisher: Java Aktuell 01/2025
+      title: "Java 23 – Was gibt es diesmal Neues?"
+      date: 2025-02-07
+      link: https://www.doag.org/de/home/news/java-aktuell-01-2025-java-23/
+2024:
+  - November:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Java: Rekord beim bevorstehenden Release des OpenJDK 24"
+      date: 2024-11-20
+      link: https://www.heise.de/blog/Java-Rekord-beim-bevorstehenden-Release-des-OpenJDK-24-10051629.html
+    - publisher: iX Magazin 11/2024
+      title: "Java 23 mit erweitertem Pattern Matching"
+      date: 2024-11-01
+      link: https://www.heise.de/select/ix/2024/11/2327013052597340408
+  - September:
+    - publisher: devm.io
+      title: "Java 23 at a Glance: Not a Big Hit, But Interesting New Features"
+      date: 2024-09-30
+      link: https://devm.io/java/jdk-23-java-features
+    - publisher: entwickler.de
+      title: "Java 23 im Überblick: Kein großer Wurf, aber interessante Neuerungen"
+      date: 2024-09-18
+      link: https://entwickler.de/java/java-23-uberblick
+  - Juni:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Oracles Lizenzpolitik: Ein Angebot, das Sie nicht ablehnen können (mit Hendrik Ebbers)"
+      date: 2024-06-28
+      link: https://www.heise.de/blog/Kommentar-zu-Oracles-Lizenzen-Ein-Angebot-das-Sie-nicht-ablehnen-koennen-9781727.html
+    - publisher: Java Aktuell 4/2024
+      title: "Java 22 – Was gibt es Neues?"
+      date: 2024-06-14
+      link: https://www.doag.org/de/home/news/java-aktuell-4-24-java-22/
+    - publisher: devm.io
+      title: "What's new in Java 22?"
+      date: 2024-06-12
+      link: https://devm.io/java/whats-new-in-java-22
+    - publisher: iSAQB Blog
+      title: "Demystifying the iSAQB Advanced Examination – Introduction"
+      date: 2024-06-12
+      link: https://www.isaqb.org/blog/demystifying-the-isaqb-advanced-examination-introduction/
+    - publisher: heise Developer
+      title: "Softwaredokumentation: Tipps für mehr Freude und Effektivität (Expertenumfrage)"
+      date: 2024-06-11
+      link: https://www.heise.de/hintergrund/Softwaredokumentation-Tipps-fuer-mehr-Freude-und-Effektivitaet-9750682.html
+  - Mai:
+    - publisher: JAX London Blog
+      title: "What's New in Java 22?"
+      date: 2024-05-28
+      link: https://jaxlondon.com/blog/whats-new-in-java-22/
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Java: Einladung zur Mitgestaltung des Programms Support & Care for Apache Maven"
+      date: 2024-05-16
+      link: https://www.heise.de/blog/Java-Einladung-zur-Mitgestaltung-des-Programms-Support-Care-for-Apache-Maven-9718336.html
+  - März:
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "Softwareentwicklung: Interviews zur JavaLand-Konferenz 2024 (mit Hendrik Ebbers)"
+      date: 2024-03-07
+      link: https://www.heise.de/blog/Softwareentwicklung-Interviews-zur-JavaLand-Konferenz-2024-9621993.html
+2023:
+  - Dezember:
+    - publisher: Java Aktuell 1/2024
+      title: "Java 21 – Die nächste Version mit LTS-Unterstützung"
+      date: 2023-12-19
+      link: https://meine.doag.org/zeitschriften/id.210/
+  - Oktober:
+    # Heftnummer des Java Magazins bitte ergänzen
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 21: Das sind die neuen Features"
+      date: 2023-10-20
+      link: https://entwickler.de/java/java-21-neuerungen
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 21: Stimmen zum LTS-Release (Interview mit Sven Woltmann)"
+      date: 2023-10-20
+      link: https://entwickler.de/java/java-21-stimmen-zum-lts-release
+    - publisher: iX Magazin 10/2023
+      title: "Java 21 mit String Templates"
+      date: 2023-10-01
+      link: https://www.heise.de/select/ix/2023/10/2323508400321096150
+    - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
+      title: "JavaLand 2024: Chance statt Enttäuschung zum zehnjährigen Jubiläum (mit Hendrik Ebbers)"
       date: 2023-10-02
       link: https://heise.de/-9322819
   - September:
+    - publisher: devm.io
+      title: "Java 21 New Features: \"String templates will add a lot of value in the next few years\""
+      date: 2023-09-15
+      link: https://devm.io/java/java-21-string-templates-sippach
     - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
       title: Java 21 ist eines der spannendsten Releases der letzten Jahre
       date: 2023-09-19
@@ -35,12 +215,18 @@
       date: 2023-09-15
       link: https://entwickler.de/reader/reading/entwickler.de-blog/9.2023/a846d89916c577abbf9f8ad0
   - Juni:
+    - publisher: Java Aktuell 04/2023
+      title: "Was gibt es Neues in Java 20?"
+      date: 2023-06-09
+      link: https://meine.doag.org/zeitschriften/id.203/
     - publisher: Neuigkeiten von der Insel - Heise Developer Java Blog
       title: "Oracles GraalVM ist ab sofort für alle kostenlos"
       date: 2023-06-30
       link: https://www.heise.de/blog/Java-Oracles-GraalVM-ist-ab-sofort-fuer-alle-kostenlos-9199872.html
   - April:
-    - publisher:
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 20: Die neuen Features im Überblick"
+      date: 2023-03-24
       link: https://entwickler.de/java/java-20-release-features
   - März:
     - publisher: Entwickler Magazin 3.2023
@@ -57,12 +243,47 @@
       date: 2023-01-24
       link: https://heise.de/-7464768
 2022:
+  - November:
+    - publisher: Java Aktuell 06/2022
+      title: "Java 19 bringt bahnbrechende Neuerungen"
+      date: 2022-11-11
+      link: https://meine.doag.org/zeitschriften/id.196/
   - Oktober:
     - publisher: Javamagazin 11.2022
       title: "Die neuen Features im OpenJDK 19: Virtual Threads und Structured Concurrency in Java 19"
       date: 2022-10-01
-      link: https://www.embarc.de/artikel-java-19/  
+      link: https://www.embarc.de/artikel-java-19/
+  - September:
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 19: Virtual Threads und Structured Concurrency"
+      date: 2022-09-22
+      link: https://entwickler.de/java/javaneunzehn-features-virtualthreads
+  - Juli:
+    - publisher: Java Aktuell 04/2022
+      title: "OpenJDK 18 – Ist Java jetzt erwachsen?"
+      date: 2022-07-08
+      link: https://meine.doag.org/zeitschriften/id.194/
 2021:
+  - Oktober:
+    - publisher: JAX Blog
+      title: "Pattern Matching in Java 17"
+      date: 2021-10-11
+      link: https://jax.de/blog/pattern-matching-in-java-17/
+  - September:
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 17 im Überblick: JDK goes LTS again"
+      date: 2021-09-24
+      link: https://entwickler.de/java/jdk-goes-lts-again
+  - April:
+    - publisher: JAX Blog
+      title: "Java 16: Das sind die neuen Features"
+      date: 2021-04-06
+      link: https://jax.de/blog/java-16-das-sind-die-neuen-features-2/
+  - März:
+    - publisher: entwickler.de (Java Magazin)
+      title: "Java 16: Das JDK auf dem Weg zur nächsten LTS-Version"
+      date: 2021-03-17
+      link: https://entwickler.de/java/java-16-das-jdk-auf-dem-weg-zur-nachsten-lts-version
   - Januar:
     - publisher: Entwickler Magazin 2.2021
       title: "Aus dem Entwickler-Nähkästchen: Technologietrends 2020 und 2021"
