@@ -399,8 +399,8 @@
     - publisher: Java Aktuell 06/2019
       title: "Und halbjährlich grüßt das Java Release"
       date: 2019-10-23
-      link: https://web.archive.org/web/20200921185232/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1988&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=e37cabdbb421778ff05f8adf5b8502e5
-      pdf: https://backoffice.doag.org/formes/pubfiles/11761443/docs/Publikationen/Java-Aktuell/2019/06-2019/06-2019-Java-aktuell-WEB.pdf
+      link: https://meine.doag.org/zeitschriften/id.27.java-aktuell-06-2019-projekt-booster-clean-code/
+      pdf: /files/publications/06-2019-Java_aktuell-Sippach-Java_Release.pdf
   - September:
     - publisher: jaxenter.de
       title: "Java 13: Alle Features der neuen Version im Detail"
@@ -442,7 +442,7 @@
       title: "Version 11: Next Level Java"
       date: 2018-12-27
       link: https://web.archive.org/web/20191111223806/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1838&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=abb5ffac0d917fcbc8b9c6e476477c7a
-      pdf: https://www.doag.org/formes/pubfiles/10904368/docs/Publikationen/Java-Aktuell/2019/01-2019/01-2019-Java-aktuell-Magazin-Web.pdf
+      pdf: /files/publications/01-2019-Java aktuell-12-15.pdf
     - publisher: Java-Pro 3/2018
       title: Neues in Java 11
       date: 2018-12-18
@@ -592,10 +592,11 @@
     - publisher: Kaffeeklatsch
       title: Echt abgefahren! Einführung in Groovy 
       date: 2008-01-01
-      link: https://web.archive.org/web/20260213152415/https://www.bookware.de/kaffeeklatsch/archiv/KaffeeKlatsch-2008-01.pdf
+      link: https://web.archive.org/web/20180814171149/http://www.bookware.de:80/kaffeeklatsch/archiv
+      pdf: /files/publications/KaffeeKlatsch-2008-01.pdf
 2007:
   - November:
     - publisher: oio.de
       title: Einführung in Groovy
       date: 2007-11-01
-      link: http://www.oio.de/public/java/groovy/groovy-einfuehrung.htm
+      link: https://web.archive.org/web/20210226150411/https://www.oio.de/public/java/groovy/groovy-einfuehrung.htm
