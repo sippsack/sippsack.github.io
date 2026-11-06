@@ -302,33 +302,33 @@
     - publisher: Entwickler Magazin 2.2021
       title: "Aus dem Entwickler-Nähkästchen: Technologietrends 2020 und 2021"
       date: 2021-01-24
-      link: https://kiosk.entwickler.de/entwickler-magazin/entwickler-magazin-2-2021/
+      link: https://web.archive.org/web/20210518162420/https://kiosk.entwickler.de/entwickler-magazin/entwickler-magazin-2-2021/
       pdf: /files/publications/EM2_21_moni_mit_AZ.pdf
 2020:
   - Dezember:
     - publisher: jaxenter.de
       title: "Gute Vorsätze für Entwickler: Mit welchen Technologien muss man sich 2021 beschäftigen?"
       date: 2020-12-28
-      link: https://jaxenter.de/tools/gute-vorsaetze-entwickler-2021-99264
+      link: https://web.archive.org/web/20210421201431/https://jaxenter.de/tools/gute-vorsaetze-entwickler-2021-99264
     - publisher: jaxenter.de
       title: "Ein Blick in die Glaskugel: Welcher Tech-Trend wird 2021 wichtig?"
       date: 2020-12-22
-      link: https://jaxenter.de/tools/tech-trends-2021-99260
+      link: https://web.archive.org/web/20210421194841/https://jaxenter.de/tools/tech-trends-2021-99260
     - publisher: jaxenter.de
       title: "Das Entwickler-Nähkästchen: Die Tech-Trends des Jahres 2020"
       date: 2020-12-21
-      link: https://jaxenter.de/tools/tech-trends-2020-99256
+      link: https://web.archive.org/web/20210421192552/https://jaxenter.de/tools/tech-trends-2020-99256
   - November: 
     - publisher: Java Magazin 12-2020
       title: "Java geht in die nächste Runde: Die Neuerungen des OpenJDK 15"
       date: 2020-11-01
-      link: https://kiosk.entwickler.de/java-magazin/java-magazin-12-2020/
+      link: https://web.archive.org/web/20210510184739/https://kiosk.entwickler.de/java-magazin/java-magazin-12-2020/
       pdf: /files/publications/JM12_20_Monitor-PDF_ohneAnzeigen.pdf
   - Oktober: 
     - publisher: jaxenter.de
       title: "Java 15 erschienen: Das sind die Neuerungen im OpenJDK 15"
       date: 2020-10-20
-      link: https://jaxenter.de/java/java-15-jdk-15-release-openjdk-15-98546
+      link: https://web.archive.org/web/20210505210651/https://jaxenter.de/java/java-15-jdk-15-release-openjdk-15-98546
     - publisher: JAX Blog
       title: "Die Neuerungen des OpenJDK 15"
       link: https://jax.de/blog/die-neuerungen-des-openjdk-15/
@@ -337,12 +337,12 @@
     - publisher: Java Magazin 8-2020
       title: 25 Jahre Java - das sagt die Community
       date: 2020-07-01
-      link: https://kiosk.entwickler.de/java-magazin/java-magazin-8-2020/25-jahre-java-das-sagt-die-community/
+      link: https://web.archive.org/web/20210419071118/https://kiosk.entwickler.de/java-magazin/java-magazin-8-2020/
   - Juni:
     - publisher: Java Aktuell 04/2020
       title: "War denn schon wieder Java Release Zeit?"
       date: 2020-06-26
-      link: https://www.ijug.eu/de/java-aktuell/
+      link: https://web.archive.org/web/20250910150806/https://www.ijug.eu/de/java-aktuell/
       pdf: /files/publications/04_2020-Java_aktuell-Autor-Falk_Sippach-War_denn_schon_wieder_Java-Release-Zeit.pdf
     - publisher: jaxenter.de
       title: "Java feiert 25. Geburtstag"
@@ -352,17 +352,17 @@
     - publisher: Java Aktuell 03/2020
       title: "CyberLand – virtuell, kreativ und informativ"
       date: 2020-04-30
-      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=2075&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=0bce4f1b4f1e1b5a8cff2e39055a6e64
+      link: https://web.archive.org/web/20200921175912/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=2075&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=0bce4f1b4f1e1b5a8cff2e39055a6e64
       pdf: /files/publications/03_2020-Java_aktuell-Autor-Falk_Sippach-CyberLand_-_virtuell_kreativ_und_informativ.pdf
     - publisher: Java Magazin 05-2020
       title: Java  - die Vierzehnte
       date: 2020-04-01
-      link: https://kiosk.entwickler.de/java-magazin/java-magazin-5-2020/java-die-vierzehnte/
+      link: https://web.archive.org/web/20210415143805/https://kiosk.entwickler.de/java-magazin/java-magazin-5-2020/java-die-vierzehnte/
   - März:
     - publisher: jaxenter.com
       title: "Java – the fourteenth"
       date: 2020-03-19
-      link: https://jaxenter.com/java-jdk-14-features-169922.html
+      link: https://web.archive.org/web/20220520211536/https://jaxenter.com/java-jdk-14-features-169922.html
     - publisher: jaxenter.de
       title: "Java 14: Die Neuerungen der aktuellen Version auf einem Blick"
       date: 2020-03-17
@@ -399,7 +399,7 @@
     - publisher: Java Aktuell 06/2019
       title: "Und halbjährlich grüßt das Java Release"
       date: 2019-10-23
-      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1988&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=e37cabdbb421778ff05f8adf5b8502e5
+      link: https://web.archive.org/web/20200921185232/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1988&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=e37cabdbb421778ff05f8adf5b8502e5
       pdf: https://backoffice.doag.org/formes/pubfiles/11761443/docs/Publikationen/Java-Aktuell/2019/06-2019/06-2019-Java-aktuell-WEB.pdf
   - September:
     - publisher: jaxenter.de
@@ -413,18 +413,18 @@
     - publisher: Java Magazin 10-2019
       title: Alle halben Jahre wieder - Java 13 ist da
       date: 2019-09-04
-      link: https://kiosk.entwickler.de/java-magazin/java-magazin-10-2019/alle-halben-jahre-wieder/
+      link: https://web.archive.org/web/20191117083109/https://kiosk.entwickler.de/java-magazin/java-magazin-10-2019/alle-halben-jahre-wieder/
   - Juni:
     - publisher: Java Aktuell 04/2019
       title: "Java 12 ist da"
       date: 2019-06-28
-      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1931&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=b3b2d3723c5da5f56effc51a3bfd9f99
+      link: https://web.archive.org/web/20191213210529/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1931&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=b3b2d3723c5da5f56effc51a3bfd9f99
       pdf: /files/publications/04_2019-Java_aktuell-AUTOR-Falk_Sippach-Java_12_ist_da.pdf
   - April:
     - publisher: Java Magazin 05-2019
       title: Java 12 ist da!
       date: 2019-04-03
-      link: https://jaxenter.de/ausgaben/java-magazin-5-19
+      link: https://web.archive.org/web/20210413053457/https://jaxenter.de/ausgaben/java-magazin-5-19
       pdf: /files/publications/Artikel_Javamagazin_5_2019_Java_12.pdf
   - März:
     - publisher: jaxenter.de
@@ -435,13 +435,13 @@
     - publisher: java-pro.de
       title: Neues in Java 11
       date: 2019-02-15
-      link: https://java-pro.de/neues-in-java-11/
+      link: https://web.archive.org/web/20231211194842/https://javapro.io/neues-in-java-11/
 2018:
   - Dezember:
     - publisher: Java Aktuell 01/2019
       title: "Version 11: Next Level Java"
       date: 2018-12-27
-      link: https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1838&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=abb5ffac0d917fcbc8b9c6e476477c7a
+      link: https://web.archive.org/web/20191111223806/https://www.ijug.eu/de/home/news/?tx_news_pi1%5Bnews%5D=1838&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=abb5ffac0d917fcbc8b9c6e476477c7a
       pdf: https://www.doag.org/formes/pubfiles/10904368/docs/Publikationen/Java-Aktuell/2019/01-2019/01-2019-Java-aktuell-Magazin-Web.pdf
     - publisher: Java-Pro 3/2018
       title: Neues in Java 11
@@ -452,12 +452,12 @@
     - publisher: Java Magazin 12-2018
       title: Java geht mit Version 11 in die nächste Runde
       date: 2018-11-01
-      link: https://jaxenter.de/ausgaben/java-magazin-12-18
+      link: https://web.archive.org/web/20210420102155/https://jaxenter.de/ausgaben/java-magazin-12-18
   - September:
     - publisher: jaxenter.de
       title: Java 11 ist da! Die neuen Features auf einen Blick
       date: 2018-09-25
-      link: https://jaxenter.de/java-11-features-news-75411
+      link: https://web.archive.org/web/20210421052239/https://jaxenter.de/java-11-features-news-75411
   - Juli:
     - publisher: Java Aktuell 4/2018
       title: Java geht in die nächste Runde
@@ -468,7 +468,7 @@
     - publisher: Java Magazin 06-2018
       title: Die neuen Features von Java 10 auf einen Blick
       date: 2018-05-02
-      link: https://jaxenter.de/ausgaben/java-magazin-6-18
+      link: https://web.archive.org/web/20201204072940/https://jaxenter.de/ausgaben/java-magazin-6-18
   - April:
     - publisher: heise Developer
       title: "Die jungen Wilden: JavaLand #2"
@@ -478,7 +478,7 @@
     - publisher: jaxenter.com
       title: Java 10 is finally here! A closer look at the new features
       date: 2018-03-26
-      link: https://jaxenter.com/java-10-is-finally-here-lets-have-a-look-at-its-new-features-142654.html
+      link: https://web.archive.org/web/20220116191818/https://jaxenter.com/java-10-is-finally-here-lets-have-a-look-at-its-new-features-142654.html
     - publisher: jaxenter.de
       title: Java 10 ist da! Die neuen Features auf einen Blick
       date: 2018-03-21
@@ -494,7 +494,7 @@
       title: >
         The most substantial argument in favor of Java 9 is the modularization of JDK itself
       date: 2017-09-26
-      link: https://jaxenter.com/java-9-modularization-interview-137546.html
+      link: https://web.archive.org/web/20220121210845/https://jaxenter.com/java-9-modularization-interview-137546.html
     - publisher: jaxenter.de
       title: >
         Interview zum Java 9 Release
@@ -510,12 +510,12 @@
       title: >
         Aus dem Entwicklernähkästchen - Teil 5: 14 gute Vorsätze für 2017 - Mit diesen Technologien sollten Sie rechnen
       date: 2017-01-04
-      link: https://jaxenter.de/technologien-2017-51196
+      link: https://web.archive.org/web/20210616143334/https://jaxenter.de/technologien-2017-51196
     - publisher: jaxenter.de
       title: >
         Aus dem Entwicklernähkästchen - Teil 4: 15 Tech-Trends für das Jahr 2017
       date: 2017-01-02
-      link: https://jaxenter.de/tech-trends-2017-50898
+      link: https://web.archive.org/web/20210616144402/https://jaxenter.de/tech-trends-2017-50898
 2016: 
   - Dezember:
     - publisher: jaxenter.de
@@ -537,7 +537,7 @@
     - publisher: Java Magazin 12-2016
       title: Microservices mit WildFly Swarm - Java EE in one JAR
       date: 2016-11-02
-      link: https://jaxenter.de/ausgaben/java-magazin-12-16
+      link: https://web.archive.org/web/20210414111040/https://jaxenter.de/ausgaben/java-magazin-12-16
       pdf: files/publications/JM_12_16_Microservices_WildFly_Swarm.pdf
   - Juni: 
     - publisher: Java Aktuell 03-2016
@@ -580,19 +580,19 @@
     - publisher: oio.de
       title: Groovy Closures
       date: 2010-05-01
-      link: http://www.oio.de/public/java/groovy-closures-artikel.htm
+      link: https://web.archive.org/web/20220519042849/https://www.oio.de/public/java/groovy-closures-artikel.htm
 2009:
   - November:
     - publisher: oio.de
       title: Auditierung mit Hibernate
       date: 2009-11-01
-      link: http://www.oio.de/public/java/auditierung-jpa-historisierung-hibernate-audit-artikel.htm
+      link: https://web.archive.org/web/20220816140421/https://oio.de/public/java/auditierung-jpa-historisierung-hibernate-audit-artikel.htm
 2008:
   - Januar:
     - publisher: Kaffeeklatsch
       title: Echt abgefahren! Einführung in Groovy 
       date: 2008-01-01
-      link: http://www.bookware.de/kaffeeklatsch/archiv/KaffeeKlatsch-2008-01.pdf
+      link: https://web.archive.org/web/20260213152415/https://www.bookware.de/kaffeeklatsch/archiv/KaffeeKlatsch-2008-01.pdf
 2007:
   - November:
     - publisher: oio.de
