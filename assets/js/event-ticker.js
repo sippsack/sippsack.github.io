@@ -4,19 +4,46 @@
 	var ticker = document.getElementById('events');
 	if (!ticker) return;
 
-	var items = Array.prototype.slice.call(ticker.querySelectorAll('.event-ticker-item'));
+	var allItems = Array.prototype.slice.call(ticker.querySelectorAll('.event-ticker-item'));
+	var items = [];
 	var pageSize = 2;
-	if (items.length <= pageSize) return;
 
 	var controls = ticker.querySelector('.event-ticker-controls');
 	var pauseButton = ticker.querySelector('[data-ticker="pause"]');
 	var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 	var paused = reducedMotion.matches;
 	var page = 0;
-	var pageCount = Math.ceil(items.length / pageSize);
+	var pageCount = 0;
 	var timer;
+	var dayTimer;
+
+	function today() {
+		var date = new Date();
+		return date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' +
+			String(date.getDate()).padStart(2, '0');
+	}
+
+	function refreshEvents() {
+		var currentDay = today();
+		items = allItems.filter(function(item) {
+			var dates = item.querySelectorAll('time[datetime]');
+			return dates.length && dates[dates.length - 1].getAttribute('datetime') >= currentDay;
+		});
+		pageCount = Math.ceil(items.length / pageSize);
+		page = Math.max(0, Math.min(page, pageCount - 1));
+		ticker.hidden = items.length === 0;
+		controls.hidden = items.length <= pageSize;
+		render();
+		schedule();
+
+		window.clearTimeout(dayTimer);
+		var tomorrow = new Date();
+		tomorrow.setHours(24, 0, 0, 0);
+		dayTimer = window.setTimeout(refreshEvents, tomorrow.getTime() - Date.now() + 100);
+	}
 
 	function render() {
+		allItems.forEach(function(item) { item.hidden = true; });
 		items.forEach(function(item, index) {
 			item.hidden = Math.floor(index / pageSize) !== page;
 		});
@@ -24,7 +51,7 @@
 
 	function schedule() {
 		window.clearInterval(timer);
-		if (paused || document.hidden || ticker.matches(':hover') || ticker.contains(document.activeElement)) return;
+		if (items.length <= pageSize || paused || document.hidden || ticker.matches(':hover') || ticker.contains(document.activeElement)) return;
 		timer = window.setInterval(function() {
 			page = (page + 1) % pageCount;
 			render();
@@ -57,15 +84,13 @@
 	ticker.addEventListener('focusout', function() {
 		window.setTimeout(schedule, 0);
 	});
-	document.addEventListener('visibilitychange', schedule);
+	document.addEventListener('visibilitychange', refreshEvents);
 	reducedMotion.addEventListener('change', function(event) {
 		paused = event.matches;
 		updatePauseButton();
 		schedule();
 	});
 
-	controls.hidden = false;
 	updatePauseButton();
-	render();
-	schedule();
+	refreshEvents();
 })();

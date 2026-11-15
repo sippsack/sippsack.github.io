@@ -29,6 +29,10 @@ body.is-loading #banner .event-ticker {
 	visibility: hidden;
 }
 
+#banner .event-ticker[hidden] {
+	display: none;
+}
+
 .event-ticker-controls {
 	display: flex;
 	flex-direction: column;

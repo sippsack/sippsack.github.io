@@ -33,6 +33,9 @@ Der Zeitraum steht zweizeilig mit Bindestrich hinter dem Startdatum.
 Rechts kennzeichnet ein Mikrofon Vorträge und ein Schulungsicon Schulungen
 und Workshops (im Vortragsfeed am Veranstaltungstitel erkennbar).
 Ohne kommende Termine wird der Ticker nicht angezeigt.
+Beim Seitenaufruf und nach einem Tageswechsel blendet der Browser abgelaufene
+Termine anhand des lokalen Datums aus; mehrtägige Schulungen bleiben bis zum
+Enddatum sichtbar. Neue Termine erscheinen nach dem nächsten Seiten-Build.
 
 Die Terminbox hat eine feste Höhe mit zwei gleich großen Eintragsplätzen.
 Sie wird erst nach der Einblendung des Kurzprofils sichtbar; ihr Platz bleibt
@@ -43,7 +46,8 @@ Start/Pause-Symbole rechts neben der Box ermöglichen die manuelle Bedienung; be
 Ticker pausiert der Wechsel. Bei reduzierter Bewegung startet er pausiert.
 Manuelles Blättern endet an der ersten bzw. letzten Seite; der automatische
 Wechsel beginnt nach der letzten Seite wieder vorn.
-Ohne JavaScript bleiben alle Termine in einer scrollbar begrenzten Liste lesbar.
+Ohne JavaScript bleiben die beim letzten Build vorhandenen Termine in einer
+scrollbar begrenzten Liste lesbar; die Laufzeitfilterung ist dann nicht aktiv.
 
 ## Deployment
 
