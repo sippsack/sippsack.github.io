@@ -4,6 +4,34 @@
 # JCON One
 # Workshop betterCode
 
+2027:
+  - Mai:
+    - host: jax
+      title: "Wie sich Java durch Value Objects weiterentwickeln wird"
+      date: 2027-05-11
+      link: https://jax.de/mainz/
+  - März:
+    - host: jl
+      id: fp5
+      date: 2027-03-03
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9483
+    - host: jl
+      id: aijvm1
+      date: 2027-03-03
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9479
+    - host: jl
+      title: "Wie sich Java durch Value Objects weiterentwickeln wird"
+      date: 2027-03-02
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9409
+  - Januar:
+    - host: jchampconf
+      id: modernjava
+      date: 2027-01-22
+      lang: en
+      link: https://jchampionsconf.com/
 2026:
   - Dezember:
     - conference: JUG Darmstadt
