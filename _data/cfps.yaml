@@ -73,6 +73,7 @@ ideas:
       deadline: 2026-11-11
       submitted: 
       talks:
+        "Wie sich Java durch Value Objects weiterentwickeln wird": x
   - dcd:
       name: Digital Crafts Day
       url: https://sessionize.com/digital-crafts-day-2027/ 
@@ -92,7 +93,7 @@ ideas:
       deadline: 2026-10-26
       submitted: 2026-10-26
       talks:
-        "Modern Java in Practice: The Features That Matter": o
+        "Modern Java in Practice: The Features That Matter": x
         "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": o
         "Functional Programming for the Busy Java Developer": o
   - jcon:
@@ -113,12 +114,13 @@ ideas:
       submitted: 2026-09-14  
       deadline: 2026-09-14
       talks: 
-        "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?": o
+        "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?": x
+        "Funktionale Programmierung in Java - live und in Farbe": x
         "Modernes Java in der Praxis - Features, die einen Unterschied machen": o
         "Softwarearchitektur meets KI: Docs-as-Code als Kontext für LLMs": o
         "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
         "Der KI-Experte sagt Tensor. Der Java-Experte sagt FloatVector.": o
-        "Wie sich Java durch Value Objects weiterentwickeln wird": o
+        "Wie sich Java durch Value Objects weiterentwickeln wird": x
         "Legacy modernisieren mit KI - Chancen und Grenzen": o
   - devoxx:
       url: https://dvbe26.cfp.dev/#/
