@@ -10,6 +10,11 @@
       title: "Wie sich Java durch Value Objects weiterentwickeln wird"
       date: 2027-05-11
       link: https://jax.de/mainz/
+  - April:
+    - host: dcd
+      title: "CUPID: SOLID neu gedacht"
+      date: 2027-04-16
+      link: https://digital-crafts-day.de/
   - März:
     - host: jl
       id: fp5
