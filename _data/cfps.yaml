@@ -99,8 +99,8 @@ ideas:
       submitted: 2026-10-26
       talks:
         "Modern Java in Practice: The Features That Matter": x
-        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": o
-        "Functional Programming for the Busy Java Developer": o
+        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": n
+        "Functional Programming for the Busy Java Developer": n
   - jcon:
       name: JCON Europe
       url: https://sessionize.com/jcon-europe-2027
