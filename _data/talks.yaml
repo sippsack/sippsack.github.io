@@ -7,7 +7,7 @@
 2027:
   - Mai:
     - host: jax
-      title: "Wie sich Java durch Value Objects weiterentwickeln wird"
+      title: "Java ohne Objektidentität – Value Classes in Java 28"
       date: 2027-05-11
       link: https://jax.de/mainz/
   - April:

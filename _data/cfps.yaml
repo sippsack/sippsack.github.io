@@ -71,9 +71,14 @@ ideas:
       from: 2027-05-10
       till: 2027-05-14
       deadline: 2026-11-11
-      submitted: 
+      submitted: 2026-11-11
       talks:
-        "Wie sich Java durch Value Objects weiterentwickeln wird": x
+        "Java ohne Objektidentität – Value Classes in Java 28": x
+        "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
+        "Legacy modernisieren mit KI - Chancen und Grenzen bei der Verbesserung von Softwarearchitekturen": o
+        "KI kann Diagramme. Kann sie auch Architektur?": o
+        "Softwarearchitektur meets KI: Docs as Code als Kontext für LLMs": o
+        "Workshop: Modernes Java in der Praxis: Die Features, die wirklich zählen": o
   - dcd:
       name: Digital Crafts Day
       url: https://sessionize.com/digital-crafts-day-2027/ 
