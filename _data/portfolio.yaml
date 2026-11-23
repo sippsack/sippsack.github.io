@@ -24,6 +24,48 @@ categories: # Vorträge in Kategorien einteilen
 # TODO
 
 talks:
+# 2027
+  - id: fp5
+    title: 
+      de: 
+        - Funktionale Programmierung in Java - live und in Farbe
+    year: 2027
+    category: java
+    type: talk
+    relevant: new
+    duration: 40
+    prerequisites: Solide Java-Grundkenntnisse sowie praktische Erfahrung mit modernen Sprachmitteln wie Lambdas, Streams, Optional und Records. Vorkenntnisse in funktionaler Programmierung sind nicht erforderlich.
+    learning-goals: |
+      Zuhörende lernen, funktionale Konzepte wie Immutability, Higher-Order Functions, Function Composition, Rekursion, Pattern Matching und algebraische Datentypen gezielt in modernem Java einzusetzen. Anhand von Refactoring-Beispielen erkennen sie, wann funktionaler Code Lesbarkeit, Testbarkeit und Wartbarkeit verbessert und wann er unnötige Komplexität erzeugt.
+    tags: Funktionale Programmierung, Functional Programming, Java, Code Demo
+    co-speaker: Andreas Jürgensen
+    abstract:
+      de:
+        - |
+          Funktionale Programmierung gilt in vielen Java-Projekten noch als exotisch oder schwer mit objektorientiertem Design vereinbar. Gleichzeitig bietet modernes Java zahlreiche funktionale Sprachmittel wie Lambdas, Streams, Optional, Records, Sealed Classes und Pattern Matching. Doch wann verbessert funktionaler Code tatsächlich Lesbarkeit, Testbarkeit und Wartbarkeit und wann macht er alles nur komplizierter?
+
+          In dieser Session zeigen wir funktionale Programmierung nicht theoretisch, sondern direkt im Code. Ausgehend von typischen imperativen Lösungen refaktorieren wir Schritt für Schritt hin zu klareren Datenflüssen, unveränderlichen Datenstrukturen, reinen Funktionen und besser komponierbaren Bausteinen. Dabei greifen wir pragmatisch Ideen aus funktionalen Sprachen auf und übertragen sie in modernes Java.
+
+          Wir zeigen, wie sich zentrale Konzepte wie Immutability, Higher-Order Functions, Function Composition, Rekursion, Pattern Matching und algebraische Datentypen in Java umsetzen lassen. Außerdem diskutieren wir, welche klassischen Java-Gewohnheiten funktionalem Code im Weg stehen, wo die Grenzen der Sprache liegen und welche Kompromisse im Alltag sinnvoll sind. Der Vortrag richtet sich an Java-Entwickler:innen, die funktionale Konzepte besser verstehen und praktisch einsetzen möchten ohne Java zu verlassen und ohne dogmatisch zu werden. Am Ende steht kein Paradigmenwechsel um jeden Preis, sondern ein Werkzeugkasten für einfacheren und besser testbaren Java-Code.
+  - id: aijvm1
+    title: 
+      de: 
+        - "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?"
+    year: 2027
+    category: java
+    type: talk
+    relevant: new
+    duration: 40
+    tags: KI, Java, ML, LLM, Embeddings
+    co-speaker: Michal Harakal
+    abstract:
+      de:
+        - |
+          Nicht jedes KI-Problem braucht ein LLM – und erst recht keinen Agenten. In diesem Deep Dive entwickeln wir an einer durchgängigen Java-Anwendung verschiedene KI-Funktionen und entscheiden jeweils bewusst: Reicht klassischer Java-Code? Sind Embeddings die bessere Wahl? Brauchen wir ein kleines Modell, klassisches Machine Learning oder tatsächlich ein LLM?
+
+          Wir betrachten typische Anforderungen wie semantische Ähnlichkeit, Klassifikation, Empfehlungen, Informationsextraktion und Textgenerierung und vergleichen die Ansätze anhand konkreter Engineering-Kriterien: Qualität, Latenz, Kosten, Determinismus und Integrationsaufwand.
+
+          Dabei bleibt es nicht bei Architekturfolien: Wir implementieren die Lösungen live in Java, integrieren sie in die Anwendung und zeigen auch, wo ein vermeintlich moderner Ansatz unnötig komplex wird. Am Ende steht kein weiteres KI-Framework-Tutorial, sondern ein praktisches Entscheidungsmodell dafür, welche Technik für welches Problem auf der JVM wirklich sinnvoll ist.
 # 2026
   - id: javavt2
     title:

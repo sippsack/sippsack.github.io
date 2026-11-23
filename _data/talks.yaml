@@ -5,12 +5,44 @@
 # Workshop betterCode
 
 2027:
+  - Mai:
+    - host: jax
+      title: "Java ohne Objektidentität – Value Classes in Java 28"
+      date: 2027-05-11
+      link: https://jax.de/mainz/
+  - April:
+    - host: dcd
+      title: "CUPID: SOLID neu gedacht"
+      date: 2027-04-16
+      link: https://digital-crafts-day.de/
+  - März:
+    - host: jl
+      id: fp5
+      date: 2027-03-03
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9483
+    - host: jl
+      id: aijvm1
+      date: 2027-03-03
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9479
+    - host: jl
+      title: "Wie sich Java durch Value Objects weiterentwickeln wird"
+      date: 2027-03-02
+      location: Europa-Park Rust
+      link: https://meine.doag.org/events/javaland/2027/agenda/#agendaId.9409
   - Februar:
     - host: bobkonf
       id: javavt2
       lang: en
       date: 2027-02-26
       co-speaker: Michael Sperber, Active Group GmbH
+  - Januar:
+    - host: jchampconf
+      id: modernjava
+      date: 2027-01-22
+      lang: en
+      link: https://jchampionsconf.com/
 2026:
   - Dezember:
     - conference: JUG Darmstadt

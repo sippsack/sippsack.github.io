@@ -72,8 +72,14 @@ ideas:
       from: 2027-05-10
       till: 2027-05-14
       deadline: 2026-11-11
-      submitted: 
+      submitted: 2026-11-11
       talks:
+        "Java ohne Objektidentität – Value Classes in Java 28": x
+        "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
+        "Legacy modernisieren mit KI - Chancen und Grenzen bei der Verbesserung von Softwarearchitekturen": o
+        "KI kann Diagramme. Kann sie auch Architektur?": o
+        "Softwarearchitektur meets KI: Docs as Code als Kontext für LLMs": o
+        "Workshop: Modernes Java in der Praxis: Die Features, die wirklich zählen": o
   - dcd:
       name: Digital Crafts Day
       url: https://sessionize.com/digital-crafts-day-2027/ 
@@ -82,9 +88,9 @@ ideas:
       deadline: 2026-10-31
       submitted: 2026-10-30
       talks:
-        "CUPID: SOLID neu gedacht": o
-        "Qualitätsszenarien – die Hidden Champions in der Architekturarbeit": o
-        "Walking Skeleton – Softwarearchitektur ohne Fleisch?": o
+        "CUPID: SOLID neu gedacht": x
+        "Qualitätsszenarien – die Hidden Champions in der Architekturarbeit": n
+        "Walking Skeleton – Softwarearchitektur ohne Fleisch?": n
   - jchampconf:
       name: jChampions Conference
       url: https://sessionize.com/jchampions-conference-2027
@@ -93,9 +99,9 @@ ideas:
       deadline: 2026-10-26
       submitted: 2026-10-26
       talks:
-        "Modern Java in Practice: The Features That Matter": o
-        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": o
-        "Functional Programming for the Busy Java Developer": o
+        "Modern Java in Practice: The Features That Matter": x
+        "From Algebraic Data Types and Data-Oriented Programming to Pattern Matching Everywhere": n
+        "Functional Programming for the Busy Java Developer": n
   - jcon:
       name: JCON Europe
       url: https://sessionize.com/jcon-europe-2027
@@ -114,12 +120,13 @@ ideas:
       submitted: 2026-09-14  
       deadline: 2026-09-14
       talks: 
-        "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?": o
+        "Datenwissenschaft und KI für JVM-Entwickler: Welche Technik für welches Problem?": x
+        "Funktionale Programmierung in Java - live und in Farbe": x
         "Modernes Java in der Praxis - Features, die einen Unterschied machen": o
         "Softwarearchitektur meets KI: Docs-as-Code als Kontext für LLMs": o
         "Von algebraischen Datentypen und daten-orientierter Programming zu Pattern Matching überall": o
         "Der KI-Experte sagt Tensor. Der Java-Experte sagt FloatVector.": o
-        "Wie sich Java durch Value Objects weiterentwickeln wird": o
+        "Wie sich Java durch Value Objects weiterentwickeln wird": x
         "Legacy modernisieren mit KI - Chancen und Grenzen": o
   - devoxx:
       url: https://dvbe26.cfp.dev/#/
