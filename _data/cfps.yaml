@@ -63,8 +63,9 @@ ideas:
       till: 2027-02-26
       deadline: 2026-11-02
       submitted: 2026-10-30
+      co-speaker: Michael Sperber, Active Group GmbH
       talks:
-        "Continuations, Tail Calls und Threads – Immer Ärger mit dem Stack": o
+        "Continuations, Tail Calls und Threads – Immer Ärger mit dem Stack": x
   - jax:
       name: JAX Conference
       url: https://callforpapers.sandsmedia.com/submissions/open-calls

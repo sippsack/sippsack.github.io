@@ -4,6 +4,13 @@
 # JCON One
 # Workshop betterCode
 
+2027:
+  - Februar:
+    - host: bobkonf
+      id: javavt2
+      lang: en
+      date: 2027-02-26
+      co-speaker: Michael Sperber, Active Group GmbH
 2026:
   - Dezember:
     - conference: JUG Darmstadt
