@@ -91,6 +91,14 @@ ideas:
         "CUPID: SOLID neu gedacht": x
         "Qualitätsszenarien – die Hidden Champions in der Architekturarbeit": n
         "Walking Skeleton – Softwarearchitektur ohne Fleisch?": n
+  - ocx:
+      url: https://ocxconf.org/call-for-proposals/
+      from: 2027-04-13
+      till: 2027-04-15
+      deadline: 2026-12-06
+      location: Brussels
+      submitted:
+      talks:
   - jchampconf:
       name: jChampions Conference
       url: https://sessionize.com/jchampions-conference-2027
